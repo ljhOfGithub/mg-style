@@ -1,0 +1,22 @@
+{
+  "format": "nana-component@1",
+  "component": "15-nav",
+  "duration": 4.0,
+  "content": {
+    "title": "让当前步骤一眼可见",
+    "subtitle": "位置固定，随内容切换高亮",
+    "sections": [
+      "收集资料",
+      "整理内容",
+      "准备画面",
+      "检查细节",
+      "导出分享",
+      "归档复用"
+    ]
+  },
+  "media": {},
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

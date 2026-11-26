@@ -1,0 +1,17 @@
+{
+  "format": "nana-component@1",
+  "component": "13-badge",
+  "duration": 4.0,
+  "content": {
+    "title": "准备工作已完成",
+    "subtitle": "核对当前结果，继续下一步",
+    "badge_text": "检查完成"
+  },
+  "media": {
+    "background": "landscape.svg"
+  },
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

@@ -1,0 +1,18 @@
+{
+  "format": "nana-component@1",
+  "component": "07-takeaway",
+  "duration": 8,
+  "content": {
+    "title": "让一份资料变成下一次仍能复用的清楚内容",
+    "body": "把已有资料整理清楚，再按当前目标安排内容，最后留下可以分享与继续修改的结果。"
+  },
+  "media": {
+    "background": "portrait.svg",
+    "screen": "square.svg",
+    "underlay": "landscape.svg"
+  },
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

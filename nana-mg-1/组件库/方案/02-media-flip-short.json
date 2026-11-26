@@ -1,0 +1,14 @@
+{
+  "format": "nana-component@1",
+  "component": "02-media-flip",
+  "duration": 3,
+  "content": {},
+  "media": {
+    "background": "landscape.svg",
+    "screen": "portrait.svg"
+  },
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

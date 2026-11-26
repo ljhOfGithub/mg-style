@@ -1,0 +1,22 @@
+{
+  "format": "nana-component@1",
+  "component": "11-storyboard",
+  "duration": 4.0,
+  "content": {
+    "title": "把一次活动整理成三个步骤",
+    "labels": [
+      "收集资料",
+      "整理结构",
+      "分享结果"
+    ]
+  },
+  "media": {
+    "idea": "square.svg",
+    "frames": "meeting.svg",
+    "result": "landscape.svg"
+  },
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

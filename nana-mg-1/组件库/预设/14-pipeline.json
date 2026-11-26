@@ -1,0 +1,21 @@
+{
+  "format": "nana-component@1",
+  "component": "14-pipeline",
+  "duration": 4.0,
+  "content": {
+    "title": "从资料到分享，只需五步",
+    "subtitle": "每一步都留下可以继续使用的结果",
+    "items": [
+      "收集资料",
+      "整理结构",
+      "准备画面",
+      "检查内容",
+      "导出分享"
+    ]
+  },
+  "media": {},
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

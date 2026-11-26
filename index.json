@@ -13,12 +13,13 @@
     {
       "id": "nana-mg-1",
       "name": "nana mg1",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "path": "nana-mg-1",
       "engine": "hyperframes",
       "scene_count": 30,
       "template_count": 15,
-      "distribution": "public-placeholder"
+      "distribution": "public-placeholder",
+      "component_count": 15
     }
   ]
 }

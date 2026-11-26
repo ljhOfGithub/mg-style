@@ -1,0 +1,16 @@
+{
+  "format": "nana-component@1",
+  "component": "01-title",
+  "duration": 3,
+  "content": {
+    "title": "整理资料",
+    "subtitle": "沿用同一套动作"
+  },
+  "media": {
+    "background": "landscape.svg"
+  },
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

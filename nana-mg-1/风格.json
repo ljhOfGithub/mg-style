@@ -2,7 +2,7 @@
   "format": "personal-mg-style@1",
   "id": "nana-mg-1",
   "name": "nana mg1",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "engine": "hyperframes",
   "distribution": "public-placeholder",
   "scene_count": 30,
@@ -10,5 +10,7 @@
   "project": "模板工程",
   "preview": "预览/通用示例.mp4",
   "editor": "编辑器.html",
-  "scope": "15类可组合MG模块、30段完整示例；双层斜向卷页、摘要与媒体双阶段退场；素材全部为通用图形。"
+  "scope": "15类可组合MG模块、30段完整示例；双层斜向卷页、摘要与媒体双阶段退场；素材全部为通用图形。",
+  "component_library": "组件库",
+  "component_count": 15
 }

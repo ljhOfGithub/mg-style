@@ -1,0 +1,15 @@
+{
+  "format": "nana-component@1",
+  "component": "04-browser",
+  "duration": 4,
+  "content": {},
+  "media": {
+    "background": "landscape.svg",
+    "document": "portrait.svg",
+    "preview": "meeting.svg"
+  },
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

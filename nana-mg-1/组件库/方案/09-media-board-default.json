@@ -1,0 +1,29 @@
+{
+  "format": "nana-component@1",
+  "component": "09-media-board",
+  "duration": 4,
+  "content": {
+    "title": "把资料变成清楚的内容",
+    "subtitle": "替换文字与图片，沿用稳定动作",
+    "list_items": [
+      "图片资料",
+      "活动片段",
+      "声音文件",
+      "说明文字",
+      "分享版本"
+    ]
+  },
+  "media": {
+    "document": "sheet.svg",
+    "image": "landscape.svg",
+    "video": "meeting.svg",
+    "audio": "square.svg",
+    "poster": "portrait.svg",
+    "wide": "landscape.svg",
+    "portrait": "portrait.svg"
+  },
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

@@ -1,0 +1,18 @@
+{
+  "format": "nana-component@1",
+  "component": "07-takeaway",
+  "duration": 3,
+  "content": {
+    "title": "整理资料",
+    "body": "先整理，再分享。"
+  },
+  "media": {
+    "background": "landscape.svg",
+    "screen": "portrait.svg",
+    "underlay": "square.svg"
+  },
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}
