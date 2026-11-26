@@ -1,0 +1,147 @@
+[
+  {
+    "id": "heading:0",
+    "selector": "#shot-28-heading",
+    "start": 0,
+    "duration": 0.18,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "card-0:0",
+    "selector": "#shot-28-card-0",
+    "start": 0.08,
+    "duration": 0.22,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "card-1:0",
+    "selector": "#shot-28-card-1",
+    "start": 0.08,
+    "duration": 0.22,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "card-2:0",
+    "selector": "#shot-28-card-2",
+    "start": 0.08,
+    "duration": 0.22,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "card-3:0",
+    "selector": "#shot-28-card-3",
+    "start": 0.08,
+    "duration": 0.22,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "card-4:0",
+    "selector": "#shot-28-card-4",
+    "start": 0.08,
+    "duration": 0.22,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "card-5:0",
+    "selector": "#shot-28-card-5",
+    "start": 0.08,
+    "duration": 0.22,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "badge:0",
+    "selector": "#shot-28-badge",
+    "start": 2.77,
+    "duration": 0.19,
+    "before": {
+      "scale": 0.62,
+      "opacity": 0
+    },
+    "after": {
+      "scale": 1,
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "badge-text:0",
+    "selector": "#shot-28-badge-text",
+    "start": 2.87,
+    "duration": 0.25,
+    "before": {
+      "clipPath": "inset(0% 100% 0% 0%)"
+    },
+    "after": {
+      "clipPath": "inset(0% 0% 0% 0%)"
+    },
+    "ease": "none"
+  },
+  {
+    "id": "badge-check:0",
+    "selector": "#shot-28-badge-check",
+    "start": 2.99,
+    "duration": 0.18,
+    "before": {
+      "strokeDashoffset": 1
+    },
+    "after": {
+      "strokeDashoffset": 0
+    },
+    "ease": "none"
+  },
+  {
+    "id": "badge-check:1",
+    "selector": "#shot-28-badge-check",
+    "start": 4.47,
+    "duration": 0.18,
+    "before": {
+      "strokeDashoffset": 1
+    },
+    "after": {
+      "strokeDashoffset": 0
+    },
+    "ease": "none"
+  }
+]

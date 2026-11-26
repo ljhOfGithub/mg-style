@@ -1,0 +1,425 @@
+{
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "LICENSE-MG-styles-15.txt",
+      "sha256": "7f03fee9299a401615e13e2c636ead0394f47395da4f816ae60b35ed2d91a932"
+    },
+    {
+      "path": "README.md",
+      "sha256": "41ba42683be83157d9fd8510ed3e61db413308515c116cb061e6a025312c07d3"
+    },
+    {
+      "path": "来源与许可.md",
+      "sha256": "d1c7655b1fb57fd1fcbcecd5a49cc53f6247228285f466b1da61f3e8a64f856d"
+    },
+    {
+      "path": "模板工程/assets/examples/actor.svg",
+      "sha256": "dea1ba1005be8c961fc83c1c0bbc452315dfd69cb054ea8daec803e74ff19e3d"
+    },
+    {
+      "path": "模板工程/assets/examples/audio.svg",
+      "sha256": "60100b7af99eca57a92f82b203fdb986593b2e94a236fd7294b2e35d79694753"
+    },
+    {
+      "path": "模板工程/assets/examples/background.svg",
+      "sha256": "fbba848539193c6249a18e856068555bdf1f19ff7a2587ac08a17839de5d36c7"
+    },
+    {
+      "path": "模板工程/assets/examples/browser-chrome.svg",
+      "sha256": "0f67b8a24aa75e336f5c3662b3b58c79a60f25dbed1fb669b415e8fd370bd8bf"
+    },
+    {
+      "path": "模板工程/assets/examples/document.svg",
+      "sha256": "3ab7b168c843d973d9bf297387083939fa9e23d1ada9249509bc8abff3fc8df3"
+    },
+    {
+      "path": "模板工程/assets/examples/editor-demo.svg",
+      "sha256": "b2aa53d28cf878eb8febc647579e539b6e751b8a467c461052b4eba5c182b609"
+    },
+    {
+      "path": "模板工程/assets/examples/filmstrip.svg",
+      "sha256": "6bf016d3361082daecd3d1c1e5619a16fa428865831aadcf1bf28e15fb0a596c"
+    },
+    {
+      "path": "模板工程/assets/examples/idea.svg",
+      "sha256": "69a0310a9cebfa2764074fdf7162d2635836a9f0a5a3957f8a8f0950375dc6f5"
+    },
+    {
+      "path": "模板工程/assets/examples/image.svg",
+      "sha256": "99ccac1211c63662609dd489f344d88cf40609b14ba427193d181279f5715f50"
+    },
+    {
+      "path": "模板工程/assets/examples/poster.svg",
+      "sha256": "60191ef116c0e04d3f6adfdeb9c62558132845cfbf34a03d76c736cd66321fba"
+    },
+    {
+      "path": "模板工程/assets/examples/presenter.svg",
+      "sha256": "fbba848539193c6249a18e856068555bdf1f19ff7a2587ac08a17839de5d36c7"
+    },
+    {
+      "path": "模板工程/assets/examples/project-page.svg",
+      "sha256": "65d2cddd8292523a1c532f185c3c77bbeba40a52a8c10f1a9456187d472e3285"
+    },
+    {
+      "path": "模板工程/assets/examples/screen.svg",
+      "sha256": "8f7d29ee9177ae512168a2374a9d91fce561f914f93c4a0ee34f6a14626a691c"
+    },
+    {
+      "path": "模板工程/assets/examples/video.svg",
+      "sha256": "4d7a8c204cdc585ea1258f2889046433bab23047ea0e379477361dde5981793d"
+    },
+    {
+      "path": "模板工程/assets/fonts/NotoSansSC.ttf",
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    },
+    {
+      "path": "模板工程/assets/fonts/OFL.txt",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "模板工程/assets/placeholders/audio.svg",
+      "sha256": "60100b7af99eca57a92f82b203fdb986593b2e94a236fd7294b2e35d79694753"
+    },
+    {
+      "path": "模板工程/assets/placeholders/background.svg",
+      "sha256": "fbba848539193c6249a18e856068555bdf1f19ff7a2587ac08a17839de5d36c7"
+    },
+    {
+      "path": "模板工程/assets/placeholders/document.svg",
+      "sha256": "3ab7b168c843d973d9bf297387083939fa9e23d1ada9249509bc8abff3fc8df3"
+    },
+    {
+      "path": "模板工程/assets/placeholders/filmstrip.svg",
+      "sha256": "6bf016d3361082daecd3d1c1e5619a16fa428865831aadcf1bf28e15fb0a596c"
+    },
+    {
+      "path": "模板工程/assets/placeholders/idea.svg",
+      "sha256": "69a0310a9cebfa2764074fdf7162d2635836a9f0a5a3957f8a8f0950375dc6f5"
+    },
+    {
+      "path": "模板工程/assets/placeholders/image.svg",
+      "sha256": "99ccac1211c63662609dd489f344d88cf40609b14ba427193d181279f5715f50"
+    },
+    {
+      "path": "模板工程/assets/placeholders/poster.svg",
+      "sha256": "60191ef116c0e04d3f6adfdeb9c62558132845cfbf34a03d76c736cd66321fba"
+    },
+    {
+      "path": "模板工程/assets/placeholders/screen.svg",
+      "sha256": "8f7d29ee9177ae512168a2374a9d91fce561f914f93c4a0ee34f6a14626a691c"
+    },
+    {
+      "path": "模板工程/assets/placeholders/video.svg",
+      "sha256": "4d7a8c204cdc585ea1258f2889046433bab23047ea0e379477361dde5981793d"
+    },
+    {
+      "path": "模板工程/assets/runtime/diagonal-peel.js",
+      "sha256": "1fc15a7fd7a1275bb2cb3419c3f8011807be779bdd5bbc5b6db7002981869bdd"
+    },
+    {
+      "path": "模板工程/assets/vendor/gsap.min.js",
+      "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+    },
+    {
+      "path": "模板工程/compositions/shot-01.html",
+      "sha256": "46a2086ee41285e4abafb3e91d94857190c3dcbcdde85e23a2470f74b0e0b3ba"
+    },
+    {
+      "path": "模板工程/compositions/shot-02.html",
+      "sha256": "e86d70a8ad93cc8939597386acdb2bf0144f1b9423d648226ab9a975942a59bd"
+    },
+    {
+      "path": "模板工程/compositions/shot-03.html",
+      "sha256": "55312eb7d465ea5d59cd230cb3c0e0459f3fb894874346bfa5d651b13ea07e92"
+    },
+    {
+      "path": "模板工程/compositions/shot-04.html",
+      "sha256": "ec990409b61c0807d6de87aeba447911dced206b5b2121cc9257b9f79289eb94"
+    },
+    {
+      "path": "模板工程/compositions/shot-05.html",
+      "sha256": "9f4cd02f95fcf2112d0f23a19863c05776600db0a8fb869f8236ae2c4c3d4b96"
+    },
+    {
+      "path": "模板工程/compositions/shot-06.html",
+      "sha256": "7388ea4f985a2a2a10113cdf858bcd2109167ae5787cbbe78608934f3edea2fd"
+    },
+    {
+      "path": "模板工程/compositions/shot-07.html",
+      "sha256": "922ddc4c25a609c30450bbddca662328e7799cdc773a48bdfac48fca4c79410b"
+    },
+    {
+      "path": "模板工程/compositions/shot-08.html",
+      "sha256": "36ea8ef645c19703e060679840918eb7e1a185e6a5fcad649423cafb2670de85"
+    },
+    {
+      "path": "模板工程/compositions/shot-09.html",
+      "sha256": "466a907835d882f2839054cfce071ba5125c57013fb257934e5a3f4ef5109515"
+    },
+    {
+      "path": "模板工程/compositions/shot-10.html",
+      "sha256": "d84024d3a8c82579684ccb51f30a2970a6589b8b36d3a9830db816b476153e12"
+    },
+    {
+      "path": "模板工程/compositions/shot-11.html",
+      "sha256": "cf6bbbbc30efdcc4a25eeea477530a70cc9d8107e1f4d671e2a40f90751ab967"
+    },
+    {
+      "path": "模板工程/compositions/shot-12.html",
+      "sha256": "a8d5300d5c721f3475c6fa3086c625b1ca4f8e278ae96ba85eecd611f0dbf9ba"
+    },
+    {
+      "path": "模板工程/compositions/shot-13.html",
+      "sha256": "517ef76cd7c95cca04e0691dacb411849fc9474a089cbcbf105deda669eb481a"
+    },
+    {
+      "path": "模板工程/compositions/shot-14.html",
+      "sha256": "d31fa294c07d0181443e9d13e8a8d598895ee6bccf375684b3c75da0a414220d"
+    },
+    {
+      "path": "模板工程/compositions/shot-15.html",
+      "sha256": "dabf4c4b1b936bf3030f65d3a10e7bd30883b013da3541490fbe0631bc9d1ba4"
+    },
+    {
+      "path": "模板工程/compositions/shot-16.html",
+      "sha256": "ba8ba2c0d2d20432b60e5de9a3377a5c49ed9cffa2c87385c1e829c34c0f195c"
+    },
+    {
+      "path": "模板工程/compositions/shot-17.html",
+      "sha256": "705f0bb16f46a2daac29329893a4c1690a9a74a3fc6409acb04b13961bad5745"
+    },
+    {
+      "path": "模板工程/compositions/shot-18.html",
+      "sha256": "535ae1e3ffb6eab0131e808eb0e82410b97a5c13c6ee66701ed7a2ec376de3d6"
+    },
+    {
+      "path": "模板工程/compositions/shot-19.html",
+      "sha256": "c21e7016f3dcb9f68cfcfeb0a25a9003efbfd920b69be92f7bd87a826fec22cb"
+    },
+    {
+      "path": "模板工程/compositions/shot-20.html",
+      "sha256": "c312a1ec97109e268e84198620db782571d197ceadebdca55eaac42ea0a588b4"
+    },
+    {
+      "path": "模板工程/compositions/shot-21.html",
+      "sha256": "145f3110ce73a1940934841400bbc65b21b441bd8b9158714cd0cdc43fc1d681"
+    },
+    {
+      "path": "模板工程/compositions/shot-22.html",
+      "sha256": "7ef688ad637d53718f331bbf5b78860717f6abf0e650e5b392f2027d9dc07256"
+    },
+    {
+      "path": "模板工程/compositions/shot-23.html",
+      "sha256": "c969529dd244c3ccdf27bd45c825e95d4e96772893b0aa10428ab085a77f79fb"
+    },
+    {
+      "path": "模板工程/compositions/shot-24.html",
+      "sha256": "baf52467b2da4bd6192df9ca6f58c5a6677616d9061d8dd7be944aba533bf699"
+    },
+    {
+      "path": "模板工程/compositions/shot-25.html",
+      "sha256": "85a8a6d319574b33ab9d1caf4079e452be009ca08cc1c1625b22d62c708af9ce"
+    },
+    {
+      "path": "模板工程/compositions/shot-26.html",
+      "sha256": "1cf27e4eda892aef98bb7ed25a8d6062d52537d7e05003ed0df945f4c1a6c9c9"
+    },
+    {
+      "path": "模板工程/compositions/shot-27.html",
+      "sha256": "98f7155947d8321ccd818fb944e25d78a828fbbb545d37af1311a78bee3f7b5a"
+    },
+    {
+      "path": "模板工程/compositions/shot-28.html",
+      "sha256": "1332d01e42c18cc5a74a9a32387ea748586af0c38c3aa5cbacbb4d751ded3828"
+    },
+    {
+      "path": "模板工程/compositions/shot-29.html",
+      "sha256": "13848a80d27e70aacb5cb327c78fd1d76dcf9499e82beb585beb8e336e244f20"
+    },
+    {
+      "path": "模板工程/compositions/shot-30.html",
+      "sha256": "e94c56cff858d4e3336bab797c31fccff1b5c771e7b698b2fac92aa63513c752"
+    },
+    {
+      "path": "模板工程/hyperframes.json",
+      "sha256": "35a6d4ea79ebe911f0d81705f7aace5d8ff0316b745b0311d56af50c9c237cb7"
+    },
+    {
+      "path": "模板工程/index.html",
+      "sha256": "815d5b6a89953185d512d0b1113ebd2d09f3283eff7d7a756df7100de0f56095"
+    },
+    {
+      "path": "模板工程/package.json",
+      "sha256": "0ce92642dc807eb55d0abbfe445cc0d6bc2ba7e81db2861d2c1a2424bf490f31"
+    },
+    {
+      "path": "模板工程/动作参数/shot-01.json",
+      "sha256": "0017d0d63ddba24d934592c61ded2389795ecb297ae9a5326fcfb62a23f3c35e"
+    },
+    {
+      "path": "模板工程/动作参数/shot-02.json",
+      "sha256": "b7e202fb4b45e2feb3a0bb8f5b72c8f149a8c863f89686b8c7a0235c1fb1c442"
+    },
+    {
+      "path": "模板工程/动作参数/shot-03.json",
+      "sha256": "ecc6a80272e549d59aca2b94bd6457eb678b8262c4ea572a7d7a11ff4b85133e"
+    },
+    {
+      "path": "模板工程/动作参数/shot-04.json",
+      "sha256": "1179d62e97467197151f4e831fcce944f287354c7f3b338fcc7c5c0a41631bc4"
+    },
+    {
+      "path": "模板工程/动作参数/shot-05.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "模板工程/动作参数/shot-06.json",
+      "sha256": "810d03e7f9f17a1fcf27a30c20a0b25382c9f260e16921186a4713e090413347"
+    },
+    {
+      "path": "模板工程/动作参数/shot-07.json",
+      "sha256": "73a1d27929644bef7a63f9127192bb3c3e2f9ce1f56da53abb3e2b09255d453b"
+    },
+    {
+      "path": "模板工程/动作参数/shot-08.json",
+      "sha256": "8f6c0abe073f3daf36fc86a95270107525f6bc45ea8a5df5f6219f6521569024"
+    },
+    {
+      "path": "模板工程/动作参数/shot-09.json",
+      "sha256": "68ad1688dc06999408a3f51f5bf460763195e0234400801492daaa80f7eff768"
+    },
+    {
+      "path": "模板工程/动作参数/shot-10.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "模板工程/动作参数/shot-11.json",
+      "sha256": "1f7847ff69058f5aeb520285e9962097887714e31d87536eaa08d35c53a8d521"
+    },
+    {
+      "path": "模板工程/动作参数/shot-12.json",
+      "sha256": "1cd3d05fc42131233ca71930e617587a9291341f5129d01390717a70cd41a025"
+    },
+    {
+      "path": "模板工程/动作参数/shot-13.json",
+      "sha256": "f122e1f76b61078c97354aa479afe931fe77653a5e5c1c93f643106f15a8bf43"
+    },
+    {
+      "path": "模板工程/动作参数/shot-14.json",
+      "sha256": "f6dccc3c17288aec40d818a22c6a1f91cc8c8d0efc781cc100cb37fc27e2f187"
+    },
+    {
+      "path": "模板工程/动作参数/shot-15.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "模板工程/动作参数/shot-16.json",
+      "sha256": "7f535d78cfadf110fbaf4e4a61da378b3c21481eaf980ba477bd9cb0b8e30b60"
+    },
+    {
+      "path": "模板工程/动作参数/shot-17.json",
+      "sha256": "ca780f59549858b24857b5c79bab4f191ccd1df019f2844e0de554f9995cc70e"
+    },
+    {
+      "path": "模板工程/动作参数/shot-18.json",
+      "sha256": "583712f67002f0262c49991b706fde8115f23540987026fc7e70ab2ba877c522"
+    },
+    {
+      "path": "模板工程/动作参数/shot-19.json",
+      "sha256": "9478ce5996269427547e92ac40b2830077727a31c3b458a67b3ed838c29ded3c"
+    },
+    {
+      "path": "模板工程/动作参数/shot-20.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "模板工程/动作参数/shot-21.json",
+      "sha256": "8281ed1e3e61054420e1202643d73d2e2930a8304cb58f0b1289d20a6db2e32f"
+    },
+    {
+      "path": "模板工程/动作参数/shot-22.json",
+      "sha256": "36f6447aabb0bffb2f105e04f797aae07bcd8cf4e8dfd552d14bc76fde791f8e"
+    },
+    {
+      "path": "模板工程/动作参数/shot-23.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "模板工程/动作参数/shot-24.json",
+      "sha256": "d21c4a50cf0ad033db124da3b5e805d070c28464d59dd0e8d438ea1923c032ab"
+    },
+    {
+      "path": "模板工程/动作参数/shot-25.json",
+      "sha256": "f511c9ab5c09ca1379034c6145a96445754cec92eec46c62c16aba5094670044"
+    },
+    {
+      "path": "模板工程/动作参数/shot-26.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "模板工程/动作参数/shot-27.json",
+      "sha256": "d37ef09e64d288a65563d523a65dede49d5e42133a5a01416bce4293568099bb"
+    },
+    {
+      "path": "模板工程/动作参数/shot-28.json",
+      "sha256": "4330ba1b5e3630f05b9588f772809691741492b86f35c0e7f6d24bc388fdd785"
+    },
+    {
+      "path": "模板工程/动作参数/shot-29.json",
+      "sha256": "c50dcb5030a2ba6f703c5499dbf9665ade0b3e1f3ecb9b40815d5968c9dafbca"
+    },
+    {
+      "path": "模板工程/动作参数/shot-30.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "模板工程/工具/构建.py",
+      "sha256": "391239f7dbadd396af98002c986f87bc2b7a7ad7c7e5eabe35af0dabd3e057f5"
+    },
+    {
+      "path": "模板工程/工具/测试模板.py",
+      "sha256": "6cd4ccd4e6d75cd2cc25915e82882865bde03244df98ac04933883e081fb10ba"
+    },
+    {
+      "path": "模板工程/整片计划.json",
+      "sha256": "2a2d01616510a597c4cf83ac661e36bf82fea2daa8ac062ebf47a2a893f26f7a"
+    },
+    {
+      "path": "模板工程/构建.py",
+      "sha256": "46a8395926e8a6e1d8e99150814ad8f2e07ac91b534b46211eb37798b6e8fa06"
+    },
+    {
+      "path": "模板工程/模板索引.json",
+      "sha256": "92bb013f378665319f54a195366380a1879b754ceab484b23a0f356c2c62242d"
+    },
+    {
+      "path": "模板工程/配置.json",
+      "sha256": "d4be85ea19e4abb00b00bd5512de882a239d99218b6201bcf23e6f1057f31837"
+    },
+    {
+      "path": "编辑器.html",
+      "sha256": "8d2c70d0a4633d53a8854c0f9a51d85da4c29aff3c6e06cdc1ce80191cffe885"
+    },
+    {
+      "path": "预览/通用示例.mp4",
+      "sha256": "036e5a4ce3aa41f4a4be4c87302bf6bf49620eba5bf03d90a11709f4f3f3a0e4"
+    },
+    {
+      "path": "预览/通用示例.png",
+      "sha256": "9df5f2d6401ccce05c35c3b6824678fcd653b0cc3c205901bb805fb0d744e02f"
+    },
+    {
+      "path": "风格.json",
+      "sha256": "1d004babe7f0e60f47505adc87c92ed9722ccfba810cf5ad56cbbb1b5d4f13f4"
+    },
+    {
+      "path": "验证结果.json",
+      "sha256": "ac3b7236ddf8abb4c585990794b36679845464b6d6f440241c77ef93afc3a8f4"
+    },
+    {
+      "path": "验证记录.md",
+      "sha256": "858738b95cc7cea02dd90833c55a5576cf9a3d9260bcc1940177b3cd3925b33a"
+    }
+  ]
+}

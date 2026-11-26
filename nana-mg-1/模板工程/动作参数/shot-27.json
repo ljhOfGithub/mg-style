@@ -1,0 +1,32 @@
+[
+  {
+    "id": "smash:0",
+    "selector": "#shot-27-smash",
+    "start": 0,
+    "duration": 0.38,
+    "before": {
+      "scale": 7,
+      "opacity": 1
+    },
+    "after": {
+      "scale": 1,
+      "opacity": 1
+    },
+    "ease": "power3.out"
+  },
+  {
+    "id": "smash:1",
+    "selector": "#shot-27-smash",
+    "start": 1.8400000000000003,
+    "duration": 0.32,
+    "before": {
+      "x": 0,
+      "opacity": 1
+    },
+    "after": {
+      "x": 1600,
+      "opacity": 0
+    },
+    "ease": "power2.in"
+  }
+]

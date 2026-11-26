@@ -1,0 +1,41 @@
+[
+  {
+    "id": "poster:0",
+    "selector": "#shot-18-poster",
+    "start": 0.08666666666666667,
+    "duration": 0.15,
+    "before": {
+      "opacity": 1
+    },
+    "after": {
+      "opacity": 0
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "wide:0",
+    "selector": "#shot-18-wide",
+    "start": 0.08666666666666667,
+    "duration": 0.15,
+    "before": {
+      "opacity": 1
+    },
+    "after": {
+      "opacity": 0
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "portrait:0",
+    "selector": "#shot-18-portrait",
+    "start": 0.08666666666666667,
+    "duration": 0.15,
+    "before": {
+      "opacity": 1
+    },
+    "after": {
+      "opacity": 0
+    },
+    "ease": "power2.out"
+  }
+]

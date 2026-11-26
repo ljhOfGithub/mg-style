@@ -1,0 +1,36 @@
+[
+  {
+    "id": "screen:0",
+    "selector": "#shot-02-screen",
+    "start": 0,
+    "duration": 0.38,
+    "before": {
+      "opacity": 0,
+      "y": 480
+    },
+    "after": {
+      "opacity": 1,
+      "y": 0
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "screen:1",
+    "selector": "#shot-02-screen",
+    "start": 1.7133333333333334,
+    "duration": 0.36,
+    "before": {
+      "clipPath": "polygon(0% 0%,100% 0%,100% 100%,0% 100%)",
+      "rotation": 0,
+      "x": 0,
+      "y": 0
+    },
+    "after": {
+      "clipPath": "polygon(0% 0%,0% 0%,0% 0%,0% 0%)",
+      "rotation": -38,
+      "x": -2200,
+      "y": -900
+    },
+    "ease": "power2.in"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "01-title",
+    "name": "居中开场标题",
+    "source_window": "0.10–0.50",
+    "observed_motion": "标题快速缩放显露，副标题与细框随后出现；背景媒体保持原速",
+    "groups": "标题组/副标题组/标签组",
+    "implementation": "工具/构建.py::title_intro",
+    "public_parameters": [
+      "文字",
+      "强调色",
+      "媒体路径",
+      "时长",
+      "入场时窗",
+      "退场时窗"
+    ],
+    "provenance": "来源/mg-styles-15/demos/01-flat-vector/index.html：时间归一化、单调缓动、分组独立时间与勾路径描线；具体动作按本原片重建",
+    "observation_precision": "边界依据30fps结构扫描与0.1秒细帧；运动曲线为近似拟合，未取得原工程",
+    "standalone": "模板总览/compositions/library-01-title.html",
+    "prompt": "prompts/01-title.md"
+  },
+  {
+    "id": "02-media-flip",
+    "name": "媒体窗抬入与斜向翻走",
+    "source_window": "1.77–3.90；15.80–16.10；21.40–21.70；28.70–28.90",
+    "observed_motion": "整窗从下方抬入并显露；退场沿斜边裁走，整组旋转向左上退出",
+    "groups": "媒体窗/裁切层/背景层",
+    "implementation": "工具/构建.py::media_flip",
+    "public_parameters": [
+      "文字",
+      "强调色",
+      "媒体路径",
+      "时长",
+      "入场时窗",
+      "退场时窗"
+    ],
+    "provenance": "来源/mg-styles-15/demos/01-flat-vector/index.html：时间归一化、单调缓动、分组独立时间与勾路径描线；具体动作按本原片重建",
+    "observation_precision": "边界依据30fps结构扫描与0.1秒细帧；运动曲线为近似拟合，未取得原工程",
+    "standalone": "模板总览/compositions/library-02-media-flip.html",
+    "prompt": "prompts/02-media-flip.md"
+  },
+  {
+    "id": "03-grid",
+    "name": "六宫格总览",
+    "source_window": "3.90–5.67；49.93–55.40",
+    "observed_motion": "全底与标题先出现，六卡作为同一网格组显露；不伪造逐卡点击",
+    "groups": "网格背景/标题/六卡组",
+    "implementation": "工具/构建.py::grid_six",
+    "public_parameters": [
+      "文字",
+      "强调色",
+      "媒体路径",
+      "时长",
+      "入场时窗",
+      "退场时窗"
+    ],
+    "provenance": "来源/mg-styles-15/demos/01-flat-vector/index.html：时间归一化、单调缓动、分组独立时间与勾路径描线；具体动作按本原片重建",
+    "observation_precision": "边界依据30fps结构扫描与0.1秒细帧；运动曲线为近似拟合，未取得原工程",
+    "standalone": "模板总览/compositions/library-03-grid.html",
+    "prompt": "prompts/03-grid.md"
+  },
+  {
+    "id": "04-browser",
+    "name": "文档与浏览器叠窗",
+    "source_window": "5.67–8.30；23.20–28.90",
+    "observed_motion": "叠窗从下方抬入；内层预览独立切章节卡与六宫格，不把外层窗口动画套给内层",
+    "groups": "文档窗/浏览器窗/内层预览",
+    "implementation": "工具/构建.py::browser_stack",
+    "public_parameters": [
+      "文字",
+      "强调色",
+      "媒体路径",
+      "时长",
+      "入场时窗",
+      "退场时窗"
+    ],
+    "provenance": "来源/mg-styles-15/demos/01-flat-vector/index.html：时间归一化、单调缓动、分组独立时间与勾路径描线；具体动作按本原片重建",
+    "observation_precision": "边界依据30fps结构扫描与0.1秒细帧；运动曲线为近似拟合，未取得原工程",
+    "standalone": "模板总览/compositions/library-04-browser.html",
+    "prompt": "prompts/04-browser.md"
+  },
+  {
+    "id": "05-chapter",
+    "name": "六款编号章节卡",
+    "source_window": "8.47–10.20；16.17–17.33；21.93–23.20；29.10–31.13；34.87–36.03；40.93–42.73",
+    "observed_motion": "紫蓝曲面背景与右媒体窗先显露，大号描边数字随后出现，标题和说明最后显露；顶部活动导航切换",
+    "groups": "底面/右媒体/编号/标题/说明/导航",
+    "implementation": "工具/构建.py::chapter",
+    "public_parameters": [
+      "文字",
+      "强调色",
+      "媒体路径",
+      "时长",
+      "入场时窗",
+      "退场时窗"
+    ],
+    "provenance": "来源/mg-styles-15/demos/01-flat-vector/index.html：时间归一化、单调缓动、分组独立时间与勾路径描线；具体动作按本原片重建",
+    "observation_precision": "边界依据30fps结构扫描与0.1秒细帧；运动曲线为近似拟合，未取得原工程",
+    "standalone": "模板总览/compositions/library-05-chapter.html",
+    "prompt": "prompts/05-chapter.md"
+  },
+  {
+    "id": "06-fan",
+    "name": "五卡中心堆叠再散开",
+    "source_window": "10.30–12.73",
+    "observed_motion": "五卡从中心堆叠向上二下三展开；保留各自旋转和遮挡；到位后仅保留观察到的轻微摆角",
+    "groups": "五张独立卡片",
+    "implementation": "工具/构建.py::fan_five",
+    "public_parameters": [
+      "文字",
+      "强调色",
+      "媒体路径",
+      "时长",
+      "入场时窗",
+      "退场时窗"
+    ],
+    "provenance": "来源/mg-styles-15/demos/01-flat-vector/index.html：时间归一化、单调缓动、分组独立时间与勾路径描线；具体动作按本原片重建",
+    "observation_precision": "边界依据30fps结构扫描与0.1秒细帧；运动曲线为近似拟合，未取得原工程",
+    "standalone": "模板总览/compositions/library-06-fan.html",
+    "prompt": "prompts/06-fan.md"
+  },
+  {
+    "id": "07-takeaway",
+    "name": "左摘要右媒体",
+    "source_window": "12.73–16.17；18.67–21.93；38.87–40.53",
+    "observed_motion": "左摘要卡与右媒体分组入场，左底细线单次增长；媒体可独立抬入和翻走，非整个画面统一淡入",
+    "groups": "左摘要/正文/底线/右媒体",
+    "implementation": "工具/构建.py::takeaway",
+    "public_parameters": [
+      "文字",
+      "强调色",
+      "媒体路径",
+      "时长",
+      "入场时窗",
+      "退场时窗"
+    ],
+    "provenance": "来源/mg-styles-15/demos/01-flat-vector/index.html：时间归一化、单调缓动、分组独立时间与勾路径描线；具体动作按本原片重建",
+    "observation_precision": "边界依据30fps结构扫描与0.1秒细帧；运动曲线为近似拟合，未取得原工程",
+    "standalone": "模板总览/compositions/library-07-takeaway.html",
+    "prompt": "prompts/07-takeaway.md"
+  },
+  {
+    "id": "08-nodes",
+    "name": "输入到输出节点窗",
+    "source_window": "17.50–18.67；36.37–38.87",
+    "observed_motion": "标题及左侧能力标签先出现，右侧圆形底纹、应用窗与三张浅卡分组显露；到位后静态",
+    "groups": "标题/左标签/圆纹/应用窗/三卡/指针",
+    "implementation": "工具/构建.py::node_flow",
+    "public_parameters": [
+      "文字",
+      "强调色",
+      "媒体路径",
+      "时长",
+      "入场时窗",
+      "退场时窗"
+    ],
+    "provenance": "来源/mg-styles-15/demos/01-flat-vector/index.html：时间归一化、单调缓动、分组独立时间与勾路径描线；具体动作按本原片重建",
+    "observation_precision": "边界依据30fps结构扫描与0.1秒细帧；运动曲线为近似拟合，未取得原工程",
+    "standalone": "模板总览/compositions/library-08-nodes.html",
+    "prompt": "prompts/08-nodes.md"
+  },
+  {
+    "id": "09-media-board",
+    "name": "图片视频音频分区",
+    "source_window": "31.13–34.60",
+    "observed_motion": "全板显露；图片/视频/音频/能力列表分区保留；32.50秒加入三张真实素材，长竖视频槽位独立播放",
+    "groups": "文档槽/图片槽/视频槽/音频图形/列表",
+    "implementation": "工具/构建.py::media_board",
+    "public_parameters": [
+      "文字",
+      "强调色",
+      "媒体路径",
+      "时长",
+      "入场时窗",
+      "退场时窗"
+    ],
+    "provenance": "来源/mg-styles-15/demos/01-flat-vector/index.html：时间归一化、单调缓动、分组独立时间与勾路径描线；具体动作按本原片重建",
+    "observation_precision": "边界依据30fps结构扫描与0.1秒细帧；运动曲线为近似拟合，未取得原工程",
+    "standalone": "模板总览/compositions/library-09-media-board.html",
+    "prompt": "prompts/09-media-board.md"
+  },
+  {
+    "id": "10-media-overlay",
+    "name": "三媒体悬浮保留",
+    "source_window": "34.60–34.87",
+    "observed_motion": "底板退去而三块媒体暂留，随后整体退去；媒体不是整片作者包装的截图",
+    "groups": "竖海报/横图/竖视频",
+    "implementation": "工具/构建.py::media_overlay",
+    "public_parameters": [
+      "文字",
+      "强调色",
+      "媒体路径",
+      "时长",
+      "入场时窗",
+      "退场时窗"
+    ],
+    "provenance": "来源/mg-styles-15/demos/01-flat-vector/index.html：时间归一化、单调缓动、分组独立时间与勾路径描线；具体动作按本原片重建",
+    "observation_precision": "边界依据30fps结构扫描与0.1秒细帧；运动曲线为近似拟合，未取得原工程",
+    "standalone": "模板总览/compositions/library-10-media-overlay.html",
+    "prompt": "prompts/10-media-overlay.md"
+  },
+  {
+    "id": "11-storyboard",
+    "name": "浅色三步故事板",
+    "source_window": "42.73–47.47",
+    "observed_motion": "浅色全底与标题显露，边框内三组图像、两枚箭头和三枚标签整组出现；箭头本身静态，后段为阅读停留",
+    "groups": "标题/框/左图/胶片三格/右图/箭头/标签",
+    "implementation": "工具/构建.py::storyboard",
+    "public_parameters": [
+      "文字",
+      "强调色",
+      "媒体路径",
+      "时长",
+      "入场时窗",
+      "退场时窗"
+    ],
+    "provenance": "来源/mg-styles-15/demos/01-flat-vector/index.html：时间归一化、单调缓动、分组独立时间与勾路径描线；具体动作按本原片重建",
+    "observation_precision": "边界依据30fps结构扫描与0.1秒细帧；运动曲线为近似拟合，未取得原工程",
+    "standalone": "模板总览/compositions/library-11-storyboard.html",
+    "prompt": "prompts/11-storyboard.md"
+  },
+  {
+    "id": "12-smash",
+    "name": "超大字收回及横向退场",
+    "source_window": "47.73–49.93",
+    "observed_motion": "文字从远超画幅的大尺寸快速缩小至居中；清晰停留后向右移出并渐隐",
+    "groups": "单一文字组",
+    "implementation": "工具/构建.py::smash_title",
+    "public_parameters": [
+      "文字",
+      "强调色",
+      "媒体路径",
+      "时长",
+      "入场时窗",
+      "退场时窗"
+    ],
+    "provenance": "来源/mg-styles-15/demos/01-flat-vector/index.html：时间归一化、单调缓动、分组独立时间与勾路径描线；具体动作按本原片重建",
+    "observation_precision": "边界依据30fps结构扫描与0.1秒细帧；运动曲线为近似拟合，未取得原工程",
+    "standalone": "模板总览/compositions/library-12-smash.html",
+    "prompt": "prompts/12-smash.md"
+  },
+  {
+    "id": "13-badge",
+    "name": "工作流标签与重复勾选",
+    "source_window": "52.70–55.67",
+    "observed_motion": "白底标签出现，文字横向显露，绿色勾描线；54.20秒清空后再次描线；不把两次描线误当一次",
+    "groups": "白标签/文字遮罩/黑方框/勾路径",
+    "implementation": "工具/构建.py::workflow_badge",
+    "public_parameters": [
+      "文字",
+      "强调色",
+      "媒体路径",
+      "时长",
+      "入场时窗",
+      "退场时窗"
+    ],
+    "provenance": "来源/mg-styles-15/demos/01-flat-vector/index.html：时间归一化、单调缓动、分组独立时间与勾路径描线；具体动作按本原片重建",
+    "observation_precision": "边界依据30fps结构扫描与0.1秒细帧；运动曲线为近似拟合，未取得原工程",
+    "standalone": "模板总览/compositions/library-13-badge.html",
+    "prompt": "prompts/13-badge.md"
+  },
+  {
+    "id": "14-pipeline",
+    "name": "五步横向生产链",
+    "source_window": "55.73–61.17",
+    "observed_motion": "标题与底板先出现，五张步骤卡由左至右短错峰显露；到位后保留阅读停留，结尾整体退去",
+    "groups": "标题/五卡/卡内分隔线/底部细线",
+    "implementation": "工具/构建.py::pipeline_five",
+    "public_parameters": [
+      "文字",
+      "强调色",
+      "媒体路径",
+      "时长",
+      "入场时窗",
+      "退场时窗"
+    ],
+    "provenance": "来源/mg-styles-15/demos/01-flat-vector/index.html：时间归一化、单调缓动、分组独立时间与勾路径描线；具体动作按本原片重建",
+    "observation_precision": "边界依据30fps结构扫描与0.1秒细帧；运动曲线为近似拟合，未取得原工程",
+    "standalone": "模板总览/compositions/library-14-pipeline.html",
+    "prompt": "prompts/14-pipeline.md"
+  },
+  {
+    "id": "15-nav",
+    "name": "顶部章节导航",
+    "source_window": "0.00–61.27",
+    "observed_motion": "窄导航保持固定，当前章节紫色底块随实际章节切换；不添加光标点击或跑马灯",
+    "groups": "导航条/七个条目/活动底块",
+    "implementation": "工具/构建.py::chapter_nav",
+    "public_parameters": [
+      "文字",
+      "强调色",
+      "媒体路径",
+      "时长",
+      "入场时窗",
+      "退场时窗"
+    ],
+    "provenance": "来源/mg-styles-15/demos/01-flat-vector/index.html：时间归一化、单调缓动、分组独立时间与勾路径描线；具体动作按本原片重建",
+    "observation_precision": "边界依据30fps结构扫描与0.1秒细帧；运动曲线为近似拟合，未取得原工程",
+    "standalone": "模板总览/compositions/library-15-nav.html",
+    "prompt": "prompts/15-nav.md"
+  }
+]

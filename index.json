@@ -9,6 +9,16 @@
       "engine": "hyperframes",
       "scene_count": 23,
       "distribution": "public-placeholder"
+    },
+    {
+      "id": "nana-mg-1",
+      "name": "nana mg1",
+      "version": "1.0.0",
+      "path": "nana-mg-1",
+      "engine": "hyperframes",
+      "scene_count": 30,
+      "template_count": 15,
+      "distribution": "public-placeholder"
     }
   ]
 }

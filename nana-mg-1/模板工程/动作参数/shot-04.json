@@ -1,0 +1,118 @@
+[
+  {
+    "id": "browser-bar:0",
+    "selector": "#shot-04-browser-bar",
+    "start": 0.09,
+    "duration": 0.38,
+    "before": {
+      "opacity": 0,
+      "y": 440
+    },
+    "after": {
+      "opacity": 1,
+      "y": 0
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "document:0",
+    "selector": "#shot-04-document",
+    "start": 0.02,
+    "duration": 0.38,
+    "before": {
+      "opacity": 0,
+      "y": 440
+    },
+    "after": {
+      "opacity": 1,
+      "y": 0
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "preview:0",
+    "selector": "#shot-04-preview",
+    "start": 0.09,
+    "duration": 0.38,
+    "before": {
+      "opacity": 0,
+      "y": 440
+    },
+    "after": {
+      "opacity": 1,
+      "y": 0
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "nested-0:0",
+    "selector": "#shot-04-nested-0",
+    "start": 0.0,
+    "duration": 0.015,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "nested-0:1",
+    "selector": "#shot-04-nested-0",
+    "start": 0.37550697084917617,
+    "duration": 0.02,
+    "before": {
+      "opacity": 1
+    },
+    "after": {
+      "opacity": 0
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "nested-1:0",
+    "selector": "#shot-04-nested-1",
+    "start": 0.7008871989860583,
+    "duration": 0.015,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "nested-1:1",
+    "selector": "#shot-04-nested-1",
+    "start": 2.6116708914237434,
+    "duration": 0.02,
+    "before": {
+      "opacity": 1
+    },
+    "after": {
+      "opacity": 0
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "windows:0",
+    "selector": "#shot-04-windows",
+    "start": 2.3333333333333335,
+    "duration": 0.28,
+    "before": {
+      "clipPath": "polygon(0% 0%,100% 0%,100% 100%,0% 100%)",
+      "rotation": 0,
+      "x": 0,
+      "y": 0
+    },
+    "after": {
+      "clipPath": "polygon(0% 0%,0% 0%,0% 0%,0% 0%)",
+      "rotation": -37,
+      "x": -2400,
+      "y": -900
+    },
+    "ease": "power2.in"
+  }
+]

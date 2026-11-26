@@ -1,0 +1,93 @@
+[
+  {
+    "id": "number-rule:0",
+    "selector": "#shot-19-number-rule",
+    "start": 0.19,
+    "duration": 0.25,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "preview:0",
+    "selector": "#shot-19-preview",
+    "start": 0.04,
+    "duration": 0.24,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "number:0",
+    "selector": "#shot-19-number",
+    "start": 0.19,
+    "duration": 0.25,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "title:0",
+    "selector": "#shot-19-title",
+    "start": 0.34,
+    "duration": 0.22,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "copy:0",
+    "selector": "#shot-19-copy",
+    "start": 0.44,
+    "duration": 0.22,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "chapter-pack:0",
+    "selector": "#shot-19-chapter-pack",
+    "start": 0,
+    "duration": 0.18,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "chapter-pack:1",
+    "selector": "#shot-19-chapter-pack",
+    "start": 0.9666666666666668,
+    "duration": 0.18,
+    "before": {
+      "opacity": 1
+    },
+    "after": {
+      "opacity": 0
+    },
+    "ease": "power2.out"
+  }
+]
