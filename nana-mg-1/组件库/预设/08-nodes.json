@@ -1,0 +1,27 @@
+{
+  "format": "nana-component@1",
+  "component": "08-nodes",
+  "duration": 4.0,
+  "content": {
+    "title": "把资料变成清楚的内容",
+    "subtitle": "替换文字与图片，沿用稳定动作",
+    "items": [
+      "接收资料",
+      "提取重点",
+      "安排步骤",
+      "留下结果"
+    ],
+    "node_titles": [
+      "资料输入",
+      "整理处理",
+      "可用结果"
+    ]
+  },
+  "media": {
+    "background": "landscape.svg"
+  },
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

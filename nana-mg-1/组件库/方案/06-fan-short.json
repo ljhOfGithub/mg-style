@@ -1,0 +1,33 @@
+{
+  "format": "nana-component@1",
+  "component": "06-fan",
+  "duration": 3,
+  "content": {
+    "items": [
+      "收集",
+      "整理",
+      "准备",
+      "检查",
+      "分享"
+    ],
+    "card_bodies": [
+      "按现场要求确认条件",
+      "按主题整理具体内容",
+      "按参与者需求保留信息",
+      "在开始前完成必要检查",
+      "把反馈整理为下次的依据"
+    ]
+  },
+  "media": {
+    "background": "landscape.svg",
+    "card-0": "portrait.svg",
+    "card-1": "square.svg",
+    "card-2": "landscape.svg",
+    "card-3": "portrait.svg",
+    "card-4": "square.svg"
+  },
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

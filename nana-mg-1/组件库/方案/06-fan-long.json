@@ -1,0 +1,33 @@
+{
+  "format": "nana-component@1",
+  "component": "06-fan",
+  "duration": 8,
+  "content": {
+    "items": [
+      "收集当前需要的资料",
+      "整理这一次的重点",
+      "准备对应的画面",
+      "检查重要的细节",
+      "分享可使用的结果"
+    ],
+    "card_bodies": [
+      "按现场要求确认条件",
+      "按主题整理具体内容",
+      "按参与者需求保留信息",
+      "在开始前完成必要检查",
+      "把反馈整理为下次的依据"
+    ]
+  },
+  "media": {
+    "background": "portrait.svg",
+    "card-0": "square.svg",
+    "card-1": "landscape.svg",
+    "card-2": "portrait.svg",
+    "card-3": "square.svg",
+    "card-4": "landscape.svg"
+  },
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

@@ -1,0 +1,22 @@
+{
+  "format": "nana-component@1",
+  "component": "11-storyboard",
+  "duration": 3,
+  "content": {
+    "title": "整理资料",
+    "labels": [
+      "整理输入资料",
+      "明确内容结构",
+      "留下可分享结果"
+    ]
+  },
+  "media": {
+    "idea": "landscape.svg",
+    "frames": "portrait.svg",
+    "result": "square.svg"
+  },
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

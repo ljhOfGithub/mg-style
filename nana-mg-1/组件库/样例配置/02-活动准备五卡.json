@@ -1,0 +1,33 @@
+{
+  "format": "nana-component@1",
+  "component": "06-fan",
+  "duration": 4,
+  "content": {
+    "items": [
+      "确定场地",
+      "准备物料",
+      "开放报名",
+      "检查设备",
+      "活动复盘"
+    ],
+    "card_bodies": [
+      "确定时间与空间",
+      "准备需要的内容",
+      "让参与者留下信息",
+      "提前完成现场检查",
+      "整理反馈与改进"
+    ]
+  },
+  "media": {
+    "background": "landscape.svg",
+    "card-0": "square.svg",
+    "card-1": "portrait.svg",
+    "card-2": "meeting.svg",
+    "card-3": "sheet.svg",
+    "card-4": "landscape.svg"
+  },
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

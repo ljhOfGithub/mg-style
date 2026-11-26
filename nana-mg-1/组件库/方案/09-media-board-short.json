@@ -1,0 +1,29 @@
+{
+  "format": "nana-component@1",
+  "component": "09-media-board",
+  "duration": 3,
+  "content": {
+    "title": "整理资料",
+    "subtitle": "沿用同一套动作",
+    "list_items": [
+      "图片资料",
+      "活动片段",
+      "声音文件",
+      "说明文字",
+      "分享版本"
+    ]
+  },
+  "media": {
+    "document": "landscape.svg",
+    "image": "portrait.svg",
+    "video": "square.svg",
+    "audio": "landscape.svg",
+    "poster": "portrait.svg",
+    "wide": "square.svg",
+    "portrait": "landscape.svg"
+  },
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

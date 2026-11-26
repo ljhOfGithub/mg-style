@@ -1,0 +1,22 @@
+{
+  "format": "nana-component@1",
+  "component": "15-nav",
+  "duration": 3,
+  "content": {
+    "title": "整理资料",
+    "subtitle": "沿用同一套动作",
+    "sections": [
+      "收集当前资料",
+      "整理核心信息",
+      "准备对应画面",
+      "核对关键细节",
+      "导出分享内容",
+      "归档复用材料"
+    ]
+  },
+  "media": {},
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

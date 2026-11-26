@@ -1,0 +1,18 @@
+{
+  "format": "nana-component@1",
+  "component": "05-chapter",
+  "duration": 3,
+  "content": {
+    "title": "整理资料",
+    "subtitle": "沿用同一套动作",
+    "body": "先整理，再分享。"
+  },
+  "media": {
+    "background": "landscape.svg",
+    "preview": "portrait.svg"
+  },
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

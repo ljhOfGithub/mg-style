@@ -1,0 +1,15 @@
+{
+  "format": "nana-component@1",
+  "component": "12-smash",
+  "duration": 4.0,
+  "content": {
+    "title": "让好内容被看见"
+  },
+  "media": {
+    "background": "landscape.svg"
+  },
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

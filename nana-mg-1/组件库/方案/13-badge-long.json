@@ -1,0 +1,17 @@
+{
+  "format": "nana-component@1",
+  "component": "13-badge",
+  "duration": 8,
+  "content": {
+    "title": "让一份资料变成下一次仍能复用的清楚内容",
+    "subtitle": "文案变长以后，画面仍保留清楚的阅读空间",
+    "badge_text": "当前准备已完成"
+  },
+  "media": {
+    "background": "portrait.svg"
+  },
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

@@ -1,0 +1,27 @@
+{
+  "format": "nana-component@1",
+  "component": "08-nodes",
+  "duration": 3,
+  "content": {
+    "title": "整理资料",
+    "subtitle": "沿用同一套动作",
+    "items": [
+      "收集",
+      "整理",
+      "准备",
+      "检查"
+    ],
+    "node_titles": [
+      "现有资料",
+      "整理与处理",
+      "可以使用的结果"
+    ]
+  },
+  "media": {
+    "background": "landscape.svg"
+  },
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

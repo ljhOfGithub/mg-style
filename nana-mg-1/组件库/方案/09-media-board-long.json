@@ -1,0 +1,29 @@
+{
+  "format": "nana-component@1",
+  "component": "09-media-board",
+  "duration": 8,
+  "content": {
+    "title": "让一份资料变成下一次仍能复用的清楚内容",
+    "subtitle": "文案变长以后，画面仍保留清楚的阅读空间",
+    "list_items": [
+      "图片资料",
+      "活动片段",
+      "声音文件",
+      "说明文字",
+      "分享版本"
+    ]
+  },
+  "media": {
+    "document": "portrait.svg",
+    "image": "square.svg",
+    "video": "landscape.svg",
+    "audio": "portrait.svg",
+    "poster": "square.svg",
+    "wide": "landscape.svg",
+    "portrait": "portrait.svg"
+  },
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

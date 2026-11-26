@@ -1,0 +1,30 @@
+{
+  "format": "nana-component@1",
+  "component": "03-grid",
+  "duration": 3,
+  "content": {
+    "title": "整理资料",
+    "subtitle": "沿用同一套动作",
+    "items": [
+      "收集",
+      "整理",
+      "准备",
+      "检查",
+      "分享",
+      "归档"
+    ],
+    "item_bodies": [
+      "明确输入内容",
+      "保留重要信息",
+      "安排对应画面",
+      "逐项核对细节",
+      "导出可以分享的内容",
+      "保存下次要用的版本"
+    ]
+  },
+  "media": {},
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

@@ -1,0 +1,22 @@
+{
+  "format": "nana-component@1",
+  "component": "11-storyboard",
+  "duration": 8,
+  "content": {
+    "title": "让一份资料变成下一次仍能复用的清楚内容",
+    "labels": [
+      "整理输入资料",
+      "明确内容结构",
+      "留下可分享结果"
+    ]
+  },
+  "media": {
+    "idea": "portrait.svg",
+    "frames": "square.svg",
+    "result": "landscape.svg"
+  },
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

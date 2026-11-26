@@ -1,0 +1,16 @@
+{
+  "format": "nana-component@1",
+  "component": "10-media-overlay",
+  "duration": 8,
+  "content": {},
+  "media": {
+    "background": "portrait.svg",
+    "poster": "square.svg",
+    "wide": "landscape.svg",
+    "portrait": "portrait.svg"
+  },
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

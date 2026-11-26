@@ -1,0 +1,15 @@
+{
+  "format": "nana-component@1",
+  "component": "12-smash",
+  "duration": 8,
+  "content": {
+    "title": "把每一次准备变成下一次的起点"
+  },
+  "media": {
+    "background": "portrait.svg"
+  },
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

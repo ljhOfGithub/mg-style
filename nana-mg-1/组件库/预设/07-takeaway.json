@@ -1,0 +1,18 @@
+{
+  "format": "nana-component@1",
+  "component": "07-takeaway",
+  "duration": 5.0,
+  "content": {
+    "title": "同一页资料，两层展示",
+    "body": "前景说明当前内容\n翻开后露出下一层资料"
+  },
+  "media": {
+    "background": "landscape.svg",
+    "screen": "meeting.svg",
+    "underlay": "sheet.svg"
+  },
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}

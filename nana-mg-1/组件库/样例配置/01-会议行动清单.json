@@ -1,0 +1,18 @@
+{
+  "format": "nana-component@1",
+  "component": "05-chapter",
+  "duration": 3.5,
+  "content": {
+    "title": "把资料变成行动清单",
+    "subtitle": "先整理，再明确下一步",
+    "body": "输入会议资料，输出可执行的事项。"
+  },
+  "media": {
+    "background": "landscape.svg",
+    "preview": "meeting.svg"
+  },
+  "theme": {
+    "accent": "#90ddf1"
+  },
+  "options": {}
+}
