@@ -13,7 +13,7 @@
     {
       "id": "nana-mg-1",
       "name": "nana mg1",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "path": "nana-mg-1",
       "engine": "hyperframes",
       "scene_count": 30,

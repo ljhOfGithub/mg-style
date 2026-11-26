@@ -85,12 +85,12 @@ def copy_file(src,dst):
     shutil.copy2(src,temp);temp.replace(dst)
 
 def build(spec,out,media_root=None):
-    spec=copy.deepcopy(validate(spec));spec.setdefault('duration',4);ident=spec['component'];out=Path(out).resolve();media_root=Path(media_root or ROOT/'素材').resolve()
-    preset=load(ROOT/'预设'/(ident+'.json'));preset['content'].update(spec.get('content',{}));preset['media'].update(spec.get('media',{}));preset['options'].update(spec.get('options',{}));preset['theme'].update(spec.get('theme',{}))
+    spec=copy.deepcopy(validate(spec));spec.setdefault('duration',4);ident=spec['component'];out=Path(out).resolve();media_root=Path(media_root or ROOT/'assets').resolve()
+    preset=load(ROOT/'presets'/(ident+'.json'));preset['content'].update(spec.get('content',{}));preset['media'].update(spec.get('media',{}));preset['options'].update(spec.get('options',{}));preset['theme'].update(spec.get('theme',{}))
     if ident=='13-badge' and preset['options'].get('layout')=='overlay':preset['content']={k:v for k,v in preset['content'].items() if k=='badge_text'}
     spec.update(content=preset['content'],media=preset['media'],options=preset['options'],theme=preset['theme']);validate(spec)
-    for f in (ROOT/'共享资源').rglob('*'):
-        if f.is_file():copy_file(f,out/'assets'/f.relative_to(ROOT/'共享资源'))
+    for f in (ROOT/'shared').rglob('*'):
+        if f.is_file():copy_file(f,out/'assets'/f.relative_to(ROOT/'shared'))
     media={}
     for key,value in spec['media'].items():
         src=(media_root/value).resolve()
@@ -110,7 +110,7 @@ def build(spec,out,media_root=None):
         if options.get('layout')=='reference':content['media_rect']['screen']=[1100,230,755,556]
     if ident=='11-storyboard' and options.get('layout')=='reference':content['media_rect']={'idea':[150,398,365,405],'frames':[637,500,601,297],'result':[1330,475,470,327]}
     config={'templates':{ident:content},'show_nav':options.get('show_nav',ident=='15-nav'),**spec['theme']}
-    module=importlib.import_module('组件.'+REGISTRY[ident]['module'])
+    module=importlib.import_module('modules.'+REGISTRY[ident]['module'])
     previous=runtime.NAMES[:]
     if ident=='15-nav':runtime.NAMES[:]=content.get('sections',previous)
     try:
@@ -134,7 +134,7 @@ def build(spec,out,media_root=None):
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--component',choices=REGISTRY);p.add_argument('--config',type=Path);p.add_argument('--duration',type=float);p.add_argument('--media-root',type=Path);p.add_argument('--output',required=True,type=Path);a=p.parse_args()
     if not a.config and not a.component:p.error('指定--component或--config')
-    spec=load(a.config or ROOT/'预设'/(a.component+'.json'))
+    spec=load(a.config or ROOT/'presets'/(a.component+'.json'))
     if a.component:spec['component']=a.component
     if a.duration is not None:spec['duration']=a.duration
     try:print(json.dumps(build(spec,a.output,a.media_root),ensure_ascii=False))

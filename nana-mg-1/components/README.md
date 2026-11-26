@@ -2,7 +2,7 @@
 
 15个组件各有独立源码与配置，单独构建为可移动的Hyperframes工程。无需读取旧视频的30段时间线、章节预设或复现素材。
 
-[打开组件预览目录](预览.html) · [查看15个预设](目录.json) · [查看5个片段配置](样例配置/) · [查看制作计划](制作计划.json)
+[打开组件预览目录](预览.html) · [查看15个预设](目录.json) · [查看5个片段配置](sample-configs/) · [查看制作计划](制作计划.json)
 
 播放器展示已经渲染好的样例。修改配置后，要重新构建和渲染，播放器不会冒充实时生成结果。
 
@@ -11,7 +11,7 @@
 以下命令从仓库根目录运行，Python 3.11以上，只需要标准库。
 
 ```sh
-python3 nana-mg-1/组件库/构建.py --component 06-fan --output .build/my-fan
+python3 nana-mg-1/components/构建.py --component 06-fan --output .build/my-fan
 npx hyperframes@0.9.97 preview .build/my-fan
 npx hyperframes@0.9.97 check .build/my-fan --json
 npx hyperframes@0.9.97 render .build/my-fan --fps 30 --quality looks -o my-fan.mp4
@@ -21,10 +21,10 @@ npx hyperframes@0.9.97 render .build/my-fan --fps 30 --quality looks -o my-fan.m
 
 ## 更换文案、图片与时长
 
-从`预设/`复制对应JSON，再修改`content`、`media`、`duration`。图片路径相对于`--media-root`，不是相对于配置文件；不指定时使用本组件库的`素材/`。
+从`presets/`复制对应JSON，再修改`content`、`media`、`duration`。图片路径相对于`--media-root`，不是相对于配置文件；不指定时使用本组件库的`assets/`。
 
 ```sh
-python3 nana-mg-1/组件库/构建.py --config my-config.json --media-root my-images --duration 6 --output .build/my-new-clip
+python3 nana-mg-1/components/构建.py --config my-config.json --media-root my-images --duration 6 --output .build/my-new-clip
 ```
 
 最小配置如下，省略字段会采用该组件自己的预设：
@@ -71,10 +71,10 @@ python3 nana-mg-1/组件库/构建.py --config my-config.json --media-root my-im
 ## 检查
 
 ```sh
-python3 nana-mg-1/组件库/测试/test_components.py
+python3 nana-mg-1/components/tests/test_components.py
 ```
 
-三组变体配置在[方案](方案/)，实际渲染与半秒OCR覆盖以[验证结果](验证结果.json)为准；技术、局部视觉检查和用户认可分开记录。原61秒示例仍使用旧工程，组件库新增文件不会自动改写旧视频。
+三组变体配置在[方案](variants/)，实际渲染与半秒OCR覆盖以[验证结果](验证结果.json)为准；技术、局部视觉检查和用户认可分开记录。原61秒示例仍使用旧工程，组件库新增文件不会自动改写旧视频。
 
 ## 原片素材展示与替换验证分开
 

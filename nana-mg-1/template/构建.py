@@ -4,7 +4,7 @@ import argparse,importlib.util,json,shutil
 ROOT=Path(__file__).resolve().parent
 
 def build(config_path,out=None):
-    spec=importlib.util.spec_from_file_location("nana_core",ROOT/"工具/构建.py")
+    spec=importlib.util.spec_from_file_location("nana_core",ROOT/"scripts/构建.py")
     core=importlib.util.module_from_spec(spec);spec.loader.exec_module(core)
     config=core.read_config(config_path);shots=config["scenes"]
     assert len(shots)>0 and len({s["id"] for s in shots})==len(shots)

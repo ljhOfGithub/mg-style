@@ -5,7 +5,7 @@ ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
 import 构建 as api
 
 class Components(unittest.TestCase):
-    def spec(self,id='07-takeaway'):return api.load(ROOT/'预设'/(id+'.json'))
+    def spec(self,id='07-takeaway'):return api.load(ROOT/'presets'/(id+'.json'))
     def test_all_fifteen_export_without_movie_timeline(self):
         self.assertEqual(len(api.REGISTRY),15)
         with tempfile.TemporaryDirectory() as d:
@@ -62,12 +62,12 @@ class Components(unittest.TestCase):
             s=self.spec('11-storyboard');api.build(s,d);out=Path(d)
             self.assertTrue((out/'assets/fonts/NotoSansSC.ttf').is_file())
             self.assertEqual(len(list((out/'assets/content').glob('*.svg'))),3)
-            self.assertNotIn('模板工程',(out/'index.html').read_text())
+            self.assertNotIn('template',(out/'index.html').read_text())
     def test_exported_media_has_independent_inode(self):
         import os
         with tempfile.TemporaryDirectory() as d:
             out=Path(d);api.build(self.spec('11-storyboard'),out)
-            src=ROOT/'素材/square.svg';dst=next((out/'assets/content').glob('*'+src.suffix))
+            src=ROOT/'assets/square.svg';dst=next((out/'assets/content').glob('*'+src.suffix))
             # 比较同内容文件，不能仅凭文件名推断copy。
             dst=next(f for f in (out/'assets/content').iterdir() if f.read_bytes()==src.read_bytes())
             self.assertFalse(os.path.samestat(src.stat(),dst.stat()))

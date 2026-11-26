@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.1.1",
   "files": [
     {
       "path": "LICENSE-MG-styles-15.txt",
@@ -7,1103 +7,1103 @@
     },
     {
       "path": "README.md",
-      "sha256": "6133bba3159020219f452f043835c749ef1109cb72e36ee731f236beb040f1cf"
+      "sha256": "973a0070d14c23bff0f48e69f959df993c6f127c07c56f9dbead254ceefb3820"
     },
     {
-      "path": "来源与许可.md",
-      "sha256": "d1c7655b1fb57fd1fcbcecd5a49cc53f6247228285f466b1da61f3e8a64f856d"
+      "path": "components/README.md",
+      "sha256": "ef7731157d08b19318a44d0cbcfbc03737094262480b44ed6fb6f319d51af50d"
     },
     {
-      "path": "模板工程/assets/examples/actor.svg",
-      "sha256": "dea1ba1005be8c961fc83c1c0bbc452315dfd69cb054ea8daec803e74ff19e3d"
-    },
-    {
-      "path": "模板工程/assets/examples/audio.svg",
-      "sha256": "60100b7af99eca57a92f82b203fdb986593b2e94a236fd7294b2e35d79694753"
-    },
-    {
-      "path": "模板工程/assets/examples/background.svg",
-      "sha256": "fbba848539193c6249a18e856068555bdf1f19ff7a2587ac08a17839de5d36c7"
-    },
-    {
-      "path": "模板工程/assets/examples/browser-chrome.svg",
-      "sha256": "0f67b8a24aa75e336f5c3662b3b58c79a60f25dbed1fb669b415e8fd370bd8bf"
-    },
-    {
-      "path": "模板工程/assets/examples/document.svg",
-      "sha256": "3ab7b168c843d973d9bf297387083939fa9e23d1ada9249509bc8abff3fc8df3"
-    },
-    {
-      "path": "模板工程/assets/examples/editor-demo.svg",
-      "sha256": "b2aa53d28cf878eb8febc647579e539b6e751b8a467c461052b4eba5c182b609"
-    },
-    {
-      "path": "模板工程/assets/examples/filmstrip.svg",
-      "sha256": "6bf016d3361082daecd3d1c1e5619a16fa428865831aadcf1bf28e15fb0a596c"
-    },
-    {
-      "path": "模板工程/assets/examples/idea.svg",
-      "sha256": "69a0310a9cebfa2764074fdf7162d2635836a9f0a5a3957f8a8f0950375dc6f5"
-    },
-    {
-      "path": "模板工程/assets/examples/image.svg",
-      "sha256": "99ccac1211c63662609dd489f344d88cf40609b14ba427193d181279f5715f50"
-    },
-    {
-      "path": "模板工程/assets/examples/poster.svg",
-      "sha256": "60191ef116c0e04d3f6adfdeb9c62558132845cfbf34a03d76c736cd66321fba"
-    },
-    {
-      "path": "模板工程/assets/examples/presenter.svg",
-      "sha256": "fbba848539193c6249a18e856068555bdf1f19ff7a2587ac08a17839de5d36c7"
-    },
-    {
-      "path": "模板工程/assets/examples/project-page.svg",
-      "sha256": "65d2cddd8292523a1c532f185c3c77bbeba40a52a8c10f1a9456187d472e3285"
-    },
-    {
-      "path": "模板工程/assets/examples/screen.svg",
-      "sha256": "8f7d29ee9177ae512168a2374a9d91fce561f914f93c4a0ee34f6a14626a691c"
-    },
-    {
-      "path": "模板工程/assets/examples/video.svg",
-      "sha256": "4d7a8c204cdc585ea1258f2889046433bab23047ea0e379477361dde5981793d"
-    },
-    {
-      "path": "模板工程/assets/fonts/NotoSansSC.ttf",
-      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
-    },
-    {
-      "path": "模板工程/assets/fonts/OFL.txt",
-      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
-    },
-    {
-      "path": "模板工程/assets/placeholders/audio.svg",
-      "sha256": "60100b7af99eca57a92f82b203fdb986593b2e94a236fd7294b2e35d79694753"
-    },
-    {
-      "path": "模板工程/assets/placeholders/background.svg",
-      "sha256": "fbba848539193c6249a18e856068555bdf1f19ff7a2587ac08a17839de5d36c7"
-    },
-    {
-      "path": "模板工程/assets/placeholders/document.svg",
-      "sha256": "3ab7b168c843d973d9bf297387083939fa9e23d1ada9249509bc8abff3fc8df3"
-    },
-    {
-      "path": "模板工程/assets/placeholders/filmstrip.svg",
-      "sha256": "6bf016d3361082daecd3d1c1e5619a16fa428865831aadcf1bf28e15fb0a596c"
-    },
-    {
-      "path": "模板工程/assets/placeholders/idea.svg",
-      "sha256": "69a0310a9cebfa2764074fdf7162d2635836a9f0a5a3957f8a8f0950375dc6f5"
-    },
-    {
-      "path": "模板工程/assets/placeholders/image.svg",
-      "sha256": "99ccac1211c63662609dd489f344d88cf40609b14ba427193d181279f5715f50"
-    },
-    {
-      "path": "模板工程/assets/placeholders/poster.svg",
-      "sha256": "60191ef116c0e04d3f6adfdeb9c62558132845cfbf34a03d76c736cd66321fba"
-    },
-    {
-      "path": "模板工程/assets/placeholders/screen.svg",
-      "sha256": "8f7d29ee9177ae512168a2374a9d91fce561f914f93c4a0ee34f6a14626a691c"
-    },
-    {
-      "path": "模板工程/assets/placeholders/video.svg",
-      "sha256": "4d7a8c204cdc585ea1258f2889046433bab23047ea0e379477361dde5981793d"
-    },
-    {
-      "path": "模板工程/assets/runtime/diagonal-peel.js",
-      "sha256": "1fc15a7fd7a1275bb2cb3419c3f8011807be779bdd5bbc5b6db7002981869bdd"
-    },
-    {
-      "path": "模板工程/assets/vendor/gsap.min.js",
-      "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
-    },
-    {
-      "path": "模板工程/compositions/shot-01.html",
-      "sha256": "46a2086ee41285e4abafb3e91d94857190c3dcbcdde85e23a2470f74b0e0b3ba"
-    },
-    {
-      "path": "模板工程/compositions/shot-02.html",
-      "sha256": "e86d70a8ad93cc8939597386acdb2bf0144f1b9423d648226ab9a975942a59bd"
-    },
-    {
-      "path": "模板工程/compositions/shot-03.html",
-      "sha256": "55312eb7d465ea5d59cd230cb3c0e0459f3fb894874346bfa5d651b13ea07e92"
-    },
-    {
-      "path": "模板工程/compositions/shot-04.html",
-      "sha256": "ec990409b61c0807d6de87aeba447911dced206b5b2121cc9257b9f79289eb94"
-    },
-    {
-      "path": "模板工程/compositions/shot-05.html",
-      "sha256": "9f4cd02f95fcf2112d0f23a19863c05776600db0a8fb869f8236ae2c4c3d4b96"
-    },
-    {
-      "path": "模板工程/compositions/shot-06.html",
-      "sha256": "7388ea4f985a2a2a10113cdf858bcd2109167ae5787cbbe78608934f3edea2fd"
-    },
-    {
-      "path": "模板工程/compositions/shot-07.html",
-      "sha256": "922ddc4c25a609c30450bbddca662328e7799cdc773a48bdfac48fca4c79410b"
-    },
-    {
-      "path": "模板工程/compositions/shot-08.html",
-      "sha256": "36ea8ef645c19703e060679840918eb7e1a185e6a5fcad649423cafb2670de85"
-    },
-    {
-      "path": "模板工程/compositions/shot-09.html",
-      "sha256": "466a907835d882f2839054cfce071ba5125c57013fb257934e5a3f4ef5109515"
-    },
-    {
-      "path": "模板工程/compositions/shot-10.html",
-      "sha256": "d84024d3a8c82579684ccb51f30a2970a6589b8b36d3a9830db816b476153e12"
-    },
-    {
-      "path": "模板工程/compositions/shot-11.html",
-      "sha256": "cf6bbbbc30efdcc4a25eeea477530a70cc9d8107e1f4d671e2a40f90751ab967"
-    },
-    {
-      "path": "模板工程/compositions/shot-12.html",
-      "sha256": "a8d5300d5c721f3475c6fa3086c625b1ca4f8e278ae96ba85eecd611f0dbf9ba"
-    },
-    {
-      "path": "模板工程/compositions/shot-13.html",
-      "sha256": "517ef76cd7c95cca04e0691dacb411849fc9474a089cbcbf105deda669eb481a"
-    },
-    {
-      "path": "模板工程/compositions/shot-14.html",
-      "sha256": "d31fa294c07d0181443e9d13e8a8d598895ee6bccf375684b3c75da0a414220d"
-    },
-    {
-      "path": "模板工程/compositions/shot-15.html",
-      "sha256": "dabf4c4b1b936bf3030f65d3a10e7bd30883b013da3541490fbe0631bc9d1ba4"
-    },
-    {
-      "path": "模板工程/compositions/shot-16.html",
-      "sha256": "ba8ba2c0d2d20432b60e5de9a3377a5c49ed9cffa2c87385c1e829c34c0f195c"
-    },
-    {
-      "path": "模板工程/compositions/shot-17.html",
-      "sha256": "705f0bb16f46a2daac29329893a4c1690a9a74a3fc6409acb04b13961bad5745"
-    },
-    {
-      "path": "模板工程/compositions/shot-18.html",
-      "sha256": "535ae1e3ffb6eab0131e808eb0e82410b97a5c13c6ee66701ed7a2ec376de3d6"
-    },
-    {
-      "path": "模板工程/compositions/shot-19.html",
-      "sha256": "c21e7016f3dcb9f68cfcfeb0a25a9003efbfd920b69be92f7bd87a826fec22cb"
-    },
-    {
-      "path": "模板工程/compositions/shot-20.html",
-      "sha256": "c312a1ec97109e268e84198620db782571d197ceadebdca55eaac42ea0a588b4"
-    },
-    {
-      "path": "模板工程/compositions/shot-21.html",
-      "sha256": "145f3110ce73a1940934841400bbc65b21b441bd8b9158714cd0cdc43fc1d681"
-    },
-    {
-      "path": "模板工程/compositions/shot-22.html",
-      "sha256": "7ef688ad637d53718f331bbf5b78860717f6abf0e650e5b392f2027d9dc07256"
-    },
-    {
-      "path": "模板工程/compositions/shot-23.html",
-      "sha256": "c969529dd244c3ccdf27bd45c825e95d4e96772893b0aa10428ab085a77f79fb"
-    },
-    {
-      "path": "模板工程/compositions/shot-24.html",
-      "sha256": "baf52467b2da4bd6192df9ca6f58c5a6677616d9061d8dd7be944aba533bf699"
-    },
-    {
-      "path": "模板工程/compositions/shot-25.html",
-      "sha256": "85a8a6d319574b33ab9d1caf4079e452be009ca08cc1c1625b22d62c708af9ce"
-    },
-    {
-      "path": "模板工程/compositions/shot-26.html",
-      "sha256": "1cf27e4eda892aef98bb7ed25a8d6062d52537d7e05003ed0df945f4c1a6c9c9"
-    },
-    {
-      "path": "模板工程/compositions/shot-27.html",
-      "sha256": "98f7155947d8321ccd818fb944e25d78a828fbbb545d37af1311a78bee3f7b5a"
-    },
-    {
-      "path": "模板工程/compositions/shot-28.html",
-      "sha256": "1332d01e42c18cc5a74a9a32387ea748586af0c38c3aa5cbacbb4d751ded3828"
-    },
-    {
-      "path": "模板工程/compositions/shot-29.html",
-      "sha256": "13848a80d27e70aacb5cb327c78fd1d76dcf9499e82beb585beb8e336e244f20"
-    },
-    {
-      "path": "模板工程/compositions/shot-30.html",
-      "sha256": "e94c56cff858d4e3336bab797c31fccff1b5c771e7b698b2fac92aa63513c752"
-    },
-    {
-      "path": "模板工程/hyperframes.json",
-      "sha256": "35a6d4ea79ebe911f0d81705f7aace5d8ff0316b745b0311d56af50c9c237cb7"
-    },
-    {
-      "path": "模板工程/index.html",
-      "sha256": "815d5b6a89953185d512d0b1113ebd2d09f3283eff7d7a756df7100de0f56095"
-    },
-    {
-      "path": "模板工程/package.json",
-      "sha256": "0ce92642dc807eb55d0abbfe445cc0d6bc2ba7e81db2861d2c1a2424bf490f31"
-    },
-    {
-      "path": "模板工程/动作参数/shot-01.json",
-      "sha256": "0017d0d63ddba24d934592c61ded2389795ecb297ae9a5326fcfb62a23f3c35e"
-    },
-    {
-      "path": "模板工程/动作参数/shot-02.json",
-      "sha256": "b7e202fb4b45e2feb3a0bb8f5b72c8f149a8c863f89686b8c7a0235c1fb1c442"
-    },
-    {
-      "path": "模板工程/动作参数/shot-03.json",
-      "sha256": "ecc6a80272e549d59aca2b94bd6457eb678b8262c4ea572a7d7a11ff4b85133e"
-    },
-    {
-      "path": "模板工程/动作参数/shot-04.json",
-      "sha256": "1179d62e97467197151f4e831fcce944f287354c7f3b338fcc7c5c0a41631bc4"
-    },
-    {
-      "path": "模板工程/动作参数/shot-05.json",
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
-    },
-    {
-      "path": "模板工程/动作参数/shot-06.json",
-      "sha256": "810d03e7f9f17a1fcf27a30c20a0b25382c9f260e16921186a4713e090413347"
-    },
-    {
-      "path": "模板工程/动作参数/shot-07.json",
-      "sha256": "73a1d27929644bef7a63f9127192bb3c3e2f9ce1f56da53abb3e2b09255d453b"
-    },
-    {
-      "path": "模板工程/动作参数/shot-08.json",
-      "sha256": "8f6c0abe073f3daf36fc86a95270107525f6bc45ea8a5df5f6219f6521569024"
-    },
-    {
-      "path": "模板工程/动作参数/shot-09.json",
-      "sha256": "68ad1688dc06999408a3f51f5bf460763195e0234400801492daaa80f7eff768"
-    },
-    {
-      "path": "模板工程/动作参数/shot-10.json",
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
-    },
-    {
-      "path": "模板工程/动作参数/shot-11.json",
-      "sha256": "1f7847ff69058f5aeb520285e9962097887714e31d87536eaa08d35c53a8d521"
-    },
-    {
-      "path": "模板工程/动作参数/shot-12.json",
-      "sha256": "1cd3d05fc42131233ca71930e617587a9291341f5129d01390717a70cd41a025"
-    },
-    {
-      "path": "模板工程/动作参数/shot-13.json",
-      "sha256": "f122e1f76b61078c97354aa479afe931fe77653a5e5c1c93f643106f15a8bf43"
-    },
-    {
-      "path": "模板工程/动作参数/shot-14.json",
-      "sha256": "f6dccc3c17288aec40d818a22c6a1f91cc8c8d0efc781cc100cb37fc27e2f187"
-    },
-    {
-      "path": "模板工程/动作参数/shot-15.json",
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
-    },
-    {
-      "path": "模板工程/动作参数/shot-16.json",
-      "sha256": "7f535d78cfadf110fbaf4e4a61da378b3c21481eaf980ba477bd9cb0b8e30b60"
-    },
-    {
-      "path": "模板工程/动作参数/shot-17.json",
-      "sha256": "ca780f59549858b24857b5c79bab4f191ccd1df019f2844e0de554f9995cc70e"
-    },
-    {
-      "path": "模板工程/动作参数/shot-18.json",
-      "sha256": "583712f67002f0262c49991b706fde8115f23540987026fc7e70ab2ba877c522"
-    },
-    {
-      "path": "模板工程/动作参数/shot-19.json",
-      "sha256": "9478ce5996269427547e92ac40b2830077727a31c3b458a67b3ed838c29ded3c"
-    },
-    {
-      "path": "模板工程/动作参数/shot-20.json",
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
-    },
-    {
-      "path": "模板工程/动作参数/shot-21.json",
-      "sha256": "8281ed1e3e61054420e1202643d73d2e2930a8304cb58f0b1289d20a6db2e32f"
-    },
-    {
-      "path": "模板工程/动作参数/shot-22.json",
-      "sha256": "36f6447aabb0bffb2f105e04f797aae07bcd8cf4e8dfd552d14bc76fde791f8e"
-    },
-    {
-      "path": "模板工程/动作参数/shot-23.json",
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
-    },
-    {
-      "path": "模板工程/动作参数/shot-24.json",
-      "sha256": "d21c4a50cf0ad033db124da3b5e805d070c28464d59dd0e8d438ea1923c032ab"
-    },
-    {
-      "path": "模板工程/动作参数/shot-25.json",
-      "sha256": "f511c9ab5c09ca1379034c6145a96445754cec92eec46c62c16aba5094670044"
-    },
-    {
-      "path": "模板工程/动作参数/shot-26.json",
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
-    },
-    {
-      "path": "模板工程/动作参数/shot-27.json",
-      "sha256": "d37ef09e64d288a65563d523a65dede49d5e42133a5a01416bce4293568099bb"
-    },
-    {
-      "path": "模板工程/动作参数/shot-28.json",
-      "sha256": "4330ba1b5e3630f05b9588f772809691741492b86f35c0e7f6d24bc388fdd785"
-    },
-    {
-      "path": "模板工程/动作参数/shot-29.json",
-      "sha256": "c50dcb5030a2ba6f703c5499dbf9665ade0b3e1f3ecb9b40815d5968c9dafbca"
-    },
-    {
-      "path": "模板工程/动作参数/shot-30.json",
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
-    },
-    {
-      "path": "模板工程/工具/构建.py",
-      "sha256": "391239f7dbadd396af98002c986f87bc2b7a7ad7c7e5eabe35af0dabd3e057f5"
-    },
-    {
-      "path": "模板工程/工具/测试模板.py",
-      "sha256": "6cd4ccd4e6d75cd2cc25915e82882865bde03244df98ac04933883e081fb10ba"
-    },
-    {
-      "path": "模板工程/整片计划.json",
-      "sha256": "2a2d01616510a597c4cf83ac661e36bf82fea2daa8ac062ebf47a2a893f26f7a"
-    },
-    {
-      "path": "模板工程/构建.py",
-      "sha256": "46a8395926e8a6e1d8e99150814ad8f2e07ac91b534b46211eb37798b6e8fa06"
-    },
-    {
-      "path": "模板工程/模板索引.json",
-      "sha256": "92bb013f378665319f54a195366380a1879b754ceab484b23a0f356c2c62242d"
-    },
-    {
-      "path": "模板工程/配置.json",
-      "sha256": "d4be85ea19e4abb00b00bd5512de882a239d99218b6201bcf23e6f1057f31837"
-    },
-    {
-      "path": "组件库/README.md",
-      "sha256": "ac5aad4b5373d8a86df39cdd40b50ee7fe142167b8207be0e87c998e99ba1434"
-    },
-    {
-      "path": "组件库/runtime.py",
-      "sha256": "322f18061f3687eb6c4aad0a42cd067e92fc27ef2319fd0da6f316036de0f7fa"
-    },
-    {
-      "path": "组件库/共享资源/fonts/NotoSansSC.ttf",
-      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
-    },
-    {
-      "path": "组件库/共享资源/fonts/OFL.txt",
-      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
-    },
-    {
-      "path": "组件库/共享资源/placeholders/audio.svg",
-      "sha256": "60100b7af99eca57a92f82b203fdb986593b2e94a236fd7294b2e35d79694753"
-    },
-    {
-      "path": "组件库/共享资源/placeholders/background.svg",
-      "sha256": "fbba848539193c6249a18e856068555bdf1f19ff7a2587ac08a17839de5d36c7"
-    },
-    {
-      "path": "组件库/共享资源/placeholders/document.svg",
-      "sha256": "3ab7b168c843d973d9bf297387083939fa9e23d1ada9249509bc8abff3fc8df3"
-    },
-    {
-      "path": "组件库/共享资源/placeholders/filmstrip.svg",
-      "sha256": "6bf016d3361082daecd3d1c1e5619a16fa428865831aadcf1bf28e15fb0a596c"
-    },
-    {
-      "path": "组件库/共享资源/placeholders/idea.svg",
-      "sha256": "69a0310a9cebfa2764074fdf7162d2635836a9f0a5a3957f8a8f0950375dc6f5"
-    },
-    {
-      "path": "组件库/共享资源/placeholders/image.svg",
-      "sha256": "99ccac1211c63662609dd489f344d88cf40609b14ba427193d181279f5715f50"
-    },
-    {
-      "path": "组件库/共享资源/placeholders/poster.svg",
-      "sha256": "60191ef116c0e04d3f6adfdeb9c62558132845cfbf34a03d76c736cd66321fba"
-    },
-    {
-      "path": "组件库/共享资源/placeholders/screen.svg",
-      "sha256": "8f7d29ee9177ae512168a2374a9d91fce561f914f93c4a0ee34f6a14626a691c"
-    },
-    {
-      "path": "组件库/共享资源/placeholders/video.svg",
-      "sha256": "4d7a8c204cdc585ea1258f2889046433bab23047ea0e379477361dde5981793d"
-    },
-    {
-      "path": "组件库/共享资源/runtime/diagonal-peel.js",
-      "sha256": "1fc15a7fd7a1275bb2cb3419c3f8011807be779bdd5bbc5b6db7002981869bdd"
-    },
-    {
-      "path": "组件库/共享资源/vendor/gsap.min.js",
-      "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
-    },
-    {
-      "path": "组件库/制作计划.json",
-      "sha256": "ccdbb178f0a48440429668235c7e4a2f666f24dd89d3e556358f443c5e3bb6d5"
-    },
-    {
-      "path": "组件库/方案/01-title-default.json",
-      "sha256": "b77a0c948770c459a20ab942418a36e8fad695f6c5564cf7fcfb6fdeab2e92f8"
-    },
-    {
-      "path": "组件库/方案/01-title-long.json",
-      "sha256": "4e9d9f69b302a931955646b32f231178f350e5fbdb9fade0e6adb7ae266262bd"
-    },
-    {
-      "path": "组件库/方案/01-title-short.json",
-      "sha256": "5a39bab61c370dbd5e8afb7d3e892d3562f056a9ab09b22e997ee6542e65db69"
-    },
-    {
-      "path": "组件库/方案/02-media-flip-default.json",
-      "sha256": "a592fd614cd948c06740cef17c76e8b485c2776e13e805540c63452bb0888975"
-    },
-    {
-      "path": "组件库/方案/02-media-flip-long.json",
-      "sha256": "b902fd9653fafe7f36113c311c7fb7ad33298af821fda575c07542065b2bce88"
-    },
-    {
-      "path": "组件库/方案/02-media-flip-short.json",
-      "sha256": "6d0868139f92717b1567c8f5da0c1a1411f2ceb1be626aa82db63104bb1503f4"
-    },
-    {
-      "path": "组件库/方案/03-grid-default.json",
-      "sha256": "e9d7d4082c0a4fd42faca445d25df09ab097fe9bf9d57024404954122d54969a"
-    },
-    {
-      "path": "组件库/方案/03-grid-long.json",
-      "sha256": "e0ca5a071939c6c6889c3489d294f3940889f266a1d7b27b9db6290df943a2be"
-    },
-    {
-      "path": "组件库/方案/03-grid-short.json",
-      "sha256": "939cf09a06a8380fc55dac7b00d378365c170712f639b34c71112354f63849c4"
-    },
-    {
-      "path": "组件库/方案/04-browser-default.json",
-      "sha256": "e21b3bd8748009bf5c6a05df5a650cc9ec399b83f351824025ce38ddf171223d"
-    },
-    {
-      "path": "组件库/方案/04-browser-long.json",
-      "sha256": "af2fe18bf0b4c341de6df906c59c49f02585b4b46cdcf14e9637df1319b285d2"
-    },
-    {
-      "path": "组件库/方案/04-browser-short.json",
-      "sha256": "e3ec57dec40c7c8977299fbc58fcebd6a1182675edd194034ea723cf3d4d306f"
-    },
-    {
-      "path": "组件库/方案/05-chapter-default.json",
-      "sha256": "4866609bbed6ceaa18888af27d0ab58e336cdc05511607e16c6030583930dc2f"
-    },
-    {
-      "path": "组件库/方案/05-chapter-long.json",
-      "sha256": "1a544daca2ff31906397df26599cb10eb89c66d4172fbf3976d3dffca91d6ba7"
-    },
-    {
-      "path": "组件库/方案/05-chapter-short.json",
-      "sha256": "76931fcd94438026f53cfe2f9299799551b73e5b92ae0a644ac92dbc2a346ef0"
-    },
-    {
-      "path": "组件库/方案/06-fan-default.json",
-      "sha256": "631a29611f68f45c0a7e9ed4b10f971bec78b16a351b7448b1a554dba6876c21"
-    },
-    {
-      "path": "组件库/方案/06-fan-long.json",
-      "sha256": "ac9b135e86b740918b78c640ca3f84ce9e520900cc0fbb9f15480755ff317e6e"
-    },
-    {
-      "path": "组件库/方案/06-fan-short.json",
-      "sha256": "f2f5ae6a6aa372d3131ed85a555d117524a91698e3dd875873af5c479929527e"
-    },
-    {
-      "path": "组件库/方案/07-takeaway-default.json",
-      "sha256": "f3e33dad2d7ec76cdfbf346920e941636395bbfc88296547fada55ac9850dd6a"
-    },
-    {
-      "path": "组件库/方案/07-takeaway-long.json",
-      "sha256": "86e3ad3ec8fc98ed3daec219ffd4953eb6394e5d662e77cc9f04a60e50b478c4"
-    },
-    {
-      "path": "组件库/方案/07-takeaway-short.json",
-      "sha256": "854cb47b6c4a51987b67a9b2d0afc3c9eaed35c02053997db82db173362cc6e6"
-    },
-    {
-      "path": "组件库/方案/08-nodes-default.json",
-      "sha256": "6dff095d9833d4eaf4edc6b12f7024acfff54479c0b0d2e922515b087da59827"
-    },
-    {
-      "path": "组件库/方案/08-nodes-long.json",
-      "sha256": "50189df84f40da2dc4007fe2b9990666c476efd946b93b9e719be6b0ea4a816f"
-    },
-    {
-      "path": "组件库/方案/08-nodes-short.json",
-      "sha256": "9803f03c771a9c3aaea39244fb486483b977e6209d20f17ab04233bd33e505b8"
-    },
-    {
-      "path": "组件库/方案/09-media-board-default.json",
-      "sha256": "a082717c34c1d91ce72e2ac33fc6bb2cfd030df68c25a1f1464a0d5be3c84829"
-    },
-    {
-      "path": "组件库/方案/09-media-board-long.json",
-      "sha256": "409349f4ac09c9a652268f46dfac96fb070c24bce88990cbb2d6e136716b7403"
-    },
-    {
-      "path": "组件库/方案/09-media-board-short.json",
-      "sha256": "97dba6b99e72a82e9dd253922d22df88f699ede8618b540e130c4def07f7217a"
-    },
-    {
-      "path": "组件库/方案/10-media-overlay-default.json",
-      "sha256": "d142693ca497f02514137e97684ed5ae27937cf47912d1b635398474d97a9453"
-    },
-    {
-      "path": "组件库/方案/10-media-overlay-long.json",
-      "sha256": "4712ec036d1cc56d02cb2973bc588d9475e0d7573dc9f230aba42b2a6a07d2b5"
-    },
-    {
-      "path": "组件库/方案/10-media-overlay-short.json",
-      "sha256": "1813c39472681f741f30df91d72dcca81f341947ee1adac4bdd0e062dfb107fd"
-    },
-    {
-      "path": "组件库/方案/11-storyboard-default.json",
-      "sha256": "f1319af756ec246262ad2bbb66bbfced34a1a8f325546220644d3e5682f66d61"
-    },
-    {
-      "path": "组件库/方案/11-storyboard-long.json",
-      "sha256": "6e0c4465191f41cacd0adac109f68bb91127f350a04663c48ffdaa213cfcc5ee"
-    },
-    {
-      "path": "组件库/方案/11-storyboard-short.json",
-      "sha256": "71005852fe0fb228fe66a0fb06a9c75de562e908c85391f086e00e900f8a0922"
-    },
-    {
-      "path": "组件库/方案/12-smash-default.json",
-      "sha256": "ce50171e0b4942aa21cc1a4ff3df19fec66cf25e491c89a156fdd9ec9a825a10"
-    },
-    {
-      "path": "组件库/方案/12-smash-long.json",
-      "sha256": "ea158588df17b3ff66adb7da8a984eb387a36975736a2cc20da3bfdb97e59172"
-    },
-    {
-      "path": "组件库/方案/12-smash-short.json",
-      "sha256": "6ec61b907904148ec3b46b1c1d06b9bcdc40721b8450dfa65f1513fea8bb60ef"
-    },
-    {
-      "path": "组件库/方案/13-badge-default.json",
-      "sha256": "6408e032bd087593915411809ec37d9c9b6b89262d1b39a895790601f632b16f"
-    },
-    {
-      "path": "组件库/方案/13-badge-long.json",
-      "sha256": "1282dbc8d4c87f3fc5318ed37f726ff7a62ce3130eeb3ff73795841079ee3b42"
-    },
-    {
-      "path": "组件库/方案/13-badge-short.json",
-      "sha256": "a6d3be35ca6b29613b1bb71a27c5edc58654fae99f828aa74f946fd31d79cccc"
-    },
-    {
-      "path": "组件库/方案/14-pipeline-default.json",
-      "sha256": "56fca2b61b88680325f219d685debbcf5812564e3f8991cd3b8d94d360222311"
-    },
-    {
-      "path": "组件库/方案/14-pipeline-long.json",
-      "sha256": "39acba0a9eca171160f97bd64a63e9c48aa4894243b29bcdedc54f52fb40dc1b"
-    },
-    {
-      "path": "组件库/方案/14-pipeline-short.json",
-      "sha256": "41dd3a335a134c884b55b6c557b879b62a2f096f7c552a4375cb20cfd3754907"
-    },
-    {
-      "path": "组件库/方案/15-nav-default.json",
-      "sha256": "043a29852129f8327a106a874302f02956a9f4f694d83395ae8938878b6be7a6"
-    },
-    {
-      "path": "组件库/方案/15-nav-long.json",
-      "sha256": "5ae357d58584a798a9e47680cc80ef798576f77f146200f300cead5d75c526d2"
-    },
-    {
-      "path": "组件库/方案/15-nav-short.json",
-      "sha256": "3d3d4ff7f05b5ecb7e304b4eac8e3d36d4e150461424bec33e7537b0d762cdd0"
-    },
-    {
-      "path": "组件库/构建.py",
-      "sha256": "98134de6d4659d945529bca0b895bb96a4756fbeb5b8f145dd5c8116bd3385f5"
-    },
-    {
-      "path": "组件库/样例配置/01-会议行动清单.json",
-      "sha256": "98b97f0f80115d5f6dfd9235d5c682960cbe21f99b173f38b4665c0cd3f76e17"
-    },
-    {
-      "path": "组件库/样例配置/02-活动准备五卡.json",
-      "sha256": "631a29611f68f45c0a7e9ed4b10f971bec78b16a351b7448b1a554dba6876c21"
-    },
-    {
-      "path": "组件库/样例配置/03-资料双层翻页.json",
-      "sha256": "f3e33dad2d7ec76cdfbf346920e941636395bbfc88296547fada55ac9850dd6a"
-    },
-    {
-      "path": "组件库/样例配置/04-三步活动故事板.json",
-      "sha256": "118ba41e24290795b91c3fb7e0489579c87f0f440747c8cf3faddca9f1b4ee94"
-    },
-    {
-      "path": "组件库/样例配置/05-准备完成描勾.json",
-      "sha256": "6ea98381a66a9580c68ff2e5f7f7df36f4065394c483fc67a3e97f9f83561d24"
-    },
-    {
-      "path": "组件库/测试/test_components.py",
-      "sha256": "a866a0461abb912682ca6095ca5016947aceca8a2ce6f980114c61cf4d609733"
-    },
-    {
-      "path": "组件库/生成预览页.py",
-      "sha256": "4f4efac890150cba64009f82ea96d2f23f694190988dc61748245dcd28a4d26c"
-    },
-    {
-      "path": "组件库/目录.json",
-      "sha256": "c34dcc217208dad3dd3fc88aa557e7f78ccc7dda21e82c900b028883993c466f"
-    },
-    {
-      "path": "组件库/素材/landscape.svg",
+      "path": "components/assets/landscape.svg",
       "sha256": "753555418f4d8ad45eef5a84404b7bf5c731372706799bb6173b348f397d1684"
     },
     {
-      "path": "组件库/素材/meeting.svg",
+      "path": "components/assets/meeting.svg",
       "sha256": "005173016088f931315f172aee726e6bb4e25238c0c28bef8034fe3ef132121e"
     },
     {
-      "path": "组件库/素材/portrait.svg",
+      "path": "components/assets/portrait.svg",
       "sha256": "d5854c02742517ee40597bd7637ca04012309ed7f076d16c5d02bd0fcae2cb30"
     },
     {
-      "path": "组件库/素材/sheet.svg",
+      "path": "components/assets/sheet.svg",
       "sha256": "a42ea9a9e575b2109d59dd74757f10d4cccc1495f10cc2fed07d8296416ba4d0"
     },
     {
-      "path": "组件库/素材/square.svg",
+      "path": "components/assets/square.svg",
       "sha256": "ccd9e61407a9d6061153f27c04dae5dd9e584af363fcbe18e17805618098edf4"
     },
     {
-      "path": "组件库/组件/__init__.py",
+      "path": "components/modules/__init__.py",
       "sha256": "da6b640b734e467ffc2cdabc67dfd5cd7e19846d3ef44d7d9f83fe77fb618f24"
     },
     {
-      "path": "组件库/组件/m01_title.py",
+      "path": "components/modules/m01_title.py",
       "sha256": "8211feaa39d745588c392696f49de45e6ad28aeed3c9d2d4ece8fb5a2827ceda"
     },
     {
-      "path": "组件库/组件/m02_media_flip.py",
+      "path": "components/modules/m02_media_flip.py",
       "sha256": "44f3b56d62bc9c79f91788bef5c940589eb6c099fdb76b3f18dd82e584c6b689"
     },
     {
-      "path": "组件库/组件/m03_grid.py",
-      "sha256": "9f4d2735b8219417f6371851f9df4f850b20d14d4731982f64ec0eeac16d2f8c"
+      "path": "components/modules/m03_grid.py",
+      "sha256": "a9e03e138bf7ae0b09dd916cc1853b87f378d7afbc3a93e7e562019f72bfb25a"
     },
     {
-      "path": "组件库/组件/m04_browser.py",
-      "sha256": "714bd823b57ed1ec64e73d45b17955d760132599ce08bf16e2ab8f84a29e0298"
+      "path": "components/modules/m04_browser.py",
+      "sha256": "376a62fd07e3101ae8835dbd7c277c8941789601a19fe820edc45de7f73103c9"
     },
     {
-      "path": "组件库/组件/m05_chapter.py",
+      "path": "components/modules/m05_chapter.py",
       "sha256": "8bc1210ada6e7b05833e2f95674510769b5717df7fdcfc69407043aa6d5926cf"
     },
     {
-      "path": "组件库/组件/m06_fan.py",
+      "path": "components/modules/m06_fan.py",
       "sha256": "a28fcf315c79537d1250c23c651bdf4a11a53badc06eb0414e7877c842bd8a10"
     },
     {
-      "path": "组件库/组件/m07_takeaway.py",
+      "path": "components/modules/m07_takeaway.py",
       "sha256": "77a14b8ffc6b67aae5a4e7c64ff6e2e5d5b2e52822630ac76e91721617432326"
     },
     {
-      "path": "组件库/组件/m08_nodes.py",
+      "path": "components/modules/m08_nodes.py",
       "sha256": "7d6e35fbb8af7b59052bcaaf0571a3d81a4c4302da380dc0170060c1ab2dbd35"
     },
     {
-      "path": "组件库/组件/m09_media_board.py",
+      "path": "components/modules/m09_media_board.py",
       "sha256": "53f95115ac4f0e43f4eab3f426739d86e2a02f089bcf99ac106ee50cc97b16c4"
     },
     {
-      "path": "组件库/组件/m10_media_overlay.py",
+      "path": "components/modules/m10_media_overlay.py",
       "sha256": "22fb01ad38a42a28ce6487f59afa58f8029068bce58223baadd53421496047bc"
     },
     {
-      "path": "组件库/组件/m11_storyboard.py",
+      "path": "components/modules/m11_storyboard.py",
       "sha256": "0d58423ce564be47dfe33e97b6ff12d68c607fb16348377661e9ffa4599419d0"
     },
     {
-      "path": "组件库/组件/m12_smash.py",
+      "path": "components/modules/m12_smash.py",
       "sha256": "e39ef93ca0e28290677c7531b689b086ff313cdf46fe25a706761073984db59a"
     },
     {
-      "path": "组件库/组件/m13_badge.py",
+      "path": "components/modules/m13_badge.py",
       "sha256": "1d94d9600a9ae7f7b6cdac5e12456411e06f43146ebd4247b4b990999fef1105"
     },
     {
-      "path": "组件库/组件/m14_pipeline.py",
+      "path": "components/modules/m14_pipeline.py",
       "sha256": "52ae991876d879f082de06cdead9ace5968b3d68ea8d37de67c14b77449449a7"
     },
     {
-      "path": "组件库/组件/m15_nav.py",
+      "path": "components/modules/m15_nav.py",
       "sha256": "4903cbe20b121b491392f90077c418ab7ccfed4697fc89b1b1254c8880b31891"
     },
     {
-      "path": "组件库/预览/封面/01-title.png",
-      "sha256": "b5b262ba091017d66c1353136a598d1b80c8ffee98f97043c51fe387df389718"
-    },
-    {
-      "path": "组件库/预览/封面/02-media-flip.png",
-      "sha256": "52a7083553a0c956e64133034b8c12a478d60823341effb63797d38835f1ad53"
-    },
-    {
-      "path": "组件库/预览/封面/03-grid.png",
-      "sha256": "c37ee0133cdb9ae7599df5b22ec31464241d4a1ee5c9e74abcd07f155cb803b2"
-    },
-    {
-      "path": "组件库/预览/封面/04-browser.png",
-      "sha256": "d5b32cdaf702ea28f077234230c21dfa54387d7766face41249a4c4daa29d70d"
-    },
-    {
-      "path": "组件库/预览/封面/05-chapter.png",
-      "sha256": "e3b39b14bb7864b9a314468bfac2553f54192a4aeb3d54d60a1cf6ee86942b31"
-    },
-    {
-      "path": "组件库/预览/封面/06-fan.png",
-      "sha256": "a43b777c67618df5c24f55ab0d95c5055c0ff868b1c222561191a90ed7a589e8"
-    },
-    {
-      "path": "组件库/预览/封面/07-takeaway.png",
-      "sha256": "79fd08e78e11180b8b426b82cb8fdbda9d4140a6c0d03e1f6df93fb53ec7b09e"
-    },
-    {
-      "path": "组件库/预览/封面/08-nodes.png",
-      "sha256": "ba678891edb4d9f2d848ed0634688832dc759d99222b4edd83aa2ce3af7395de"
-    },
-    {
-      "path": "组件库/预览/封面/09-media-board.png",
-      "sha256": "71c7b8bcac89b1a2cdc748045a565979b83ef97da8971d22987441743422c2e8"
-    },
-    {
-      "path": "组件库/预览/封面/10-media-overlay.png",
-      "sha256": "c67a4d8a6ae2221fb6e52ad3d4db86768fa35618629559599835479c05b3e33f"
-    },
-    {
-      "path": "组件库/预览/封面/11-storyboard.png",
-      "sha256": "dad6ad6071fbcb55426f3780be23237805bf85a4f3466de39233716ff3e93643"
-    },
-    {
-      "path": "组件库/预览/封面/12-smash.png",
-      "sha256": "c911070f5dbec037a9e464588ca56861d93a91c4a18e79623c91e9ab46209cdb"
-    },
-    {
-      "path": "组件库/预览/封面/13-badge.png",
-      "sha256": "2c806823c68c43a729c4798fd47a0198db740d747aafef2fa3ce6fa9f98e4fd8"
-    },
-    {
-      "path": "组件库/预览/封面/14-pipeline.png",
-      "sha256": "2cb65ff23fffaf9927fc66e7fefe33b62734aa731212a4ce24cc8dfca7ac053c"
-    },
-    {
-      "path": "组件库/预览/封面/15-nav.png",
-      "sha256": "ab94c4b30bc20053323d3481b3a632d890907f0bcfa267e1f19cb09fad6cd63d"
-    },
-    {
-      "path": "组件库/预览/片段/01-会议行动清单.mp4",
-      "sha256": "39e4314c258e417f96b1bb5f52a20d1d293b1ff52564137345c300b61501eeb0"
-    },
-    {
-      "path": "组件库/预览/片段/02-活动准备五卡.mp4",
-      "sha256": "76972646e8775a9da3511d05601ef2755736e0f5da0099e23e73903aad923ea0"
-    },
-    {
-      "path": "组件库/预览/片段/03-资料双层翻页.mp4",
-      "sha256": "3b4baae9dd4adfbd527909116366ab41f4819dc78328ffdb205358d0fb791652"
-    },
-    {
-      "path": "组件库/预览/片段/04-三步活动故事板.mp4",
-      "sha256": "7f88879987a3b9a2b3f0837ebb99d554ac3474b93508ace3e0b5ade6218d179d"
-    },
-    {
-      "path": "组件库/预览/片段/05-准备完成描勾.mp4",
-      "sha256": "2f5e8efbf0fa9b78f310c231fcad924deee6a9f92e6fac0c00e17e36d3ba49ca"
-    },
-    {
-      "path": "组件库/预览/验证/01-title-default.mp4",
-      "sha256": "21247d97e9cffe4e92122b2cd083716582b1aab070a8c41a7427f12a220acdae"
-    },
-    {
-      "path": "组件库/预览/验证/01-title-long.mp4",
-      "sha256": "d2dc9f70fb7f62f3c9053fc8d37be5f0da24f6bd52b9ebac6dd0c1a64044a23f"
-    },
-    {
-      "path": "组件库/预览/验证/01-title-short.mp4",
-      "sha256": "12ea51093dff2f9579814a2d5a20f473c5d553ee40586fafdf6443ad1ea4bcae"
-    },
-    {
-      "path": "组件库/预览/验证/02-media-flip-default.mp4",
-      "sha256": "438640842f132726692c0d475c9b0db91e3921aa779f7238a35eb66e782c5132"
-    },
-    {
-      "path": "组件库/预览/验证/02-media-flip-long.mp4",
-      "sha256": "4f88bb060d8c21ea2725049210f860609c5add65231e701696ab594248781937"
-    },
-    {
-      "path": "组件库/预览/验证/02-media-flip-short.mp4",
-      "sha256": "5b608eba5d3a919117908329e8a8aa87c8f15e0b55753b77f3b58a801e98acb5"
-    },
-    {
-      "path": "组件库/预览/验证/03-grid-default.mp4",
-      "sha256": "1ef28105d0998d88423f120c0582c9dd48ddde5526be1382a55ccc00e8d1c7e3"
-    },
-    {
-      "path": "组件库/预览/验证/03-grid-long.mp4",
-      "sha256": "2ca9f4cf1c514885e3e2c8c8d462284d5f7c691ade55c4f0674ce69be2f2b430"
-    },
-    {
-      "path": "组件库/预览/验证/03-grid-short.mp4",
-      "sha256": "5085995d9347d162e4624bc9717c061359d8c41d26eddfa40331ea02d499efc1"
-    },
-    {
-      "path": "组件库/预览/验证/04-browser-default.mp4",
-      "sha256": "3b7f947742fc4f0be73ed98673517f576e52cef8356498d5ecd33b973abd6358"
-    },
-    {
-      "path": "组件库/预览/验证/04-browser-long.mp4",
-      "sha256": "6aabc273d7624a8863351a367895125b0b078571508696be7d7bacc1731f46df"
-    },
-    {
-      "path": "组件库/预览/验证/04-browser-short.mp4",
-      "sha256": "9025428402f4cd8287c6379528e4961ab551cff4b0b62c0ab977f266eae7420a"
-    },
-    {
-      "path": "组件库/预览/验证/05-chapter-default.mp4",
-      "sha256": "678e5b3b06ac5ec9226248965230078b45e2797124d3c4b6dc3fa1b2153ee538"
-    },
-    {
-      "path": "组件库/预览/验证/05-chapter-long.mp4",
-      "sha256": "abbdf5e737a477032dddccf83741754c041897a92bc3b7f6fe5ff135b60920d9"
-    },
-    {
-      "path": "组件库/预览/验证/05-chapter-short.mp4",
-      "sha256": "735b377728f63a21f0fc07696f1d7d4d2415f0bd69880cae86eac15ec759ef99"
-    },
-    {
-      "path": "组件库/预览/验证/06-fan-default.mp4",
-      "sha256": "76972646e8775a9da3511d05601ef2755736e0f5da0099e23e73903aad923ea0"
-    },
-    {
-      "path": "组件库/预览/验证/06-fan-long.mp4",
-      "sha256": "c2f9ba41b4ad8ef77fdbed09d819e1187e611fd28cc10b40977701d5028bff01"
-    },
-    {
-      "path": "组件库/预览/验证/06-fan-short.mp4",
-      "sha256": "3f3927229a44204ec181c279889ee4026c174343ca924a20d133c2454cf1d49f"
-    },
-    {
-      "path": "组件库/预览/验证/07-takeaway-default.mp4",
-      "sha256": "3b4baae9dd4adfbd527909116366ab41f4819dc78328ffdb205358d0fb791652"
-    },
-    {
-      "path": "组件库/预览/验证/07-takeaway-long.mp4",
-      "sha256": "422185b422a6cc4a6a79fac80159e1bf10a03757a6af0f5a15a04ca441813451"
-    },
-    {
-      "path": "组件库/预览/验证/07-takeaway-short.mp4",
-      "sha256": "99e9e98d9a34c0aeb18254cecda7f4b4173f08b279be8b7234e1db01782546f5"
-    },
-    {
-      "path": "组件库/预览/验证/08-nodes-default.mp4",
-      "sha256": "31fec37e1d30f7e2a05c1189374a51fac75f744cc81b1b1818d0dd9d009b2543"
-    },
-    {
-      "path": "组件库/预览/验证/08-nodes-long.mp4",
-      "sha256": "380f11d4d2c734a53714027c90ed25f526cb9b51ed7e93a0bb159cd1cd2a107a"
-    },
-    {
-      "path": "组件库/预览/验证/08-nodes-short.mp4",
-      "sha256": "49d79146a5270471c10fb75d75572e556f176c183dc2f44d9b66ff15c4b996c5"
-    },
-    {
-      "path": "组件库/预览/验证/09-media-board-default.mp4",
-      "sha256": "da9eaa4b3d5009c956c41ea9db8ad6cf650e7df6b154c9d46416ad4b6df68fdf"
-    },
-    {
-      "path": "组件库/预览/验证/09-media-board-long.mp4",
-      "sha256": "2d6f2328a2cc92d4008638a002e5460d7e89e66524a5553dd52e18b0a62b69fe"
-    },
-    {
-      "path": "组件库/预览/验证/09-media-board-short.mp4",
-      "sha256": "9be0dc2012adae7aecfb8e88d81bf5016ac6ae2a68e85b6c5244a2c678994aaa"
-    },
-    {
-      "path": "组件库/预览/验证/10-media-overlay-default.mp4",
-      "sha256": "2eaa4e69f447fdfab0f6f464b05293aa2f15a9da608e8afb79eb9ca3b5ffbf4a"
-    },
-    {
-      "path": "组件库/预览/验证/10-media-overlay-long.mp4",
-      "sha256": "7a0af74ab1bb0578d6fd78997fbf7e0ac96f7b8af901caf1d5e220c4c7570ea8"
-    },
-    {
-      "path": "组件库/预览/验证/10-media-overlay-short.mp4",
-      "sha256": "3d8d1ab14c742a141298102128274c38cf9f942bfce4c7d4091567e70fd1a9a7"
-    },
-    {
-      "path": "组件库/预览/验证/11-storyboard-default.mp4",
-      "sha256": "210ff3ddeae2e34de397d1c0f45da299164e5a7c339d5742c7e32a39444d0b7b"
-    },
-    {
-      "path": "组件库/预览/验证/11-storyboard-long.mp4",
-      "sha256": "a1f6f2490a14cb57ee7052e0adfcc43310d15e307c18dc276cfde5e45777b760"
-    },
-    {
-      "path": "组件库/预览/验证/11-storyboard-short.mp4",
-      "sha256": "b80707f5423c173dd65bb3fbc655586d935b2ddafec86d21c09eb3d330807363"
-    },
-    {
-      "path": "组件库/预览/验证/12-smash-default.mp4",
-      "sha256": "187f4210ac4996d1f5bfe443b6ef419b59019925a95a57e5b61676b58882094c"
-    },
-    {
-      "path": "组件库/预览/验证/12-smash-long.mp4",
-      "sha256": "348ef348e466c5d2232bfdbb52f8272336050244a2c9b4f79df4df962e591926"
-    },
-    {
-      "path": "组件库/预览/验证/12-smash-short.mp4",
-      "sha256": "65c2ae8a5b40f2200e0b51b31bd06b9ae0106f0067cf4155bea132d25736a831"
-    },
-    {
-      "path": "组件库/预览/验证/13-badge-default.mp4",
-      "sha256": "1e449e2283375e98d4c5cc2ee1e69bb4eaaa746daf6a793cc0befc6fb8aebc8f"
-    },
-    {
-      "path": "组件库/预览/验证/13-badge-long.mp4",
-      "sha256": "479dba7fe9889ea4253a49dd6dff7b4f9d24bc116dea7c42204f8fa791bbadaf"
-    },
-    {
-      "path": "组件库/预览/验证/13-badge-short.mp4",
-      "sha256": "f27b22d7f22b6d4c747fa75aad30620197d4755e9a578e04d0df0aedd801d415"
-    },
-    {
-      "path": "组件库/预览/验证/14-pipeline-default.mp4",
-      "sha256": "eea3857639f5ba23e5dc3ed2c68b06b83e977c18adb4bd6978a7306d280543e0"
-    },
-    {
-      "path": "组件库/预览/验证/14-pipeline-long.mp4",
-      "sha256": "655e763645643a6552d5e414805607bd0cd7ebbdb4acd5c6d7ec8fc41a4cb784"
-    },
-    {
-      "path": "组件库/预览/验证/14-pipeline-short.mp4",
-      "sha256": "b4fd69c08ce6ec1f3261ecec49423d9697adf3ed95df8ad0cef5e88f6737ae52"
-    },
-    {
-      "path": "组件库/预览/验证/15-nav-default.mp4",
-      "sha256": "017aaa4cca36f9b33f0339acc5e43d6b3927e24b3de4c29e0ca5aca439afa1e8"
-    },
-    {
-      "path": "组件库/预览/验证/15-nav-long.mp4",
-      "sha256": "276e1f985341ace82ab08b4d5425bff1e893343096591cbe74ffcadd09f4636a"
-    },
-    {
-      "path": "组件库/预览/验证/15-nav-short.mp4",
-      "sha256": "1be6548ed1cf2d11d98bcace71c69fb2cd7a1cec1c1d587c56df44feea97398f"
-    },
-    {
-      "path": "组件库/预览.html",
-      "sha256": "5a41a1cf474f860de7e1d6b13f75dbf1aed1053f858e1f2fe741974f3bbccff1"
-    },
-    {
-      "path": "组件库/预设/01-title.json",
+      "path": "components/presets/01-title.json",
       "sha256": "b7b37140892430560ac9dcfc8a04e983bbb3bc43b1ca296f551189a34be89e53"
     },
     {
-      "path": "组件库/预设/02-media-flip.json",
+      "path": "components/presets/02-media-flip.json",
       "sha256": "3f43d928f56856a192743d7b80871209df68b8846c0e08c52402f9d7510194d2"
     },
     {
-      "path": "组件库/预设/03-grid.json",
+      "path": "components/presets/03-grid.json",
       "sha256": "aee34395255729fe6be25ac234215bb696d4d17bb90faf7eb3f573d90a63a246"
     },
     {
-      "path": "组件库/预设/04-browser.json",
+      "path": "components/presets/04-browser.json",
       "sha256": "a4110a01e25b870a593f6d8396921af9e7b0d3e23cf2e1d538615a57988d040d"
     },
     {
-      "path": "组件库/预设/05-chapter.json",
+      "path": "components/presets/05-chapter.json",
       "sha256": "df02fefccc50df9aa93da749afda9716c80a2e0f55be66aef2636a53f5765bc6"
     },
     {
-      "path": "组件库/预设/06-fan.json",
+      "path": "components/presets/06-fan.json",
       "sha256": "c11d29c8433aa96361f93eb9d9cfb5e00430fd8d617e7924a1b342465bac1db6"
     },
     {
-      "path": "组件库/预设/07-takeaway.json",
+      "path": "components/presets/07-takeaway.json",
       "sha256": "e61c9009174b68d25e0919dfaa4c837613a3ac532a025c776e20b8547c3c0f01"
     },
     {
-      "path": "组件库/预设/08-nodes.json",
+      "path": "components/presets/08-nodes.json",
       "sha256": "ae68b7f6cd591982001356a4855b9bc7bf2fdd3646eb8b20a4be9ceb8c40009b"
     },
     {
-      "path": "组件库/预设/09-media-board.json",
+      "path": "components/presets/09-media-board.json",
       "sha256": "9f4c36322724e45f478357bef7fef3929cddccafdfad419d740fbaa8979b2466"
     },
     {
-      "path": "组件库/预设/10-media-overlay.json",
+      "path": "components/presets/10-media-overlay.json",
       "sha256": "1b9eed5463d372b21450f0bc1fdf31f83c494306802abed5b42c6ee8a23adf9d"
     },
     {
-      "path": "组件库/预设/11-storyboard.json",
+      "path": "components/presets/11-storyboard.json",
       "sha256": "04a8a17fce4a53be4ecfe019f1ca9b409955f0fd9656892c532871343a58e9dd"
     },
     {
-      "path": "组件库/预设/12-smash.json",
+      "path": "components/presets/12-smash.json",
       "sha256": "1cc6fe84bcb5b3b97f8b3c1da2eba7433c423f56f15c469ddafb9b1922b724c4"
     },
     {
-      "path": "组件库/预设/13-badge.json",
+      "path": "components/presets/13-badge.json",
       "sha256": "d61f48699094dce2165164a8760bcbe7a1e5cba5ed3b95effa4ef270ffa05495"
     },
     {
-      "path": "组件库/预设/14-pipeline.json",
+      "path": "components/presets/14-pipeline.json",
       "sha256": "7613219b8d326872629db418c255276d85a4309d5276a6a709a05a4ad4898a2b"
     },
     {
-      "path": "组件库/预设/15-nav.json",
+      "path": "components/presets/15-nav.json",
       "sha256": "73b842e362689179b99829489b1f92b39152a5b243b6dd723744ef9f8f2e93c6"
     },
     {
-      "path": "组件库/验证结果.json",
-      "sha256": "97ecb9feff42ebf62080ab1f713b5fa5395df96eddcd7288ae1a7223e84b24d1"
+      "path": "components/previews/clips/01-会议行动清单.mp4",
+      "sha256": "39e4314c258e417f96b1bb5f52a20d1d293b1ff52564137345c300b61501eeb0"
     },
     {
-      "path": "编辑器.html",
-      "sha256": "8d2c70d0a4633d53a8854c0f9a51d85da4c29aff3c6e06cdc1ce80191cffe885"
+      "path": "components/previews/clips/02-活动准备五卡.mp4",
+      "sha256": "76972646e8775a9da3511d05601ef2755736e0f5da0099e23e73903aad923ea0"
     },
     {
-      "path": "预览/通用示例.mp4",
+      "path": "components/previews/clips/03-资料双层翻页.mp4",
+      "sha256": "3b4baae9dd4adfbd527909116366ab41f4819dc78328ffdb205358d0fb791652"
+    },
+    {
+      "path": "components/previews/clips/04-三步活动故事板.mp4",
+      "sha256": "7f88879987a3b9a2b3f0837ebb99d554ac3474b93508ace3e0b5ade6218d179d"
+    },
+    {
+      "path": "components/previews/clips/05-准备完成描勾.mp4",
+      "sha256": "2f5e8efbf0fa9b78f310c231fcad924deee6a9f92e6fac0c00e17e36d3ba49ca"
+    },
+    {
+      "path": "components/previews/covers/01-title.png",
+      "sha256": "b5b262ba091017d66c1353136a598d1b80c8ffee98f97043c51fe387df389718"
+    },
+    {
+      "path": "components/previews/covers/02-media-flip.png",
+      "sha256": "52a7083553a0c956e64133034b8c12a478d60823341effb63797d38835f1ad53"
+    },
+    {
+      "path": "components/previews/covers/03-grid.png",
+      "sha256": "c37ee0133cdb9ae7599df5b22ec31464241d4a1ee5c9e74abcd07f155cb803b2"
+    },
+    {
+      "path": "components/previews/covers/04-browser.png",
+      "sha256": "d5b32cdaf702ea28f077234230c21dfa54387d7766face41249a4c4daa29d70d"
+    },
+    {
+      "path": "components/previews/covers/05-chapter.png",
+      "sha256": "e3b39b14bb7864b9a314468bfac2553f54192a4aeb3d54d60a1cf6ee86942b31"
+    },
+    {
+      "path": "components/previews/covers/06-fan.png",
+      "sha256": "a43b777c67618df5c24f55ab0d95c5055c0ff868b1c222561191a90ed7a589e8"
+    },
+    {
+      "path": "components/previews/covers/07-takeaway.png",
+      "sha256": "79fd08e78e11180b8b426b82cb8fdbda9d4140a6c0d03e1f6df93fb53ec7b09e"
+    },
+    {
+      "path": "components/previews/covers/08-nodes.png",
+      "sha256": "ba678891edb4d9f2d848ed0634688832dc759d99222b4edd83aa2ce3af7395de"
+    },
+    {
+      "path": "components/previews/covers/09-media-board.png",
+      "sha256": "71c7b8bcac89b1a2cdc748045a565979b83ef97da8971d22987441743422c2e8"
+    },
+    {
+      "path": "components/previews/covers/10-media-overlay.png",
+      "sha256": "c67a4d8a6ae2221fb6e52ad3d4db86768fa35618629559599835479c05b3e33f"
+    },
+    {
+      "path": "components/previews/covers/11-storyboard.png",
+      "sha256": "dad6ad6071fbcb55426f3780be23237805bf85a4f3466de39233716ff3e93643"
+    },
+    {
+      "path": "components/previews/covers/12-smash.png",
+      "sha256": "c911070f5dbec037a9e464588ca56861d93a91c4a18e79623c91e9ab46209cdb"
+    },
+    {
+      "path": "components/previews/covers/13-badge.png",
+      "sha256": "2c806823c68c43a729c4798fd47a0198db740d747aafef2fa3ce6fa9f98e4fd8"
+    },
+    {
+      "path": "components/previews/covers/14-pipeline.png",
+      "sha256": "2cb65ff23fffaf9927fc66e7fefe33b62734aa731212a4ce24cc8dfca7ac053c"
+    },
+    {
+      "path": "components/previews/covers/15-nav.png",
+      "sha256": "ab94c4b30bc20053323d3481b3a632d890907f0bcfa267e1f19cb09fad6cd63d"
+    },
+    {
+      "path": "components/previews/validation/01-title-default.mp4",
+      "sha256": "21247d97e9cffe4e92122b2cd083716582b1aab070a8c41a7427f12a220acdae"
+    },
+    {
+      "path": "components/previews/validation/01-title-long.mp4",
+      "sha256": "d2dc9f70fb7f62f3c9053fc8d37be5f0da24f6bd52b9ebac6dd0c1a64044a23f"
+    },
+    {
+      "path": "components/previews/validation/01-title-short.mp4",
+      "sha256": "12ea51093dff2f9579814a2d5a20f473c5d553ee40586fafdf6443ad1ea4bcae"
+    },
+    {
+      "path": "components/previews/validation/02-media-flip-default.mp4",
+      "sha256": "438640842f132726692c0d475c9b0db91e3921aa779f7238a35eb66e782c5132"
+    },
+    {
+      "path": "components/previews/validation/02-media-flip-long.mp4",
+      "sha256": "4f88bb060d8c21ea2725049210f860609c5add65231e701696ab594248781937"
+    },
+    {
+      "path": "components/previews/validation/02-media-flip-short.mp4",
+      "sha256": "5b608eba5d3a919117908329e8a8aa87c8f15e0b55753b77f3b58a801e98acb5"
+    },
+    {
+      "path": "components/previews/validation/03-grid-default.mp4",
+      "sha256": "1ef28105d0998d88423f120c0582c9dd48ddde5526be1382a55ccc00e8d1c7e3"
+    },
+    {
+      "path": "components/previews/validation/03-grid-long.mp4",
+      "sha256": "2ca9f4cf1c514885e3e2c8c8d462284d5f7c691ade55c4f0674ce69be2f2b430"
+    },
+    {
+      "path": "components/previews/validation/03-grid-short.mp4",
+      "sha256": "5085995d9347d162e4624bc9717c061359d8c41d26eddfa40331ea02d499efc1"
+    },
+    {
+      "path": "components/previews/validation/04-browser-default.mp4",
+      "sha256": "3b7f947742fc4f0be73ed98673517f576e52cef8356498d5ecd33b973abd6358"
+    },
+    {
+      "path": "components/previews/validation/04-browser-long.mp4",
+      "sha256": "6aabc273d7624a8863351a367895125b0b078571508696be7d7bacc1731f46df"
+    },
+    {
+      "path": "components/previews/validation/04-browser-short.mp4",
+      "sha256": "9025428402f4cd8287c6379528e4961ab551cff4b0b62c0ab977f266eae7420a"
+    },
+    {
+      "path": "components/previews/validation/05-chapter-default.mp4",
+      "sha256": "678e5b3b06ac5ec9226248965230078b45e2797124d3c4b6dc3fa1b2153ee538"
+    },
+    {
+      "path": "components/previews/validation/05-chapter-long.mp4",
+      "sha256": "abbdf5e737a477032dddccf83741754c041897a92bc3b7f6fe5ff135b60920d9"
+    },
+    {
+      "path": "components/previews/validation/05-chapter-short.mp4",
+      "sha256": "735b377728f63a21f0fc07696f1d7d4d2415f0bd69880cae86eac15ec759ef99"
+    },
+    {
+      "path": "components/previews/validation/06-fan-default.mp4",
+      "sha256": "76972646e8775a9da3511d05601ef2755736e0f5da0099e23e73903aad923ea0"
+    },
+    {
+      "path": "components/previews/validation/06-fan-long.mp4",
+      "sha256": "c2f9ba41b4ad8ef77fdbed09d819e1187e611fd28cc10b40977701d5028bff01"
+    },
+    {
+      "path": "components/previews/validation/06-fan-short.mp4",
+      "sha256": "3f3927229a44204ec181c279889ee4026c174343ca924a20d133c2454cf1d49f"
+    },
+    {
+      "path": "components/previews/validation/07-takeaway-default.mp4",
+      "sha256": "3b4baae9dd4adfbd527909116366ab41f4819dc78328ffdb205358d0fb791652"
+    },
+    {
+      "path": "components/previews/validation/07-takeaway-long.mp4",
+      "sha256": "422185b422a6cc4a6a79fac80159e1bf10a03757a6af0f5a15a04ca441813451"
+    },
+    {
+      "path": "components/previews/validation/07-takeaway-short.mp4",
+      "sha256": "99e9e98d9a34c0aeb18254cecda7f4b4173f08b279be8b7234e1db01782546f5"
+    },
+    {
+      "path": "components/previews/validation/08-nodes-default.mp4",
+      "sha256": "31fec37e1d30f7e2a05c1189374a51fac75f744cc81b1b1818d0dd9d009b2543"
+    },
+    {
+      "path": "components/previews/validation/08-nodes-long.mp4",
+      "sha256": "380f11d4d2c734a53714027c90ed25f526cb9b51ed7e93a0bb159cd1cd2a107a"
+    },
+    {
+      "path": "components/previews/validation/08-nodes-short.mp4",
+      "sha256": "49d79146a5270471c10fb75d75572e556f176c183dc2f44d9b66ff15c4b996c5"
+    },
+    {
+      "path": "components/previews/validation/09-media-board-default.mp4",
+      "sha256": "da9eaa4b3d5009c956c41ea9db8ad6cf650e7df6b154c9d46416ad4b6df68fdf"
+    },
+    {
+      "path": "components/previews/validation/09-media-board-long.mp4",
+      "sha256": "2d6f2328a2cc92d4008638a002e5460d7e89e66524a5553dd52e18b0a62b69fe"
+    },
+    {
+      "path": "components/previews/validation/09-media-board-short.mp4",
+      "sha256": "9be0dc2012adae7aecfb8e88d81bf5016ac6ae2a68e85b6c5244a2c678994aaa"
+    },
+    {
+      "path": "components/previews/validation/10-media-overlay-default.mp4",
+      "sha256": "2eaa4e69f447fdfab0f6f464b05293aa2f15a9da608e8afb79eb9ca3b5ffbf4a"
+    },
+    {
+      "path": "components/previews/validation/10-media-overlay-long.mp4",
+      "sha256": "7a0af74ab1bb0578d6fd78997fbf7e0ac96f7b8af901caf1d5e220c4c7570ea8"
+    },
+    {
+      "path": "components/previews/validation/10-media-overlay-short.mp4",
+      "sha256": "3d8d1ab14c742a141298102128274c38cf9f942bfce4c7d4091567e70fd1a9a7"
+    },
+    {
+      "path": "components/previews/validation/11-storyboard-default.mp4",
+      "sha256": "210ff3ddeae2e34de397d1c0f45da299164e5a7c339d5742c7e32a39444d0b7b"
+    },
+    {
+      "path": "components/previews/validation/11-storyboard-long.mp4",
+      "sha256": "a1f6f2490a14cb57ee7052e0adfcc43310d15e307c18dc276cfde5e45777b760"
+    },
+    {
+      "path": "components/previews/validation/11-storyboard-short.mp4",
+      "sha256": "b80707f5423c173dd65bb3fbc655586d935b2ddafec86d21c09eb3d330807363"
+    },
+    {
+      "path": "components/previews/validation/12-smash-default.mp4",
+      "sha256": "187f4210ac4996d1f5bfe443b6ef419b59019925a95a57e5b61676b58882094c"
+    },
+    {
+      "path": "components/previews/validation/12-smash-long.mp4",
+      "sha256": "348ef348e466c5d2232bfdbb52f8272336050244a2c9b4f79df4df962e591926"
+    },
+    {
+      "path": "components/previews/validation/12-smash-short.mp4",
+      "sha256": "65c2ae8a5b40f2200e0b51b31bd06b9ae0106f0067cf4155bea132d25736a831"
+    },
+    {
+      "path": "components/previews/validation/13-badge-default.mp4",
+      "sha256": "1e449e2283375e98d4c5cc2ee1e69bb4eaaa746daf6a793cc0befc6fb8aebc8f"
+    },
+    {
+      "path": "components/previews/validation/13-badge-long.mp4",
+      "sha256": "479dba7fe9889ea4253a49dd6dff7b4f9d24bc116dea7c42204f8fa791bbadaf"
+    },
+    {
+      "path": "components/previews/validation/13-badge-short.mp4",
+      "sha256": "f27b22d7f22b6d4c747fa75aad30620197d4755e9a578e04d0df0aedd801d415"
+    },
+    {
+      "path": "components/previews/validation/14-pipeline-default.mp4",
+      "sha256": "eea3857639f5ba23e5dc3ed2c68b06b83e977c18adb4bd6978a7306d280543e0"
+    },
+    {
+      "path": "components/previews/validation/14-pipeline-long.mp4",
+      "sha256": "655e763645643a6552d5e414805607bd0cd7ebbdb4acd5c6d7ec8fc41a4cb784"
+    },
+    {
+      "path": "components/previews/validation/14-pipeline-short.mp4",
+      "sha256": "b4fd69c08ce6ec1f3261ecec49423d9697adf3ed95df8ad0cef5e88f6737ae52"
+    },
+    {
+      "path": "components/previews/validation/15-nav-default.mp4",
+      "sha256": "017aaa4cca36f9b33f0339acc5e43d6b3927e24b3de4c29e0ca5aca439afa1e8"
+    },
+    {
+      "path": "components/previews/validation/15-nav-long.mp4",
+      "sha256": "276e1f985341ace82ab08b4d5425bff1e893343096591cbe74ffcadd09f4636a"
+    },
+    {
+      "path": "components/previews/validation/15-nav-short.mp4",
+      "sha256": "1be6548ed1cf2d11d98bcace71c69fb2cd7a1cec1c1d587c56df44feea97398f"
+    },
+    {
+      "path": "components/runtime.py",
+      "sha256": "322f18061f3687eb6c4aad0a42cd067e92fc27ef2319fd0da6f316036de0f7fa"
+    },
+    {
+      "path": "components/sample-configs/01-会议行动清单.json",
+      "sha256": "98b97f0f80115d5f6dfd9235d5c682960cbe21f99b173f38b4665c0cd3f76e17"
+    },
+    {
+      "path": "components/sample-configs/02-活动准备五卡.json",
+      "sha256": "631a29611f68f45c0a7e9ed4b10f971bec78b16a351b7448b1a554dba6876c21"
+    },
+    {
+      "path": "components/sample-configs/03-资料双层翻页.json",
+      "sha256": "f3e33dad2d7ec76cdfbf346920e941636395bbfc88296547fada55ac9850dd6a"
+    },
+    {
+      "path": "components/sample-configs/04-三步活动故事板.json",
+      "sha256": "118ba41e24290795b91c3fb7e0489579c87f0f440747c8cf3faddca9f1b4ee94"
+    },
+    {
+      "path": "components/sample-configs/05-准备完成描勾.json",
+      "sha256": "6ea98381a66a9580c68ff2e5f7f7df36f4065394c483fc67a3e97f9f83561d24"
+    },
+    {
+      "path": "components/shared/fonts/NotoSansSC.ttf",
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    },
+    {
+      "path": "components/shared/fonts/OFL.txt",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "components/shared/placeholders/audio.svg",
+      "sha256": "60100b7af99eca57a92f82b203fdb986593b2e94a236fd7294b2e35d79694753"
+    },
+    {
+      "path": "components/shared/placeholders/background.svg",
+      "sha256": "fbba848539193c6249a18e856068555bdf1f19ff7a2587ac08a17839de5d36c7"
+    },
+    {
+      "path": "components/shared/placeholders/document.svg",
+      "sha256": "3ab7b168c843d973d9bf297387083939fa9e23d1ada9249509bc8abff3fc8df3"
+    },
+    {
+      "path": "components/shared/placeholders/filmstrip.svg",
+      "sha256": "6bf016d3361082daecd3d1c1e5619a16fa428865831aadcf1bf28e15fb0a596c"
+    },
+    {
+      "path": "components/shared/placeholders/idea.svg",
+      "sha256": "69a0310a9cebfa2764074fdf7162d2635836a9f0a5a3957f8a8f0950375dc6f5"
+    },
+    {
+      "path": "components/shared/placeholders/image.svg",
+      "sha256": "99ccac1211c63662609dd489f344d88cf40609b14ba427193d181279f5715f50"
+    },
+    {
+      "path": "components/shared/placeholders/poster.svg",
+      "sha256": "60191ef116c0e04d3f6adfdeb9c62558132845cfbf34a03d76c736cd66321fba"
+    },
+    {
+      "path": "components/shared/placeholders/screen.svg",
+      "sha256": "8f7d29ee9177ae512168a2374a9d91fce561f914f93c4a0ee34f6a14626a691c"
+    },
+    {
+      "path": "components/shared/placeholders/video.svg",
+      "sha256": "4d7a8c204cdc585ea1258f2889046433bab23047ea0e379477361dde5981793d"
+    },
+    {
+      "path": "components/shared/runtime/diagonal-peel.js",
+      "sha256": "1fc15a7fd7a1275bb2cb3419c3f8011807be779bdd5bbc5b6db7002981869bdd"
+    },
+    {
+      "path": "components/shared/vendor/gsap.min.js",
+      "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+    },
+    {
+      "path": "components/tests/test_components.py",
+      "sha256": "5a50011863619a23ab1169f12d903c0ce14b287db5bf154d7458cd62f817bf2b"
+    },
+    {
+      "path": "components/variants/01-title-default.json",
+      "sha256": "b77a0c948770c459a20ab942418a36e8fad695f6c5564cf7fcfb6fdeab2e92f8"
+    },
+    {
+      "path": "components/variants/01-title-long.json",
+      "sha256": "4e9d9f69b302a931955646b32f231178f350e5fbdb9fade0e6adb7ae266262bd"
+    },
+    {
+      "path": "components/variants/01-title-short.json",
+      "sha256": "5a39bab61c370dbd5e8afb7d3e892d3562f056a9ab09b22e997ee6542e65db69"
+    },
+    {
+      "path": "components/variants/02-media-flip-default.json",
+      "sha256": "a592fd614cd948c06740cef17c76e8b485c2776e13e805540c63452bb0888975"
+    },
+    {
+      "path": "components/variants/02-media-flip-long.json",
+      "sha256": "b902fd9653fafe7f36113c311c7fb7ad33298af821fda575c07542065b2bce88"
+    },
+    {
+      "path": "components/variants/02-media-flip-short.json",
+      "sha256": "6d0868139f92717b1567c8f5da0c1a1411f2ceb1be626aa82db63104bb1503f4"
+    },
+    {
+      "path": "components/variants/03-grid-default.json",
+      "sha256": "e9d7d4082c0a4fd42faca445d25df09ab097fe9bf9d57024404954122d54969a"
+    },
+    {
+      "path": "components/variants/03-grid-long.json",
+      "sha256": "e0ca5a071939c6c6889c3489d294f3940889f266a1d7b27b9db6290df943a2be"
+    },
+    {
+      "path": "components/variants/03-grid-short.json",
+      "sha256": "939cf09a06a8380fc55dac7b00d378365c170712f639b34c71112354f63849c4"
+    },
+    {
+      "path": "components/variants/04-browser-default.json",
+      "sha256": "e21b3bd8748009bf5c6a05df5a650cc9ec399b83f351824025ce38ddf171223d"
+    },
+    {
+      "path": "components/variants/04-browser-long.json",
+      "sha256": "af2fe18bf0b4c341de6df906c59c49f02585b4b46cdcf14e9637df1319b285d2"
+    },
+    {
+      "path": "components/variants/04-browser-short.json",
+      "sha256": "e3ec57dec40c7c8977299fbc58fcebd6a1182675edd194034ea723cf3d4d306f"
+    },
+    {
+      "path": "components/variants/05-chapter-default.json",
+      "sha256": "4866609bbed6ceaa18888af27d0ab58e336cdc05511607e16c6030583930dc2f"
+    },
+    {
+      "path": "components/variants/05-chapter-long.json",
+      "sha256": "1a544daca2ff31906397df26599cb10eb89c66d4172fbf3976d3dffca91d6ba7"
+    },
+    {
+      "path": "components/variants/05-chapter-short.json",
+      "sha256": "76931fcd94438026f53cfe2f9299799551b73e5b92ae0a644ac92dbc2a346ef0"
+    },
+    {
+      "path": "components/variants/06-fan-default.json",
+      "sha256": "631a29611f68f45c0a7e9ed4b10f971bec78b16a351b7448b1a554dba6876c21"
+    },
+    {
+      "path": "components/variants/06-fan-long.json",
+      "sha256": "ac9b135e86b740918b78c640ca3f84ce9e520900cc0fbb9f15480755ff317e6e"
+    },
+    {
+      "path": "components/variants/06-fan-short.json",
+      "sha256": "f2f5ae6a6aa372d3131ed85a555d117524a91698e3dd875873af5c479929527e"
+    },
+    {
+      "path": "components/variants/07-takeaway-default.json",
+      "sha256": "f3e33dad2d7ec76cdfbf346920e941636395bbfc88296547fada55ac9850dd6a"
+    },
+    {
+      "path": "components/variants/07-takeaway-long.json",
+      "sha256": "86e3ad3ec8fc98ed3daec219ffd4953eb6394e5d662e77cc9f04a60e50b478c4"
+    },
+    {
+      "path": "components/variants/07-takeaway-short.json",
+      "sha256": "854cb47b6c4a51987b67a9b2d0afc3c9eaed35c02053997db82db173362cc6e6"
+    },
+    {
+      "path": "components/variants/08-nodes-default.json",
+      "sha256": "6dff095d9833d4eaf4edc6b12f7024acfff54479c0b0d2e922515b087da59827"
+    },
+    {
+      "path": "components/variants/08-nodes-long.json",
+      "sha256": "50189df84f40da2dc4007fe2b9990666c476efd946b93b9e719be6b0ea4a816f"
+    },
+    {
+      "path": "components/variants/08-nodes-short.json",
+      "sha256": "9803f03c771a9c3aaea39244fb486483b977e6209d20f17ab04233bd33e505b8"
+    },
+    {
+      "path": "components/variants/09-media-board-default.json",
+      "sha256": "a082717c34c1d91ce72e2ac33fc6bb2cfd030df68c25a1f1464a0d5be3c84829"
+    },
+    {
+      "path": "components/variants/09-media-board-long.json",
+      "sha256": "409349f4ac09c9a652268f46dfac96fb070c24bce88990cbb2d6e136716b7403"
+    },
+    {
+      "path": "components/variants/09-media-board-short.json",
+      "sha256": "97dba6b99e72a82e9dd253922d22df88f699ede8618b540e130c4def07f7217a"
+    },
+    {
+      "path": "components/variants/10-media-overlay-default.json",
+      "sha256": "d142693ca497f02514137e97684ed5ae27937cf47912d1b635398474d97a9453"
+    },
+    {
+      "path": "components/variants/10-media-overlay-long.json",
+      "sha256": "4712ec036d1cc56d02cb2973bc588d9475e0d7573dc9f230aba42b2a6a07d2b5"
+    },
+    {
+      "path": "components/variants/10-media-overlay-short.json",
+      "sha256": "1813c39472681f741f30df91d72dcca81f341947ee1adac4bdd0e062dfb107fd"
+    },
+    {
+      "path": "components/variants/11-storyboard-default.json",
+      "sha256": "f1319af756ec246262ad2bbb66bbfced34a1a8f325546220644d3e5682f66d61"
+    },
+    {
+      "path": "components/variants/11-storyboard-long.json",
+      "sha256": "6e0c4465191f41cacd0adac109f68bb91127f350a04663c48ffdaa213cfcc5ee"
+    },
+    {
+      "path": "components/variants/11-storyboard-short.json",
+      "sha256": "71005852fe0fb228fe66a0fb06a9c75de562e908c85391f086e00e900f8a0922"
+    },
+    {
+      "path": "components/variants/12-smash-default.json",
+      "sha256": "ce50171e0b4942aa21cc1a4ff3df19fec66cf25e491c89a156fdd9ec9a825a10"
+    },
+    {
+      "path": "components/variants/12-smash-long.json",
+      "sha256": "ea158588df17b3ff66adb7da8a984eb387a36975736a2cc20da3bfdb97e59172"
+    },
+    {
+      "path": "components/variants/12-smash-short.json",
+      "sha256": "6ec61b907904148ec3b46b1c1d06b9bcdc40721b8450dfa65f1513fea8bb60ef"
+    },
+    {
+      "path": "components/variants/13-badge-default.json",
+      "sha256": "6408e032bd087593915411809ec37d9c9b6b89262d1b39a895790601f632b16f"
+    },
+    {
+      "path": "components/variants/13-badge-long.json",
+      "sha256": "1282dbc8d4c87f3fc5318ed37f726ff7a62ce3130eeb3ff73795841079ee3b42"
+    },
+    {
+      "path": "components/variants/13-badge-short.json",
+      "sha256": "a6d3be35ca6b29613b1bb71a27c5edc58654fae99f828aa74f946fd31d79cccc"
+    },
+    {
+      "path": "components/variants/14-pipeline-default.json",
+      "sha256": "56fca2b61b88680325f219d685debbcf5812564e3f8991cd3b8d94d360222311"
+    },
+    {
+      "path": "components/variants/14-pipeline-long.json",
+      "sha256": "39acba0a9eca171160f97bd64a63e9c48aa4894243b29bcdedc54f52fb40dc1b"
+    },
+    {
+      "path": "components/variants/14-pipeline-short.json",
+      "sha256": "41dd3a335a134c884b55b6c557b879b62a2f096f7c552a4375cb20cfd3754907"
+    },
+    {
+      "path": "components/variants/15-nav-default.json",
+      "sha256": "043a29852129f8327a106a874302f02956a9f4f694d83395ae8938878b6be7a6"
+    },
+    {
+      "path": "components/variants/15-nav-long.json",
+      "sha256": "5ae357d58584a798a9e47680cc80ef798576f77f146200f300cead5d75c526d2"
+    },
+    {
+      "path": "components/variants/15-nav-short.json",
+      "sha256": "3d3d4ff7f05b5ecb7e304b4eac8e3d36d4e150461424bec33e7537b0d762cdd0"
+    },
+    {
+      "path": "components/制作计划.json",
+      "sha256": "ccdbb178f0a48440429668235c7e4a2f666f24dd89d3e556358f443c5e3bb6d5"
+    },
+    {
+      "path": "components/构建.py",
+      "sha256": "cb93bca7f4d2dcc964e717729677a6fa548a2d17285dc371ee139d0d3e2b2522"
+    },
+    {
+      "path": "components/生成预览页.py",
+      "sha256": "b4f21b0da77ebb5d77a1ccda27d9d06057d986abb103ca641988b83a1635d8c2"
+    },
+    {
+      "path": "components/目录.json",
+      "sha256": "3dff37b13bfc9a2aa59c453f6fee213251fd3f07f36ee36a87962f04c3bdccd3"
+    },
+    {
+      "path": "components/预览.html",
+      "sha256": "a5a055b440c591e2b74f84300d9bf53c5964f0631a16a140be0027a4adeea846"
+    },
+    {
+      "path": "components/验证结果.json",
+      "sha256": "02f05209717bc85c520e2302ab4566606ef12c5b412661c5863dcaf3f60a306b"
+    },
+    {
+      "path": "previews/通用示例.mp4",
       "sha256": "036e5a4ce3aa41f4a4be4c87302bf6bf49620eba5bf03d90a11709f4f3f3a0e4"
     },
     {
-      "path": "预览/通用示例.png",
+      "path": "previews/通用示例.png",
       "sha256": "9df5f2d6401ccce05c35c3b6824678fcd653b0cc3c205901bb805fb0d744e02f"
     },
     {
+      "path": "template/assets/examples/actor.svg",
+      "sha256": "dea1ba1005be8c961fc83c1c0bbc452315dfd69cb054ea8daec803e74ff19e3d"
+    },
+    {
+      "path": "template/assets/examples/audio.svg",
+      "sha256": "60100b7af99eca57a92f82b203fdb986593b2e94a236fd7294b2e35d79694753"
+    },
+    {
+      "path": "template/assets/examples/background.svg",
+      "sha256": "fbba848539193c6249a18e856068555bdf1f19ff7a2587ac08a17839de5d36c7"
+    },
+    {
+      "path": "template/assets/examples/browser-chrome.svg",
+      "sha256": "0f67b8a24aa75e336f5c3662b3b58c79a60f25dbed1fb669b415e8fd370bd8bf"
+    },
+    {
+      "path": "template/assets/examples/document.svg",
+      "sha256": "3ab7b168c843d973d9bf297387083939fa9e23d1ada9249509bc8abff3fc8df3"
+    },
+    {
+      "path": "template/assets/examples/editor-demo.svg",
+      "sha256": "b2aa53d28cf878eb8febc647579e539b6e751b8a467c461052b4eba5c182b609"
+    },
+    {
+      "path": "template/assets/examples/filmstrip.svg",
+      "sha256": "6bf016d3361082daecd3d1c1e5619a16fa428865831aadcf1bf28e15fb0a596c"
+    },
+    {
+      "path": "template/assets/examples/idea.svg",
+      "sha256": "69a0310a9cebfa2764074fdf7162d2635836a9f0a5a3957f8a8f0950375dc6f5"
+    },
+    {
+      "path": "template/assets/examples/image.svg",
+      "sha256": "99ccac1211c63662609dd489f344d88cf40609b14ba427193d181279f5715f50"
+    },
+    {
+      "path": "template/assets/examples/poster.svg",
+      "sha256": "60191ef116c0e04d3f6adfdeb9c62558132845cfbf34a03d76c736cd66321fba"
+    },
+    {
+      "path": "template/assets/examples/presenter.svg",
+      "sha256": "fbba848539193c6249a18e856068555bdf1f19ff7a2587ac08a17839de5d36c7"
+    },
+    {
+      "path": "template/assets/examples/project-page.svg",
+      "sha256": "65d2cddd8292523a1c532f185c3c77bbeba40a52a8c10f1a9456187d472e3285"
+    },
+    {
+      "path": "template/assets/examples/screen.svg",
+      "sha256": "8f7d29ee9177ae512168a2374a9d91fce561f914f93c4a0ee34f6a14626a691c"
+    },
+    {
+      "path": "template/assets/examples/video.svg",
+      "sha256": "4d7a8c204cdc585ea1258f2889046433bab23047ea0e379477361dde5981793d"
+    },
+    {
+      "path": "template/assets/fonts/NotoSansSC.ttf",
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    },
+    {
+      "path": "template/assets/fonts/OFL.txt",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "template/assets/placeholders/audio.svg",
+      "sha256": "60100b7af99eca57a92f82b203fdb986593b2e94a236fd7294b2e35d79694753"
+    },
+    {
+      "path": "template/assets/placeholders/background.svg",
+      "sha256": "fbba848539193c6249a18e856068555bdf1f19ff7a2587ac08a17839de5d36c7"
+    },
+    {
+      "path": "template/assets/placeholders/document.svg",
+      "sha256": "3ab7b168c843d973d9bf297387083939fa9e23d1ada9249509bc8abff3fc8df3"
+    },
+    {
+      "path": "template/assets/placeholders/filmstrip.svg",
+      "sha256": "6bf016d3361082daecd3d1c1e5619a16fa428865831aadcf1bf28e15fb0a596c"
+    },
+    {
+      "path": "template/assets/placeholders/idea.svg",
+      "sha256": "69a0310a9cebfa2764074fdf7162d2635836a9f0a5a3957f8a8f0950375dc6f5"
+    },
+    {
+      "path": "template/assets/placeholders/image.svg",
+      "sha256": "99ccac1211c63662609dd489f344d88cf40609b14ba427193d181279f5715f50"
+    },
+    {
+      "path": "template/assets/placeholders/poster.svg",
+      "sha256": "60191ef116c0e04d3f6adfdeb9c62558132845cfbf34a03d76c736cd66321fba"
+    },
+    {
+      "path": "template/assets/placeholders/screen.svg",
+      "sha256": "8f7d29ee9177ae512168a2374a9d91fce561f914f93c4a0ee34f6a14626a691c"
+    },
+    {
+      "path": "template/assets/placeholders/video.svg",
+      "sha256": "4d7a8c204cdc585ea1258f2889046433bab23047ea0e379477361dde5981793d"
+    },
+    {
+      "path": "template/assets/runtime/diagonal-peel.js",
+      "sha256": "1fc15a7fd7a1275bb2cb3419c3f8011807be779bdd5bbc5b6db7002981869bdd"
+    },
+    {
+      "path": "template/assets/vendor/gsap.min.js",
+      "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+    },
+    {
+      "path": "template/compositions/shot-01.html",
+      "sha256": "46a2086ee41285e4abafb3e91d94857190c3dcbcdde85e23a2470f74b0e0b3ba"
+    },
+    {
+      "path": "template/compositions/shot-02.html",
+      "sha256": "e86d70a8ad93cc8939597386acdb2bf0144f1b9423d648226ab9a975942a59bd"
+    },
+    {
+      "path": "template/compositions/shot-03.html",
+      "sha256": "55312eb7d465ea5d59cd230cb3c0e0459f3fb894874346bfa5d651b13ea07e92"
+    },
+    {
+      "path": "template/compositions/shot-04.html",
+      "sha256": "ec990409b61c0807d6de87aeba447911dced206b5b2121cc9257b9f79289eb94"
+    },
+    {
+      "path": "template/compositions/shot-05.html",
+      "sha256": "9f4cd02f95fcf2112d0f23a19863c05776600db0a8fb869f8236ae2c4c3d4b96"
+    },
+    {
+      "path": "template/compositions/shot-06.html",
+      "sha256": "7388ea4f985a2a2a10113cdf858bcd2109167ae5787cbbe78608934f3edea2fd"
+    },
+    {
+      "path": "template/compositions/shot-07.html",
+      "sha256": "922ddc4c25a609c30450bbddca662328e7799cdc773a48bdfac48fca4c79410b"
+    },
+    {
+      "path": "template/compositions/shot-08.html",
+      "sha256": "36ea8ef645c19703e060679840918eb7e1a185e6a5fcad649423cafb2670de85"
+    },
+    {
+      "path": "template/compositions/shot-09.html",
+      "sha256": "466a907835d882f2839054cfce071ba5125c57013fb257934e5a3f4ef5109515"
+    },
+    {
+      "path": "template/compositions/shot-10.html",
+      "sha256": "d84024d3a8c82579684ccb51f30a2970a6589b8b36d3a9830db816b476153e12"
+    },
+    {
+      "path": "template/compositions/shot-11.html",
+      "sha256": "cf6bbbbc30efdcc4a25eeea477530a70cc9d8107e1f4d671e2a40f90751ab967"
+    },
+    {
+      "path": "template/compositions/shot-12.html",
+      "sha256": "a8d5300d5c721f3475c6fa3086c625b1ca4f8e278ae96ba85eecd611f0dbf9ba"
+    },
+    {
+      "path": "template/compositions/shot-13.html",
+      "sha256": "517ef76cd7c95cca04e0691dacb411849fc9474a089cbcbf105deda669eb481a"
+    },
+    {
+      "path": "template/compositions/shot-14.html",
+      "sha256": "d31fa294c07d0181443e9d13e8a8d598895ee6bccf375684b3c75da0a414220d"
+    },
+    {
+      "path": "template/compositions/shot-15.html",
+      "sha256": "dabf4c4b1b936bf3030f65d3a10e7bd30883b013da3541490fbe0631bc9d1ba4"
+    },
+    {
+      "path": "template/compositions/shot-16.html",
+      "sha256": "ba8ba2c0d2d20432b60e5de9a3377a5c49ed9cffa2c87385c1e829c34c0f195c"
+    },
+    {
+      "path": "template/compositions/shot-17.html",
+      "sha256": "705f0bb16f46a2daac29329893a4c1690a9a74a3fc6409acb04b13961bad5745"
+    },
+    {
+      "path": "template/compositions/shot-18.html",
+      "sha256": "535ae1e3ffb6eab0131e808eb0e82410b97a5c13c6ee66701ed7a2ec376de3d6"
+    },
+    {
+      "path": "template/compositions/shot-19.html",
+      "sha256": "c21e7016f3dcb9f68cfcfeb0a25a9003efbfd920b69be92f7bd87a826fec22cb"
+    },
+    {
+      "path": "template/compositions/shot-20.html",
+      "sha256": "c312a1ec97109e268e84198620db782571d197ceadebdca55eaac42ea0a588b4"
+    },
+    {
+      "path": "template/compositions/shot-21.html",
+      "sha256": "145f3110ce73a1940934841400bbc65b21b441bd8b9158714cd0cdc43fc1d681"
+    },
+    {
+      "path": "template/compositions/shot-22.html",
+      "sha256": "7ef688ad637d53718f331bbf5b78860717f6abf0e650e5b392f2027d9dc07256"
+    },
+    {
+      "path": "template/compositions/shot-23.html",
+      "sha256": "c969529dd244c3ccdf27bd45c825e95d4e96772893b0aa10428ab085a77f79fb"
+    },
+    {
+      "path": "template/compositions/shot-24.html",
+      "sha256": "baf52467b2da4bd6192df9ca6f58c5a6677616d9061d8dd7be944aba533bf699"
+    },
+    {
+      "path": "template/compositions/shot-25.html",
+      "sha256": "85a8a6d319574b33ab9d1caf4079e452be009ca08cc1c1625b22d62c708af9ce"
+    },
+    {
+      "path": "template/compositions/shot-26.html",
+      "sha256": "1cf27e4eda892aef98bb7ed25a8d6062d52537d7e05003ed0df945f4c1a6c9c9"
+    },
+    {
+      "path": "template/compositions/shot-27.html",
+      "sha256": "98f7155947d8321ccd818fb944e25d78a828fbbb545d37af1311a78bee3f7b5a"
+    },
+    {
+      "path": "template/compositions/shot-28.html",
+      "sha256": "1332d01e42c18cc5a74a9a32387ea748586af0c38c3aa5cbacbb4d751ded3828"
+    },
+    {
+      "path": "template/compositions/shot-29.html",
+      "sha256": "13848a80d27e70aacb5cb327c78fd1d76dcf9499e82beb585beb8e336e244f20"
+    },
+    {
+      "path": "template/compositions/shot-30.html",
+      "sha256": "e94c56cff858d4e3336bab797c31fccff1b5c771e7b698b2fac92aa63513c752"
+    },
+    {
+      "path": "template/hyperframes.json",
+      "sha256": "35a6d4ea79ebe911f0d81705f7aace5d8ff0316b745b0311d56af50c9c237cb7"
+    },
+    {
+      "path": "template/index.html",
+      "sha256": "815d5b6a89953185d512d0b1113ebd2d09f3283eff7d7a756df7100de0f56095"
+    },
+    {
+      "path": "template/motion-params/shot-01.json",
+      "sha256": "0017d0d63ddba24d934592c61ded2389795ecb297ae9a5326fcfb62a23f3c35e"
+    },
+    {
+      "path": "template/motion-params/shot-02.json",
+      "sha256": "b7e202fb4b45e2feb3a0bb8f5b72c8f149a8c863f89686b8c7a0235c1fb1c442"
+    },
+    {
+      "path": "template/motion-params/shot-03.json",
+      "sha256": "ecc6a80272e549d59aca2b94bd6457eb678b8262c4ea572a7d7a11ff4b85133e"
+    },
+    {
+      "path": "template/motion-params/shot-04.json",
+      "sha256": "1179d62e97467197151f4e831fcce944f287354c7f3b338fcc7c5c0a41631bc4"
+    },
+    {
+      "path": "template/motion-params/shot-05.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "template/motion-params/shot-06.json",
+      "sha256": "810d03e7f9f17a1fcf27a30c20a0b25382c9f260e16921186a4713e090413347"
+    },
+    {
+      "path": "template/motion-params/shot-07.json",
+      "sha256": "73a1d27929644bef7a63f9127192bb3c3e2f9ce1f56da53abb3e2b09255d453b"
+    },
+    {
+      "path": "template/motion-params/shot-08.json",
+      "sha256": "8f6c0abe073f3daf36fc86a95270107525f6bc45ea8a5df5f6219f6521569024"
+    },
+    {
+      "path": "template/motion-params/shot-09.json",
+      "sha256": "68ad1688dc06999408a3f51f5bf460763195e0234400801492daaa80f7eff768"
+    },
+    {
+      "path": "template/motion-params/shot-10.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "template/motion-params/shot-11.json",
+      "sha256": "1f7847ff69058f5aeb520285e9962097887714e31d87536eaa08d35c53a8d521"
+    },
+    {
+      "path": "template/motion-params/shot-12.json",
+      "sha256": "1cd3d05fc42131233ca71930e617587a9291341f5129d01390717a70cd41a025"
+    },
+    {
+      "path": "template/motion-params/shot-13.json",
+      "sha256": "f122e1f76b61078c97354aa479afe931fe77653a5e5c1c93f643106f15a8bf43"
+    },
+    {
+      "path": "template/motion-params/shot-14.json",
+      "sha256": "f6dccc3c17288aec40d818a22c6a1f91cc8c8d0efc781cc100cb37fc27e2f187"
+    },
+    {
+      "path": "template/motion-params/shot-15.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "template/motion-params/shot-16.json",
+      "sha256": "7f535d78cfadf110fbaf4e4a61da378b3c21481eaf980ba477bd9cb0b8e30b60"
+    },
+    {
+      "path": "template/motion-params/shot-17.json",
+      "sha256": "ca780f59549858b24857b5c79bab4f191ccd1df019f2844e0de554f9995cc70e"
+    },
+    {
+      "path": "template/motion-params/shot-18.json",
+      "sha256": "583712f67002f0262c49991b706fde8115f23540987026fc7e70ab2ba877c522"
+    },
+    {
+      "path": "template/motion-params/shot-19.json",
+      "sha256": "9478ce5996269427547e92ac40b2830077727a31c3b458a67b3ed838c29ded3c"
+    },
+    {
+      "path": "template/motion-params/shot-20.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "template/motion-params/shot-21.json",
+      "sha256": "8281ed1e3e61054420e1202643d73d2e2930a8304cb58f0b1289d20a6db2e32f"
+    },
+    {
+      "path": "template/motion-params/shot-22.json",
+      "sha256": "36f6447aabb0bffb2f105e04f797aae07bcd8cf4e8dfd552d14bc76fde791f8e"
+    },
+    {
+      "path": "template/motion-params/shot-23.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "template/motion-params/shot-24.json",
+      "sha256": "d21c4a50cf0ad033db124da3b5e805d070c28464d59dd0e8d438ea1923c032ab"
+    },
+    {
+      "path": "template/motion-params/shot-25.json",
+      "sha256": "f511c9ab5c09ca1379034c6145a96445754cec92eec46c62c16aba5094670044"
+    },
+    {
+      "path": "template/motion-params/shot-26.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "template/motion-params/shot-27.json",
+      "sha256": "d37ef09e64d288a65563d523a65dede49d5e42133a5a01416bce4293568099bb"
+    },
+    {
+      "path": "template/motion-params/shot-28.json",
+      "sha256": "4330ba1b5e3630f05b9588f772809691741492b86f35c0e7f6d24bc388fdd785"
+    },
+    {
+      "path": "template/motion-params/shot-29.json",
+      "sha256": "c50dcb5030a2ba6f703c5499dbf9665ade0b3e1f3ecb9b40815d5968c9dafbca"
+    },
+    {
+      "path": "template/motion-params/shot-30.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "template/package.json",
+      "sha256": "0ce92642dc807eb55d0abbfe445cc0d6bc2ba7e81db2861d2c1a2424bf490f31"
+    },
+    {
+      "path": "template/scripts/构建.py",
+      "sha256": "21ad22b7cf8d3e26a6e84fbe1f3d197e7e2f3139d5ae944118a88182cb9921ed"
+    },
+    {
+      "path": "template/scripts/测试模板.py",
+      "sha256": "7baaa07022f264ac2810a40cbeefde7902bcef6ff37b571d0010e1ba939c5b23"
+    },
+    {
+      "path": "template/整片计划.json",
+      "sha256": "2a2d01616510a597c4cf83ac661e36bf82fea2daa8ac062ebf47a2a893f26f7a"
+    },
+    {
+      "path": "template/构建.py",
+      "sha256": "0d90f8cfea34bb0a832675877e6301dca71a2eb12dd430650070234d51463b9b"
+    },
+    {
+      "path": "template/模板索引.json",
+      "sha256": "e1dcc0a9e633249cccf591da6149e34b80223ae0d5c82aae00f20ceb1f0c3294"
+    },
+    {
+      "path": "template/配置.json",
+      "sha256": "d4be85ea19e4abb00b00bd5512de882a239d99218b6201bcf23e6f1057f31837"
+    },
+    {
+      "path": "来源与许可.md",
+      "sha256": "5b83055ab37bfb028ac9f8f0fa615be5745ea53be0c945ed552b87def275b2b9"
+    },
+    {
+      "path": "编辑器.html",
+      "sha256": "432a966074490a3b1f59a78b2e69d6424d04d042d67bbf4a5cd9904e4a0a453e"
+    },
+    {
       "path": "风格.json",
-      "sha256": "e80a66826e68f0e56599f87f464e48c075fa96e3045e70cc7f6c26a6302a06e0"
+      "sha256": "0b99b0f546fcccc03f585a4d28f66c468c38b972333f90677b22f295e48a60db"
     },
     {
       "path": "验证结果.json",
@@ -1111,7 +1111,7 @@
     },
     {
       "path": "验证记录.md",
-      "sha256": "3643b9e5ff4fe40d0f88751051c7297860efb5a4b4627312b5cdf977ca63db6d"
+      "sha256": "63263c9de6550f2f8e15dbfe0b9c8e6307c6aeb067be6d31e322d3a24c2cbdbf"
     }
   ]
 }

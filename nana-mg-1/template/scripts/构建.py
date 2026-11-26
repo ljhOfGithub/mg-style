@@ -421,7 +421,7 @@ def write_scene(folder, shot, config):
     s=Scene(shot["id"],shot["duration"],shot["template"],config,shot.get("chapter",1),shot.get("label",""))
     FUNCTIONS[shot["template"]](s)
     dst=folder/"compositions"/(s.id+".html");dst.parent.mkdir(parents=True,exist_ok=True);dst.write_text(s.finish())
-    events=folder/"动作参数"/(s.id+".json");events.parent.mkdir(exist_ok=True)
+    events=folder/"motion-params"/(s.id+".json");events.parent.mkdir(exist_ok=True)
     events.write_text(json.dumps(s.events,ensure_ascii=False,indent=2)+"\n")
     return s
 

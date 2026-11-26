@@ -1,6 +1,6 @@
 """六宫格总览；从nana mg1已验证动作源码拆分。"""
 from runtime import *
-from 组件.m13_badge import workflow_badge
+from modules.m13_badge import workflow_badge
 
 def grid_six(s, include_nav=True):
     s.add("bg","","inset:0","grid-bg")

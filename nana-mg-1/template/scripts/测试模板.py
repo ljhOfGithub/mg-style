@@ -7,7 +7,7 @@ import unittest
 from pathlib import Path
 
 P=Path(__file__).resolve().parents[1]
-spec=importlib.util.spec_from_file_location("builder",P/"工具/构建.py")
+spec=importlib.util.spec_from_file_location("builder",P/"scripts/构建.py")
 b=importlib.util.module_from_spec(spec);spec.loader.exec_module(b)
 
 class TemplateTests(unittest.TestCase):

@@ -702,7 +702,7 @@
       "user_approval": false,
       "component": "01-title",
       "variant": "short",
-      "preview": "预览/验证/01-title-short.mp4"
+      "preview": "previews/validation/01-title-short.mp4"
     },
     {
       "id": "01-title-default",
@@ -719,7 +719,7 @@
       "user_approval": false,
       "component": "01-title",
       "variant": "default",
-      "preview": "预览/验证/01-title-default.mp4"
+      "preview": "previews/validation/01-title-default.mp4"
     },
     {
       "id": "01-title-long",
@@ -736,7 +736,7 @@
       "user_approval": false,
       "component": "01-title",
       "variant": "long",
-      "preview": "预览/验证/01-title-long.mp4"
+      "preview": "previews/validation/01-title-long.mp4"
     },
     {
       "id": "02-media-flip-short",
@@ -753,7 +753,7 @@
       "user_approval": false,
       "component": "02-media-flip",
       "variant": "short",
-      "preview": "预览/验证/02-media-flip-short.mp4"
+      "preview": "previews/validation/02-media-flip-short.mp4"
     },
     {
       "id": "02-media-flip-default",
@@ -770,7 +770,7 @@
       "user_approval": false,
       "component": "02-media-flip",
       "variant": "default",
-      "preview": "预览/验证/02-media-flip-default.mp4"
+      "preview": "previews/validation/02-media-flip-default.mp4"
     },
     {
       "id": "02-media-flip-long",
@@ -787,7 +787,7 @@
       "user_approval": false,
       "component": "02-media-flip",
       "variant": "long",
-      "preview": "预览/验证/02-media-flip-long.mp4"
+      "preview": "previews/validation/02-media-flip-long.mp4"
     },
     {
       "id": "03-grid-short",
@@ -804,7 +804,7 @@
       "user_approval": false,
       "component": "03-grid",
       "variant": "short",
-      "preview": "预览/验证/03-grid-short.mp4"
+      "preview": "previews/validation/03-grid-short.mp4"
     },
     {
       "id": "03-grid-default",
@@ -821,7 +821,7 @@
       "user_approval": false,
       "component": "03-grid",
       "variant": "default",
-      "preview": "预览/验证/03-grid-default.mp4"
+      "preview": "previews/validation/03-grid-default.mp4"
     },
     {
       "id": "03-grid-long",
@@ -838,7 +838,7 @@
       "user_approval": false,
       "component": "03-grid",
       "variant": "long",
-      "preview": "预览/验证/03-grid-long.mp4"
+      "preview": "previews/validation/03-grid-long.mp4"
     },
     {
       "id": "04-browser-short",
@@ -855,7 +855,7 @@
       "user_approval": false,
       "component": "04-browser",
       "variant": "short",
-      "preview": "预览/验证/04-browser-short.mp4"
+      "preview": "previews/validation/04-browser-short.mp4"
     },
     {
       "id": "04-browser-default",
@@ -872,7 +872,7 @@
       "user_approval": false,
       "component": "04-browser",
       "variant": "default",
-      "preview": "预览/验证/04-browser-default.mp4"
+      "preview": "previews/validation/04-browser-default.mp4"
     },
     {
       "id": "04-browser-long",
@@ -889,7 +889,7 @@
       "user_approval": false,
       "component": "04-browser",
       "variant": "long",
-      "preview": "预览/验证/04-browser-long.mp4"
+      "preview": "previews/validation/04-browser-long.mp4"
     },
     {
       "id": "05-chapter-short",
@@ -906,7 +906,7 @@
       "user_approval": false,
       "component": "05-chapter",
       "variant": "short",
-      "preview": "预览/验证/05-chapter-short.mp4"
+      "preview": "previews/validation/05-chapter-short.mp4"
     },
     {
       "id": "05-chapter-default",
@@ -923,7 +923,7 @@
       "user_approval": false,
       "component": "05-chapter",
       "variant": "default",
-      "preview": "预览/验证/05-chapter-default.mp4"
+      "preview": "previews/validation/05-chapter-default.mp4"
     },
     {
       "id": "05-chapter-long",
@@ -940,7 +940,7 @@
       "user_approval": false,
       "component": "05-chapter",
       "variant": "long",
-      "preview": "预览/验证/05-chapter-long.mp4"
+      "preview": "previews/validation/05-chapter-long.mp4"
     },
     {
       "id": "06-fan-short",
@@ -957,7 +957,7 @@
       "user_approval": false,
       "component": "06-fan",
       "variant": "short",
-      "preview": "预览/验证/06-fan-short.mp4"
+      "preview": "previews/validation/06-fan-short.mp4"
     },
     {
       "id": "06-fan-default",
@@ -974,7 +974,7 @@
       "user_approval": false,
       "component": "06-fan",
       "variant": "default",
-      "preview": "预览/验证/06-fan-default.mp4"
+      "preview": "previews/validation/06-fan-default.mp4"
     },
     {
       "id": "06-fan-long",
@@ -991,7 +991,7 @@
       "user_approval": false,
       "component": "06-fan",
       "variant": "long",
-      "preview": "预览/验证/06-fan-long.mp4"
+      "preview": "previews/validation/06-fan-long.mp4"
     },
     {
       "id": "07-takeaway-short",
@@ -1008,7 +1008,7 @@
       "user_approval": false,
       "component": "07-takeaway",
       "variant": "short",
-      "preview": "预览/验证/07-takeaway-short.mp4"
+      "preview": "previews/validation/07-takeaway-short.mp4"
     },
     {
       "id": "07-takeaway-default",
@@ -1025,7 +1025,7 @@
       "user_approval": false,
       "component": "07-takeaway",
       "variant": "default",
-      "preview": "预览/验证/07-takeaway-default.mp4"
+      "preview": "previews/validation/07-takeaway-default.mp4"
     },
     {
       "id": "07-takeaway-long",
@@ -1042,7 +1042,7 @@
       "user_approval": false,
       "component": "07-takeaway",
       "variant": "long",
-      "preview": "预览/验证/07-takeaway-long.mp4"
+      "preview": "previews/validation/07-takeaway-long.mp4"
     },
     {
       "id": "08-nodes-short",
@@ -1059,7 +1059,7 @@
       "user_approval": false,
       "component": "08-nodes",
       "variant": "short",
-      "preview": "预览/验证/08-nodes-short.mp4"
+      "preview": "previews/validation/08-nodes-short.mp4"
     },
     {
       "id": "08-nodes-default",
@@ -1076,7 +1076,7 @@
       "user_approval": false,
       "component": "08-nodes",
       "variant": "default",
-      "preview": "预览/验证/08-nodes-default.mp4"
+      "preview": "previews/validation/08-nodes-default.mp4"
     },
     {
       "id": "08-nodes-long",
@@ -1093,7 +1093,7 @@
       "user_approval": false,
       "component": "08-nodes",
       "variant": "long",
-      "preview": "预览/验证/08-nodes-long.mp4"
+      "preview": "previews/validation/08-nodes-long.mp4"
     },
     {
       "id": "09-media-board-short",
@@ -1110,7 +1110,7 @@
       "user_approval": false,
       "component": "09-media-board",
       "variant": "short",
-      "preview": "预览/验证/09-media-board-short.mp4"
+      "preview": "previews/validation/09-media-board-short.mp4"
     },
     {
       "id": "09-media-board-default",
@@ -1127,7 +1127,7 @@
       "user_approval": false,
       "component": "09-media-board",
       "variant": "default",
-      "preview": "预览/验证/09-media-board-default.mp4"
+      "preview": "previews/validation/09-media-board-default.mp4"
     },
     {
       "id": "09-media-board-long",
@@ -1144,7 +1144,7 @@
       "user_approval": false,
       "component": "09-media-board",
       "variant": "long",
-      "preview": "预览/验证/09-media-board-long.mp4"
+      "preview": "previews/validation/09-media-board-long.mp4"
     },
     {
       "id": "10-media-overlay-short",
@@ -1161,7 +1161,7 @@
       "user_approval": false,
       "component": "10-media-overlay",
       "variant": "short",
-      "preview": "预览/验证/10-media-overlay-short.mp4"
+      "preview": "previews/validation/10-media-overlay-short.mp4"
     },
     {
       "id": "10-media-overlay-default",
@@ -1178,7 +1178,7 @@
       "user_approval": false,
       "component": "10-media-overlay",
       "variant": "default",
-      "preview": "预览/验证/10-media-overlay-default.mp4"
+      "preview": "previews/validation/10-media-overlay-default.mp4"
     },
     {
       "id": "10-media-overlay-long",
@@ -1195,7 +1195,7 @@
       "user_approval": false,
       "component": "10-media-overlay",
       "variant": "long",
-      "preview": "预览/验证/10-media-overlay-long.mp4"
+      "preview": "previews/validation/10-media-overlay-long.mp4"
     },
     {
       "id": "11-storyboard-short",
@@ -1212,7 +1212,7 @@
       "user_approval": false,
       "component": "11-storyboard",
       "variant": "short",
-      "preview": "预览/验证/11-storyboard-short.mp4"
+      "preview": "previews/validation/11-storyboard-short.mp4"
     },
     {
       "id": "11-storyboard-default",
@@ -1229,7 +1229,7 @@
       "user_approval": false,
       "component": "11-storyboard",
       "variant": "default",
-      "preview": "预览/验证/11-storyboard-default.mp4"
+      "preview": "previews/validation/11-storyboard-default.mp4"
     },
     {
       "id": "11-storyboard-long",
@@ -1246,7 +1246,7 @@
       "user_approval": false,
       "component": "11-storyboard",
       "variant": "long",
-      "preview": "预览/验证/11-storyboard-long.mp4"
+      "preview": "previews/validation/11-storyboard-long.mp4"
     },
     {
       "id": "12-smash-short",
@@ -1263,7 +1263,7 @@
       "user_approval": false,
       "component": "12-smash",
       "variant": "short",
-      "preview": "预览/验证/12-smash-short.mp4"
+      "preview": "previews/validation/12-smash-short.mp4"
     },
     {
       "id": "12-smash-default",
@@ -1280,7 +1280,7 @@
       "user_approval": false,
       "component": "12-smash",
       "variant": "default",
-      "preview": "预览/验证/12-smash-default.mp4"
+      "preview": "previews/validation/12-smash-default.mp4"
     },
     {
       "id": "12-smash-long",
@@ -1297,7 +1297,7 @@
       "user_approval": false,
       "component": "12-smash",
       "variant": "long",
-      "preview": "预览/验证/12-smash-long.mp4"
+      "preview": "previews/validation/12-smash-long.mp4"
     },
     {
       "id": "13-badge-short",
@@ -1314,7 +1314,7 @@
       "user_approval": false,
       "component": "13-badge",
       "variant": "short",
-      "preview": "预览/验证/13-badge-short.mp4"
+      "preview": "previews/validation/13-badge-short.mp4"
     },
     {
       "id": "13-badge-default",
@@ -1331,7 +1331,7 @@
       "user_approval": false,
       "component": "13-badge",
       "variant": "default",
-      "preview": "预览/验证/13-badge-default.mp4"
+      "preview": "previews/validation/13-badge-default.mp4"
     },
     {
       "id": "13-badge-long",
@@ -1348,7 +1348,7 @@
       "user_approval": false,
       "component": "13-badge",
       "variant": "long",
-      "preview": "预览/验证/13-badge-long.mp4"
+      "preview": "previews/validation/13-badge-long.mp4"
     },
     {
       "id": "14-pipeline-short",
@@ -1365,7 +1365,7 @@
       "user_approval": false,
       "component": "14-pipeline",
       "variant": "short",
-      "preview": "预览/验证/14-pipeline-short.mp4"
+      "preview": "previews/validation/14-pipeline-short.mp4"
     },
     {
       "id": "14-pipeline-default",
@@ -1382,7 +1382,7 @@
       "user_approval": false,
       "component": "14-pipeline",
       "variant": "default",
-      "preview": "预览/验证/14-pipeline-default.mp4"
+      "preview": "previews/validation/14-pipeline-default.mp4"
     },
     {
       "id": "14-pipeline-long",
@@ -1399,7 +1399,7 @@
       "user_approval": false,
       "component": "14-pipeline",
       "variant": "long",
-      "preview": "预览/验证/14-pipeline-long.mp4"
+      "preview": "previews/validation/14-pipeline-long.mp4"
     },
     {
       "id": "15-nav-short",
@@ -1416,7 +1416,7 @@
       "user_approval": false,
       "component": "15-nav",
       "variant": "short",
-      "preview": "预览/验证/15-nav-short.mp4"
+      "preview": "previews/validation/15-nav-short.mp4"
     },
     {
       "id": "15-nav-default",
@@ -1433,7 +1433,7 @@
       "user_approval": false,
       "component": "15-nav",
       "variant": "default",
-      "preview": "预览/验证/15-nav-default.mp4"
+      "preview": "previews/validation/15-nav-default.mp4"
     },
     {
       "id": "15-nav-long",
@@ -1450,7 +1450,7 @@
       "user_approval": false,
       "component": "15-nav",
       "variant": "long",
-      "preview": "预览/验证/15-nav-long.mp4"
+      "preview": "previews/validation/15-nav-long.mp4"
     },
     {
       "id": "01-会议行动清单",
@@ -1467,7 +1467,7 @@
       "user_approval": false,
       "component": "05-chapter",
       "variant": "showcase",
-      "preview": "预览/片段/01-会议行动清单.mp4"
+      "preview": "previews/clips/01-会议行动清单.mp4"
     },
     {
       "id": "02-活动准备五卡",
@@ -1484,7 +1484,7 @@
       "user_approval": false,
       "component": "06-fan",
       "variant": "showcase",
-      "preview": "预览/片段/02-活动准备五卡.mp4"
+      "preview": "previews/clips/02-活动准备五卡.mp4"
     },
     {
       "id": "03-资料双层翻页",
@@ -1501,7 +1501,7 @@
       "user_approval": false,
       "component": "07-takeaway",
       "variant": "showcase",
-      "preview": "预览/片段/03-资料双层翻页.mp4"
+      "preview": "previews/clips/03-资料双层翻页.mp4"
     },
     {
       "id": "04-三步活动故事板",
@@ -1518,7 +1518,7 @@
       "user_approval": false,
       "component": "11-storyboard",
       "variant": "showcase",
-      "preview": "预览/片段/04-三步活动故事板.mp4"
+      "preview": "previews/clips/04-三步活动故事板.mp4"
     },
     {
       "id": "05-准备完成描勾",
@@ -1535,7 +1535,7 @@
       "user_approval": false,
       "component": "13-badge",
       "variant": "showcase",
-      "preview": "预览/片段/05-准备完成描勾.mp4"
+      "preview": "previews/clips/05-准备完成描勾.mp4"
     }
   ],
   "coverage": "每个组件3秒、默认、8秒；替换文案和不同纵横图片；每条实际渲染、完整解码、半秒及末帧OCR。技术检查不等于任意输入保证或用户认可。",

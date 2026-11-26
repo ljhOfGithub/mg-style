@@ -1,7 +1,7 @@
 """文档与预览叠窗；从nana mg1已验证动作源码拆分。"""
 from runtime import *
-from 组件.m03_grid import grid_six
-from 组件.m05_chapter import chapter
+from modules.m03_grid import grid_six
+from modules.m05_chapter import chapter
 
 def browser_stack(s):
     if s.chapter==0:
