@@ -8,6 +8,11 @@
       "bytes": 689
     },
     {
+      "path": "模板工程/LICENSE",
+      "sha256": "6dfaa55cd0a77f8c2a948f0a8ad88f03d7b629286c7fdeb4ad3a50bc711ee854",
+      "bytes": 1203
+    },
+    {
       "path": "模板工程/LICENSE-MG-styles-15.txt",
       "sha256": "7f03fee9299a401615e13e2c636ead0394f47395da4f816ae60b35ed2d91a932",
       "bytes": 1071
@@ -304,8 +309,13 @@
     },
     {
       "path": "模板工程/使用说明.md",
-      "sha256": "19292108cc98c3e1d13764ad29ee1ded214511a88b126689472b684748e14f2c",
-      "bytes": 1287
+      "sha256": "b62291eaa2ca3077bdca6552d39ef727fb9df279bcd69bfd815f02d7f3cc9bb5",
+      "bytes": 1269
+    },
+    {
+      "path": "模板工程/依赖与来源.md",
+      "sha256": "21d00de3cb8de95be09ddf65eeb28a373b64a6c05165b11cabe42619b3c3b239",
+      "bytes": 1228
     },
     {
       "path": "模板工程/启动编辑器.command",
@@ -503,6 +513,11 @@
       "bytes": 6321
     },
     {
+      "path": "模板工程/逐段动效对照.json",
+      "sha256": "f2fc842f43a1f6330cff5e32c6fbea711fb26a804ed9d56949b474ffc381eabe",
+      "bytes": 54122
+    },
+    {
       "path": "模板工程/配置.json",
       "sha256": "220bdc93af89ade10815b15128c32526eb678a897dd39f57d8191664f67f8655",
       "bytes": 71819
@@ -511,6 +526,11 @@
       "path": "模板工程/配置.schema.json",
       "sha256": "9b65132b32c96a6e5f5d78b3bef84117afa0a826d474393805da639aa5256a35",
       "bytes": 3301
+    },
+    {
+      "path": "模板工程/验收说明.md",
+      "sha256": "9c823e9e66587fa7ab2793adacacca40cd7d485dddaf426f6e209042cb2c699b",
+      "bytes": 1100
     },
     {
       "path": "风格.json",
