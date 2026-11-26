@@ -19,10 +19,13 @@ def candidates():
 
 
 def main():
-    catalog = json.loads((ROOT / 'styles/index.json').read_text())
+    catalog = json.loads((ROOT / 'index.json').read_text())
     count = 0
     for style in catalog['styles']:
-        library = ROOT / 'styles' / style['path']
+        library = ROOT / style['path']
+        assert library.resolve().parent == ROOT.resolve(), '每个风格须有独立的根目录子文件夹'
+        assert library.name == style['id'], '风格目录应与登记ID一致'
+        assert (library / 'README.md').is_file(), '缺少风格使用入口'
         meta = json.loads((library / '风格.json').read_text())
         project = library / meta['project']
         config = json.loads((project / '配置.json').read_text())

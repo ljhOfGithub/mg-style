@@ -3,6 +3,71 @@
   "style_id": "fred-mg-1",
   "files": [
     {
+      "path": "NOTICE.md",
+      "sha256": "87b774fd9442332fca29b7d7d63ae09231dec311a415c43a69d489db1e6305ed",
+      "bytes": 1244
+    },
+    {
+      "path": "README.md",
+      "sha256": "8a942e1441a62ca54dff1c073d01f487602f65917b43caebca8cc1868b445ebd",
+      "bytes": 4038
+    },
+    {
+      "path": "docs/editor-preview.png",
+      "sha256": "51ab2b4b04b40d1e3e255e8eed42f8e6f4dab86d6ef9c9631fd4c2b4c067f023",
+      "bytes": 212248
+    },
+    {
+      "path": "docs/opening.png",
+      "sha256": "026b3e96a434cf30783a5aaf905b4f21e30f46c0f2e54ac5ad33b17955f90247",
+      "bytes": 523583
+    },
+    {
+      "path": "docs/parallel.png",
+      "sha256": "6c84dceb5a15716fcd62a78745a2bd45158914bfebdb12d94410fc5bfde3873b",
+      "bytes": 369217
+    },
+    {
+      "path": "docs/rendering.png",
+      "sha256": "fc5c7d5b8a0e1496ab3012cae66c9b1c10fd0bba99c00d99da5248a9bc6c4620",
+      "bytes": 192252
+    },
+    {
+      "path": "docs/验证说明.md",
+      "sha256": "f4c70f866da9b75c70483af71d054c072882df186ceb8363e1f818674d05edee",
+      "bytes": 1097
+    },
+    {
+      "path": "skills/fred-mg-1/SKILL.md",
+      "sha256": "1afa444f8afdf69f5dfa04847f7ad862815a6d27825277b9a7937025fc9fb787",
+      "bytes": 2907
+    },
+    {
+      "path": "skills/fred-mg-1/agents/openai.yaml",
+      "sha256": "ff391ec53b3166dbe56790a8bfcf724e26d3895c0bf49b0c5fe2a8d61586e498",
+      "bytes": 328
+    },
+    {
+      "path": "skills/fred-mg-1/references/style-spec.md",
+      "sha256": "26f4401c471f4f4d05de2d2aec0fec367516e548800d6a01e1bf45f793adac88",
+      "bytes": 3877
+    },
+    {
+      "path": "skills/fred-mg-1/scripts/style.py",
+      "sha256": "7df2dfec29e3b02515c4ada0b3e61af4aaf9a969c1e9c838fa4610167b9f6e0b",
+      "bytes": 6067
+    },
+    {
+      "path": "skills/fred-mg-1/scripts/test_style.py",
+      "sha256": "a86e189edc97c36a9011708819404a9fa17d1e5c46e29a5c931d28f013d13f46",
+      "bytes": 3597
+    },
+    {
+      "path": "tools/test-preview-ready.js",
+      "sha256": "32b095d019f594cad8ca3f12b3ffb05d58582fd51ca7d45b0796e5914a19acdd",
+      "bytes": 1605
+    },
+    {
       "path": "使用方式.md",
       "sha256": "26c4cdfd605041c2a5dc16d7edd8ef55b8adc125c47e9e78de71675e5012d9b8",
       "bytes": 689
