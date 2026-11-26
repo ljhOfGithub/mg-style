@@ -1,0 +1,1 @@
+<div class="chapter" style="background:white;color:#19191e"><div class="chapter-num" id="giant" style="font-size:360px">0<span class="purple">4</span></div><div id="ch-pill" style="position:absolute;border-radius:60px;background:#17171d;color:white;padding:30px 55px;font-size:65px;font-weight:700">04　看片把关和返修</div></div>

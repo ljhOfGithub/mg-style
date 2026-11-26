@@ -1,0 +1,521 @@
+{
+  "format": "personal-mg-style-files@1",
+  "style_id": "fred-mg-1",
+  "files": [
+    {
+      "path": "使用方式.md",
+      "sha256": "26c4cdfd605041c2a5dc16d7edd8ef55b8adc125c47e9e78de71675e5012d9b8",
+      "bytes": 689
+    },
+    {
+      "path": "模板工程/LICENSE-MG-styles-15.txt",
+      "sha256": "7f03fee9299a401615e13e2c636ead0394f47395da4f816ae60b35ed2d91a932",
+      "bytes": 1071
+    },
+    {
+      "path": "模板工程/assets/ambient/clip-1.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/ambient/clip-2.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/ambient/clip-3.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/ambient/clip-4.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/fonts/Noto-OFL.txt",
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "bytes": 4301
+    },
+    {
+      "path": "模板工程/assets/fonts/NotoSansCJKsc-Black.otf",
+      "sha256": "2267c4a0312d267dff8c0d1609948f7d949a3da8be3e126f5e2690cb9cc883b4",
+      "bytes": 17797908
+    },
+    {
+      "path": "模板工程/assets/fonts/SmileySans-OFL.txt",
+      "sha256": "9401f4050f1b66c26b6ccdc8b0e14a3c1cc37aac122eda84386f25854a9bec72",
+      "bytes": 4422
+    },
+    {
+      "path": "模板工程/assets/fonts/SmileySans-Oblique.otf",
+      "sha256": "139b5dcbe70d6d52de85a62d148784c6af4bd161e38fdb62ba0c1e7e5065fca6",
+      "bytes": 2003884
+    },
+    {
+      "path": "模板工程/assets/fonts/Teko-OFL.txt",
+      "sha256": "4a193c54e911c1e8194d4db657423f2527f54a1239f24cb67ecb09128dc9f065",
+      "bytes": 4385
+    },
+    {
+      "path": "模板工程/assets/fonts/Teko.ttf",
+      "sha256": "d1321889f262bbbff632e7976349853399cd097b6f382d4b19790c915c13c1ae",
+      "bytes": 292108
+    },
+    {
+      "path": "模板工程/assets/fonts/中文常规.otf",
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "bytes": 16437364
+    },
+    {
+      "path": "模板工程/assets/fonts/中文粗体.otf",
+      "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a",
+      "bytes": 17002248
+    },
+    {
+      "path": "模板工程/assets/placeholders/cover-tall.svg",
+      "sha256": "7fa60bec66dfbaa55c99127e18a382de40f5d767f88b455612de9353d5a4c122",
+      "bytes": 510
+    },
+    {
+      "path": "模板工程/assets/placeholders/cover-wide.svg",
+      "sha256": "05744e6127a8f4fe0c27131027f4d765dc9c4ba1ac9370317d78ba3eb877cbad",
+      "bytes": 510
+    },
+    {
+      "path": "模板工程/assets/placeholders/demo.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/image.svg",
+      "sha256": "e868f72dca40dfef6ab44bcde27700878285b0a2fdc5b443345d5990121b2f1e",
+      "bytes": 506
+    },
+    {
+      "path": "模板工程/assets/placeholders/poster.png",
+      "sha256": "f4a66dd077e281f7b2439d8bf7815fb288e8c78afe2cb9bfe49480f7a8e46892",
+      "bytes": 74319
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-001.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-002.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-003.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-004.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-005.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-006.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-007.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-008.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-009.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-010.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-011.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-012.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-013.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-014.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-015.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-016.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-017.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-018.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-019.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-020.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-021.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-022.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-023.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-024.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-025.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-026.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-027.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-028.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-029.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-030.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-031.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-032.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-033.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-034.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-035.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-036.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-037.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/placeholders/video-038.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
+      "bytes": 335118
+    },
+    {
+      "path": "模板工程/assets/vendor/gsap.min.js",
+      "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+      "bytes": 72927
+    },
+    {
+      "path": "模板工程/index.html",
+      "sha256": "3b68a2e128859e421c97e98157dd2b10c25b3ccc4f45083a03a74e599767de10",
+      "bytes": 154280
+    },
+    {
+      "path": "模板工程/requirements.txt",
+      "sha256": "8ea52aa64e76c5e431833b80cb25b8fcd11e6bac3eda9ad36d31e737ca8fd799",
+      "bytes": 23
+    },
+    {
+      "path": "模板工程/使用说明.md",
+      "sha256": "19292108cc98c3e1d13764ad29ee1ded214511a88b126689472b684748e14f2c",
+      "bytes": 1287
+    },
+    {
+      "path": "模板工程/启动编辑器.command",
+      "sha256": "43840607dcf4de75d2adb5431d560ff68ebd29fd31c250a94008ef2009dc114f",
+      "bytes": 604
+    },
+    {
+      "path": "模板工程/命令.py",
+      "sha256": "bcdc51530d2872e93584657f03bc162be1f9b8ade0dd2dbdae2b314f238188d1",
+      "bytes": 3543
+    },
+    {
+      "path": "模板工程/基础CSS.css",
+      "sha256": "19d57c0d0ec59a479d280d20f92ee75e9b25d17f151343edc79e54b67b97e111",
+      "bytes": 4776
+    },
+    {
+      "path": "模板工程/工具/测试动作时序.js",
+      "sha256": "72d5de010e14b2dc176705e07c8306ed305382057d9cb233045626db2d69c9f3",
+      "bytes": 1489
+    },
+    {
+      "path": "模板工程/工具/测试模板.py",
+      "sha256": "e55d33ddfcb9b078bc9cd607939b3d6bfb427193e7995d4650bfbdb4948dadb6",
+      "bytes": 3350
+    },
+    {
+      "path": "模板工程/工具/测试编辑器.py",
+      "sha256": "3a5e91896e7909e8fc5eec62d9b1be9e47c4ef3559c724ae42260470759291a8",
+      "bytes": 2450
+    },
+    {
+      "path": "模板工程/工具/测试编辑接口.py",
+      "sha256": "383c474dd86c4eb5bcfa796591f7331184d8fd412f2420cc17f42b3601e79ea0",
+      "bytes": 2840
+    },
+    {
+      "path": "模板工程/构建.py",
+      "sha256": "ab6b04cf0fd719ae503099aaf08aea6c88e729ce61923b36349e3cc60d869091",
+      "bytes": 14611
+    },
+    {
+      "path": "模板工程/模块索引.json",
+      "sha256": "00171234354f0bde30945f6415a2bf831cf271e2b5a52701bb8239b0ff569148",
+      "bytes": 41530
+    },
+    {
+      "path": "模板工程/模板/云端预算.tpl",
+      "sha256": "77bbcff4d59fe684f6604e3ba7f9814ba237b03a231557c392e4ef4fbe9d7349",
+      "bytes": 1962
+    },
+    {
+      "path": "模板工程/模板/价值.tpl",
+      "sha256": "7f5ebcf13fb7f3b982de9627b4f0a9684e9cbcee01246d2cb2547146ffec2c4e",
+      "bytes": 1039
+    },
+    {
+      "path": "模板工程/模板/写稿.tpl",
+      "sha256": "31e22924f747706ad7343ab83a1400d98885e5e36c714276f96d3dd0177e4360",
+      "bytes": 1773
+    },
+    {
+      "path": "模板工程/模板/准备零分钟.tpl",
+      "sha256": "33a3a088c1a2751dda1e2fc95a435b24e30dc1db49debb81513f4b261d59e573",
+      "bytes": 983
+    },
+    {
+      "path": "模板工程/模板/反差.tpl",
+      "sha256": "0e9487da2ff9f7f6e46e59b5689cc0a3774e500e1345cd09a762b22e3d7f8792",
+      "bytes": 1297
+    },
+    {
+      "path": "模板工程/模板/发布.tpl",
+      "sha256": "ae6f88f3187a03612afb94ac05137cf1c64acb805f2c49770f5240eaa31ade9d",
+      "bytes": 1820
+    },
+    {
+      "path": "模板工程/模板/后台工作.tpl",
+      "sha256": "661e49d76e8191e31291b64ff1fa508613681e47bb549f8fc9f1975ca296ed17",
+      "bytes": 2332
+    },
+    {
+      "path": "模板工程/模板/审片.tpl",
+      "sha256": "7d2e227fe1142af4f50f187e1ad2d4f162dd747d708dd51cb36ae8684f67bf37",
+      "bytes": 1588
+    },
+    {
+      "path": "模板工程/模板/对比.tpl",
+      "sha256": "d29be1830cc60008c71edfc3c4a5ed1df98d208b4ad80b155379dcf6848c5228",
+      "bytes": 1579
+    },
+    {
+      "path": "模板工程/模板/并行.tpl",
+      "sha256": "d18ee7b5cec49650885128d16e07d5da3b99c4e34002ff3d7bf5b6607a3ce7f4",
+      "bytes": 4523
+    },
+    {
+      "path": "模板工程/模板/开场.tpl",
+      "sha256": "f81254e285fe775973e897b69e8917079fae093c52bc07868d30685561e34b79",
+      "bytes": 15510
+    },
+    {
+      "path": "模板工程/模板/末卡.tpl",
+      "sha256": "2dcc1436236361594a312c06345816809273c18f5fe9e2c89d96a24842966628",
+      "bytes": 1593
+    },
+    {
+      "path": "模板工程/模板/流程.tpl",
+      "sha256": "8e4348af179876ee67b70019a25195aeb16eb396fd15e2bbb310f46c54862c3f",
+      "bytes": 1600
+    },
+    {
+      "path": "模板工程/模板/渲染.tpl",
+      "sha256": "2d6bffadd49a1fe5d63dd70256c039ff348f5f2229d299ba09e9de3864bc3055",
+      "bytes": 5746
+    },
+    {
+      "path": "模板工程/模板/章节01.tpl",
+      "sha256": "ae829d593acd053b807b83f65e9f2fff88744f1cf6730166422a3c5a2a72bbd4",
+      "bytes": 1072
+    },
+    {
+      "path": "模板工程/模板/章节02.tpl",
+      "sha256": "2b39e7b08399052e8e69f1b891c80fe5f8ff64e63a8f99c5b566f75e9ab6fdee",
+      "bytes": 233
+    },
+    {
+      "path": "模板工程/模板/章节03.tpl",
+      "sha256": "f0fc5aa594acc3afd6793d7891a6f038169a540653b7b6def76b15919434e828",
+      "bytes": 180
+    },
+    {
+      "path": "模板工程/模板/章节04.tpl",
+      "sha256": "d9b1c12ef2a6af7acba7b44d31af2e2f28f97f034c1b700b49d5577eab8fa119",
+      "bytes": 337
+    },
+    {
+      "path": "模板工程/模板/章节05.tpl",
+      "sha256": "dcc9a7dc4d8bd42166c6f5841bb22c84e69eadbcf27677e9f34151914a996d08",
+      "bytes": 325
+    },
+    {
+      "path": "模板工程/模板/素材.tpl",
+      "sha256": "684ac2ced792af42039905a24dc1b378501c0d50d550496f48ed4532eb583964",
+      "bytes": 3289
+    },
+    {
+      "path": "模板工程/模板/账本.tpl",
+      "sha256": "9a979eea5b0359818b0397fa2e3f20839c41391395040841efc3e75f215a4780",
+      "bytes": 3022
+    },
+    {
+      "path": "模板工程/模板/输入.tpl",
+      "sha256": "f40f3aac943c8694efea5605b50465e3dbbab92330e0e92763593a28d0e844c9",
+      "bytes": 1367
+    },
+    {
+      "path": "模板工程/模板/返修.tpl",
+      "sha256": "207ca0de38386249f16ee2fba6357e30cb74166fd0a879e4c99db25e287c90cb",
+      "bytes": 1284
+    },
+    {
+      "path": "模板工程/精修CSS.css",
+      "sha256": "e3c3b182d570a30b113755d72969c5eff05866ca08707ee0d9850059f91d8c35",
+      "bytes": 15872
+    },
+    {
+      "path": "模板工程/编辑器/index.html",
+      "sha256": "a43d97f21b875a5756170980bf67e08f742fd585b5d9202fc4c38c8280186d25",
+      "bytes": 2583
+    },
+    {
+      "path": "模板工程/编辑器/应用.js",
+      "sha256": "0bd28675d5e1b3c7706f3edef00c402ef9c59a4d9ae5b5e2cfb1e83face31a6a",
+      "bytes": 16161
+    },
+    {
+      "path": "模板工程/编辑器/样式.css",
+      "sha256": "bdbf8b69b7bf3dae54ef20e6f5fbdc3d00dcabba5b4b3b1aa8b5ca3fdc29c4b3",
+      "bytes": 7514
+    },
+    {
+      "path": "模板工程/编辑器/预览.js",
+      "sha256": "b0affaf0b162a06b3b6c76496a047cda5834b974e800e7cbbe5b6e8b86ef33a2",
+      "bytes": 2484
+    },
+    {
+      "path": "模板工程/编辑器.py",
+      "sha256": "e86a6515e2c4af358c308458d5832738388852e561f781c19ac7e43fce0a2777",
+      "bytes": 11614
+    },
+    {
+      "path": "模板工程/运行库/motions.js",
+      "sha256": "d235a65d8fb9a022908eafccb95cac67c273f4c5a19ed9f8649768ae16186f74",
+      "bytes": 6321
+    },
+    {
+      "path": "模板工程/配置.json",
+      "sha256": "220bdc93af89ade10815b15128c32526eb678a897dd39f57d8191664f67f8655",
+      "bytes": 71819
+    },
+    {
+      "path": "模板工程/配置.schema.json",
+      "sha256": "9b65132b32c96a6e5f5d78b3bef84117afa0a826d474393805da639aa5256a35",
+      "bytes": 3301
+    },
+    {
+      "path": "风格.json",
+      "sha256": "f8f29115c365844063a0d6dd1d2ce860c8313c4f4ea00e8113285d788ce9c8ca",
+      "bytes": 382
+    }
+  ]
+}

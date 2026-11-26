@@ -1,0 +1,193 @@
+/* v7：逐模块版式。动作时间仍由配置中的原片事件控制。 */
+@font-face{font-family:展示黑;src:url('assets/fonts/SmileySans-Oblique.otf');font-weight:400 900}
+@font-face{font-family:窄数字;src:url('assets/fonts/Teko.ttf');font-weight:300 700}
+@font-face{font-family:展示粗黑;src:url('assets/fonts/NotoSansCJKsc-Black.otf');font-weight:900}
+.scene-root{--radius-media:20px;--radius-panel:24px}
+.scene-root .page{padding:148px 76px 142px}
+.title,.chapter-title,.subhead,.eyebrow,.panel-title{font-family:展示粗黑,本片中文;font-weight:900;letter-spacing:-1px}
+.title{font-size:76px;line-height:1.12;margin-bottom:30px}
+.number,.chapter-num{font-family:窄数字,本片中文;font-weight:600;letter-spacing:-2px;font-variant-numeric:tabular-nums;line-height:.98}
+.number{font-size:220px;display:inline-block;vertical-align:baseline}
+.unit{font-size:46px;font-weight:700;letter-spacing:0;margin-left:14px;white-space:nowrap}
+.stat{margin:22px 0 28px}.stat .label{font-size:30px;margin-bottom:16px}
+.body{font-size:34px;line-height:1.48}.small{font-size:27px;line-height:1.5}
+.panel{border-radius:var(--radius-panel);padding:32px;box-shadow:none;background:#242429}
+.panel.light{background:#fff}.panel-title{font-size:35px;line-height:1.28;margin-bottom:25px}
+.media-slot{border-radius:var(--radius-media)}
+.scene-root .header{font-size:28px;top:44px;height:50px;line-height:1}
+.header .badge{font-size:23px;color:#7c7885}.dark .header .badge{color:#b6afc2}
+.header .dots{font-size:17px;letter-spacing:4px}
+.scene-root .caption{font-size:36px;border-radius:12px;padding:13px 25px;bottom:32px}
+.scene-root .line{height:10px;background:#444347;border-radius:20px}.line i{border-radius:inherit}
+.chapter{gap:44px}.chapter-num{font-size:240px}.chapter-title{font-size:106px;line-height:1.1}
+/* 开场：数字、预算卡分别成组，墙面保持原有线性位移。 */
+[data-module="开场"] #hero{top:292px!important;width:930px!important}
+[data-module="开场"] #hero>div:first-child{font-family:展示粗黑;font-size:194px!important;line-height:1.12!important}
+[data-module="开场"] #hero .drop:not(:last-child){font-family:窄数字;font-weight:600}
+[data-module="开场"] #lead{font-size:39px}
+[data-module="开场"] #stats{top:288px!important;width:730px!important;padding:42px!important;border-radius:28px}
+[data-module="开场"] .meta{gap:20px}.meta b{font-family:窄数字,本片中文;font-size:66px}
+[data-module="开场"] #goal{font-size:38px!important;margin-top:30px}
+/* 反差：左案例、右答案；数字与单位共享基线。 */
+[data-module="反差"] .subhead{font-size:66px;line-height:1.2}
+[data-module="反差"] #answer{font-size:310px!important}
+[data-module="反差"] #answer-label{font-size:34px;margin-top:30px!important}
+[data-module="反差"] #answer-detail{font-size:30px}
+/* 网站：大案例窗口，下方两路连续演示。 */
+[data-module="流程"] .page>.row{gap:58px!important}
+[data-module="流程"] .page>.row>div:first-child{width:720px!important;flex:none}
+[data-module="流程"] .title{font-size:76px!important;line-height:1.22}
+[data-module="流程"] #invite{background:white;color:#24222a;border-radius:22px;padding:27px 30px;font-size:36px!important;line-height:1.6}
+[data-module="流程"] #invite .purple{color:var(--purpleOnPaper)}
+[data-module="流程"] .col>.media-slot{width:690px;height:504px!important;margin-left:auto;margin-right:auto;background:transparent!important}
+[data-module="流程"] .col>div:last-child>.media-slot{height:150px!important}
+[data-module="流程"] #intro{font-size:32px;margin-top:30px!important}
+/* 提示词与写稿：左侧两根时间轨，右侧窗口、子窗口、状态条分层。 */
+[data-module="输入"] .page>.row,[data-module="写稿"] .page>.row{gap:55px!important}
+[data-module="输入"] .page>.row>div:first-child,[data-module="写稿"] .page>.row>div:first-child{width:510px!important;flex:none}
+[data-module="输入"] .stat,[data-module="写稿"] .stat{border-left:7px solid currentColor;padding-left:27px}
+[data-module="输入"] #human,[data-module="写稿"] #human{border-left-color:var(--purple)}
+[data-module="输入"] .number,[data-module="写稿"] .number{font-size:218px}
+[data-module="输入"] .stat .unit,[data-module="写稿"] .stat .unit{font-size:43px}
+[data-module="输入"] .panel,[data-module="写稿"] .panel{height:730px!important;padding:34px 38px}
+[data-module="输入"] #prompt{height:310px!important;padding:28px!important;font-size:35px!important;line-height:1.55!important;border:1px solid #6b607b;border-left:7px solid var(--purple);border-radius:16px}
+[data-module="写稿"] #summary{background:#302d36;border-left:6px solid var(--purple);padding:21px 24px;border-radius:15px;font-size:30px;line-height:1.4;margin-bottom:32px}
+[data-module="写稿"] .panel>.row{gap:24px}
+[data-module="写稿"] .panel .media-slot{height:342px!important}
+[data-module="写稿"] .source-note{font-size:26px;margin-top:16px}
+[data-module="写稿"] .panel>div:last-child{font-size:30px!important;padding:25px!important;margin-top:29px!important;border-radius:16px!important}
+/* 02 与三张工具卡。 */
+[data-module="准备零分钟"] .number{font-size:310px!important;line-height:1.05}
+[data-module="准备零分钟"] .label{font-size:35px}
+[data-module="准备零分钟"] .strike{font-family:展示粗黑;font-size:42px!important;padding:27px 35px!important}
+[data-module="准备零分钟"] .budgetnote{font-size:26px}
+[data-module="素材"] .page>.row{gap:22px!important;margin-top:18px!important}
+[data-module="素材"] .panel{padding:27px 24px}
+[data-module="素材"] .panel-title{font-size:39px;margin-bottom:25px}
+[data-module="素材"] .media-slot,[data-module="素材"] #waveform{height:355px!important}
+[data-module="素材"] #prep-summary{padding:26px 32px;background:#eee8f8;border-radius:18px;font-size:34px!important}
+/* 云端总数字、左右执行面板。 */
+[data-module="云端预算"] #cloud-stat{top:255px!important}
+[data-module="云端预算"] #cloud-stat .number{font-size:304px!important}
+[data-module="云端预算"] #cloud-stat .label{font-size:35px;margin-bottom:20px}
+[data-module="云端预算"] #zero-bar{top:680px!important;left:450px!important;right:450px!important;padding:25px 20px;font-size:38px!important;background:#fff;border-radius:22px}
+[data-module="渲染"] .page>.row{margin-top:8px!important;gap:28px!important}
+[data-module="渲染"] .page>.row>.panel{height:632px!important;padding:28px}
+[data-module="渲染"] .panel-title{font-size:34px}
+[data-module="渲染"] .sheet{width:330px!important;height:378px!important;padding:25px}
+[data-module="渲染"] .panel .media-slot{border-radius:13px}
+[data-module="渲染"] #history-count{font-family:窄数字;font-size:90px}
+[data-module="渲染"] #queue .grid{gap:14px!important}
+[data-module="渲染"] #queue-status{margin-bottom:18px!important}
+[data-module="渲染"] #queue .media-slot>div{font-size:28px!important;line-height:1.5!important}
+[data-module="输入"] .number{line-height:1.23}
+[data-module="后台工作"] .page>.row{gap:45px!important;margin-top:22px!important}
+[data-module="后台工作"] .page>.row>div:first-child{width:1090px!important;flex:none}
+[data-module="后台工作"] .media-slot{height:590px!important}
+[data-module="后台工作"] #multi{height:640px!important;padding:36px 20px!important}
+[data-module="后台工作"] #multi svg{height:340px;width:340px;margin:18px auto 12px}
+[data-module="后台工作"] #multi svg{display:block}
+[data-module="后台工作"] #multi .strike{display:block;max-width:max-content;margin:0 auto}
+[data-module="后台工作"] #multi .body{font-size:29px!important}
+/* 审片：让预览成为主视觉；流程条紧贴底边，反馈单列。 */
+[data-module="审片"] .page>.row{gap:45px!important}
+[data-module="审片"] .page>.row>div:first-child{width:1120px!important;flex:none}
+[data-module="审片"] .review-screen{height:560px!important;padding:24px!important;position:relative}
+[data-module="审片"] .review-screen>.panel-title{font-size:31px;margin-bottom:20px}
+[data-module="审片"] .review-screen>div:nth-child(2){height:453px!important;display:block!important}
+[data-module="审片"] .review-screen .media-slot{width:100%!important;height:453px!important;border-radius:12px!important}
+[data-module="审片"] .review-screen .review-extra{display:none}
+[data-module="审片"] #review-stat{padding-top:4px}
+[data-module="审片"] #review-stat>.title{font-size:63px;line-height:1.2}
+[data-module="审片"] .number{font-size:225px}
+[data-module="审片"] #opinion{padding:26px;margin-top:24px!important;border-left:6px solid var(--purple);border-radius:16px}
+[data-module="审片"] #opinion .panel-title{font-size:32px;margin-bottom:12px}
+[data-module="审片"] #opinion .body{font-size:32px}
+.steps{gap:9px;margin-top:18px}.step{font-size:27px;padding:17px 4px;border-radius:9px}
+/* 返修与发布：不改真实素材比例，不让完成标记压住文字。 */
+[data-module="返修"] .page>.row{gap:50px!important}
+[data-module="返修"] .page>.row>div:first-child{width:820px!important;flex:none}
+[data-module="返修"] .title{font-size:72px}
+[data-module="返修"] #covers>.title{font-size:49px!important;line-height:1.25}
+[data-module="返修"] .number{font-size:205px}
+[data-module="返修"] #revision-feedback{box-shadow:none;border-left:5px solid var(--purple);border-radius:13px}
+[data-module="发布"] #publish-panel{width:1120px!important;flex:none}
+[data-module="发布"] #publish-panel>.title{font-size:57px!important}
+[data-module="发布"] #publish-panel>.panel{height:555px!important;background:#eeebf3;border-radius:24px;padding:14px!important}
+[data-module="发布"] #phone{padding-top:12px}
+[data-module="发布"] #phone .number{font-size:225px}
+[data-module="发布"] #phone>.body{font-size:30px}
+[data-module="发布"] #publish-status{font-size:25px;padding:17px!important;white-space:nowrap}
+/* 账本：行高、列位、条宽固定；五行与右侧双总计构成一个整体。 */
+[data-module="账本"] .page{padding-top:145px}
+[data-module="账本"] .title{font-size:78px;margin-bottom:34px}
+[data-module="账本"] .page>.row{gap:34px!important}
+[data-module="账本"] .page>.row>div:first-child{width:1180px!important;flex:none}
+[data-module="账本"] .boardline{height:109px;padding:20px 27px;margin-bottom:15px;border-radius:19px;font-size:29px;font-weight:700;gap:16px}
+[data-module="账本"] .boardline>span:first-child{width:312px!important;flex:none;font-size:29px}
+[data-module="账本"] .boardline>b{width:260px!important;flex:none;font-size:29px;gap:15px!important}
+[data-module="账本"] .boardline>b{display:grid!important;grid-template-columns:100px 1fr;align-items:center}
+[data-module="账本"] .human-value{white-space:nowrap}
+[data-module="账本"] .boardline>span:nth-of-type(2){width:234px!important;flex:none;font-size:27px}
+[data-module="账本"] .boardline>.line{flex:1;min-width:90px}
+[data-module="账本"] #total{padding:34px!important;height:384px}
+[data-module="账本"] #total .stat{margin:0}
+[data-module="账本"] #total .label{font-size:31px;margin-bottom:26px}
+[data-module="账本"] #count{font-size:232px;color:var(--purpleOnPaper)}
+[data-module="账本"] #ai-total{height:280px;padding:30px;margin-top:23px!important}
+[data-module="账本"] #ai-total>div:nth-child(2){font-family:窄数字;font-size:100px!important;line-height:1.2;margin-top:8px!important;white-space:nowrap}
+[data-module="账本"] #ai-total .small{font-size:28px;color:var(--purple)}
+[data-module="账本"] #equation{font-size:30px;margin-top:20px!important}
+/* 并行：四个独立模块，媒体和其进度在同一视觉行。 */
+[data-module="并行"] .title{font-size:77px;margin-bottom:34px}
+[data-module="并行"] .gallery{gap:24px}
+[data-module="并行"] .gallery>.panel{height:266px;padding:26px}
+[data-module="并行"] .gallery .row{gap:26px}
+[data-module="并行"] .gallery .row>div:first-child{width:400px!important;height:214px!important;flex:none}
+[data-module="并行"] .gallery p{font-family:展示粗黑;font-size:35px;margin:10px 0 12px}
+[data-module="并行"] .gallery .small{font-size:26px}
+[data-module="并行"] #daily-goal{margin-top:24px!important;padding:24px;font-size:33px!important;background:#fff}
+/* 对比：两路实拍同高，长短条的共同起点严格对齐。 */
+[data-module="对比"] .page>.row{height:345px!important;gap:28px!important}
+[data-module="对比"] .page>.row>.media-slot{width:870px!important;height:335px!important;flex:1}
+[data-module="对比"] .panel{padding:25px 32px!important;border-radius:20px}
+[data-module="对比"] .panel>div:first-child{font-family:展示粗黑;font-size:44px!important}
+[data-module="对比"] .panel>div:first-child>span{font-family:窄数字,本片中文;font-size:80px;font-weight:600;line-height:.9}
+[data-module="对比"] #compare-target{border:2px solid #d9c4f7;background:#fff;color:#17171d}
+[data-module="对比"] .line{height:17px!important}
+/* 价值：主句与三张职责卡分别排成稳定网格。 */
+[data-module="价值"] #repeat{font-family:展示粗黑;font-size:67px!important;line-height:1.2}
+[data-module="价值"] #value-promise{font-size:63px!important;line-height:1.22;margin-top:35px!important;white-space:nowrap}
+[data-module="价值"] .page>.row{gap:25px;margin-top:48px!important}
+[data-module="价值"] .panel{height:323px!important;padding:35px 33px;border-radius:23px}
+[data-module="价值"] .panel .title{font-size:63px!important;margin-bottom:24px}
+[data-module="价值"] .panel .body{font-size:33px}
+[data-module="价值"] .panel{text-align:center;display:flex;flex-direction:column;justify-content:center}
+/* 末卡：问题文字占主位；角色从属，不加无来源动作。 */
+[data-module="末卡"] .ending-lockup{position:absolute;left:160px;right:130px;top:260px;height:560px;display:flex;align-items:center;justify-content:space-between;gap:25px}
+[data-module="末卡"] .ending-copy{order:0;flex:1;min-width:0}
+[data-module="末卡"] .ending-lockup>.actor{order:1;width:340px!important;height:510px!important;flex:none}
+[data-module="末卡"] .end-word:first-child{font-family:展示粗黑;font-size:106px!important;line-height:1.25;white-space:nowrap;letter-spacing:-3px}
+[data-module="末卡"] .end-word:last-child{font-family:展示粗黑;font-size:80px!important;line-height:1.2;margin-top:25px!important}
+.header .dots{display:inline-flex;vertical-align:middle;align-items:center;gap:9px;margin-right:12px}
+.header .dots i{display:block;width:10px;height:10px;border-radius:7px;background:#aaa5b5;opacity:.35}
+.header .dots i.current{width:27px;background:var(--purpleOnPaper);opacity:1}
+.dark .header .dots i.current{background:var(--purple)}
+
+/* v14：本轮已核实的分组/中间态，布局之外不添加新动作。 */
+[data-module="章节01"] .chapter{flex-direction:column;gap:32px}
+[data-module="章节01"] .chapter-num{font-size:232px;line-height:270px}
+[data-module="输入"] .page{background:white}
+[data-module="渲染"] #history-result{background:rgba(35,29,45,.93)}
+[data-module="渲染"] #history-items .history-item{position:relative}
+[data-module="后台工作"] #multi{padding:20px 15px!important}
+[data-module="后台工作"] #multi svg{width:270px;height:270px;margin:5px auto}
+[data-module="后台工作"] #clock-old{max-width:max-content;margin:auto}
+[data-module="后台工作"] #clock-next{white-space:nowrap}
+
+/* v15：已定位的矩阵越界、空槽与章节接点修正。 */
+[data-module="渲染"] #history-matrix .subhead{font-size:32px;line-height:1.2}
+[data-module="渲染"] #history-matrix>div:nth-child(2){font-size:64px!important;line-height:1.1;margin:8px 0!important}
+[data-module="渲染"] #history-items{gap:8px!important}
+[data-module="渲染"] #history-items .history-item{height:44px!important}
+[data-module="章节05"] .chapter{gap:0}
