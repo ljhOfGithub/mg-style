@@ -1,0 +1,14 @@
+{
+  "format": "fred-component@1",
+  "component": "08-preparation",
+  "duration": 9.0,
+  "content": {
+    "txt_000": "人工准备预算示例"
+  },
+  "data": {},
+  "media": {
+    "media-03": "assets/variants/portrait.svg"
+  },
+  "theme": {},
+  "motions": {}
+}

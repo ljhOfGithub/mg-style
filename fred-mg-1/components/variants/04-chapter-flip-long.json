@@ -1,0 +1,15 @@
+{
+  "format": "fred-component@1",
+  "component": "04-chapter-flip",
+  "duration": 3.8,
+  "content": {},
+  "data": {
+    "chapter": {
+      "number": "01",
+      "title": "资料整理"
+    }
+  },
+  "media": {},
+  "theme": {},
+  "motions": {}
+}

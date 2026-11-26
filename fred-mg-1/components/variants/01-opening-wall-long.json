@@ -1,0 +1,22 @@
+{
+  "format": "fred-component@1",
+  "component": "01-opening-wall",
+  "duration": 8.0,
+  "content": {
+    "txt_000": "一天排三到四期，人工要忙多久？示例"
+  },
+  "data": {
+    "budget": {
+      "human": [
+        4,
+        0,
+        0,
+        8,
+        3
+      ]
+    }
+  },
+  "media": {},
+  "theme": {},
+  "motions": {}
+}

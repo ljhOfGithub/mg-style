@@ -1,0 +1,15 @@
+{
+  "format": "fred-component@1",
+  "component": "17-chapter-slide",
+  "duration": 3.9,
+  "content": {},
+  "data": {
+    "chapter": {
+      "number": "05",
+      "title": "资料整理"
+    }
+  },
+  "media": {},
+  "theme": {},
+  "motions": {}
+}

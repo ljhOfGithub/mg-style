@@ -1,0 +1,12 @@
+{
+  "format": "fred-component@1",
+  "component": "11-cloud-budget",
+  "duration": 8.0,
+  "content": {
+    "txt_000": "AI后台预算示例"
+  },
+  "data": {},
+  "media": {},
+  "theme": {},
+  "motions": {}
+}

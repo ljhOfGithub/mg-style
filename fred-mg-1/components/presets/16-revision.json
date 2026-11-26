@@ -1,0 +1,120 @@
+{
+  "schema": "reference-mg-template@1",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 7.9
+  },
+  "theme": {
+    "ink": "#17171d",
+    "paper": "#ffffff",
+    "purple": "#c6a4fa",
+    "purpleOnPaper": "#8050b4"
+  },
+  "data": {
+    "budget": {
+      "human": [
+        3,
+        0,
+        0,
+        10,
+        2
+      ],
+      "ai_labels": [
+        "5—8分钟",
+        "5—10分钟",
+        "25—30分钟",
+        "20—25分钟",
+        "约15分钟"
+      ],
+      "human_bar_px_per_minute": 12.5
+    }
+  },
+  "assetOverrides": {},
+  "copy": {
+    "返修": {
+      "txt_000": "只返修指出的段落",
+      "txt_001": "AI后台返修",
+      "txt_002": "20—25",
+      "txt_003": "分钟",
+      "txt_004": "其他段落继续保留",
+      "txt_005": "开场",
+      "txt_006": "主体一",
+      "txt_007": "这段太拖",
+      "txt_008": "主体二",
+      "txt_009": "收尾",
+      "txt_010": "一并生成横版与竖版封面",
+      "txt_011": "✓",
+      "txt_012": "横版与竖版，一并备齐"
+    }
+  },
+  "scenes": [
+    {
+      "id": "返修",
+      "start": 0,
+      "end": 7.9,
+      "title": "04 指哪段，改哪段",
+      "dark": false,
+      "header": true,
+      "entry_duration": 0.4,
+      "transition": null,
+      "events": [
+        {
+          "type": "fade",
+          "target": "#covers",
+          "at": 3.8,
+          "duration": 0.4,
+          "from": 0.2,
+          "to": 1,
+          "id": "返修-01"
+        },
+        {
+          "type": "state",
+          "target": "#revised-step",
+          "at": 0,
+          "duration": 0,
+          "values": {
+            "textContent": "局部返修中",
+            "backgroundColor": "#e14656",
+            "color": "white"
+          },
+          "id": "返修-02"
+        },
+        {
+          "type": "state",
+          "target": "#revised-step",
+          "at": 2.7,
+          "duration": 0,
+          "values": {
+            "backgroundColor": "#26222e",
+            "color": "#c6a4fa",
+            "textContent": "已收紧 ✓"
+          },
+          "id": "返修-03"
+        },
+        {
+          "type": "fade",
+          "target": "#revise-check",
+          "at": 5.2,
+          "duration": 0.2,
+          "from": 0,
+          "to": 1,
+          "id": "返修-04"
+        }
+      ],
+      "fadeIn": 0.4,
+      "template": "modules/16-revision.tpl",
+      "domId": "scene-15",
+      "media": [],
+      "visibleEnd": 7.9,
+      "fadeOut": 0
+    }
+  ],
+  "captions": [],
+  "audio": null,
+  "scope": "独立组件；通用素材参数验证",
+  "backgrounds": [],
+  "ambient_walls": [],
+  "layout": {}
+}

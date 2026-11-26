@@ -1,0 +1,1531 @@
+{
+  "status": "TECHNICAL_CHECKED",
+  "component_count": 23,
+  "render_count": 46,
+  "frames": 10888,
+  "duration": 362.9333333333335,
+  "ocr_samples": 790,
+  "checks": [
+    {
+      "id": "01-opening-wall-long",
+      "ok": true,
+      "counts": {
+        "lint": {
+          "errors": 0,
+          "warnings": 32
+        },
+        "runtime": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "layout": {
+          "errors": 0,
+          "warnings": 1
+        },
+        "motion": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "contrast": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "craft": {
+          "errors": 0,
+          "warnings": 1
+        },
+        "audio": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    },
+    {
+      "id": "02-contrast-long",
+      "ok": true,
+      "counts": {
+        "lint": {
+          "errors": 0,
+          "warnings": 3
+        },
+        "runtime": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "layout": {
+          "errors": 0,
+          "warnings": 1
+        },
+        "motion": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "contrast": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "craft": {
+          "errors": 0,
+          "warnings": 2
+        },
+        "audio": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    },
+    {
+      "id": "03-workflow-long",
+      "ok": true,
+      "counts": {
+        "lint": {
+          "errors": 0,
+          "warnings": 6
+        },
+        "runtime": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "layout": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "motion": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "contrast": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "craft": {
+          "errors": 0,
+          "warnings": 2
+        },
+        "audio": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    },
+    {
+      "id": "04-chapter-flip-long",
+      "ok": true,
+      "counts": {
+        "lint": {
+          "errors": 0,
+          "warnings": 2
+        },
+        "runtime": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "layout": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "motion": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "contrast": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "craft": {
+          "errors": 0,
+          "warnings": 1
+        },
+        "audio": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    },
+    {
+      "id": "05-prompt-input-long",
+      "ok": true,
+      "counts": {
+        "lint": {
+          "errors": 0,
+          "warnings": 3
+        },
+        "runtime": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "layout": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "motion": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "contrast": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "craft": {
+          "errors": 0,
+          "warnings": 1
+        },
+        "audio": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    },
+    {
+      "id": "06-script-summary-long",
+      "ok": true,
+      "counts": {
+        "lint": {
+          "errors": 0,
+          "warnings": 6
+        },
+        "runtime": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "layout": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "motion": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "contrast": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "craft": {
+          "errors": 0,
+          "warnings": 2
+        },
+        "audio": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    },
+    {
+      "id": "07-chapter-reveal-long",
+      "ok": true,
+      "counts": {
+        "lint": {
+          "errors": 0,
+          "warnings": 2
+        },
+        "runtime": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "layout": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "motion": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "contrast": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "craft": {
+          "errors": 0,
+          "warnings": 3
+        },
+        "audio": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    },
+    {
+      "id": "08-preparation-long",
+      "ok": true,
+      "counts": {
+        "lint": {
+          "errors": 0,
+          "warnings": 7
+        },
+        "runtime": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "layout": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "motion": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "contrast": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "craft": {
+          "errors": 0,
+          "warnings": 2
+        },
+        "audio": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    },
+    {
+      "id": "09-media-wave-long",
+      "ok": true,
+      "counts": {
+        "lint": {
+          "errors": 0,
+          "warnings": 4
+        },
+        "runtime": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "layout": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "motion": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "contrast": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "craft": {
+          "errors": 0,
+          "warnings": 1
+        },
+        "audio": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    },
+    {
+      "id": "10-chapter-fade-long",
+      "ok": true,
+      "counts": {
+        "lint": {
+          "errors": 0,
+          "warnings": 3
+        },
+        "runtime": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "layout": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "motion": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "contrast": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "craft": {
+          "errors": 0,
+          "warnings": 1
+        },
+        "audio": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    },
+    {
+      "id": "11-cloud-budget-long",
+      "ok": true,
+      "counts": {
+        "lint": {
+          "errors": 0,
+          "warnings": 2
+        },
+        "runtime": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "layout": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "motion": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "contrast": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "craft": {
+          "errors": 0,
+          "warnings": 1
+        },
+        "audio": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    },
+    {
+      "id": "12-render-queue-long",
+      "ok": true,
+      "counts": {
+        "lint": {
+          "errors": 0,
+          "warnings": 18
+        },
+        "runtime": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "layout": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "motion": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "contrast": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "craft": {
+          "errors": 0,
+          "warnings": 1
+        },
+        "audio": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    },
+    {
+      "id": "13-background-work-long",
+      "ok": true,
+      "counts": {
+        "lint": {
+          "errors": 0,
+          "warnings": 5
+        },
+        "runtime": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "layout": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "motion": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "contrast": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "craft": {
+          "errors": 0,
+          "warnings": 2
+        },
+        "audio": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    },
+    {
+      "id": "14-chapter-zoom-long",
+      "ok": true,
+      "counts": {
+        "lint": {
+          "errors": 0,
+          "warnings": 2
+        },
+        "runtime": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "layout": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "motion": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "contrast": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "craft": {
+          "errors": 0,
+          "warnings": 1
+        },
+        "audio": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    },
+    {
+      "id": "15-review-long",
+      "ok": true,
+      "counts": {
+        "lint": {
+          "errors": 0,
+          "warnings": 2
+        },
+        "runtime": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "layout": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "motion": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "contrast": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "craft": {
+          "errors": 0,
+          "warnings": 2
+        },
+        "audio": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    },
+    {
+      "id": "16-revision-long",
+      "ok": true,
+      "counts": {
+        "lint": {
+          "errors": 0,
+          "warnings": 2
+        },
+        "runtime": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "layout": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "motion": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "contrast": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "craft": {
+          "errors": 0,
+          "warnings": 2
+        },
+        "audio": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    },
+    {
+      "id": "17-chapter-slide-long",
+      "ok": true,
+      "counts": {
+        "lint": {
+          "errors": 0,
+          "warnings": 2
+        },
+        "runtime": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "layout": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "motion": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "contrast": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "craft": {
+          "errors": 0,
+          "warnings": 1
+        },
+        "audio": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    },
+    {
+      "id": "18-publishing-long",
+      "ok": true,
+      "counts": {
+        "lint": {
+          "errors": 0,
+          "warnings": 33
+        },
+        "runtime": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "layout": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "motion": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "contrast": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "craft": {
+          "errors": 0,
+          "warnings": 3
+        },
+        "audio": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    },
+    {
+      "id": "19-budget-ledger-long",
+      "ok": true,
+      "counts": {
+        "lint": {
+          "errors": 0,
+          "warnings": 3
+        },
+        "runtime": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "layout": {
+          "errors": 0,
+          "warnings": 1
+        },
+        "motion": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "contrast": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "craft": {
+          "errors": 0,
+          "warnings": 2
+        },
+        "audio": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    },
+    {
+      "id": "20-parallel-progress-long",
+      "ok": true,
+      "counts": {
+        "lint": {
+          "errors": 0,
+          "warnings": 10
+        },
+        "runtime": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "layout": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "motion": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "contrast": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "craft": {
+          "errors": 0,
+          "warnings": 3
+        },
+        "audio": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    },
+    {
+      "id": "21-duration-comparison-long",
+      "ok": true,
+      "counts": {
+        "lint": {
+          "errors": 0,
+          "warnings": 6
+        },
+        "runtime": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "layout": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "motion": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "contrast": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "craft": {
+          "errors": 0,
+          "warnings": 2
+        },
+        "audio": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    },
+    {
+      "id": "22-value-summary-long",
+      "ok": true,
+      "counts": {
+        "lint": {
+          "errors": 0,
+          "warnings": 3
+        },
+        "runtime": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "layout": {
+          "errors": 0,
+          "warnings": 1
+        },
+        "motion": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "contrast": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "craft": {
+          "errors": 0,
+          "warnings": 2
+        },
+        "audio": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    },
+    {
+      "id": "23-ending-type-long",
+      "ok": true,
+      "counts": {
+        "lint": {
+          "errors": 0,
+          "warnings": 3
+        },
+        "runtime": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "layout": {
+          "errors": 0,
+          "warnings": 1
+        },
+        "motion": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "contrast": {
+          "errors": 0,
+          "warnings": 0
+        },
+        "craft": {
+          "errors": 0,
+          "warnings": 1
+        },
+        "audio": {
+          "errors": 0,
+          "warnings": 0
+        }
+      }
+    }
+  ],
+  "renders": [
+    {
+      "id": "01-opening-wall-default",
+      "frames": 180,
+      "duration": 6.0,
+      "ocr_samples": 13,
+      "sha256": "ad360d5a7f80d27a7b39702a0fac80be2d9d82a849d1030450ee2689fa7c6cdd",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/default/01-opening-wall.mp4",
+      "variant": "default",
+      "component": "01-opening-wall"
+    },
+    {
+      "id": "01-opening-wall-long",
+      "frames": 240,
+      "duration": 8.0,
+      "ocr_samples": 17,
+      "sha256": "ae370e1e9f6edd52da456509971299bdf293f2928728efe44f62609d3278bc15",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/long/01-opening-wall.mp4",
+      "variant": "long",
+      "component": "01-opening-wall"
+    },
+    {
+      "id": "02-contrast-default",
+      "frames": 120,
+      "duration": 4.0,
+      "ocr_samples": 9,
+      "sha256": "2653f052b73608b25b78211b3c312f8e6c566e7a1bb998087fcf531ab05b038a",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/default/02-contrast.mp4",
+      "variant": "default",
+      "component": "02-contrast"
+    },
+    {
+      "id": "02-contrast-long",
+      "frames": 180,
+      "duration": 6.0,
+      "ocr_samples": 13,
+      "sha256": "bac1319031d4e0ed464dc3b122161e207b12eede0ef53d3a951692598b31b0dd",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/long/02-contrast.mp4",
+      "variant": "long",
+      "component": "02-contrast"
+    },
+    {
+      "id": "03-workflow-default",
+      "frames": 234,
+      "duration": 7.8,
+      "ocr_samples": 17,
+      "sha256": "9ec33bd8205970805cb43e14ef5f3037cfe5cb7ff23de1e5eac36c4c558e91aa",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/default/03-workflow.mp4",
+      "variant": "default",
+      "component": "03-workflow"
+    },
+    {
+      "id": "03-workflow-long",
+      "frames": 294,
+      "duration": 9.8,
+      "ocr_samples": 21,
+      "sha256": "bfec62e38fe4311589ba993c5275a03681dbf2137269dcccf2766fb120a9ae7d",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/long/03-workflow.mp4",
+      "variant": "long",
+      "component": "03-workflow"
+    },
+    {
+      "id": "04-chapter-flip-default",
+      "frames": 54,
+      "duration": 1.8,
+      "ocr_samples": 5,
+      "sha256": "51af79f98b55e328b67645112f2b184ed16613bdec849e0a1f5a3e4110ac420c",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/default/04-chapter-flip.mp4",
+      "variant": "default",
+      "component": "04-chapter-flip"
+    },
+    {
+      "id": "04-chapter-flip-long",
+      "frames": 114,
+      "duration": 3.8,
+      "ocr_samples": 9,
+      "sha256": "2206b6fd443cf16d503d460b3a3d4b0932598d44af6358a4b0772aa329617642",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/long/04-chapter-flip.mp4",
+      "variant": "long",
+      "component": "04-chapter-flip"
+    },
+    {
+      "id": "05-prompt-input-default",
+      "frames": 348,
+      "duration": 11.6,
+      "ocr_samples": 25,
+      "sha256": "067762cdfd529b516eddf59600520deed13fa109ac1f5ec51405ebb82305d076",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/default/05-prompt-input.mp4",
+      "variant": "default",
+      "component": "05-prompt-input"
+    },
+    {
+      "id": "05-prompt-input-long",
+      "frames": 408,
+      "duration": 13.6,
+      "ocr_samples": 29,
+      "sha256": "79f6556264924d25736aa1bdf61a6a6fb3b8a8ecc7c44667d725b59ef739a94b",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/long/05-prompt-input.mp4",
+      "variant": "long",
+      "component": "05-prompt-input"
+    },
+    {
+      "id": "06-script-summary-default",
+      "frames": 168,
+      "duration": 5.6,
+      "ocr_samples": 13,
+      "sha256": "f943c8577724503c69911a739fafbe9f4bf28db3ae480b336e320a4190697bf4",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/default/06-script-summary.mp4",
+      "variant": "default",
+      "component": "06-script-summary"
+    },
+    {
+      "id": "06-script-summary-long",
+      "frames": 228,
+      "duration": 7.6,
+      "ocr_samples": 17,
+      "sha256": "fa0ef7b344179997b53314536f88ca6b5b1f1cb37597e9c652d0b034c8011612",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/long/06-script-summary.mp4",
+      "variant": "long",
+      "component": "06-script-summary"
+    },
+    {
+      "id": "07-chapter-reveal-default",
+      "frames": 54,
+      "duration": 1.8,
+      "ocr_samples": 5,
+      "sha256": "bca38562b83a4ec12204b7e95019a62e5be4b7c303317345cfc78649e9184451",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/default/07-chapter-reveal.mp4",
+      "variant": "default",
+      "component": "07-chapter-reveal"
+    },
+    {
+      "id": "07-chapter-reveal-long",
+      "frames": 114,
+      "duration": 3.8,
+      "ocr_samples": 9,
+      "sha256": "9a8c1c9842d9be2a8e428e378dcab7fe672e20845c5c9aa9601349d42c570804",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/long/07-chapter-reveal.mp4",
+      "variant": "long",
+      "component": "07-chapter-reveal"
+    },
+    {
+      "id": "08-preparation-default",
+      "frames": 210,
+      "duration": 7.0,
+      "ocr_samples": 15,
+      "sha256": "72b2c7f9cd5f087ee19b2c1fb768d7b257d48678f25c61326051cfec2b3f8b8a",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/default/08-preparation.mp4",
+      "variant": "default",
+      "component": "08-preparation"
+    },
+    {
+      "id": "08-preparation-long",
+      "frames": 270,
+      "duration": 9.0,
+      "ocr_samples": 19,
+      "sha256": "3d74474c43787933a358da79372bf1bcd9579c2f940793abd2954c1a35dc27d1",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/long/08-preparation.mp4",
+      "variant": "long",
+      "component": "08-preparation"
+    },
+    {
+      "id": "09-media-wave-default",
+      "frames": 305,
+      "duration": 10.166666666666666,
+      "ocr_samples": 22,
+      "sha256": "3211bb7237084e0be6824b386dd13490f4f9d93bd06f4440465bc12d31934ea4",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/default/09-media-wave.mp4",
+      "variant": "default",
+      "component": "09-media-wave"
+    },
+    {
+      "id": "09-media-wave-long",
+      "frames": 365,
+      "duration": 12.166666666666666,
+      "ocr_samples": 26,
+      "sha256": "bb1866f6258a14d57676fe8da1677c1bde9c89f6554ecc4d4a37c37403b31b93",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/long/09-media-wave.mp4",
+      "variant": "long",
+      "component": "09-media-wave"
+    },
+    {
+      "id": "10-chapter-fade-default",
+      "frames": 49,
+      "duration": 1.6333333333333333,
+      "ocr_samples": 5,
+      "sha256": "b146941805f7346655f7f7a8a3c2d624061020ce78a09ab7992f43b0d9f254db",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/default/10-chapter-fade.mp4",
+      "variant": "default",
+      "component": "10-chapter-fade"
+    },
+    {
+      "id": "10-chapter-fade-long",
+      "frames": 109,
+      "duration": 3.6333333333333333,
+      "ocr_samples": 9,
+      "sha256": "31be3ffcd7496e1dd262e030c1399a890ff949b6393ee9b62fc9bc0fffe8801f",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/long/10-chapter-fade.mp4",
+      "variant": "long",
+      "component": "10-chapter-fade"
+    },
+    {
+      "id": "11-cloud-budget-default",
+      "frames": 180,
+      "duration": 6.0,
+      "ocr_samples": 13,
+      "sha256": "c8e0770aa5ed41c19d49ef1f0ecbf97bf1eda0412fc403559afc4b487b1a8231",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/default/11-cloud-budget.mp4",
+      "variant": "default",
+      "component": "11-cloud-budget"
+    },
+    {
+      "id": "11-cloud-budget-long",
+      "frames": 240,
+      "duration": 8.0,
+      "ocr_samples": 17,
+      "sha256": "575313973719eea27fa6a3702b1a0fe460bb7e8f25c7dbceffadbcf6dcc55683",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/long/11-cloud-budget.mp4",
+      "variant": "long",
+      "component": "11-cloud-budget"
+    },
+    {
+      "id": "12-render-queue-default",
+      "frames": 258,
+      "duration": 8.6,
+      "ocr_samples": 19,
+      "sha256": "8376bcc7832869def86d673ff62131ed49f6e1549ad74564945aacf58acfe09b",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/default/12-render-queue.mp4",
+      "variant": "default",
+      "component": "12-render-queue"
+    },
+    {
+      "id": "12-render-queue-long",
+      "frames": 318,
+      "duration": 10.6,
+      "ocr_samples": 23,
+      "sha256": "f4ed4079a63216357af0a70832651b1f54b07df2d454bd160c7b1fbddcf2fa75",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/long/12-render-queue.mp4",
+      "variant": "long",
+      "component": "12-render-queue"
+    },
+    {
+      "id": "13-background-work-default",
+      "frames": 120,
+      "duration": 4.0,
+      "ocr_samples": 9,
+      "sha256": "4e92c333d57f5d4d7a6254c3cb86c2e6409df5ec137ec329758ef4a95f228c63",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/default/13-background-work.mp4",
+      "variant": "default",
+      "component": "13-background-work"
+    },
+    {
+      "id": "13-background-work-long",
+      "frames": 180,
+      "duration": 6.0,
+      "ocr_samples": 13,
+      "sha256": "dd30a29ff691383884a413a6b1d2ca0357190ce4191e52c4a4fbfb21d3b06e5e",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/long/13-background-work.mp4",
+      "variant": "long",
+      "component": "13-background-work"
+    },
+    {
+      "id": "14-chapter-zoom-default",
+      "frames": 54,
+      "duration": 1.8,
+      "ocr_samples": 5,
+      "sha256": "08f3f13ccddf310a6c7a3fbae1d26160b70fca788ba3626205f372ea49659c4b",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/default/14-chapter-zoom.mp4",
+      "variant": "default",
+      "component": "14-chapter-zoom"
+    },
+    {
+      "id": "14-chapter-zoom-long",
+      "frames": 114,
+      "duration": 3.8,
+      "ocr_samples": 9,
+      "sha256": "cc3ac2814cf0ff09fd763717f8b71e784edb1880ebcf42373ed99076f2ced111",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/long/14-chapter-zoom.mp4",
+      "variant": "long",
+      "component": "14-chapter-zoom"
+    },
+    {
+      "id": "15-review-default",
+      "frames": 372,
+      "duration": 12.4,
+      "ocr_samples": 26,
+      "sha256": "e56fe8d3f5877c7ac2913e8c5de782ee94c70b9a56fb8fb2c604f2ab060b02bc",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/default/15-review.mp4",
+      "variant": "default",
+      "component": "15-review"
+    },
+    {
+      "id": "15-review-long",
+      "frames": 432,
+      "duration": 14.4,
+      "ocr_samples": 30,
+      "sha256": "6e5509c3a640b54ba89f771a967afba734d50890d9b1c1b97c2aaabc8f09e6c6",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/long/15-review.mp4",
+      "variant": "long",
+      "component": "15-review"
+    },
+    {
+      "id": "16-revision-default",
+      "frames": 237,
+      "duration": 7.9,
+      "ocr_samples": 17,
+      "sha256": "cdbf6205ab6e58e752e3f13abb2895ed71b9e1f226fd2134f32020a8d6863c0d",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/default/16-revision.mp4",
+      "variant": "default",
+      "component": "16-revision"
+    },
+    {
+      "id": "16-revision-long",
+      "frames": 297,
+      "duration": 9.9,
+      "ocr_samples": 21,
+      "sha256": "7af7a1f1be10fa0824e1e162f6e73539a0beb34485f5665b068142e0eeb6dfc8",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/long/16-revision.mp4",
+      "variant": "long",
+      "component": "16-revision"
+    },
+    {
+      "id": "17-chapter-slide-default",
+      "frames": 57,
+      "duration": 1.9,
+      "ocr_samples": 5,
+      "sha256": "b11333e531ab01167bd4910f0d137127b8614ab436224e4c44ce0f852ba133b9",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/default/17-chapter-slide.mp4",
+      "variant": "default",
+      "component": "17-chapter-slide"
+    },
+    {
+      "id": "17-chapter-slide-long",
+      "frames": 117,
+      "duration": 3.9,
+      "ocr_samples": 9,
+      "sha256": "6ad7f141d81f13f0ff3aee7a0ae6d85bba52e16d882de1a1aab84b6ef5ad6f93",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/long/17-chapter-slide.mp4",
+      "variant": "long",
+      "component": "17-chapter-slide"
+    },
+    {
+      "id": "18-publishing-default",
+      "frames": 429,
+      "duration": 14.3,
+      "ocr_samples": 30,
+      "sha256": "ed25360e608ecc57eda8264aa13f77e7160f462f537536955ac1c49328efa061",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/default/18-publishing.mp4",
+      "variant": "default",
+      "component": "18-publishing"
+    },
+    {
+      "id": "18-publishing-long",
+      "frames": 489,
+      "duration": 16.3,
+      "ocr_samples": 34,
+      "sha256": "5d7cbdd5e9f7262591dd42e19d63ad4f06e13d69ce891582432a6c93f0bb1f77",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/long/18-publishing.mp4",
+      "variant": "long",
+      "component": "18-publishing"
+    },
+    {
+      "id": "19-budget-ledger-default",
+      "frames": 309,
+      "duration": 10.3,
+      "ocr_samples": 22,
+      "sha256": "e21337367cf1c73e292cb0f6d4d9921319a0716d8ea3bc0bf9ca079c3a1b1806",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/default/19-budget-ledger.mp4",
+      "variant": "default",
+      "component": "19-budget-ledger"
+    },
+    {
+      "id": "19-budget-ledger-long",
+      "frames": 369,
+      "duration": 12.3,
+      "ocr_samples": 26,
+      "sha256": "371fe75615856a0a6724cd48dc657e3a59752ec3fa2639193b812d30f55288ac",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/long/19-budget-ledger.mp4",
+      "variant": "long",
+      "component": "19-budget-ledger"
+    },
+    {
+      "id": "20-parallel-progress-default",
+      "frames": 279,
+      "duration": 9.3,
+      "ocr_samples": 20,
+      "sha256": "c244b3da3c7ede2e115a326d24a68aedccf4338e2780988b3c0f1ef702efe318",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/default/20-parallel-progress.mp4",
+      "variant": "default",
+      "component": "20-parallel-progress"
+    },
+    {
+      "id": "20-parallel-progress-long",
+      "frames": 339,
+      "duration": 11.3,
+      "ocr_samples": 24,
+      "sha256": "464352a2a293c8dc2d1ade5324320cabf41b5b3e0b0caaa07608c0d93da375b1",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/long/20-parallel-progress.mp4",
+      "variant": "long",
+      "component": "20-parallel-progress"
+    },
+    {
+      "id": "21-duration-comparison-default",
+      "frames": 348,
+      "duration": 11.6,
+      "ocr_samples": 25,
+      "sha256": "753a2b73d50721c20f6d4438a4f8badf36ffbc6df9bf34d4fb2f2d45873dbf8d",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/default/21-duration-comparison.mp4",
+      "variant": "default",
+      "component": "21-duration-comparison"
+    },
+    {
+      "id": "21-duration-comparison-long",
+      "frames": 408,
+      "duration": 13.6,
+      "ocr_samples": 29,
+      "sha256": "1304a6978adabb16247ed26ad3cb7cc757684d1b88c000b5a90380c29474583e",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/long/21-duration-comparison.mp4",
+      "variant": "long",
+      "component": "21-duration-comparison"
+    },
+    {
+      "id": "22-value-summary-default",
+      "frames": 303,
+      "duration": 10.1,
+      "ocr_samples": 22,
+      "sha256": "c857eccbe1e3a0e5cb951c64cdc1c41fd0745772eb308c7800e8fab48eefad13",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/default/22-value-summary.mp4",
+      "variant": "default",
+      "component": "22-value-summary"
+    },
+    {
+      "id": "22-value-summary-long",
+      "frames": 363,
+      "duration": 12.1,
+      "ocr_samples": 26,
+      "sha256": "23b92e49b7aaecdebbb4194224b2804734268eef50d46d68f6cb55036aec778e",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/long/22-value-summary.mp4",
+      "variant": "long",
+      "component": "22-value-summary"
+    },
+    {
+      "id": "23-ending-type-default",
+      "frames": 86,
+      "duration": 2.8666666666666667,
+      "ocr_samples": 7,
+      "sha256": "a2f87d01d3047ddb73737aac1655c47368d5c14e26ac8027fde5d1ce53b5e7f7",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/default/23-ending-type.mp4",
+      "variant": "default",
+      "component": "23-ending-type"
+    },
+    {
+      "id": "23-ending-type-long",
+      "frames": 146,
+      "duration": 4.866666666666666,
+      "ocr_samples": 11,
+      "sha256": "a31277dbeea1e70233765570dd1c69dc6f2f6c4415d5934945ac624c33e66f75",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "full_decode_exit": 0,
+      "status": "TECHNICAL_CHECKED",
+      "preview": "previews/long/23-ending-type.mp4",
+      "variant": "long",
+      "component": "23-ending-type"
+    }
+  ],
+  "scope": "默认与加长参数测试；实际渲染、完整解码、半秒及末帧OCR。文字/数据和有图片槽的组件按目录变化；不代表任意输入保证或用户认可。"
+}

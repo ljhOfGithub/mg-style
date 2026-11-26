@@ -1,0 +1,428 @@
+{
+  "schema": "reference-mg-template@1",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 9.3
+  },
+  "theme": {
+    "ink": "#17171d",
+    "paper": "#ffffff",
+    "purple": "#c6a4fa",
+    "purpleOnPaper": "#8050b4"
+  },
+  "data": {
+    "budget": {
+      "human": [
+        3,
+        0,
+        0,
+        10,
+        2
+      ],
+      "ai_labels": [
+        "5—8分钟",
+        "5—10分钟",
+        "25—30分钟",
+        "20—25分钟",
+        "约15分钟"
+      ],
+      "human_bar_px_per_minute": 12.5
+    }
+  },
+  "assetOverrides": {},
+  "copy": {
+    "并行": {
+      "txt_000": "同时开 ",
+      "txt_001": "3—4条",
+      "txt_002": " 制作流水线",
+      "txt_003": "人工参与",
+      "txt_004": "3 + 10 + 2",
+      "txt_005": "15分钟预算",
+      "txt_006": "成本拆解",
+      "txt_007": "稿件、配音与画面",
+      "txt_008": "资料核对",
+      "txt_009": "图表与数据",
+      "txt_010": "财经解读",
+      "txt_011": "资料核对与图表",
+      "txt_012": "二次元科普",
+      "txt_013": "分镜、动效与素材",
+      "txt_014": "配音 → 字幕",
+      "txt_015": "素材 → 成片",
+      "txt_016": "像素闯关",
+      "txt_017": "画面与结果检查",
+      "txt_018": "排期目标：每天安排 ",
+      "txt_019": "3到4期"
+    }
+  },
+  "scenes": [
+    {
+      "id": "并行",
+      "start": 0,
+      "end": 9.3,
+      "title": "资源允许时，多线安排",
+      "dark": true,
+      "header": true,
+      "entry_duration": 0.5,
+      "transition": null,
+      "events": [
+        {
+          "type": "fade",
+          "target": "#parallel-grid",
+          "at": 3.3,
+          "duration": 0.4,
+          "from": 0.2,
+          "to": 1,
+          "id": "并行-01"
+        },
+        {
+          "type": "fade",
+          "target": "#daily-goal",
+          "at": 5.9,
+          "duration": 0.3,
+          "from": 0,
+          "to": 1,
+          "id": "并行-02"
+        },
+        {
+          "type": "bar",
+          "target": "#parallelbar-0",
+          "at": 0.5,
+          "duration": 8.3,
+          "from": 0.12,
+          "to": 0.8,
+          "ease": "linear",
+          "knots": [
+            [
+              0,
+              0.94
+            ],
+            [
+              2.8,
+              1
+            ],
+            [
+              3.6,
+              0.93
+            ],
+            [
+              7.8,
+              1
+            ],
+            [
+              8.0,
+              0.92
+            ]
+          ],
+          "id": "并行-03"
+        },
+        {
+          "type": "bar",
+          "target": "#parallelbar-1",
+          "at": 0.5,
+          "duration": 8.3,
+          "from": 0.3,
+          "to": 0.93,
+          "ease": "linear",
+          "knots": [
+            [
+              0,
+              0.8
+            ],
+            [
+              2.8,
+              0.9
+            ],
+            [
+              3.6,
+              0.78
+            ],
+            [
+              7.8,
+              0.93
+            ],
+            [
+              8.0,
+              0.78
+            ]
+          ],
+          "id": "并行-04"
+        },
+        {
+          "type": "bar",
+          "target": "#parallelbar-2",
+          "at": 0.5,
+          "duration": 8.3,
+          "from": 0.05,
+          "to": 0.7,
+          "ease": "linear",
+          "knots": [
+            [
+              0,
+              0.66
+            ],
+            [
+              2.8,
+              0.76
+            ],
+            [
+              3.6,
+              0.64
+            ],
+            [
+              7.8,
+              0.78
+            ],
+            [
+              8.0,
+              0.64
+            ]
+          ],
+          "id": "并行-05"
+        },
+        {
+          "type": "bar",
+          "target": "#parallelbar-3",
+          "at": 0.5,
+          "duration": 8.3,
+          "from": 0.4,
+          "to": 0.95,
+          "ease": "linear",
+          "knots": [
+            [
+              0,
+              0.5
+            ],
+            [
+              2.8,
+              0.6
+            ],
+            [
+              3.6,
+              0.49
+            ],
+            [
+              7.8,
+              0.62
+            ],
+            [
+              8.0,
+              0.48
+            ]
+          ],
+          "id": "并行-06"
+        },
+        {
+          "type": "state",
+          "target": "#case-fallback-并行成本",
+          "at": 0.5,
+          "duration": 0,
+          "values": {
+            "opacity": 0
+          },
+          "id": "并行-07"
+        },
+        {
+          "type": "state",
+          "target": "#case-fallback-并行成本",
+          "at": 5.5,
+          "duration": 0,
+          "values": {
+            "opacity": 1
+          },
+          "id": "并行-08"
+        },
+        {
+          "type": "state",
+          "target": "#case-fallback-并行成本",
+          "at": 7.799999999999997,
+          "duration": 0,
+          "values": {
+            "opacity": 0
+          },
+          "id": "并行-09"
+        },
+        {
+          "type": "state",
+          "target": "#case-fallback-并行成本",
+          "at": 8.899999999999997,
+          "duration": 0,
+          "values": {
+            "opacity": 1
+          },
+          "id": "并行-10"
+        },
+        {
+          "type": "state",
+          "target": "#case-fallback-并行财经",
+          "at": 0.5,
+          "duration": 0,
+          "values": {
+            "opacity": 0
+          },
+          "id": "并行-11"
+        },
+        {
+          "type": "state",
+          "target": "#case-fallback-并行财经",
+          "at": 8.6,
+          "duration": 0,
+          "values": {
+            "opacity": 1
+          },
+          "id": "并行-12"
+        },
+        {
+          "type": "state",
+          "target": "#case-fallback-并行像素",
+          "at": 1.2999999999999972,
+          "duration": 0,
+          "values": {
+            "opacity": 0
+          },
+          "id": "并行-13"
+        },
+        {
+          "type": "state",
+          "target": "#case-fallback-并行像素",
+          "at": 6.099999999999997,
+          "duration": 0,
+          "values": {
+            "opacity": 1
+          },
+          "id": "并行-14"
+        },
+        {
+          "type": "state",
+          "target": "#case-fallback-并行像素",
+          "at": 6.299999999999997,
+          "duration": 0,
+          "values": {
+            "opacity": 0
+          },
+          "id": "并行-15"
+        },
+        {
+          "type": "state",
+          "target": "#case-fallback-并行像素",
+          "at": 8.099999999999998,
+          "duration": 0,
+          "values": {
+            "opacity": 1
+          },
+          "id": "并行-16"
+        },
+        {
+          "type": "state",
+          "target": "#case-fallback-并行像素",
+          "at": 8.5,
+          "duration": 0,
+          "values": {
+            "opacity": 0
+          },
+          "id": "并行-17"
+        },
+        {
+          "type": "state",
+          "target": "#case-fallback-并行像素",
+          "at": 8.9,
+          "duration": 0,
+          "values": {
+            "opacity": 1
+          },
+          "id": "并行-18"
+        },
+        {
+          "type": "move",
+          "target": "#parallel-grid",
+          "at": 3.3,
+          "duration": 0.4,
+          "from": {
+            "y": 30
+          },
+          "to": {
+            "y": 0
+          },
+          "id": "并行-19"
+        }
+      ],
+      "fadeIn": 0.5,
+      "template": "modules/20-parallel-progress.tpl",
+      "domId": "scene-19",
+      "media": [
+        {
+          "target": "#v-并行成本连续",
+          "src": "assets/placeholders/video-014.mp4",
+          "duration": 5.0,
+          "at": 0.5
+        },
+        {
+          "target": "#v-并行成本二",
+          "src": "assets/placeholders/video-013.mp4",
+          "duration": 1.1,
+          "at": 7.8
+        },
+        {
+          "target": "#v-并行财经完整",
+          "src": "assets/placeholders/video-016.mp4",
+          "duration": 8.1,
+          "at": 0.5
+        },
+        {
+          "target": "#v-并行科普",
+          "src": "assets/placeholders/video-015.mp4",
+          "duration": 8.4,
+          "at": 0.5
+        },
+        {
+          "target": "#v-并行像素一",
+          "src": "assets/placeholders/video-011.mp4",
+          "duration": 4.8,
+          "at": 1.3
+        },
+        {
+          "target": "#v-并行三图标",
+          "src": "assets/placeholders/video-010.mp4",
+          "duration": 1.8,
+          "at": 6.3
+        },
+        {
+          "target": "#v-并行像素二",
+          "src": "assets/placeholders/video-012.mp4",
+          "duration": 0.4,
+          "at": 8.5
+        }
+      ],
+      "visibleEnd": 9.3,
+      "fadeOut": 0.4000000000000057,
+      "background": "transparent"
+    }
+  ],
+  "captions": [],
+  "audio": null,
+  "scope": "独立组件；通用素材参数验证",
+  "backgrounds": [],
+  "ambient_walls": [
+    {
+      "id": "late-wall",
+      "start": 0.0,
+      "duration": 9.3,
+      "opacity": 0.24,
+      "speeds": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "media_offset": 9.799999999999997,
+      "phases": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "layout": {}
+}

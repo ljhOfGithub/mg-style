@@ -1,0 +1,16 @@
+{
+  "format": "fred-component@1",
+  "component": "06-script-summary",
+  "duration": 7.6,
+  "content": {
+    "txt_003": "口述核心需求示例"
+  },
+  "data": {
+    "prompt_summary": "先整理内容，再核对画面和结果。"
+  },
+  "media": {
+    "media-03": "assets/variants/square.svg"
+  },
+  "theme": {},
+  "motions": {}
+}

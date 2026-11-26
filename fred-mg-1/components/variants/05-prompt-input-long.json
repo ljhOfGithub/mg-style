@@ -1,0 +1,16 @@
+{
+  "format": "fred-component@1",
+  "component": "05-prompt-input",
+  "duration": 13.6,
+  "content": {
+    "txt_003": "说清选题与要求示例"
+  },
+  "data": {
+    "prompt": "请根据这份资料生成清楚的分镜和画面说明。"
+  },
+  "media": {
+    "media-02": "assets/variants/portrait.svg"
+  },
+  "theme": {},
+  "motions": {}
+}

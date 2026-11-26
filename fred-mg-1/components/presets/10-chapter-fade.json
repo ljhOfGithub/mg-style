@@ -1,0 +1,121 @@
+{
+  "schema": "reference-mg-template@1",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 1.6333333333333333
+  },
+  "theme": {
+    "ink": "#17171d",
+    "paper": "#ffffff",
+    "purple": "#c6a4fa",
+    "purpleOnPaper": "#8050b4"
+  },
+  "data": {
+    "budget": {
+      "human": [
+        3,
+        0,
+        0,
+        10,
+        2
+      ],
+      "ai_labels": [
+        "5—8分钟",
+        "5—10分钟",
+        "25—30分钟",
+        "20—25分钟",
+        "约15分钟"
+      ],
+      "human_bar_px_per_minute": 12.5
+    },
+    "chapters": [
+      {
+        "number": "01",
+        "title": "选题和写稿"
+      },
+      {
+        "number": "02",
+        "title": "配音、字幕和素材",
+        "groups": [
+          "配音",
+          "、字幕和素材"
+        ]
+      },
+      {
+        "number": "03",
+        "title": "画面与云端渲染"
+      },
+      {
+        "number": "04",
+        "title": "看片把关和返修"
+      },
+      {
+        "number": "05",
+        "title": "多平台发布与收尾"
+      }
+    ]
+  },
+  "assetOverrides": {},
+  "copy": {
+    "章节03": {
+      "txt_000": "03",
+      "txt_001": "画面与云端渲染"
+    }
+  },
+  "scenes": [
+    {
+      "id": "章节03",
+      "start": 0,
+      "end": 1.6333333333333333,
+      "title": "",
+      "dark": true,
+      "header": false,
+      "entry_duration": 0,
+      "transition": null,
+      "events": [
+        {
+          "type": "fade",
+          "target": "#ch-number, #ch-title",
+          "at": 0.3,
+          "duration": 0.18,
+          "from": 0,
+          "to": 1,
+          "id": "章节03-01"
+        },
+        {
+          "type": "style",
+          "target": "#ch-number, #ch-title",
+          "at": 1.233333,
+          "duration": 0.4,
+          "to": {
+            "opacity": 0
+          },
+          "id": "章节03-02"
+        }
+      ],
+      "fadeIn": 0,
+      "template": "modules/10-chapter-fade.tpl",
+      "domId": "scene-9",
+      "media": [],
+      "visibleEnd": 1.6333333333333333,
+      "fadeOut": 0
+    }
+  ],
+  "captions": [],
+  "audio": null,
+  "scope": "独立组件；通用素材参数验证",
+  "backgrounds": [
+    {
+      "id": "server-background",
+      "src": "assets/placeholders/video-019.mp4",
+      "start": 1.2333330000000018,
+      "duration": 0.4,
+      "style": "position:absolute;inset:0;width:100%;height:100%;object-fit:fill;opacity:.55;z-index:5",
+      "source_offset": 0.0
+    }
+  ],
+  "ambient_walls": [],
+  "layout": {}
+}

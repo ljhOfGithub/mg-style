@@ -1,0 +1,130 @@
+{
+  "schema": "reference-mg-template@1",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 7.8
+  },
+  "theme": {
+    "ink": "#17171d",
+    "paper": "#ffffff",
+    "purple": "#c6a4fa",
+    "purpleOnPaper": "#8050b4"
+  },
+  "data": {
+    "budget": {
+      "human": [
+        3,
+        0,
+        0,
+        10,
+        2
+      ],
+      "ai_labels": [
+        "5—8分钟",
+        "5—10分钟",
+        "25—30分钟",
+        "20—25分钟",
+        "约15分钟"
+      ],
+      "human_bar_px_per_minute": 12.5
+    }
+  },
+  "assetOverrides": {},
+  "copy": {
+    "流程": {
+      "txt_000": "用剪辑 ",
+      "txt_001": "Skill",
+      "txt_002": "把五个环节接起来",
+      "txt_003": "你剪一期要多久？",
+      "txt_004": "评论区聊聊",
+      "txt_005": "人工占用多久",
+      "txt_006": "AI后台又跑多久"
+    }
+  },
+  "scenes": [
+    {
+      "id": "流程",
+      "start": 0,
+      "end": 7.8,
+      "title": "先看完整流程",
+      "dark": true,
+      "header": true,
+      "entry_duration": 0.4,
+      "transition": null,
+      "events": [
+        {
+          "type": "fade",
+          "target": "#invite",
+          "at": 2.4,
+          "duration": 0.35,
+          "from": 0,
+          "to": 1,
+          "id": "流程-01"
+        },
+        {
+          "type": "fade",
+          "target": "#intro",
+          "at": 4.4,
+          "duration": 0.4,
+          "from": 0,
+          "to": 1,
+          "id": "流程-02"
+        }
+      ],
+      "fadeIn": 0.4,
+      "template": "modules/03-workflow.tpl",
+      "domId": "scene-2",
+      "media": [
+        {
+          "target": "#v-网站完整净化跨接",
+          "src": "assets/placeholders/video-020.mp4",
+          "duration": 7.8,
+          "at": 0.0
+        },
+        {
+          "target": "#flow-example-0",
+          "src": "assets/placeholders/video-016.mp4",
+          "duration": 7.4,
+          "at": 0.4
+        },
+        {
+          "target": "#flow-example-1",
+          "src": "assets/placeholders/video-004.mp4",
+          "duration": 7.4,
+          "at": 0.4
+        }
+      ],
+      "visibleEnd": 7.8,
+      "fadeOut": 0,
+      "background": "transparent"
+    }
+  ],
+  "captions": [],
+  "audio": null,
+  "scope": "独立组件；通用素材参数验证",
+  "backgrounds": [],
+  "ambient_walls": [
+    {
+      "id": "early-wall",
+      "start": 0.0,
+      "duration": 7.8,
+      "opacity": 0.32,
+      "speeds": [
+        42,
+        -48,
+        44,
+        -42
+      ],
+      "media_offset": 3.5999999999999996,
+      "phases": [
+        151.2,
+        -172.79999999999998,
+        158.39999999999998,
+        -151.2
+      ]
+    }
+  ],
+  "layout": {}
+}

@@ -4,11 +4,12 @@
     {
       "id": "fred-mg-1",
       "name": "fred mg 1",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "path": "fred-mg-1",
       "engine": "hyperframes",
       "scene_count": 23,
-      "distribution": "public-placeholder"
+      "distribution": "public-placeholder",
+      "component_count": 23
     },
     {
       "id": "nana-mg-1",

@@ -1,0 +1,481 @@
+{
+  "schema": "reference-mg-template@1",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 6.0
+  },
+  "theme": {
+    "ink": "#17171d",
+    "paper": "#ffffff",
+    "purple": "#c6a4fa",
+    "purpleOnPaper": "#8050b4"
+  },
+  "data": {
+    "budget": {
+      "human": [
+        3,
+        0,
+        0,
+        10,
+        2
+      ],
+      "ai_labels": [
+        "5—8分钟",
+        "5—10分钟",
+        "25—30分钟",
+        "20—25分钟",
+        "约15分钟"
+      ],
+      "human_bar_px_per_minute": 12.5
+    },
+    "wall": {
+      "opacity": 0.48,
+      "left": -596,
+      "top": -70,
+      "plane_width": 3288,
+      "plane_height": 1282,
+      "perspective": 2600,
+      "tilt_x": 14,
+      "tilt_z": -11,
+      "camera_duration": 1.2,
+      "end_scale": 0.89,
+      "speeds": [
+        118,
+        -142,
+        158,
+        -132
+      ],
+      "phases": [
+        0,
+        -210,
+        0,
+        -210
+      ],
+      "rows": 4,
+      "columns": 8,
+      "visible_cards_approx": 18,
+      "overscan": "每行两侧保留画外卡片，避免反向移动露空",
+      "source_precision": "原片37帧观察，四行反向横滑与约11%缩小明确；透视具体参数属于近似拟合，非作者源代码"
+    }
+  },
+  "assetOverrides": {},
+  "copy": {
+    "开场": {
+      "txt_000": "一天排三到四期，人工要忙多久？",
+      "txt_001": "3",
+      "txt_002": "—",
+      "txt_003": "4",
+      "txt_004": " 期 / 天",
+      "txt_005": "先定排期目标，再拆人工预算",
+      "txt_006": "每期人工预算 · 分三处参与",
+      "txt_007": "选题输入",
+      "txt_008": "3分钟",
+      "txt_009": "审片把关",
+      "txt_010": "10分钟",
+      "txt_011": "发布确认",
+      "txt_012": "2分钟",
+      "txt_013": "合计 ",
+      "txt_014": "0",
+      "txt_015": " 分钟 · 用来规划人工占用"
+    }
+  },
+  "scenes": [
+    {
+      "id": "开场",
+      "start": 0,
+      "end": 6.0,
+      "title": "人工与后台，分开算",
+      "dark": true,
+      "header": true,
+      "entry_duration": 0,
+      "transition": null,
+      "events": [
+        {
+          "type": "move",
+          "target": "#wall",
+          "at": 0,
+          "duration": 1.2,
+          "from": {
+            "scale": 1
+          },
+          "to": {
+            "scale": 0.89
+          },
+          "ease": "outQ",
+          "binding": "data.wall.camera",
+          "id": "开场-01"
+        },
+        {
+          "type": "move",
+          "target": "#wall-row-0",
+          "at": 0,
+          "duration": 6,
+          "from": {
+            "x": 0
+          },
+          "to": {
+            "x": 0
+          },
+          "ease": "linear",
+          "binding": "data.wall.row.0",
+          "id": "开场-02"
+        },
+        {
+          "type": "move",
+          "target": "#wall-row-1",
+          "at": 0,
+          "duration": 6,
+          "from": {
+            "x": 0
+          },
+          "to": {
+            "x": 0
+          },
+          "ease": "linear",
+          "binding": "data.wall.row.1",
+          "id": "开场-03"
+        },
+        {
+          "type": "move",
+          "target": "#wall-row-2",
+          "at": 0,
+          "duration": 6,
+          "from": {
+            "x": 0
+          },
+          "to": {
+            "x": 0
+          },
+          "ease": "linear",
+          "binding": "data.wall.row.2",
+          "id": "开场-04"
+        },
+        {
+          "type": "move",
+          "target": "#wall-row-3",
+          "at": 0,
+          "duration": 6,
+          "from": {
+            "x": 0
+          },
+          "to": {
+            "x": 0
+          },
+          "ease": "linear",
+          "binding": "data.wall.row.3",
+          "id": "开场-05"
+        },
+        {
+          "type": "mask",
+          "target": "#lead",
+          "at": 0,
+          "duration": 1.05,
+          "ease": "linear",
+          "id": "开场-06"
+        },
+        {
+          "type": "wordFall",
+          "target": ".drop",
+          "at": 1.2,
+          "duration": 0.45,
+          "fromY": -140,
+          "stagger": 0.1,
+          "id": "开场-07",
+          "fromYs": [
+            -150,
+            -90,
+            -120,
+            -65
+          ]
+        },
+        {
+          "type": "move",
+          "target": "#hero",
+          "at": 3.2,
+          "duration": 0.65,
+          "from": {
+            "x": 300
+          },
+          "to": {
+            "x": 0
+          },
+          "ease": "outC",
+          "id": "开场-08"
+        },
+        {
+          "type": "fade",
+          "target": "#goal",
+          "at": 3.4,
+          "duration": 0.2,
+          "from": 0,
+          "to": 1,
+          "id": "开场-09"
+        },
+        {
+          "type": "move",
+          "target": "#stats",
+          "at": 3.2,
+          "duration": 0.4,
+          "from": {
+            "x": 100,
+            "scale": 1.1,
+            "rotationZ": 2,
+            "opacity": 0
+          },
+          "to": {
+            "x": 0,
+            "scale": 1,
+            "rotationZ": 0,
+            "opacity": 1
+          },
+          "id": "开场-10"
+        },
+        {
+          "type": "draw",
+          "target": "#budget-curve",
+          "at": 3.5,
+          "duration": 0.4,
+          "ease": "linear",
+          "id": "开场-11"
+        },
+        {
+          "type": "counter",
+          "target": "#sum",
+          "at": 3.4,
+          "duration": 1,
+          "from": 0,
+          "to": 15,
+          "binding": "data.budget.total",
+          "id": "开场-12"
+        }
+      ],
+      "fadeIn": 0,
+      "template": "modules/01-opening-wall.tpl",
+      "domId": "scene-0",
+      "media": [
+        {
+          "target": "#wall-video-0-0",
+          "src": "assets/placeholders/video-030.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-0-1",
+          "src": "assets/placeholders/video-022.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-0-2",
+          "src": "assets/placeholders/video-026.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-0-3",
+          "src": "assets/placeholders/video-031.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-0-4",
+          "src": "assets/placeholders/video-032.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-0-5",
+          "src": "assets/placeholders/video-024.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-0-6",
+          "src": "assets/placeholders/video-028.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-0-7",
+          "src": "assets/placeholders/video-029.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-1-0",
+          "src": "assets/placeholders/video-031.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-1-1",
+          "src": "assets/placeholders/video-032.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-1-2",
+          "src": "assets/placeholders/video-024.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-1-3",
+          "src": "assets/placeholders/video-028.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-1-4",
+          "src": "assets/placeholders/video-029.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-1-5",
+          "src": "assets/placeholders/video-027.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-1-6",
+          "src": "assets/placeholders/video-033.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-1-7",
+          "src": "assets/placeholders/video-025.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-2-0",
+          "src": "assets/placeholders/video-028.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-2-1",
+          "src": "assets/placeholders/video-029.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-2-2",
+          "src": "assets/placeholders/video-027.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-2-3",
+          "src": "assets/placeholders/video-033.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-2-4",
+          "src": "assets/placeholders/video-025.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-2-5",
+          "src": "assets/placeholders/video-023.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-2-6",
+          "src": "assets/placeholders/video-030.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-2-7",
+          "src": "assets/placeholders/video-022.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-3-0",
+          "src": "assets/placeholders/video-033.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-3-1",
+          "src": "assets/placeholders/video-025.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-3-2",
+          "src": "assets/placeholders/video-023.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-3-3",
+          "src": "assets/placeholders/video-030.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-3-4",
+          "src": "assets/placeholders/video-022.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-3-5",
+          "src": "assets/placeholders/video-026.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-3-6",
+          "src": "assets/placeholders/video-031.mp4",
+          "at": 0,
+          "duration": 6
+        },
+        {
+          "target": "#wall-video-3-7",
+          "src": "assets/placeholders/video-032.mp4",
+          "at": 0,
+          "duration": 6
+        }
+      ],
+      "visibleEnd": 6.0,
+      "fadeOut": 0.40000000000000036
+    }
+  ],
+  "captions": [],
+  "audio": null,
+  "scope": "独立组件；通用素材参数验证",
+  "backgrounds": [],
+  "ambient_walls": [
+    {
+      "id": "early-wall",
+      "start": 5.6,
+      "duration": 0.4,
+      "opacity": 0.32,
+      "speeds": [
+        42,
+        -48,
+        44,
+        -42
+      ],
+      "media_offset": 0.0,
+      "phases": [
+        0.0,
+        -0.0,
+        0.0,
+        -0.0
+      ]
+    }
+  ],
+  "layout": {}
+}

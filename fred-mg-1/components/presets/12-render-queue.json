@@ -1,0 +1,394 @@
+{
+  "schema": "reference-mg-template@1",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 8.6
+  },
+  "theme": {
+    "ink": "#17171d",
+    "paper": "#ffffff",
+    "purple": "#c6a4fa",
+    "purpleOnPaper": "#8050b4"
+  },
+  "data": {
+    "budget": {
+      "human": [
+        3,
+        0,
+        0,
+        10,
+        2
+      ],
+      "ai_labels": [
+        "5—8分钟",
+        "5—10分钟",
+        "25—30分钟",
+        "20—25分钟",
+        "约15分钟"
+      ],
+      "human_bar_px_per_minute": 12.5
+    }
+  },
+  "assetOverrides": {},
+  "copy": {
+    "渲染": {
+      "txt_000": "写动画代码 · 排分镜 · 查画面",
+      "txt_001": "内容编排",
+      "txt_002": "0",
+      "txt_003": " 个片段",
+      "txt_004": "逐段编排",
+      "txt_005": "串成完整预览",
+      "txt_006": "✓",
+      "txt_007": "重复执行在后台，关键判断留给人",
+      "txt_008": "多块显卡 · 并行渲染",
+      "txt_009": "并行渲染中",
+      "txt_010": "配乐混音 → 渲染完成 → 自动关机"
+    }
+  },
+  "scenes": [
+    {
+      "id": "渲染",
+      "start": 0,
+      "end": 8.6,
+      "title": "03 画面与云端渲染",
+      "dark": true,
+      "header": true,
+      "entry_duration": 0.4,
+      "transition": null,
+      "events": [
+        {
+          "type": "fade",
+          "target": "#queue",
+          "at": 3.4,
+          "duration": 0.4,
+          "from": 0,
+          "to": 1,
+          "id": "渲染-01"
+        },
+        {
+          "type": "state",
+          "target": "#queue-status",
+          "at": 6.4,
+          "duration": 0,
+          "values": {
+            "textContent": "渲完自动关机"
+          },
+          "id": "渲染-02"
+        },
+        {
+          "type": "bar",
+          "target": "#queue-0",
+          "at": 3.4,
+          "duration": 3.0,
+          "from": 0,
+          "to": 1,
+          "ease": "linear",
+          "id": "渲染-03",
+          "knots": [
+            [
+              0,
+              0.0
+            ],
+            [
+              0.6,
+              0.24
+            ],
+            [
+              2.2,
+              0.94
+            ],
+            [
+              3.0,
+              1
+            ]
+          ]
+        },
+        {
+          "type": "bar",
+          "target": "#queue-1",
+          "at": 3.4,
+          "duration": 3.12,
+          "from": 0,
+          "to": 0.71,
+          "ease": "linear",
+          "id": "渲染-04",
+          "knots": [
+            [
+              0,
+              0.05
+            ],
+            [
+              0.7,
+              0.29
+            ],
+            [
+              2.2800000000000002,
+              0.8099999999999999
+            ],
+            [
+              3.12,
+              0.71
+            ]
+          ]
+        },
+        {
+          "type": "bar",
+          "target": "#queue-2",
+          "at": 3.4,
+          "duration": 3.24,
+          "from": 0,
+          "to": 0.54,
+          "ease": "linear",
+          "id": "渲染-05",
+          "knots": [
+            [
+              0,
+              0.1
+            ],
+            [
+              0.8,
+              0.33999999999999997
+            ],
+            [
+              2.3600000000000003,
+              0.64
+            ],
+            [
+              3.24,
+              0.54
+            ]
+          ]
+        },
+        {
+          "type": "bar",
+          "target": "#queue-3",
+          "at": 3.4,
+          "duration": 3.36,
+          "from": 0,
+          "to": 0.88,
+          "ease": "linear",
+          "id": "渲染-06",
+          "knots": [
+            [
+              0,
+              0.15000000000000002
+            ],
+            [
+              0.9,
+              0.39
+            ],
+            [
+              2.4400000000000004,
+              0.94
+            ],
+            [
+              3.36,
+              0.88
+            ]
+          ]
+        },
+        {
+          "type": "bar",
+          "target": "#queue-4",
+          "at": 3.4,
+          "duration": 3.48,
+          "from": 0,
+          "to": 0.37,
+          "ease": "linear",
+          "id": "渲染-07",
+          "knots": [
+            [
+              0,
+              0.2
+            ],
+            [
+              1.0,
+              0.44
+            ],
+            [
+              2.52,
+              0.47
+            ],
+            [
+              3.48,
+              0.37
+            ]
+          ]
+        },
+        {
+          "type": "bar",
+          "target": "#queue-5",
+          "at": 3.4,
+          "duration": 3.6,
+          "from": 0,
+          "to": 0.2,
+          "ease": "linear",
+          "id": "渲染-08",
+          "knots": [
+            [
+              0,
+              0.25
+            ],
+            [
+              1.1,
+              0.49
+            ],
+            [
+              2.6,
+              0.30000000000000004
+            ],
+            [
+              3.6,
+              0.2
+            ]
+          ]
+        },
+        {
+          "type": "counter",
+          "target": "#history-count",
+          "at": 1.2,
+          "duration": 2.2,
+          "from": 0,
+          "to": 6,
+          "id": "渲染-09"
+        },
+        {
+          "type": "fade",
+          "target": ".history-item",
+          "at": 1.2,
+          "duration": 0.2,
+          "stagger": 0.35,
+          "id": "渲染-10"
+        },
+        {
+          "type": "fade",
+          "target": "#history-result",
+          "at": 6.3,
+          "duration": 0.25,
+          "id": "渲染-11"
+        },
+        {
+          "type": "fade",
+          "target": "#history-check",
+          "at": 6.6,
+          "duration": 0.2,
+          "id": "渲染-12"
+        },
+        {
+          "type": "style",
+          "target": "#history-items",
+          "at": 6.3,
+          "duration": 0.25,
+          "to": {
+            "filter": "blur(6px)",
+            "opacity": 0.25
+          },
+          "id": "渲染-13"
+        }
+      ],
+      "fadeIn": 0.4,
+      "template": "modules/12-render-queue.tpl",
+      "domId": "scene-11",
+      "media": [
+        {
+          "target": "#v-历史网页核心",
+          "src": "assets/placeholders/video-005.mp4",
+          "duration": 8.2,
+          "at": 0.4
+        },
+        {
+          "target": "#v-队列一",
+          "src": "assets/placeholders/video-037.mp4",
+          "duration": 4.2,
+          "at": 3.8
+        },
+        {
+          "target": "#v-队列二",
+          "src": "assets/placeholders/video-038.mp4",
+          "duration": 4.2,
+          "at": 3.8
+        },
+        {
+          "target": "#history-tile-0",
+          "src": "assets/placeholders/video-030.mp4",
+          "at": 1.2,
+          "duration": 6
+        },
+        {
+          "target": "#history-tile-1",
+          "src": "assets/placeholders/video-022.mp4",
+          "at": 1.2,
+          "duration": 6
+        },
+        {
+          "target": "#history-tile-2",
+          "src": "assets/placeholders/video-026.mp4",
+          "at": 1.2,
+          "duration": 6
+        },
+        {
+          "target": "#history-tile-3",
+          "src": "assets/placeholders/video-031.mp4",
+          "at": 1.2,
+          "duration": 6
+        },
+        {
+          "target": "#history-tile-4",
+          "src": "assets/placeholders/video-032.mp4",
+          "at": 1.2,
+          "duration": 6
+        },
+        {
+          "target": "#history-tile-5",
+          "src": "assets/placeholders/video-028.mp4",
+          "at": 1.2,
+          "duration": 6
+        },
+        {
+          "target": "#queue-live-2",
+          "src": "assets/placeholders/video-031.mp4",
+          "at": 3.4,
+          "duration": 4.8
+        },
+        {
+          "target": "#queue-live-3",
+          "src": "assets/placeholders/video-027.mp4",
+          "at": 3.4,
+          "duration": 4.8
+        },
+        {
+          "target": "#queue-live-4",
+          "src": "assets/placeholders/video-033.mp4",
+          "at": 3.4,
+          "duration": 4.8
+        },
+        {
+          "target": "#queue-live-5",
+          "src": "assets/placeholders/video-025.mp4",
+          "at": 3.4,
+          "duration": 4.8
+        }
+      ],
+      "visibleEnd": 8.6,
+      "fadeOut": 0.4000000000000057,
+      "background": "transparent"
+    }
+  ],
+  "captions": [],
+  "audio": null,
+  "scope": "独立组件；通用素材参数验证",
+  "backgrounds": [
+    {
+      "id": "server-background",
+      "src": "assets/placeholders/video-019.mp4",
+      "start": 0.0,
+      "duration": 8.6,
+      "style": "position:absolute;inset:0;width:100%;height:100%;object-fit:fill;opacity:.55;z-index:5",
+      "source_offset": 5.600000000000001
+    }
+  ],
+  "ambient_walls": [],
+  "layout": {}
+}

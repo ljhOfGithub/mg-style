@@ -1,0 +1,15 @@
+{
+  "format": "fred-component@1",
+  "component": "10-chapter-fade",
+  "duration": 3.6333333333333333,
+  "content": {},
+  "data": {
+    "chapter": {
+      "number": "03",
+      "title": "资料整理"
+    }
+  },
+  "media": {},
+  "theme": {},
+  "motions": {}
+}

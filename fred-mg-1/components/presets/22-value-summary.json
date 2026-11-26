@@ -1,0 +1,155 @@
+{
+  "schema": "reference-mg-template@1",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 10.1
+  },
+  "theme": {
+    "ink": "#17171d",
+    "paper": "#ffffff",
+    "purple": "#c6a4fa",
+    "purpleOnPaper": "#8050b4"
+  },
+  "data": {
+    "budget": {
+      "human": [
+        3,
+        0,
+        0,
+        10,
+        2
+      ],
+      "ai_labels": [
+        "5—8分钟",
+        "5—10分钟",
+        "25—30分钟",
+        "20—25分钟",
+        "约15分钟"
+      ],
+      "human_bar_px_per_minute": 12.5
+    }
+  },
+  "assetOverrides": {},
+  "copy": {
+    "价值": {
+      "txt_000": "重复、耗时的执行工作",
+      "txt_001": "这份 ",
+      "txt_002": "15分钟预算",
+      "txt_003": " 留给最有价值的判断",
+      "txt_004": "定选题",
+      "txt_005": "要讲什么",
+      "txt_006": "核心观点是什么",
+      "txt_007": "控节奏",
+      "txt_008": "哪里该收紧",
+      "txt_009": "哪里需要停留",
+      "txt_010": "审美把关",
+      "txt_011": "画面是否清楚",
+      "txt_012": "表达是否到位"
+    }
+  },
+  "scenes": [
+    {
+      "id": "价值",
+      "start": 0,
+      "end": 10.1,
+      "title": "把判断力留给内容",
+      "dark": true,
+      "header": true,
+      "entry_duration": 0.5,
+      "transition": null,
+      "events": [
+        {
+          "type": "fade",
+          "target": "#value-promise",
+          "at": 3.5,
+          "duration": 0.2,
+          "from": 0,
+          "to": 1,
+          "id": "价值-01"
+        },
+        {
+          "type": "style",
+          "target": "#repeat",
+          "at": 1.2,
+          "duration": 0.3,
+          "to": {
+            "color": "#8b8593"
+          },
+          "id": "价值-02"
+        },
+        {
+          "type": "bar",
+          "target": "#repeat-strike",
+          "at": 1.2,
+          "duration": 0.3,
+          "from": 0,
+          "to": 1,
+          "ease": "linear",
+          "id": "价值-03"
+        },
+        {
+          "type": "fade",
+          "target": "#value-card-0",
+          "at": 5.3,
+          "duration": 0.2,
+          "from": 0,
+          "to": 1,
+          "id": "价值-04"
+        },
+        {
+          "type": "fade",
+          "target": "#value-card-1",
+          "at": 6.1,
+          "duration": 0.2,
+          "from": 0,
+          "to": 1,
+          "id": "价值-05"
+        },
+        {
+          "type": "fade",
+          "target": "#value-card-2",
+          "at": 6.7,
+          "duration": 0.2,
+          "from": 0,
+          "to": 1,
+          "id": "价值-06"
+        }
+      ],
+      "fadeIn": 0.5,
+      "template": "modules/22-value-summary.tpl",
+      "domId": "scene-21",
+      "media": [],
+      "visibleEnd": 10.1,
+      "fadeOut": 0.4000000000000057,
+      "background": "transparent"
+    }
+  ],
+  "captions": [],
+  "audio": null,
+  "scope": "独立组件；通用素材参数验证",
+  "backgrounds": [],
+  "ambient_walls": [
+    {
+      "id": "late-wall",
+      "start": 0.0,
+      "duration": 10.1,
+      "opacity": 0.24,
+      "speeds": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "media_offset": 29.799999999999983,
+      "phases": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "layout": {}
+}

@@ -15,11 +15,11 @@ class StyleCommands(unittest.TestCase):
         # 留存小型验证目录，避免自动批量删除文件。
         self.root = Path(tempfile.mkdtemp(prefix='fred-mg-1-test-'))
         self.library = self.root / 'library'
-        project = self.library / '模板工程'
+        project = self.library / 'template'
         project.mkdir(parents=True)
         (project / '配置.json').write_text('{"scenes":[]}', encoding='utf-8')
         (project / 'index.html').write_text('<html>测试模板</html>', encoding='utf-8')
-        (self.library / '风格.json').write_text(json.dumps(dict(id='fred-mg-1', name='fred mg 1', version='test', project='模板工程')), encoding='utf-8')
+        (self.library / '风格.json').write_text(json.dumps(dict(id='fred-mg-1', name='fred mg 1', version='test', project='template')), encoding='utf-8')
         files = [dict(path=str(f.relative_to(self.library)), sha256=hashlib.sha256(f.read_bytes()).hexdigest()) for f in self.library.rglob('*') if f.is_file()]
         (self.library / '基线文件清单.json').write_text(json.dumps(dict(style_id='fred-mg-1', files=files)), encoding='utf-8')
         self.registry = self.root / 'registry.json'
@@ -41,7 +41,7 @@ class StyleCommands(unittest.TestCase):
         target = self.root / 'new-project'
         result = self.call('init', target)
         self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertEqual((target / 'index.html').read_bytes(), (self.library / '模板工程/index.html').read_bytes())
+        self.assertEqual((target / 'index.html').read_bytes(), (self.library / 'template/index.html').read_bytes())
         self.assertEqual(json.loads((target / '风格来源.json').read_text())['style_id'], 'fred-mg-1')
         (target / '用户保留.txt').write_text('保留', encoding='utf-8')
         self.assertNotEqual(self.call('init', target).returncode, 0)
@@ -49,7 +49,7 @@ class StyleCommands(unittest.TestCase):
 
     def test_tampered_baseline_is_rejected_before_copy(self):
         self.register()
-        (self.library / '模板工程/配置.json').write_text('changed', encoding='utf-8')
+        (self.library / 'template/配置.json').write_text('changed', encoding='utf-8')
         self.assertNotEqual(self.call('verify').returncode, 0)
         target = self.root / 'new-project'
         self.assertNotEqual(self.call('init', target).returncode, 0)

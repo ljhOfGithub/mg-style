@@ -4,10 +4,10 @@ __pycache__/
 .build/
 .hyperframes/
 **/.hyperframes/
-**/保存记录/
-**/导出任务/
-**/执行记录/
-**/输出/
+**/saved/
+**/exports/
+**/logs/
+**/output/
 **/编辑暂存.*
 **/构建记录.json
 .DS_Store

@@ -1,0 +1,158 @@
+{
+  "schema": "reference-mg-template@1",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 14.3
+  },
+  "theme": {
+    "ink": "#17171d",
+    "paper": "#ffffff",
+    "purple": "#c6a4fa",
+    "purpleOnPaper": "#8050b4"
+  },
+  "data": {
+    "budget": {
+      "human": [
+        3,
+        0,
+        0,
+        10,
+        2
+      ],
+      "ai_labels": [
+        "5—8分钟",
+        "5—10分钟",
+        "25—30分钟",
+        "20—25分钟",
+        "约15分钟"
+      ],
+      "human_bar_px_per_minute": 12.5
+    },
+    "phone_has_embedded_check": false
+  },
+  "assetOverrides": {},
+  "copy": {
+    "发布": {
+      "txt_000": "多平台定时发布与归档",
+      "txt_001": "自动填文案标签 ✓　定时发布 ✓　素材入库归档 ✓",
+      "txt_002": "AI后台 ",
+      "txt_003": "约15分钟",
+      "txt_004": "人工预算",
+      "txt_005": "2",
+      "txt_006": "分钟",
+      "txt_007": "最后检查发布页",
+      "txt_008": "发布完成后",
+      "txt_009": "检查实际发布页",
+      "txt_010": "✓"
+    }
+  },
+  "scenes": [
+    {
+      "id": "发布",
+      "start": 0,
+      "end": 14.3,
+      "title": "05 自动发布，人工确认",
+      "dark": false,
+      "header": true,
+      "entry_duration": 0.3,
+      "transition": null,
+      "events": [
+        {
+          "type": "state",
+          "target": "#phone",
+          "at": 0.3,
+          "duration": 0,
+          "values": {
+            "opacity": 0.2
+          },
+          "id": "发布-01"
+        },
+        {
+          "type": "fade",
+          "target": "#publish-status",
+          "at": 5.7,
+          "duration": 0.3,
+          "from": 0,
+          "to": 1,
+          "id": "发布-02"
+        },
+        {
+          "type": "style",
+          "target": "#phone",
+          "at": 9.200000000000001,
+          "duration": 0.3,
+          "to": {
+            "opacity": 1
+          },
+          "id": "发布-03"
+        },
+        {
+          "type": "style",
+          "target": "#publish-panel",
+          "at": 9.200000000000001,
+          "duration": 0.3,
+          "to": {
+            "opacity": 0.45
+          },
+          "id": "发布-04"
+        },
+        {
+          "type": "fade",
+          "target": "#publish-check",
+          "at": 11.8,
+          "duration": 0.3,
+          "from": 0,
+          "to": 1,
+          "id": "发布-05"
+        }
+      ],
+      "fadeIn": 0.3,
+      "template": "modules/18-publishing.tpl",
+      "domId": "scene-17",
+      "media": [
+        {
+          "target": "#v-发布表单完整去IP-v6",
+          "src": "assets/placeholders/video-007.mp4",
+          "duration": 13.6,
+          "at": 0.3
+        },
+        {
+          "target": "#v-手机检查",
+          "src": "assets/placeholders/video-018.mp4",
+          "duration": 4.4,
+          "at": 9.5
+        }
+      ],
+      "visibleEnd": 14.3,
+      "fadeOut": 0.4000000000000057
+    }
+  ],
+  "captions": [],
+  "audio": null,
+  "scope": "独立组件；通用素材参数验证",
+  "backgrounds": [],
+  "ambient_walls": [
+    {
+      "id": "late-wall",
+      "start": 13.900000000000006,
+      "duration": 0.4,
+      "opacity": 0.24,
+      "speeds": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "media_offset": 0.0,
+      "phases": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "layout": {}
+}

@@ -1,0 +1,130 @@
+{
+  "schema": "reference-mg-template@1",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 4.0
+  },
+  "theme": {
+    "ink": "#17171d",
+    "paper": "#ffffff",
+    "purple": "#c6a4fa",
+    "purpleOnPaper": "#8050b4"
+  },
+  "data": {
+    "budget": {
+      "human": [
+        3,
+        0,
+        0,
+        10,
+        2
+      ],
+      "ai_labels": [
+        "5—8分钟",
+        "5—10分钟",
+        "25—30分钟",
+        "20—25分钟",
+        "约15分钟"
+      ],
+      "human_bar_px_per_minute": 12.5
+    }
+  },
+  "assetOverrides": {},
+  "copy": {
+    "反差": {
+      "txt_000": "重复执行交给AI",
+      "txt_001": "人来判断内容",
+      "txt_002": "后台跑多久",
+      "txt_003": "人就要守多久？",
+      "txt_004": "人工参与的目标预算",
+      "txt_005": "15",
+      "txt_006": "分钟",
+      "txt_007": "这份算例的人工预算"
+    }
+  },
+  "scenes": [
+    {
+      "id": "反差",
+      "start": 0,
+      "end": 4.0,
+      "title": "AI剪一期，人工要多久",
+      "dark": true,
+      "header": true,
+      "entry_duration": 0.4,
+      "transition": null,
+      "events": [
+        {
+          "type": "style",
+          "target": "#question",
+          "at": 1.4,
+          "duration": 0.3,
+          "to": {
+            "color": "#89848e"
+          },
+          "id": "反差-01"
+        },
+        {
+          "type": "bar",
+          "target": "#strike-q",
+          "at": 1.4,
+          "duration": 0.35,
+          "from": 0,
+          "to": 1,
+          "ease": "linear",
+          "id": "反差-02"
+        },
+        {
+          "type": "fade",
+          "target": "#answer-label, #answer-group, #answer-detail",
+          "at": 1.6,
+          "duration": 0.23,
+          "from": 0,
+          "to": 1,
+          "id": "反差-03"
+        }
+      ],
+      "fadeIn": 0.4,
+      "template": "modules/02-contrast.tpl",
+      "domId": "scene-1",
+      "media": [
+        {
+          "target": "#v-开场电脑干净跨接",
+          "src": "assets/placeholders/video-017.mp4",
+          "duration": 3.6,
+          "at": 0.0
+        }
+      ],
+      "visibleEnd": 4.0,
+      "fadeOut": 0.40000000000000036,
+      "background": "transparent"
+    }
+  ],
+  "captions": [],
+  "audio": null,
+  "scope": "独立组件；通用素材参数验证",
+  "backgrounds": [],
+  "ambient_walls": [
+    {
+      "id": "early-wall",
+      "start": 0.0,
+      "duration": 4.0,
+      "opacity": 0.32,
+      "speeds": [
+        42,
+        -48,
+        44,
+        -42
+      ],
+      "media_offset": 0.0,
+      "phases": [
+        0.0,
+        -0.0,
+        0.0,
+        -0.0
+      ]
+    }
+  ],
+  "layout": {}
+}

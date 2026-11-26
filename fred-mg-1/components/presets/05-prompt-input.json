@@ -1,0 +1,131 @@
+{
+  "schema": "reference-mg-template@1",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 11.6
+  },
+  "theme": {
+    "ink": "#17171d",
+    "paper": "#ffffff",
+    "purple": "#c6a4fa",
+    "purpleOnPaper": "#8050b4"
+  },
+  "data": {
+    "budget": {
+      "human": [
+        3,
+        0,
+        0,
+        10,
+        2
+      ],
+      "ai_labels": [
+        "5—8分钟",
+        "5—10分钟",
+        "25—30分钟",
+        "20—25分钟",
+        "约15分钟"
+      ],
+      "human_bar_px_per_minute": 12.5
+    },
+    "prompt": "这期讲用AI做视频的人工时间预算，分别列出选题、配音、画面、审片和发布五个环节，区分人工参与和AI后台运行。"
+  },
+  "assetOverrides": {},
+  "copy": {
+    "输入": {
+      "txt_000": "人工预算",
+      "txt_001": "3",
+      "txt_002": "分钟",
+      "txt_003": "说清选题与要求",
+      "txt_004": "AI查资料与写稿",
+      "txt_005": "5—8",
+      "txt_006": "分钟",
+      "txt_007": "查资料 · 核数据 · 出全稿",
+      "txt_008": "发给AI的一段需求",
+      "txt_009": "▍",
+      "txt_010": "核心观点",
+      "txt_011": "一次说清"
+    }
+  },
+  "scenes": [
+    {
+      "id": "输入",
+      "start": 0,
+      "end": 11.6,
+      "title": "01 选题与写稿",
+      "dark": false,
+      "header": true,
+      "entry_duration": 0,
+      "transition": null,
+      "events": [
+        {
+          "type": "state",
+          "target": "#ai",
+          "at": 0,
+          "duration": 0,
+          "values": {
+            "opacity": 0.3
+          },
+          "id": "输入-01"
+        },
+        {
+          "type": "typing",
+          "target": "#typed",
+          "at": 2.8,
+          "duration": 5.4,
+          "text": "这期讲用AI做视频的人工时间预算，分别列出选题、配音、画面、审片和发布五个环节，区分人工参与和AI后台运行。",
+          "binding": "data.prompt",
+          "id": "输入-02"
+        },
+        {
+          "type": "style",
+          "target": "#prompt",
+          "at": 8.2,
+          "duration": 0.3,
+          "to": {
+            "borderColor": "#c6a4fa"
+          },
+          "id": "输入-03"
+        },
+        {
+          "type": "move",
+          "target": ".page, .header",
+          "at": 0,
+          "duration": 0.4,
+          "from": {
+            "y": 1080
+          },
+          "to": {
+            "y": 0
+          },
+          "ease": "linear",
+          "id": "输入-04"
+        }
+      ],
+      "fadeIn": 0,
+      "template": "modules/05-prompt-input.tpl",
+      "domId": "scene-4",
+      "media": [
+        {
+          "target": "#v-键盘",
+          "src": "assets/placeholders/video-036.mp4",
+          "duration": 10.8,
+          "at": 0.4,
+          "leadPoster": "assets/placeholders/poster.png",
+          "leadFrom": 0
+        }
+      ],
+      "visibleEnd": 11.6,
+      "fadeOut": 0.3999999999999986,
+      "background": "transparent"
+    }
+  ],
+  "captions": [],
+  "audio": null,
+  "scope": "独立组件；通用素材参数验证",
+  "backgrounds": [],
+  "ambient_walls": [],
+  "layout": {}
+}

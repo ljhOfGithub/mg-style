@@ -4,7 +4,7 @@
 
 | 内容 | 来源与许可 |
 |---|---|
-| 时间归一化、插值、单调缓动的适配底座 | [mg-styles-15](https://github.com/Vincentwei1021/mg-styles-15)，`01-flat-vector`，提交 `3164c24e188899fd79b155124cfa7eefc7a906e9`；[原MIT许可](模板工程/LICENSE-MG-styles-15.txt) |
+| 时间归一化、插值、单调缓动的适配底座 | [mg-styles-15](https://github.com/Vincentwei1021/mg-styles-15)，`01-flat-vector`，提交 `3164c24e188899fd79b155124cfa7eefc7a906e9`；[原MIT许可](template/LICENSE-MG-styles-15.txt) |
 | 动作分组与场景组织参考 | [FredTalk公开参考片](https://v.douyin.com/8n3w0GrNF9k/)的可见动作分析；未取得原作者工程，仓库不分发该原片、原声音或原人物素材 |
 | GSAP 3.15.0 | 保留发行文件版权头，适用[GSAP Standard License](https://gsap.com/standard-license/)，不是MIT |
 | Noto Sans CJK、Teko、得意黑 | 字体保持原文件；对应OFL许可位于模板的 `assets/fonts` 目录 |

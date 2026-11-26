@@ -1,0 +1,163 @@
+{
+  "schema": "reference-mg-template@1",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 4.0
+  },
+  "theme": {
+    "ink": "#17171d",
+    "paper": "#ffffff",
+    "purple": "#c6a4fa",
+    "purpleOnPaper": "#8050b4"
+  },
+  "data": {
+    "budget": {
+      "human": [
+        3,
+        0,
+        0,
+        10,
+        2
+      ],
+      "ai_labels": [
+        "5—8分钟",
+        "5—10分钟",
+        "25—30分钟",
+        "20—25分钟",
+        "约15分钟"
+      ],
+      "human_bar_px_per_minute": 12.5
+    }
+  },
+  "assetOverrides": {},
+  "copy": {
+    "后台工作": {
+      "txt_000": "让任务在后台跑，人去做别的事",
+      "txt_001": "人工预算 15分钟",
+      "txt_002": "24小时",
+      "txt_003": "后台多久，人就守多久？",
+      "txt_004": "做完一期，就排下一期",
+      "txt_005": "同时安排3—4条制作线"
+    }
+  },
+  "scenes": [
+    {
+      "id": "后台工作",
+      "start": 0,
+      "end": 4.0,
+      "title": "03 任务继续，注意力释放",
+      "dark": true,
+      "header": true,
+      "entry_duration": 0.4,
+      "transition": null,
+      "events": [
+        {
+          "type": "fade",
+          "target": "#multi",
+          "at": 2,
+          "duration": 0.4,
+          "from": 0,
+          "to": 1,
+          "id": "后台工作-01"
+        },
+        {
+          "type": "bar",
+          "target": "#clock-strike",
+          "at": 2.2,
+          "duration": 0.3,
+          "ease": "linear",
+          "id": "后台工作-02"
+        },
+        {
+          "type": "fade",
+          "target": "#clock-ring",
+          "at": 2.8,
+          "duration": 0.25,
+          "from": 1,
+          "to": 0,
+          "id": "后台工作-03"
+        },
+        {
+          "type": "fade",
+          "target": "#clock-segments",
+          "at": 2.8,
+          "duration": 0.25,
+          "id": "后台工作-04"
+        },
+        {
+          "type": "fade",
+          "target": "#clock-old",
+          "at": 3,
+          "duration": 0.2,
+          "from": 1,
+          "to": 0,
+          "id": "后台工作-05"
+        },
+        {
+          "type": "fade",
+          "target": "#clock-next",
+          "at": 3,
+          "duration": 0.2,
+          "id": "后台工作-06"
+        },
+        {
+          "type": "fade",
+          "target": "#clock-card-0",
+          "at": 3.4,
+          "duration": 0.18,
+          "id": "后台工作-07"
+        },
+        {
+          "type": "fade",
+          "target": "#clock-card-1",
+          "at": 3.8,
+          "duration": 0.18,
+          "id": "后台工作-08"
+        }
+      ],
+      "fadeIn": 0.4,
+      "template": "modules/13-background-work.tpl",
+      "domId": "scene-12",
+      "media": [
+        {
+          "target": "#v-工作手部干净跨接",
+          "src": "assets/placeholders/video-009.mp4",
+          "duration": 4.0,
+          "at": 0.0
+        },
+        {
+          "target": "#clock-video-0",
+          "src": "assets/placeholders/video-028.mp4",
+          "at": 3.4,
+          "duration": 0.6000000000000001
+        },
+        {
+          "target": "#clock-video-1",
+          "src": "assets/placeholders/video-025.mp4",
+          "at": 3.8,
+          "duration": 0.20000000000000018
+        }
+      ],
+      "visibleEnd": 4.0,
+      "fadeOut": 0,
+      "background": "transparent"
+    }
+  ],
+  "captions": [],
+  "audio": null,
+  "scope": "独立组件；通用素材参数验证",
+  "backgrounds": [
+    {
+      "id": "server-background",
+      "src": "assets/placeholders/video-019.mp4",
+      "start": 0.0,
+      "duration": 4.0,
+      "style": "position:absolute;inset:0;width:100%;height:100%;object-fit:fill;opacity:.55;z-index:5",
+      "source_offset": 13.800000000000004
+    }
+  ],
+  "ambient_walls": [],
+  "layout": {}
+}

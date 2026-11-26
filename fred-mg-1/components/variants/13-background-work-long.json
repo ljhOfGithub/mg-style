@@ -1,0 +1,12 @@
+{
+  "format": "fred-component@1",
+  "component": "13-background-work",
+  "duration": 6.0,
+  "content": {
+    "txt_000": "让任务在后台跑，人去做别的事示例"
+  },
+  "data": {},
+  "media": {},
+  "theme": {},
+  "motions": {}
+}

@@ -1,0 +1,14 @@
+{
+  "format": "fred-component@1",
+  "component": "09-media-wave",
+  "duration": 12.166666666666666,
+  "content": {
+    "txt_000": "声音复刻配音示例"
+  },
+  "data": {},
+  "media": {
+    "media-04": "assets/variants/square.svg"
+  },
+  "theme": {},
+  "motions": {}
+}

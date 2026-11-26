@@ -1,0 +1,18 @@
+{
+  "format": "fred-component@1",
+  "component": "07-chapter-reveal",
+  "duration": 3.8,
+  "content": {},
+  "data": {
+    "chapter": {
+      "number": "02",
+      "groups": [
+        "资料",
+        "整理"
+      ]
+    }
+  },
+  "media": {},
+  "theme": {},
+  "motions": {}
+}

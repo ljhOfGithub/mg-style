@@ -1,0 +1,14 @@
+{
+  "format": "fred-component@1",
+  "component": "02-contrast",
+  "duration": 6.0,
+  "content": {
+    "txt_000": "重复执行交给AI示例"
+  },
+  "data": {},
+  "media": {
+    "media-02": "assets/variants/portrait.svg"
+  },
+  "theme": {},
+  "motions": {}
+}

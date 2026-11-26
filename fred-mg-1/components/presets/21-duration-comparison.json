@@ -1,0 +1,123 @@
+{
+  "schema": "reference-mg-template@1",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 11.6
+  },
+  "theme": {
+    "ink": "#17171d",
+    "paper": "#ffffff",
+    "purple": "#c6a4fa",
+    "purpleOnPaper": "#8050b4"
+  },
+  "data": {
+    "budget": {
+      "human": [
+        3,
+        0,
+        0,
+        10,
+        2
+      ],
+      "ai_labels": [
+        "5—8分钟",
+        "5—10分钟",
+        "25—30分钟",
+        "20—25分钟",
+        "约15分钟"
+      ],
+      "human_bar_px_per_minute": 12.5
+    }
+  },
+  "assetOverrides": {},
+  "copy": {
+    "对比": {
+      "txt_000": "如果传统流程 ",
+      "txt_001": "1—2天",
+      "txt_002": "写稿 → 录音 → 找素材 → 剪辑 → 发布",
+      "txt_003": "本例的人工预算 ",
+      "txt_004": "15分钟"
+    }
+  },
+  "scenes": [
+    {
+      "id": "对比",
+      "start": 0,
+      "end": 11.6,
+      "title": "把人工占用单独拿来比较",
+      "dark": true,
+      "header": true,
+      "entry_duration": 0.4,
+      "transition": null,
+      "events": [
+        {
+          "type": "bar",
+          "target": "#compare-bar-0",
+          "at": 0.4,
+          "duration": 4.2,
+          "from": 0,
+          "to": 1,
+          "ease": "linear",
+          "id": "对比-01"
+        },
+        {
+          "type": "fade",
+          "target": "#compare-target",
+          "at": 8.6,
+          "duration": 0.2,
+          "from": 0,
+          "to": 1,
+          "id": "对比-02"
+        }
+      ],
+      "fadeIn": 0.4,
+      "template": "modules/21-duration-comparison.tpl",
+      "domId": "scene-20",
+      "media": [
+        {
+          "target": "#v-剪辑软件",
+          "src": "assets/placeholders/video-004.mp4",
+          "duration": 10.7,
+          "at": 0.4
+        },
+        {
+          "target": "#v-剪辑电脑",
+          "src": "assets/placeholders/video-003.mp4",
+          "duration": 10.7,
+          "at": 0.4
+        }
+      ],
+      "visibleEnd": 11.6,
+      "fadeOut": 0.5,
+      "background": "transparent"
+    }
+  ],
+  "captions": [],
+  "audio": null,
+  "scope": "独立组件；通用素材参数验证",
+  "backgrounds": [],
+  "ambient_walls": [
+    {
+      "id": "late-wall",
+      "start": 0.0,
+      "duration": 11.6,
+      "opacity": 0.24,
+      "speeds": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "media_offset": 18.69999999999999,
+      "phases": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "layout": {}
+}
