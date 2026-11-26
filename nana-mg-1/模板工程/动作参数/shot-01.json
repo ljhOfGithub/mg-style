@@ -1,0 +1,45 @@
+[
+  {
+    "id": "hero:0",
+    "selector": "#shot-01-hero",
+    "start": 0.06,
+    "duration": 0.24,
+    "before": {
+      "scale": 0.78,
+      "opacity": 0
+    },
+    "after": {
+      "scale": 1,
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "subtitle:0",
+    "selector": "#shot-01-subtitle",
+    "start": 0.28,
+    "duration": 0.18,
+    "before": {
+      "opacity": 0,
+      "y": 16
+    },
+    "after": {
+      "opacity": 1,
+      "y": 0
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "tags:0",
+    "selector": "#shot-01-tags",
+    "start": 0.38,
+    "duration": 0.18,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  }
+]

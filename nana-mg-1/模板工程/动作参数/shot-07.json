@@ -1,0 +1,185 @@
+[
+  {
+    "id": "surface:0",
+    "selector": "#shot-07-surface",
+    "start": 0.08,
+    "duration": 0.32,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "fan-0:0",
+    "selector": "#shot-07-fan-0",
+    "start": 0.05,
+    "duration": 0.58,
+    "before": {
+      "x": 260,
+      "y": 290,
+      "scale": 0.58,
+      "rotation": -10,
+      "opacity": 0
+    },
+    "after": {
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "rotation": 5,
+      "opacity": 1
+    },
+    "ease": "power2.inOut"
+  },
+  {
+    "id": "fan-0:1",
+    "selector": "#shot-07-fan-0",
+    "start": 0.8,
+    "duration": 1.4,
+    "before": {
+      "rotation": 5
+    },
+    "after": {
+      "rotation": 7
+    },
+    "ease": "sine.inOut"
+  },
+  {
+    "id": "fan-1:0",
+    "selector": "#shot-07-fan-1",
+    "start": 0.085,
+    "duration": 0.58,
+    "before": {
+      "x": -255,
+      "y": 290,
+      "scale": 0.58,
+      "rotation": -6,
+      "opacity": 0
+    },
+    "after": {
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "rotation": -4,
+      "opacity": 1
+    },
+    "ease": "power2.inOut"
+  },
+  {
+    "id": "fan-1:1",
+    "selector": "#shot-07-fan-1",
+    "start": 0.8,
+    "duration": 1.4,
+    "before": {
+      "rotation": -4
+    },
+    "after": {
+      "rotation": -6
+    },
+    "ease": "sine.inOut"
+  },
+  {
+    "id": "fan-2:0",
+    "selector": "#shot-07-fan-2",
+    "start": 0.12000000000000001,
+    "duration": 0.58,
+    "before": {
+      "x": 580,
+      "y": -160,
+      "scale": 0.58,
+      "rotation": -2,
+      "opacity": 0
+    },
+    "after": {
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "rotation": -6,
+      "opacity": 1
+    },
+    "ease": "power2.inOut"
+  },
+  {
+    "id": "fan-2:1",
+    "selector": "#shot-07-fan-2",
+    "start": 0.8,
+    "duration": 1.4,
+    "before": {
+      "rotation": -6
+    },
+    "after": {
+      "rotation": -4
+    },
+    "ease": "sine.inOut"
+  },
+  {
+    "id": "fan-3:0",
+    "selector": "#shot-07-fan-3",
+    "start": 0.15500000000000003,
+    "duration": 0.58,
+    "before": {
+      "x": 10,
+      "y": -160,
+      "scale": 0.58,
+      "rotation": 2,
+      "opacity": 0
+    },
+    "after": {
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "rotation": 3,
+      "opacity": 1
+    },
+    "ease": "power2.inOut"
+  },
+  {
+    "id": "fan-3:1",
+    "selector": "#shot-07-fan-3",
+    "start": 0.8,
+    "duration": 1.4,
+    "before": {
+      "rotation": 3
+    },
+    "after": {
+      "rotation": 1
+    },
+    "ease": "sine.inOut"
+  },
+  {
+    "id": "fan-4:0",
+    "selector": "#shot-07-fan-4",
+    "start": 0.19,
+    "duration": 0.58,
+    "before": {
+      "x": -550,
+      "y": -160,
+      "scale": 0.58,
+      "rotation": 6,
+      "opacity": 0
+    },
+    "after": {
+      "x": 0,
+      "y": 0,
+      "scale": 1,
+      "rotation": 7,
+      "opacity": 1
+    },
+    "ease": "power2.inOut"
+  },
+  {
+    "id": "fan-4:1",
+    "selector": "#shot-07-fan-4",
+    "start": 0.8,
+    "duration": 1.4,
+    "before": {
+      "rotation": 7
+    },
+    "after": {
+      "rotation": 9
+    },
+    "ease": "sine.inOut"
+  }
+]

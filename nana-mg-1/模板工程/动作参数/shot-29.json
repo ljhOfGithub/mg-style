@@ -1,0 +1,106 @@
+[
+  {
+    "id": "body:0",
+    "selector": "#shot-29-body",
+    "start": 0,
+    "duration": 0.12,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "heading:0",
+    "selector": "#shot-29-heading",
+    "start": 0.02,
+    "duration": 0.17,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "card-0:0",
+    "selector": "#shot-29-card-0",
+    "start": 0.12,
+    "duration": 0.18,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "card-1:0",
+    "selector": "#shot-29-card-1",
+    "start": 0.185,
+    "duration": 0.18,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "card-2:0",
+    "selector": "#shot-29-card-2",
+    "start": 0.25,
+    "duration": 0.18,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "card-3:0",
+    "selector": "#shot-29-card-3",
+    "start": 0.315,
+    "duration": 0.18,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "card-4:0",
+    "selector": "#shot-29-card-4",
+    "start": 0.38,
+    "duration": 0.18,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "body:1",
+    "selector": "#shot-29-body",
+    "start": 5.253333333333334,
+    "duration": 0.16,
+    "before": {
+      "opacity": 1
+    },
+    "after": {
+      "opacity": 0
+    },
+    "ease": "power2.out"
+  }
+]

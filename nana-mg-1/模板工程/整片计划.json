@@ -1,0 +1,312 @@
+{
+  "engine": "hyperframes",
+  "cli_version": "0.9.97",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "source_sha256": "634c989bf8272bf73c6eb59ac44dd447f0bf477df322a6020fe74cba8568a4e5",
+  "duration_frames": 1838,
+  "shots": [
+    {
+      "id": "shot-01",
+      "start_frame": 0,
+      "end_frame": 53,
+      "start": 0.0,
+      "duration": 1.7666666666666666,
+      "template": "01-title",
+      "chapter": 0
+    },
+    {
+      "id": "shot-02",
+      "start_frame": 53,
+      "end_frame": 117,
+      "start": 1.7666666666666666,
+      "duration": 2.1333333333333333,
+      "template": "02-media-flip",
+      "chapter": 0
+    },
+    {
+      "id": "shot-03",
+      "start_frame": 117,
+      "end_frame": 170,
+      "start": 3.9,
+      "duration": 1.7666666666666666,
+      "template": "03-grid",
+      "chapter": 0
+    },
+    {
+      "id": "shot-04",
+      "start_frame": 170,
+      "end_frame": 249,
+      "start": 5.666666666666667,
+      "duration": 2.6333333333333333,
+      "template": "04-browser",
+      "chapter": 0
+    },
+    {
+      "id": "shot-05",
+      "start_frame": 249,
+      "end_frame": 254,
+      "start": 8.3,
+      "duration": 0.16666666666666666,
+      "template": "media-slot",
+      "chapter": 0
+    },
+    {
+      "id": "shot-06",
+      "start_frame": 254,
+      "end_frame": 306,
+      "start": 8.466666666666667,
+      "duration": 1.7333333333333334,
+      "template": "05-chapter",
+      "chapter": 1
+    },
+    {
+      "id": "shot-07",
+      "start_frame": 306,
+      "end_frame": 382,
+      "start": 10.2,
+      "duration": 2.533333333333333,
+      "template": "06-fan",
+      "chapter": 1
+    },
+    {
+      "id": "shot-08",
+      "start_frame": 382,
+      "end_frame": 485,
+      "start": 12.733333333333333,
+      "duration": 3.433333333333333,
+      "template": "07-takeaway",
+      "chapter": 1
+    },
+    {
+      "id": "shot-09",
+      "start_frame": 485,
+      "end_frame": 520,
+      "start": 16.166666666666668,
+      "duration": 1.1666666666666667,
+      "template": "05-chapter",
+      "chapter": 2
+    },
+    {
+      "id": "shot-10",
+      "start_frame": 520,
+      "end_frame": 525,
+      "start": 17.333333333333332,
+      "duration": 0.16666666666666666,
+      "template": "media-slot",
+      "chapter": 2
+    },
+    {
+      "id": "shot-11",
+      "start_frame": 525,
+      "end_frame": 560,
+      "start": 17.5,
+      "duration": 1.1666666666666667,
+      "template": "08-nodes",
+      "chapter": 2
+    },
+    {
+      "id": "shot-12",
+      "start_frame": 560,
+      "end_frame": 658,
+      "start": 18.666666666666668,
+      "duration": 3.2666666666666666,
+      "template": "07-takeaway",
+      "chapter": 2
+    },
+    {
+      "id": "shot-13",
+      "start_frame": 658,
+      "end_frame": 696,
+      "start": 21.933333333333334,
+      "duration": 1.2666666666666666,
+      "template": "05-chapter",
+      "chapter": 3
+    },
+    {
+      "id": "shot-14",
+      "start_frame": 696,
+      "end_frame": 867,
+      "start": 23.2,
+      "duration": 5.7,
+      "template": "04-browser",
+      "chapter": 3
+    },
+    {
+      "id": "shot-15",
+      "start_frame": 867,
+      "end_frame": 873,
+      "start": 28.9,
+      "duration": 0.2,
+      "template": "media-slot",
+      "chapter": 3
+    },
+    {
+      "id": "shot-16",
+      "start_frame": 873,
+      "end_frame": 934,
+      "start": 29.1,
+      "duration": 2.033333333333333,
+      "template": "05-chapter",
+      "chapter": 4
+    },
+    {
+      "id": "shot-17",
+      "start_frame": 934,
+      "end_frame": 1038,
+      "start": 31.133333333333333,
+      "duration": 3.466666666666667,
+      "template": "09-media-board",
+      "chapter": 4
+    },
+    {
+      "id": "shot-18",
+      "start_frame": 1038,
+      "end_frame": 1046,
+      "start": 34.6,
+      "duration": 0.26666666666666666,
+      "template": "10-media-overlay",
+      "chapter": 4
+    },
+    {
+      "id": "shot-19",
+      "start_frame": 1046,
+      "end_frame": 1081,
+      "start": 34.86666666666667,
+      "duration": 1.1666666666666667,
+      "template": "05-chapter",
+      "chapter": 5
+    },
+    {
+      "id": "shot-20",
+      "start_frame": 1081,
+      "end_frame": 1091,
+      "start": 36.03333333333333,
+      "duration": 0.3333333333333333,
+      "template": "media-slot",
+      "chapter": 5
+    },
+    {
+      "id": "shot-21",
+      "start_frame": 1091,
+      "end_frame": 1166,
+      "start": 36.36666666666667,
+      "duration": 2.5,
+      "template": "08-nodes",
+      "chapter": 5
+    },
+    {
+      "id": "shot-22",
+      "start_frame": 1166,
+      "end_frame": 1219,
+      "start": 38.86666666666667,
+      "duration": 1.7666666666666666,
+      "template": "07-takeaway",
+      "chapter": 5
+    },
+    {
+      "id": "shot-23",
+      "start_frame": 1219,
+      "end_frame": 1228,
+      "start": 40.63333333333333,
+      "duration": 0.3,
+      "template": "media-slot",
+      "chapter": 5
+    },
+    {
+      "id": "shot-24",
+      "start_frame": 1228,
+      "end_frame": 1282,
+      "start": 40.93333333333333,
+      "duration": 1.8,
+      "template": "05-chapter",
+      "chapter": 6
+    },
+    {
+      "id": "shot-25",
+      "start_frame": 1282,
+      "end_frame": 1424,
+      "start": 42.733333333333334,
+      "duration": 4.733333333333333,
+      "template": "11-storyboard",
+      "chapter": 6
+    },
+    {
+      "id": "shot-26",
+      "start_frame": 1424,
+      "end_frame": 1432,
+      "start": 47.46666666666667,
+      "duration": 0.26666666666666666,
+      "template": "media-slot",
+      "chapter": 6
+    },
+    {
+      "id": "shot-27",
+      "start_frame": 1432,
+      "end_frame": 1498,
+      "start": 47.733333333333334,
+      "duration": 2.2,
+      "template": "12-smash",
+      "chapter": 6
+    },
+    {
+      "id": "shot-28",
+      "start_frame": 1498,
+      "end_frame": 1672,
+      "start": 49.93333333333333,
+      "duration": 5.8,
+      "template": "03-grid",
+      "chapter": 7
+    },
+    {
+      "id": "shot-29",
+      "start_frame": 1672,
+      "end_frame": 1835,
+      "start": 55.733333333333334,
+      "duration": 5.433333333333334,
+      "template": "14-pipeline",
+      "chapter": 7
+    },
+    {
+      "id": "shot-30",
+      "start_frame": 1835,
+      "end_frame": 1838,
+      "start": 61.166666666666664,
+      "duration": 0.1,
+      "template": "media-slot",
+      "chapter": 7
+    }
+  ],
+  "overlays": [
+    {
+      "template": "15-nav",
+      "start_frame": 0,
+      "end_frame": 1838
+    },
+    {
+      "template": "13-badge",
+      "start_frame": 1581,
+      "end_frame": 1670,
+      "reset_frame": 1626
+    }
+  ],
+  "scope": "15个通用MG模块、6款章节预设、30段源时序示例、逐段来源映射、静态图审页；不是给旧Clawd成片换壳",
+  "source_coverage": "完整半秒索引123张、25个转场细帧窗、结构扫描、既有转写和OCR；具体曲线为拟合而非原工程参数",
+  "approval": {
+    "visual": "待本次完整静帧图审；批准后才启动视频渲染",
+    "audio": "本任务无新旁白；原片音频仅用于内部参考"
+  },
+  "known_limits": [
+    "媒体槽默认中性示例，无原作者人像与私有媒体；精确像素复刻及原作者工程未取得",
+    "原片含超过两秒的正文静态阅读段；本任务忠实提取该骨架，不以无来源动作凑门控。用于新口播片时须按新内容重新编排正文推进和阅读窗口",
+    "静帧与源码检查不代表动态全片通过；图审后还需实际Hyperframes渲染、每0.5秒及末帧OCR、独立动态审片与左右对比"
+  ],
+  "dependencies": [
+    "GSAP 3.15.0（保留许可）",
+    "Hyperframes CLI 0.9.97",
+    "Python3标准库构建器",
+    "随包字体"
+  ],
+  "budget": "本轮只补齐当前原片的模板；不重配声音、不启动色差专项、不改旧工程、不扩展全局门控"
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "id": "surface:0",
+    "selector": "#shot-21-surface",
+    "start": 0,
+    "duration": 0.2,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "heading:0",
+    "selector": "#shot-21-heading",
+    "start": 0,
+    "duration": 0.2,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "left:0",
+    "selector": "#shot-21-left",
+    "start": 0.08,
+    "duration": 0.2,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "circle:0",
+    "selector": "#shot-21-circle",
+    "start": 0.1,
+    "duration": 0.2,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "app:0",
+    "selector": "#shot-21-app",
+    "start": 0.16,
+    "duration": 0.2,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "node-0:0",
+    "selector": "#shot-21-node-0",
+    "start": 0.23,
+    "duration": 0.18,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "node-1:0",
+    "selector": "#shot-21-node-1",
+    "start": 0.265,
+    "duration": 0.18,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "node-2:0",
+    "selector": "#shot-21-node-2",
+    "start": 0.30000000000000004,
+    "duration": 0.18,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "node-marker:0",
+    "selector": "#shot-21-node-marker",
+    "start": 0.265,
+    "duration": 0.18,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "cursor:0",
+    "selector": "#shot-21-cursor",
+    "start": 0.25,
+    "duration": 0.2,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  }
+]

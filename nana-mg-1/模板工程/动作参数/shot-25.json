@@ -1,0 +1,132 @@
+[
+  {
+    "id": "title:0",
+    "selector": "#shot-25-title",
+    "start": 0.02,
+    "duration": 0.14,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "frame:0",
+    "selector": "#shot-25-frame",
+    "start": 0.13,
+    "duration": 0.18,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "idea:0",
+    "selector": "#shot-25-idea",
+    "start": 0.2,
+    "duration": 0.18,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "frames:0",
+    "selector": "#shot-25-frames",
+    "start": 0.2,
+    "duration": 0.18,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "result:0",
+    "selector": "#shot-25-result",
+    "start": 0.2,
+    "duration": 0.18,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "arrow-0:0",
+    "selector": "#shot-25-arrow-0",
+    "start": 0.2,
+    "duration": 0.18,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "arrow-1:0",
+    "selector": "#shot-25-arrow-1",
+    "start": 0.2,
+    "duration": 0.18,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "label-0:0",
+    "selector": "#shot-25-label-0",
+    "start": 0.2,
+    "duration": 0.18,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "label-1:0",
+    "selector": "#shot-25-label-1",
+    "start": 0.2,
+    "duration": 0.18,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "label-2:0",
+    "selector": "#shot-25-label-2",
+    "start": 0.2,
+    "duration": 0.18,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  }
+]

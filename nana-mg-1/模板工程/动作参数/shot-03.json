@@ -1,0 +1,93 @@
+[
+  {
+    "id": "heading:0",
+    "selector": "#shot-03-heading",
+    "start": 0,
+    "duration": 0.18,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "card-0:0",
+    "selector": "#shot-03-card-0",
+    "start": 0.08,
+    "duration": 0.22,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "card-1:0",
+    "selector": "#shot-03-card-1",
+    "start": 0.08,
+    "duration": 0.22,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "card-2:0",
+    "selector": "#shot-03-card-2",
+    "start": 0.08,
+    "duration": 0.22,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "card-3:0",
+    "selector": "#shot-03-card-3",
+    "start": 0.08,
+    "duration": 0.22,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "card-4:0",
+    "selector": "#shot-03-card-4",
+    "start": 0.08,
+    "duration": 0.22,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  },
+  {
+    "id": "card-5:0",
+    "selector": "#shot-03-card-5",
+    "start": 0.08,
+    "duration": 0.22,
+    "before": {
+      "opacity": 0
+    },
+    "after": {
+      "opacity": 1
+    },
+    "ease": "power2.out"
+  }
+]
