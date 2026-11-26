@@ -2,12 +2,14 @@
   "format": "personal-mg-style@1",
   "id": "fred-mg-1",
   "name": "fred mg 1",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "engine": "hyperframes",
   "distribution": "public-placeholder",
   "scene_count": 23,
-  "project": "模板工程",
-  "preview": "模板工程/index.html",
+  "project": "template",
+  "preview": "template/index.html",
   "comparison": null,
-  "scope": "完整动作模板与通用占位媒体；不包含个人或第三方案例媒体。"
+  "scope": "完整动作模板与通用占位媒体；不包含个人或第三方案例媒体。",
+  "component_count": 23,
+  "component_library": "components"
 }

@@ -1,0 +1,30 @@
+{
+  "format": "fred-component@1",
+  "component": "19-budget-ledger",
+  "duration": 12.3,
+  "content": {
+    "txt_000": "制作时间预算账本示例"
+  },
+  "data": {
+    "budget": {
+      "human": [
+        4,
+        0,
+        0,
+        8,
+        3
+      ],
+      "ai_labels": [
+        "5—8分钟",
+        "5—10分钟",
+        "25—30分钟",
+        "20—25分钟",
+        "约15分钟"
+      ],
+      "human_bar_px_per_minute": 12.5
+    }
+  },
+  "media": {},
+  "theme": {},
+  "motions": {}
+}

@@ -1,0 +1,14 @@
+{
+  "format": "fred-component@1",
+  "component": "16-revision",
+  "duration": 9.9,
+  "content": {
+    "txt_000": "只返修指出的段落示例"
+  },
+  "data": {},
+  "media": {
+    "media-01": "assets/variants/landscape.svg"
+  },
+  "theme": {},
+  "motions": {}
+}

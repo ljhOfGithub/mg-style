@@ -1,0 +1,129 @@
+{
+  "schema": "reference-mg-template@1",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 2.8666666666666667
+  },
+  "theme": {
+    "ink": "#17171d",
+    "paper": "#ffffff",
+    "purple": "#c6a4fa",
+    "purpleOnPaper": "#8050b4"
+  },
+  "data": {
+    "budget": {
+      "human": [
+        3,
+        0,
+        0,
+        10,
+        2
+      ],
+      "ai_labels": [
+        "5—8分钟",
+        "5—10分钟",
+        "25—30分钟",
+        "20—25分钟",
+        "约15分钟"
+      ],
+      "human_bar_px_per_minute": 12.5
+    },
+    "ending": [
+      [
+        "你最耗时",
+        "的是",
+        "哪一步？"
+      ],
+      [
+        "评论区",
+        "聊聊"
+      ]
+    ],
+    "ending_granularity": "character"
+  },
+  "assetOverrides": {},
+  "copy": {
+    "末卡": {
+      "txt_000": "你",
+      "txt_001": "最",
+      "txt_002": "耗",
+      "txt_003": "时",
+      "txt_004": "的",
+      "txt_005": "是",
+      "txt_006": "哪",
+      "txt_007": "一",
+      "txt_008": "步",
+      "txt_009": "？",
+      "txt_010": "评",
+      "txt_011": "论",
+      "txt_012": "区",
+      "txt_013": "聊",
+      "txt_014": "聊"
+    }
+  },
+  "scenes": [
+    {
+      "id": "末卡",
+      "start": 0,
+      "end": 2.8666666666666667,
+      "title": "",
+      "dark": true,
+      "header": false,
+      "entry_duration": 0,
+      "transition": null,
+      "events": [
+        {
+          "type": "wordFall",
+          "target": ".end-char",
+          "at": 0,
+          "duration": 0.25,
+          "fromY": -65,
+          "stagger": 0.018,
+          "fromYs": [
+            -65,
+            -95,
+            -50,
+            -80,
+            -60
+          ],
+          "id": "末卡-01"
+        }
+      ],
+      "fadeIn": 0.4,
+      "template": "modules/23-ending-type.tpl",
+      "domId": "scene-22",
+      "media": [],
+      "visibleEnd": 2.8666666666666667,
+      "fadeOut": 0,
+      "background": "transparent"
+    }
+  ],
+  "captions": [],
+  "audio": null,
+  "scope": "独立组件；通用素材参数验证",
+  "backgrounds": [],
+  "ambient_walls": [
+    {
+      "id": "late-wall",
+      "start": 0.0,
+      "duration": 2.8666666666666667,
+      "opacity": 0.24,
+      "speeds": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "media_offset": 39.5,
+      "phases": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "layout": {}
+}

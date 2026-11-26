@@ -4,6 +4,8 @@
 
 本目录风格：**[fred mg 1](使用方式.md)**。黑白紫工作流风格，包含23个场景、五种章节结构，以及计数、划线、波形、分层反馈、独立进度重置等动作。
 
+新增[23个独立组件](components/README.md)：[单组件预览](components/preview.html)、[参数目录](components/catalog.json)和独立构建入口。每个组件导出后只有自己的模板、动作与素材。
+
 这是可运行的源码仓库。公开版附通用动态占位素材，没有个人配音、角色、封面、第三方录屏或原片左右对照；用你自己的内容替换即可。
 
 ## 快速开始
@@ -15,8 +17,8 @@ git clone https://github.com/ljhOfGithub/mg-style.git
 cd mg-style
 python3 -m venv .venv
 source .venv/bin/activate
-python -m pip install -r fred-mg-1/模板工程/requirements.txt
-python fred-mg-1/模板工程/编辑器.py --port 8000
+python -m pip install -r fred-mg-1/template/requirements.txt
+python fred-mg-1/template/编辑器.py --port 8000
 ```
 
 打开终端显示的本机编辑器地址，或在Chrome中访问 `http://127.0.0.1:8000/editor`。
@@ -25,11 +27,11 @@ python fred-mg-1/模板工程/编辑器.py --port 8000
 
 ```sh
 # 只构建HTML，不渲染视频
-python fred-mg-1/模板工程/命令.py build
+python fred-mg-1/template/命令.py build
 
 # 检查与导出；需要已安装的Hyperframes启动器
-python fred-mg-1/模板工程/命令.py check
-python fred-mg-1/模板工程/命令.py render --name 我的演示
+python fred-mg-1/template/命令.py check
+python fred-mg-1/template/命令.py render --name 我的演示
 ```
 
 启动器不在默认位置时，可用 `--launcher /实际路径/plugin-cli.mjs` 指定。默认模板为1920×1080、30fps；示例时间线约151秒，按实际内容选场景与调整时长，不必每条视频都用完23场景。
@@ -51,7 +53,7 @@ python fred-mg-1/模板工程/命令.py render --name 我的演示
 | 审片与发布 | 非选中段降灰、修改意见、局部状态替换、双封面与完成标记 |
 | 汇总与结尾 | 五行账本、连续计数、四路进度回落、长短条对比、逐字符归位 |
 
-更多参数见[风格说明](skills/fred-mg-1/references/style-spec.md)与[模块索引](模板工程/模块索引.json)。
+更多参数见[风格说明](skills/fred-mg-1/references/style-spec.md)与[模块索引](template/模块索引.json)。
 
 ## 在Codex中使用
 
@@ -69,10 +71,10 @@ python fred-mg-1/skills/fred-mg-1/scripts/style.py init /新的项目目录
 
 ```sh
 python tools/verify_repository.py
-python fred-mg-1/模板工程/工具/测试模板.py
-python fred-mg-1/模板工程/工具/测试编辑器.py
+python fred-mg-1/template/scripts/测试模板.py
+python fred-mg-1/template/scripts/测试编辑器.py
 python fred-mg-1/skills/fred-mg-1/scripts/test_style.py
-node fred-mg-1/模板工程/工具/测试动作时序.js
+node fred-mg-1/template/scripts/测试动作时序.js
 node fred-mg-1/tools/test-preview-ready.js
 ```
 

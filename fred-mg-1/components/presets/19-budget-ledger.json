@@ -1,0 +1,403 @@
+{
+  "schema": "reference-mg-template@1",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 10.3
+  },
+  "theme": {
+    "ink": "#17171d",
+    "paper": "#ffffff",
+    "purple": "#c6a4fa",
+    "purpleOnPaper": "#8050b4"
+  },
+  "data": {
+    "budget": {
+      "human": [
+        3,
+        0,
+        0,
+        10,
+        2
+      ],
+      "ai_labels": [
+        "5—8分钟",
+        "5—10分钟",
+        "25—30分钟",
+        "20—25分钟",
+        "约15分钟"
+      ],
+      "human_bar_px_per_minute": 12.5
+    }
+  },
+  "assetOverrides": {},
+  "copy": {
+    "账本": {
+      "txt_000": "制作时间预算账本",
+      "txt_001": "01 选题与写稿",
+      "txt_002": "3分钟",
+      "txt_003": "AI 5—8分钟",
+      "txt_004": "02 配音字幕与素材",
+      "txt_005": "0分钟",
+      "txt_006": "AI 5—10分钟",
+      "txt_007": "03 画面与云端渲染",
+      "txt_008": "0分钟",
+      "txt_009": "AI 25—30分钟",
+      "txt_010": "04 看片把关与返修",
+      "txt_011": "10分钟",
+      "txt_012": "AI 20—25分钟",
+      "txt_013": "05 发布与归档",
+      "txt_014": "2分钟",
+      "txt_015": "AI 约15分钟",
+      "txt_016": "3 + 0 + 0 + 10 + 2 = ",
+      "txt_017": "15分钟",
+      "txt_018": "人工预算总计",
+      "txt_019": "0",
+      "txt_020": "分钟",
+      "txt_021": "AI后台预算合计",
+      "txt_022": "70—88",
+      "txt_023": "分钟",
+      "txt_024": "约1到1.5小时"
+    }
+  },
+  "scenes": [
+    {
+      "id": "账本",
+      "start": 0,
+      "end": 10.3,
+      "title": "人工与AI后台，分别记账",
+      "dark": true,
+      "header": true,
+      "entry_duration": 0.4,
+      "transition": null,
+      "events": [
+        {
+          "type": "state",
+          "target": "#ai-total",
+          "at": 0,
+          "duration": 0,
+          "values": {
+            "opacity": 0.2
+          },
+          "id": "账本-01"
+        },
+        {
+          "type": "state",
+          "target": "#total",
+          "at": 0,
+          "duration": 0,
+          "values": {
+            "backgroundColor": "#303038"
+          },
+          "id": "账本-02"
+        },
+        {
+          "type": "state",
+          "target": "#total .label",
+          "at": 0,
+          "duration": 0,
+          "values": {
+            "color": "#bab5c3"
+          },
+          "id": "账本-03"
+        },
+        {
+          "type": "state",
+          "target": "#count",
+          "at": 0,
+          "duration": 0,
+          "values": {
+            "color": "#c6a4fa"
+          },
+          "id": "账本-04"
+        },
+        {
+          "type": "state",
+          "target": "#total .unit",
+          "at": 0,
+          "duration": 0,
+          "values": {
+            "color": "white"
+          },
+          "id": "账本-05"
+        },
+        {
+          "type": "counter",
+          "target": "#count",
+          "at": 1.3,
+          "duration": 1.6,
+          "knots": [
+            [
+              0,
+              0
+            ],
+            [
+              0.2,
+              3
+            ],
+            [
+              0.4,
+              7
+            ],
+            [
+              0.6,
+              11
+            ],
+            [
+              0.8,
+              13
+            ],
+            [
+              1.2,
+              14
+            ],
+            [
+              1.6,
+              15
+            ]
+          ],
+          "binding": "data.budget.total",
+          "id": "账本-06"
+        },
+        {
+          "type": "fade",
+          "target": "#equation",
+          "at": 3.2,
+          "duration": 0.2,
+          "from": 0,
+          "to": 1,
+          "id": "账本-07"
+        },
+        {
+          "type": "style",
+          "target": "#total",
+          "at": 4.2,
+          "duration": 0.2,
+          "to": {
+            "backgroundColor": "#f2eff7"
+          },
+          "id": "账本-08"
+        },
+        {
+          "type": "style",
+          "target": "#total .label",
+          "at": 4.2,
+          "duration": 0.2,
+          "to": {
+            "color": "#5b5267"
+          },
+          "id": "账本-09"
+        },
+        {
+          "type": "style",
+          "target": "#count",
+          "at": 4.2,
+          "duration": 0.2,
+          "to": {
+            "color": "#8050b4"
+          },
+          "id": "账本-10"
+        },
+        {
+          "type": "style",
+          "target": "#total .unit",
+          "at": 4.2,
+          "duration": 0.2,
+          "to": {
+            "color": "#19191e"
+          },
+          "id": "账本-11"
+        },
+        {
+          "type": "style",
+          "target": "#ai-total",
+          "at": 5.5,
+          "duration": 0.3,
+          "to": {
+            "opacity": 1
+          },
+          "id": "账本-12"
+        },
+        {
+          "type": "fade",
+          "target": "#bill-0",
+          "at": 1.3,
+          "duration": 0.2,
+          "from": 0.22,
+          "to": 1,
+          "id": "账本-13"
+        },
+        {
+          "type": "bar",
+          "target": "#humanbar-0",
+          "at": 1.3,
+          "duration": 0.3,
+          "from": 0,
+          "to": 1,
+          "ease": "linear",
+          "id": "账本-14"
+        },
+        {
+          "type": "bar",
+          "target": "#billbar-0",
+          "at": 5.5,
+          "duration": 0.3,
+          "from": 0,
+          "to": 1,
+          "ease": "linear",
+          "id": "账本-15"
+        },
+        {
+          "type": "fade",
+          "target": "#bill-1",
+          "at": 1.7000000000000002,
+          "duration": 0.2,
+          "from": 0.22,
+          "to": 1,
+          "id": "账本-16"
+        },
+        {
+          "type": "bar",
+          "target": "#humanbar-1",
+          "at": 1.7000000000000002,
+          "duration": 0.3,
+          "from": 0,
+          "to": 1,
+          "ease": "linear",
+          "id": "账本-17"
+        },
+        {
+          "type": "bar",
+          "target": "#billbar-1",
+          "at": 5.5,
+          "duration": 0.3,
+          "from": 0,
+          "to": 1,
+          "ease": "linear",
+          "id": "账本-18"
+        },
+        {
+          "type": "fade",
+          "target": "#bill-2",
+          "at": 2.1,
+          "duration": 0.2,
+          "from": 0.22,
+          "to": 1,
+          "id": "账本-19"
+        },
+        {
+          "type": "bar",
+          "target": "#humanbar-2",
+          "at": 2.1,
+          "duration": 0.3,
+          "from": 0,
+          "to": 1,
+          "ease": "linear",
+          "id": "账本-20"
+        },
+        {
+          "type": "bar",
+          "target": "#billbar-2",
+          "at": 5.5,
+          "duration": 0.3,
+          "from": 0,
+          "to": 1,
+          "ease": "linear",
+          "id": "账本-21"
+        },
+        {
+          "type": "fade",
+          "target": "#bill-3",
+          "at": 2.5,
+          "duration": 0.2,
+          "from": 0.22,
+          "to": 1,
+          "id": "账本-22"
+        },
+        {
+          "type": "bar",
+          "target": "#humanbar-3",
+          "at": 2.5,
+          "duration": 0.3,
+          "from": 0,
+          "to": 1,
+          "ease": "linear",
+          "id": "账本-23"
+        },
+        {
+          "type": "bar",
+          "target": "#billbar-3",
+          "at": 5.5,
+          "duration": 0.3,
+          "from": 0,
+          "to": 1,
+          "ease": "linear",
+          "id": "账本-24"
+        },
+        {
+          "type": "fade",
+          "target": "#bill-4",
+          "at": 2.9000000000000004,
+          "duration": 0.2,
+          "from": 0.22,
+          "to": 1,
+          "id": "账本-25"
+        },
+        {
+          "type": "bar",
+          "target": "#humanbar-4",
+          "at": 2.9000000000000004,
+          "duration": 0.3,
+          "from": 0,
+          "to": 1,
+          "ease": "linear",
+          "id": "账本-26"
+        },
+        {
+          "type": "bar",
+          "target": "#billbar-4",
+          "at": 5.5,
+          "duration": 0.3,
+          "from": 0,
+          "to": 1,
+          "ease": "linear",
+          "id": "账本-27"
+        }
+      ],
+      "fadeIn": 0.4,
+      "template": "modules/19-budget-ledger.tpl",
+      "domId": "scene-18",
+      "media": [],
+      "visibleEnd": 10.3,
+      "fadeOut": 0.5,
+      "background": "transparent"
+    }
+  ],
+  "captions": [],
+  "audio": null,
+  "scope": "独立组件；通用素材参数验证",
+  "backgrounds": [],
+  "ambient_walls": [
+    {
+      "id": "late-wall",
+      "start": 0.0,
+      "duration": 10.3,
+      "opacity": 0.24,
+      "speeds": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "media_offset": 0.0,
+      "phases": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "layout": {}
+}

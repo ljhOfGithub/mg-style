@@ -1,0 +1,107 @@
+{
+  "schema": "reference-mg-template@1",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 6.0
+  },
+  "theme": {
+    "ink": "#17171d",
+    "paper": "#ffffff",
+    "purple": "#c6a4fa",
+    "purpleOnPaper": "#8050b4"
+  },
+  "data": {
+    "budget": {
+      "human": [
+        3,
+        0,
+        0,
+        10,
+        2
+      ],
+      "ai_labels": [
+        "5—8分钟",
+        "5—10分钟",
+        "25—30分钟",
+        "20—25分钟",
+        "约15分钟"
+      ],
+      "human_bar_px_per_minute": 12.5
+    }
+  },
+  "assetOverrides": {},
+  "copy": {
+    "云端预算": {
+      "txt_000": "AI后台预算",
+      "txt_001": "25—30",
+      "txt_002": "分钟",
+      "txt_003": "这一段人工预算，仍按 ",
+      "txt_004": "0分钟",
+      "txt_005": " 排"
+    }
+  },
+  "scenes": [
+    {
+      "id": "云端预算",
+      "start": 0,
+      "end": 6.0,
+      "title": "03 画面代码与渲染",
+      "dark": true,
+      "header": true,
+      "entry_duration": 0,
+      "transition": "tiles",
+      "events": [
+        {
+          "type": "tiles",
+          "target": ".server-tile",
+          "at": 0,
+          "duration": 0.12,
+          "stagger": 0.025,
+          "id": "云端预算-01"
+        },
+        {
+          "type": "fade",
+          "target": "#cloud-stat",
+          "at": 1,
+          "duration": 0.2,
+          "from": 0,
+          "to": 1,
+          "id": "云端预算-02"
+        },
+        {
+          "type": "fade",
+          "target": "#zero-bar",
+          "at": 3.8,
+          "duration": 0.4,
+          "from": 0,
+          "to": 1,
+          "id": "云端预算-03"
+        }
+      ],
+      "fadeIn": 0.4,
+      "template": "modules/11-cloud-budget.tpl",
+      "domId": "scene-10",
+      "media": [],
+      "visibleEnd": 6.0,
+      "fadeOut": 0.3999999999999986,
+      "background": "transparent"
+    }
+  ],
+  "captions": [],
+  "audio": null,
+  "scope": "独立组件；通用素材参数验证",
+  "backgrounds": [
+    {
+      "id": "server-background",
+      "src": "assets/placeholders/video-019.mp4",
+      "start": 0.0,
+      "duration": 6.0,
+      "style": "position:absolute;inset:0;width:100%;height:100%;object-fit:fill;opacity:.55;z-index:5",
+      "source_offset": 0.0
+    }
+  ],
+  "ambient_walls": [],
+  "layout": {}
+}

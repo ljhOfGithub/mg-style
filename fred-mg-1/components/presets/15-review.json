@@ -1,0 +1,151 @@
+{
+  "schema": "reference-mg-template@1",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 12.4
+  },
+  "theme": {
+    "ink": "#17171d",
+    "paper": "#ffffff",
+    "purple": "#c6a4fa",
+    "purpleOnPaper": "#8050b4"
+  },
+  "data": {
+    "budget": {
+      "human": [
+        3,
+        0,
+        0,
+        10,
+        2
+      ],
+      "ai_labels": [
+        "5—8分钟",
+        "5—10分钟",
+        "25—30分钟",
+        "20—25分钟",
+        "约15分钟"
+      ],
+      "human_bar_px_per_minute": 12.5
+    }
+  },
+  "assetOverrides": {},
+  "copy": {
+    "审片": {
+      "txt_000": "完整预览 · 从头看一遍",
+      "txt_001": "节奏是否拖沓？",
+      "txt_002": "检查对应段落",
+      "txt_003": "再提出局部修改",
+      "txt_004": "开场",
+      "txt_005": "主体一",
+      "txt_006": "这段太拖",
+      "txt_007": "主体二",
+      "txt_008": "收尾",
+      "txt_009": "关键判断，留给人",
+      "txt_010": "人工审片预算",
+      "txt_011": "10",
+      "txt_012": "分钟",
+      "txt_013": "控节奏",
+      "txt_014": "挑画面",
+      "txt_015": "核口径",
+      "txt_016": "口述修改意见",
+      "txt_017": "这段节奏太拖，",
+      "txt_018": "帮我收紧一点。"
+    }
+  },
+  "scenes": [
+    {
+      "id": "审片",
+      "start": 0,
+      "end": 12.4,
+      "title": "04 看完整预览，再提修改",
+      "dark": false,
+      "header": true,
+      "entry_duration": 0.3,
+      "transition": null,
+      "events": [
+        {
+          "type": "fade",
+          "target": "#review-stat",
+          "at": 1.1,
+          "duration": 0.2,
+          "from": 0,
+          "to": 1,
+          "id": "审片-01"
+        },
+        {
+          "type": "state",
+          "target": "#selected",
+          "at": 5.5,
+          "duration": 0,
+          "values": {
+            "backgroundColor": "#e14656",
+            "color": "#fff"
+          },
+          "id": "审片-02"
+        },
+        {
+          "type": "fade",
+          "target": "#review-stat .tag",
+          "at": 5.6000000000000005,
+          "duration": 0.3,
+          "from": 0,
+          "to": 1,
+          "id": "审片-03"
+        },
+        {
+          "type": "fade",
+          "target": "#opinion",
+          "at": 9.0,
+          "duration": 0.3,
+          "from": 0,
+          "to": 1,
+          "id": "审片-04"
+        },
+        {
+          "type": "state",
+          "target": "#timeline .step",
+          "at": 0,
+          "duration": 0,
+          "values": {
+            "backgroundColor": "#17171d",
+            "color": "white"
+          },
+          "id": "审片-05"
+        },
+        {
+          "type": "style",
+          "target": "#timeline .step:not(#selected)",
+          "at": 5.5,
+          "duration": 0.2,
+          "to": {
+            "backgroundColor": "#dad6e1",
+            "color": "#716a7c"
+          },
+          "id": "审片-06"
+        }
+      ],
+      "fadeIn": 0.4,
+      "template": "modules/15-review.tpl",
+      "domId": "scene-14",
+      "media": [
+        {
+          "target": "#review-preview",
+          "src": "assets/placeholders/video-021.mp4",
+          "at": 0,
+          "duration": 12
+        }
+      ],
+      "visibleEnd": 12.4,
+      "fadeOut": 0.4000000000000057
+    }
+  ],
+  "captions": [],
+  "audio": null,
+  "scope": "独立组件；通用素材参数验证",
+  "backgrounds": [],
+  "ambient_walls": [],
+  "layout": {}
+}

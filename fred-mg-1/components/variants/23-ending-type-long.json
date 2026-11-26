@@ -1,0 +1,24 @@
+{
+  "format": "fred-component@1",
+  "component": "23-ending-type",
+  "duration": 4.866666666666667,
+  "content": {},
+  "data": {
+    "ending": [
+      [
+        "复用",
+        "复用",
+        "复用"
+      ],
+      [
+        "复用",
+        "复用"
+      ]
+    ]
+  },
+  "media": {
+    "media-01": "assets/variants/portrait.svg"
+  },
+  "theme": {},
+  "motions": {}
+}

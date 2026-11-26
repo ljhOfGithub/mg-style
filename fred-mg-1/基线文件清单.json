@@ -4,603 +4,1416 @@
   "files": [
     {
       "path": "NOTICE.md",
-      "sha256": "87b774fd9442332fca29b7d7d63ae09231dec311a415c43a69d489db1e6305ed",
-      "bytes": 1244
+      "sha256": "8714ad47c58e5fb54e18d36ad888de1ddb320d46a4c70fa61e66e2534852a9e2"
     },
     {
       "path": "README.md",
-      "sha256": "8a942e1441a62ca54dff1c073d01f487602f65917b43caebca8cc1868b445ebd",
-      "bytes": 4038
+      "sha256": "22b273d02ea57b45e0dff4b046b2d5775436efec9caaf787ae689660e41c484e"
+    },
+    {
+      "path": "components/README.md",
+      "sha256": "2850c9e15ef16c1610a53820d3f8d0fb741e64b16be9d6b1157f7a82c2af115f"
+    },
+    {
+      "path": "components/build.py",
+      "sha256": "1f7d28ed452813d5189e2f057863b112a8e44b123b62ede7546639370f1829dc"
+    },
+    {
+      "path": "components/catalog.json",
+      "sha256": "a837fdbf63ed54920a743ce6c23fd82c354a935448ea1d74818f934b0fd67707"
+    },
+    {
+      "path": "components/generate_preview.py",
+      "sha256": "b7d4f6d68aae67407190e887154e7f53704b1eeaa8a6847242aed9486faebf3e"
+    },
+    {
+      "path": "components/modules/01-opening-wall.tpl",
+      "sha256": "f81254e285fe775973e897b69e8917079fae093c52bc07868d30685561e34b79"
+    },
+    {
+      "path": "components/modules/02-contrast.tpl",
+      "sha256": "0e9487da2ff9f7f6e46e59b5689cc0a3774e500e1345cd09a762b22e3d7f8792"
+    },
+    {
+      "path": "components/modules/03-workflow.tpl",
+      "sha256": "8e4348af179876ee67b70019a25195aeb16eb396fd15e2bbb310f46c54862c3f"
+    },
+    {
+      "path": "components/modules/04-chapter-flip.tpl",
+      "sha256": "bacd22826a7d66cecd210dbe695185f90715b574d7c52ff7fca2ad476dc8f47b"
+    },
+    {
+      "path": "components/modules/05-prompt-input.tpl",
+      "sha256": "f40f3aac943c8694efea5605b50465e3dbbab92330e0e92763593a28d0e844c9"
+    },
+    {
+      "path": "components/modules/06-script-summary.tpl",
+      "sha256": "31e22924f747706ad7343ab83a1400d98885e5e36c714276f96d3dd0177e4360"
+    },
+    {
+      "path": "components/modules/07-chapter-reveal.tpl",
+      "sha256": "2b39e7b08399052e8e69f1b891c80fe5f8ff64e63a8f99c5b566f75e9ab6fdee"
+    },
+    {
+      "path": "components/modules/08-preparation.tpl",
+      "sha256": "33a3a088c1a2751dda1e2fc95a435b24e30dc1db49debb81513f4b261d59e573"
+    },
+    {
+      "path": "components/modules/09-media-wave.tpl",
+      "sha256": "684ac2ced792af42039905a24dc1b378501c0d50d550496f48ed4532eb583964"
+    },
+    {
+      "path": "components/modules/10-chapter-fade.tpl",
+      "sha256": "f0fc5aa594acc3afd6793d7891a6f038169a540653b7b6def76b15919434e828"
+    },
+    {
+      "path": "components/modules/11-cloud-budget.tpl",
+      "sha256": "77bbcff4d59fe684f6604e3ba7f9814ba237b03a231557c392e4ef4fbe9d7349"
+    },
+    {
+      "path": "components/modules/12-render-queue.tpl",
+      "sha256": "2d6bffadd49a1fe5d63dd70256c039ff348f5f2229d299ba09e9de3864bc3055"
+    },
+    {
+      "path": "components/modules/13-background-work.tpl",
+      "sha256": "661e49d76e8191e31291b64ff1fa508613681e47bb549f8fc9f1975ca296ed17"
+    },
+    {
+      "path": "components/modules/14-chapter-zoom.tpl",
+      "sha256": "d9b1c12ef2a6af7acba7b44d31af2e2f28f97f034c1b700b49d5577eab8fa119"
+    },
+    {
+      "path": "components/modules/15-review.tpl",
+      "sha256": "7d2e227fe1142af4f50f187e1ad2d4f162dd747d708dd51cb36ae8684f67bf37"
+    },
+    {
+      "path": "components/modules/16-revision.tpl",
+      "sha256": "207ca0de38386249f16ee2fba6357e30cb74166fd0a879e4c99db25e287c90cb"
+    },
+    {
+      "path": "components/modules/17-chapter-slide.tpl",
+      "sha256": "dcc9a7dc4d8bd42166c6f5841bb22c84e69eadbcf27677e9f34151914a996d08"
+    },
+    {
+      "path": "components/modules/18-publishing.tpl",
+      "sha256": "59010fa8ca5353aa5e22535898df3f71a3b301a037bf4e7468437addbe068912"
+    },
+    {
+      "path": "components/modules/19-budget-ledger.tpl",
+      "sha256": "9a979eea5b0359818b0397fa2e3f20839c41391395040841efc3e75f215a4780"
+    },
+    {
+      "path": "components/modules/20-parallel-progress.tpl",
+      "sha256": "d18ee7b5cec49650885128d16e07d5da3b99c4e34002ff3d7bf5b6607a3ce7f4"
+    },
+    {
+      "path": "components/modules/21-duration-comparison.tpl",
+      "sha256": "d29be1830cc60008c71edfc3c4a5ed1df98d208b4ad80b155379dcf6848c5228"
+    },
+    {
+      "path": "components/modules/22-value-summary.tpl",
+      "sha256": "7f5ebcf13fb7f3b982de9627b4f0a9684e9cbcee01246d2cb2547146ffec2c4e"
+    },
+    {
+      "path": "components/modules/23-ending-type.tpl",
+      "sha256": "2dcc1436236361594a312c06345816809273c18f5fe9e2c89d96a24842966628"
+    },
+    {
+      "path": "components/presets/01-opening-wall.json",
+      "sha256": "30f2c8cdb26a4485d27c546897654499f5fd9be051423ce1f25c799199269973"
+    },
+    {
+      "path": "components/presets/02-contrast.json",
+      "sha256": "fbe5c01eaa4daf985414c544fc95b56e4202c3102a4ca4fecb53185cedb51161"
+    },
+    {
+      "path": "components/presets/03-workflow.json",
+      "sha256": "73a9135e2aa8ebf27f2c86c560d2fb1a5e3df08a7560f9b5097ad4130fbdc626"
+    },
+    {
+      "path": "components/presets/04-chapter-flip.json",
+      "sha256": "4b9f53e94fa096455de7e19c059f785a216786f96d482eda3b4a7780b6d0c743"
+    },
+    {
+      "path": "components/presets/05-prompt-input.json",
+      "sha256": "aae048cd213686a96a17610d8289b966602c3511d102fc0a7d22203fb0e2bc7d"
+    },
+    {
+      "path": "components/presets/06-script-summary.json",
+      "sha256": "bec6e3f1c7962942915c63ed3bb338b145679fc3aff408f4405607cb89384047"
+    },
+    {
+      "path": "components/presets/07-chapter-reveal.json",
+      "sha256": "56ce0325b5a0d18c745d422fa3e36474732c40c43e3b9b9b96b7424efccd1b40"
+    },
+    {
+      "path": "components/presets/08-preparation.json",
+      "sha256": "bb6bc2677da6b8111d47633cd4afdd413852def5c97c810620dc2eea34e5450a"
+    },
+    {
+      "path": "components/presets/09-media-wave.json",
+      "sha256": "ca4555beb391e860b3a1a0f44f4feec5b8f7b91496be9240eee7cbdb43ffca5a"
+    },
+    {
+      "path": "components/presets/10-chapter-fade.json",
+      "sha256": "e98cf841d288f3359c45c2dd2fdfdbdf0edfdca9ed8b584d170b78cf4ecea417"
+    },
+    {
+      "path": "components/presets/11-cloud-budget.json",
+      "sha256": "0a6dd01d9e46fcfca63044e25b8ed5d34172f38fb2ca1e657bd124b02b9810cf"
+    },
+    {
+      "path": "components/presets/12-render-queue.json",
+      "sha256": "bfcfee23383870e5735058ce61a4bb1b1d341339664f4b242e6300b1dd7a8ec8"
+    },
+    {
+      "path": "components/presets/13-background-work.json",
+      "sha256": "eafe1de3d3742152e56609796c4609a442132024e64f17d7ab20d2fcd598c606"
+    },
+    {
+      "path": "components/presets/14-chapter-zoom.json",
+      "sha256": "78e0a6c6c65a5602325f26be63407f4d25d34de64cdadb8e67fc1034470ec351"
+    },
+    {
+      "path": "components/presets/15-review.json",
+      "sha256": "3e4f64c7a2f8947a574f025383e2a76ff223de2c6f1b7d9a240c141b72c9eb1b"
+    },
+    {
+      "path": "components/presets/16-revision.json",
+      "sha256": "d4c2be9661e702a4426f4a80b56cd7330f3918591813b176ab08b6e422da3d08"
+    },
+    {
+      "path": "components/presets/17-chapter-slide.json",
+      "sha256": "d25f9760df0b045fb84256efbffe8aa012bcd7b8bc5d8c04fac2b792c199cc68"
+    },
+    {
+      "path": "components/presets/18-publishing.json",
+      "sha256": "d9f6aa821c2274a11a44ed98ef3dbb6f69978b6add60894aa2d2379ef9e03367"
+    },
+    {
+      "path": "components/presets/19-budget-ledger.json",
+      "sha256": "bb8f62202cf40db66146165d96c78d64fd2a4b9be297a96f7442a4a922ae755b"
+    },
+    {
+      "path": "components/presets/20-parallel-progress.json",
+      "sha256": "940797acff198de42cafa30473dfaf0ba0f829580efb5f2fe0306a7ecb7d65c1"
+    },
+    {
+      "path": "components/presets/21-duration-comparison.json",
+      "sha256": "a60cb22e3d01d7068dfed6d20cb07a23e859eb85c52b997330f380e254d22f6f"
+    },
+    {
+      "path": "components/presets/22-value-summary.json",
+      "sha256": "5fc284eb7e6c009476988b8e2fdc449fa13d2db0475e84f6cd85c67da9855544"
+    },
+    {
+      "path": "components/presets/23-ending-type.json",
+      "sha256": "d8bf782b96d28b42a72d9315ce66d72bafad3077989a7d17b8ef07f3a5624ea2"
+    },
+    {
+      "path": "components/preview.html",
+      "sha256": "85de237870522446b3556003c0619f76c65c41e55ec569bdddffcae69f6d445e"
+    },
+    {
+      "path": "components/previews/covers/01-opening-wall.png",
+      "sha256": "6da6ea10dfc4fc322ee5fc2d22c37ae88f3adf893164fabd43e37ec17f3e2bb6"
+    },
+    {
+      "path": "components/previews/covers/02-contrast.png",
+      "sha256": "cc3437c490a53dffe2018bb645e0d20974b235a12e41a1d867a97fd5ffb7d6c7"
+    },
+    {
+      "path": "components/previews/covers/03-workflow.png",
+      "sha256": "d8c1317e13ec6a30a7425caa7f87e3a52bd532a1f2c92f1841e8d368f61cc411"
+    },
+    {
+      "path": "components/previews/covers/04-chapter-flip.png",
+      "sha256": "c677ccd0b94c196dee80edbe8b7550dcf24c18f2f095367995c4f3892e0899f2"
+    },
+    {
+      "path": "components/previews/covers/05-prompt-input.png",
+      "sha256": "c028bbce24f1c180b907e1dda5d350c114777a565600e196d3aa531f0087658a"
+    },
+    {
+      "path": "components/previews/covers/06-script-summary.png",
+      "sha256": "1f86f5f0e380febc2e09c30a7dad47a00549453db6ac00219bca90f3e7a8b0cb"
+    },
+    {
+      "path": "components/previews/covers/07-chapter-reveal.png",
+      "sha256": "4c15d5f3e4742d432ee8f1eff47c0d177b7d7a104b94a99c0efe4fa7a7d258a7"
+    },
+    {
+      "path": "components/previews/covers/08-preparation.png",
+      "sha256": "e4beab41234047b607e025332fa1aee34c7b2cdb3920d54ff5fb83d592a005df"
+    },
+    {
+      "path": "components/previews/covers/09-media-wave.png",
+      "sha256": "1f166151b5deccafb473504c58cebbcc64318654f129a6af5eb73265f12aeb08"
+    },
+    {
+      "path": "components/previews/covers/10-chapter-fade.png",
+      "sha256": "6d4d39c5886950e49a33c575b32c15c6ed30097b386d919a563842da55b39205"
+    },
+    {
+      "path": "components/previews/covers/11-cloud-budget.png",
+      "sha256": "a520cb8ace6744b447976dd645418c8755fbe399b9ebf54977b017e762f2ff3f"
+    },
+    {
+      "path": "components/previews/covers/12-render-queue.png",
+      "sha256": "e63880b6169c7c7b80167f0f61d225d877e5461c80d38ab40ed1aa5b18dddc97"
+    },
+    {
+      "path": "components/previews/covers/13-background-work.png",
+      "sha256": "0439033269da9752b8fe1ee9732c69ab06ad642bfbef84f3384c51bcdefbfaed"
+    },
+    {
+      "path": "components/previews/covers/14-chapter-zoom.png",
+      "sha256": "b5eb456b1e93609496e358cd4cb5bff0deb42f6c7572333b5b965798a68417eb"
+    },
+    {
+      "path": "components/previews/covers/15-review.png",
+      "sha256": "3aedfe9f8d7f0ad04e301d8b3a1a46761fc016ec0326c751c6e5c19c1cf6feef"
+    },
+    {
+      "path": "components/previews/covers/16-revision.png",
+      "sha256": "c2bf771ad1d146edec16fefdb51170aba39835cf5ddbe295421a294ebb908d36"
+    },
+    {
+      "path": "components/previews/covers/17-chapter-slide.png",
+      "sha256": "49f21abe4b70c738da6250da7d1fdfe0430455fb890055056613ad23a432ceba"
+    },
+    {
+      "path": "components/previews/covers/18-publishing.png",
+      "sha256": "7d1a687ab288bcc442473b7b7eb4647312028ea69c27bdf32d38a1727da8d029"
+    },
+    {
+      "path": "components/previews/covers/19-budget-ledger.png",
+      "sha256": "85c5769855eeb2b3ae035d00b4ba1cac2dcffb0ff1b5ef7f01b22256686eb3dd"
+    },
+    {
+      "path": "components/previews/covers/20-parallel-progress.png",
+      "sha256": "342e785ac321670dae033601ba6bb4eab203cc0f11834d476b4ee4c2b6c9625e"
+    },
+    {
+      "path": "components/previews/covers/21-duration-comparison.png",
+      "sha256": "51f0597b42bc18c2421886cf0ce33b1e65d0886f33e22ff15f8f1edc4476caf2"
+    },
+    {
+      "path": "components/previews/covers/22-value-summary.png",
+      "sha256": "48d03b07f9e46cb93de8648e92e1268d3c531e6f01c29ea038ed69df0259bf76"
+    },
+    {
+      "path": "components/previews/covers/23-ending-type.png",
+      "sha256": "43b3e2c918cf2b0809c190d6c9457a9b9daa8c8c1a72552d89e038c871d69ff9"
+    },
+    {
+      "path": "components/previews/default/01-opening-wall.mp4",
+      "sha256": "ad360d5a7f80d27a7b39702a0fac80be2d9d82a849d1030450ee2689fa7c6cdd"
+    },
+    {
+      "path": "components/previews/default/02-contrast.mp4",
+      "sha256": "2653f052b73608b25b78211b3c312f8e6c566e7a1bb998087fcf531ab05b038a"
+    },
+    {
+      "path": "components/previews/default/03-workflow.mp4",
+      "sha256": "9ec33bd8205970805cb43e14ef5f3037cfe5cb7ff23de1e5eac36c4c558e91aa"
+    },
+    {
+      "path": "components/previews/default/04-chapter-flip.mp4",
+      "sha256": "51af79f98b55e328b67645112f2b184ed16613bdec849e0a1f5a3e4110ac420c"
+    },
+    {
+      "path": "components/previews/default/05-prompt-input.mp4",
+      "sha256": "067762cdfd529b516eddf59600520deed13fa109ac1f5ec51405ebb82305d076"
+    },
+    {
+      "path": "components/previews/default/06-script-summary.mp4",
+      "sha256": "f943c8577724503c69911a739fafbe9f4bf28db3ae480b336e320a4190697bf4"
+    },
+    {
+      "path": "components/previews/default/07-chapter-reveal.mp4",
+      "sha256": "bca38562b83a4ec12204b7e95019a62e5be4b7c303317345cfc78649e9184451"
+    },
+    {
+      "path": "components/previews/default/08-preparation.mp4",
+      "sha256": "72b2c7f9cd5f087ee19b2c1fb768d7b257d48678f25c61326051cfec2b3f8b8a"
+    },
+    {
+      "path": "components/previews/default/09-media-wave.mp4",
+      "sha256": "3211bb7237084e0be6824b386dd13490f4f9d93bd06f4440465bc12d31934ea4"
+    },
+    {
+      "path": "components/previews/default/10-chapter-fade.mp4",
+      "sha256": "b146941805f7346655f7f7a8a3c2d624061020ce78a09ab7992f43b0d9f254db"
+    },
+    {
+      "path": "components/previews/default/11-cloud-budget.mp4",
+      "sha256": "c8e0770aa5ed41c19d49ef1f0ecbf97bf1eda0412fc403559afc4b487b1a8231"
+    },
+    {
+      "path": "components/previews/default/12-render-queue.mp4",
+      "sha256": "8376bcc7832869def86d673ff62131ed49f6e1549ad74564945aacf58acfe09b"
+    },
+    {
+      "path": "components/previews/default/13-background-work.mp4",
+      "sha256": "4e92c333d57f5d4d7a6254c3cb86c2e6409df5ec137ec329758ef4a95f228c63"
+    },
+    {
+      "path": "components/previews/default/14-chapter-zoom.mp4",
+      "sha256": "08f3f13ccddf310a6c7a3fbae1d26160b70fca788ba3626205f372ea49659c4b"
+    },
+    {
+      "path": "components/previews/default/15-review.mp4",
+      "sha256": "e56fe8d3f5877c7ac2913e8c5de782ee94c70b9a56fb8fb2c604f2ab060b02bc"
+    },
+    {
+      "path": "components/previews/default/16-revision.mp4",
+      "sha256": "cdbf6205ab6e58e752e3f13abb2895ed71b9e1f226fd2134f32020a8d6863c0d"
+    },
+    {
+      "path": "components/previews/default/17-chapter-slide.mp4",
+      "sha256": "b11333e531ab01167bd4910f0d137127b8614ab436224e4c44ce0f852ba133b9"
+    },
+    {
+      "path": "components/previews/default/18-publishing.mp4",
+      "sha256": "ed25360e608ecc57eda8264aa13f77e7160f462f537536955ac1c49328efa061"
+    },
+    {
+      "path": "components/previews/default/19-budget-ledger.mp4",
+      "sha256": "e21337367cf1c73e292cb0f6d4d9921319a0716d8ea3bc0bf9ca079c3a1b1806"
+    },
+    {
+      "path": "components/previews/default/20-parallel-progress.mp4",
+      "sha256": "c244b3da3c7ede2e115a326d24a68aedccf4338e2780988b3c0f1ef702efe318"
+    },
+    {
+      "path": "components/previews/default/21-duration-comparison.mp4",
+      "sha256": "753a2b73d50721c20f6d4438a4f8badf36ffbc6df9bf34d4fb2f2d45873dbf8d"
+    },
+    {
+      "path": "components/previews/default/22-value-summary.mp4",
+      "sha256": "c857eccbe1e3a0e5cb951c64cdc1c41fd0745772eb308c7800e8fab48eefad13"
+    },
+    {
+      "path": "components/previews/default/23-ending-type.mp4",
+      "sha256": "a2f87d01d3047ddb73737aac1655c47368d5c14e26ac8027fde5d1ce53b5e7f7"
+    },
+    {
+      "path": "components/previews/long/01-opening-wall.mp4",
+      "sha256": "ae370e1e9f6edd52da456509971299bdf293f2928728efe44f62609d3278bc15"
+    },
+    {
+      "path": "components/previews/long/02-contrast.mp4",
+      "sha256": "bac1319031d4e0ed464dc3b122161e207b12eede0ef53d3a951692598b31b0dd"
+    },
+    {
+      "path": "components/previews/long/03-workflow.mp4",
+      "sha256": "bfec62e38fe4311589ba993c5275a03681dbf2137269dcccf2766fb120a9ae7d"
+    },
+    {
+      "path": "components/previews/long/04-chapter-flip.mp4",
+      "sha256": "2206b6fd443cf16d503d460b3a3d4b0932598d44af6358a4b0772aa329617642"
+    },
+    {
+      "path": "components/previews/long/05-prompt-input.mp4",
+      "sha256": "79f6556264924d25736aa1bdf61a6a6fb3b8a8ecc7c44667d725b59ef739a94b"
+    },
+    {
+      "path": "components/previews/long/06-script-summary.mp4",
+      "sha256": "fa0ef7b344179997b53314536f88ca6b5b1f1cb37597e9c652d0b034c8011612"
+    },
+    {
+      "path": "components/previews/long/07-chapter-reveal.mp4",
+      "sha256": "9a8c1c9842d9be2a8e428e378dcab7fe672e20845c5c9aa9601349d42c570804"
+    },
+    {
+      "path": "components/previews/long/08-preparation.mp4",
+      "sha256": "3d74474c43787933a358da79372bf1bcd9579c2f940793abd2954c1a35dc27d1"
+    },
+    {
+      "path": "components/previews/long/09-media-wave.mp4",
+      "sha256": "bb1866f6258a14d57676fe8da1677c1bde9c89f6554ecc4d4a37c37403b31b93"
+    },
+    {
+      "path": "components/previews/long/10-chapter-fade.mp4",
+      "sha256": "31be3ffcd7496e1dd262e030c1399a890ff949b6393ee9b62fc9bc0fffe8801f"
+    },
+    {
+      "path": "components/previews/long/11-cloud-budget.mp4",
+      "sha256": "575313973719eea27fa6a3702b1a0fe460bb7e8f25c7dbceffadbcf6dcc55683"
+    },
+    {
+      "path": "components/previews/long/12-render-queue.mp4",
+      "sha256": "f4ed4079a63216357af0a70832651b1f54b07df2d454bd160c7b1fbddcf2fa75"
+    },
+    {
+      "path": "components/previews/long/13-background-work.mp4",
+      "sha256": "dd30a29ff691383884a413a6b1d2ca0357190ce4191e52c4a4fbfb21d3b06e5e"
+    },
+    {
+      "path": "components/previews/long/14-chapter-zoom.mp4",
+      "sha256": "cc3ac2814cf0ff09fd763717f8b71e784edb1880ebcf42373ed99076f2ced111"
+    },
+    {
+      "path": "components/previews/long/15-review.mp4",
+      "sha256": "6e5509c3a640b54ba89f771a967afba734d50890d9b1c1b97c2aaabc8f09e6c6"
+    },
+    {
+      "path": "components/previews/long/16-revision.mp4",
+      "sha256": "7af7a1f1be10fa0824e1e162f6e73539a0beb34485f5665b068142e0eeb6dfc8"
+    },
+    {
+      "path": "components/previews/long/17-chapter-slide.mp4",
+      "sha256": "6ad7f141d81f13f0ff3aee7a0ae6d85bba52e16d882de1a1aab84b6ef5ad6f93"
+    },
+    {
+      "path": "components/previews/long/18-publishing.mp4",
+      "sha256": "5d7cbdd5e9f7262591dd42e19d63ad4f06e13d69ce891582432a6c93f0bb1f77"
+    },
+    {
+      "path": "components/previews/long/19-budget-ledger.mp4",
+      "sha256": "371fe75615856a0a6724cd48dc657e3a59752ec3fa2639193b812d30f55288ac"
+    },
+    {
+      "path": "components/previews/long/20-parallel-progress.mp4",
+      "sha256": "464352a2a293c8dc2d1ade5324320cabf41b5b3e0b0caaa07608c0d93da375b1"
+    },
+    {
+      "path": "components/previews/long/21-duration-comparison.mp4",
+      "sha256": "1304a6978adabb16247ed26ad3cb7cc757684d1b88c000b5a90380c29474583e"
+    },
+    {
+      "path": "components/previews/long/22-value-summary.mp4",
+      "sha256": "23b92e49b7aaecdebbb4194224b2804734268eef50d46d68f6cb55036aec778e"
+    },
+    {
+      "path": "components/previews/long/23-ending-type.mp4",
+      "sha256": "a31277dbeea1e70233765570dd1c69dc6f2f6c4415d5934945ac624c33e66f75"
+    },
+    {
+      "path": "components/runtime.py",
+      "sha256": "cc91a2cef3b7ab8c43eacc5b4b29584caf941372cdd6c073d00708dbb57911f8"
+    },
+    {
+      "path": "components/shared/LICENSE",
+      "sha256": "6dfaa55cd0a77f8c2a948f0a8ad88f03d7b629286c7fdeb4ad3a50bc711ee854"
+    },
+    {
+      "path": "components/shared/LICENSE-MG-styles-15.txt",
+      "sha256": "7f03fee9299a401615e13e2c636ead0394f47395da4f816ae60b35ed2d91a932"
+    },
+    {
+      "path": "components/shared/assets/ambient/clip-1.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/ambient/clip-2.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/ambient/clip-3.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/ambient/clip-4.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/fonts/Noto-OFL.txt",
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "components/shared/assets/fonts/NotoSansCJKsc-Black.otf",
+      "sha256": "2267c4a0312d267dff8c0d1609948f7d949a3da8be3e126f5e2690cb9cc883b4"
+    },
+    {
+      "path": "components/shared/assets/fonts/SmileySans-OFL.txt",
+      "sha256": "9401f4050f1b66c26b6ccdc8b0e14a3c1cc37aac122eda84386f25854a9bec72"
+    },
+    {
+      "path": "components/shared/assets/fonts/SmileySans-Oblique.otf",
+      "sha256": "139b5dcbe70d6d52de85a62d148784c6af4bd161e38fdb62ba0c1e7e5065fca6"
+    },
+    {
+      "path": "components/shared/assets/fonts/Teko-OFL.txt",
+      "sha256": "4a193c54e911c1e8194d4db657423f2527f54a1239f24cb67ecb09128dc9f065"
+    },
+    {
+      "path": "components/shared/assets/fonts/Teko.ttf",
+      "sha256": "d1321889f262bbbff632e7976349853399cd097b6f382d4b19790c915c13c1ae"
+    },
+    {
+      "path": "components/shared/assets/fonts/中文常规.otf",
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+    },
+    {
+      "path": "components/shared/assets/fonts/中文粗体.otf",
+      "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+    },
+    {
+      "path": "components/shared/assets/placeholders/cover-tall.svg",
+      "sha256": "7fa60bec66dfbaa55c99127e18a382de40f5d767f88b455612de9353d5a4c122"
+    },
+    {
+      "path": "components/shared/assets/placeholders/cover-wide.svg",
+      "sha256": "05744e6127a8f4fe0c27131027f4d765dc9c4ba1ac9370317d78ba3eb877cbad"
+    },
+    {
+      "path": "components/shared/assets/placeholders/demo.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/image.svg",
+      "sha256": "e868f72dca40dfef6ab44bcde27700878285b0a2fdc5b443345d5990121b2f1e"
+    },
+    {
+      "path": "components/shared/assets/placeholders/poster.png",
+      "sha256": "f4a66dd077e281f7b2439d8bf7815fb288e8c78afe2cb9bfe49480f7a8e46892"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-001.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-002.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-003.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-004.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-005.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-006.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-007.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-008.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-009.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-010.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-011.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-012.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-013.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-014.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-015.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-016.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-017.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-018.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-019.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-020.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-021.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-022.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-023.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-024.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-025.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-026.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-027.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-028.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-029.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-030.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-031.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-032.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-033.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-034.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-035.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-036.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-037.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/placeholders/video-038.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "components/shared/assets/runtime/motions.js",
+      "sha256": "d235a65d8fb9a022908eafccb95cac67c273f4c5a19ed9f8649768ae16186f74"
+    },
+    {
+      "path": "components/shared/assets/variants/landscape.svg",
+      "sha256": "48291d8e6a0e1379cb493fc22b59f9c7ba3de5cd551fd19ca82be66a24cf22d7"
+    },
+    {
+      "path": "components/shared/assets/variants/portrait.svg",
+      "sha256": "9748d126bf94e1837f298b32057b5b6e812935d943266c9cd78b96fbf00b382b"
+    },
+    {
+      "path": "components/shared/assets/variants/square.svg",
+      "sha256": "283f00cd4d02ed0fd50aa578f387fc1a71ccf810e3c1d3cb73e8a30d701f887a"
+    },
+    {
+      "path": "components/shared/assets/vendor/gsap.min.js",
+      "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+    },
+    {
+      "path": "components/shared/base.css",
+      "sha256": "19d57c0d0ec59a479d280d20f92ee75e9b25d17f151343edc79e54b67b97e111"
+    },
+    {
+      "path": "components/shared/refinements.css",
+      "sha256": "16bf3c93c2026d09da668bae81466cd937a09a4f130f396f9a1b69bf76b54472"
+    },
+    {
+      "path": "components/tests/test_components.py",
+      "sha256": "5c699698d7db2c4f874ca4e90f3b849bacfe6b7cdb38c51978122d86827be6a3"
+    },
+    {
+      "path": "components/validation.json",
+      "sha256": "70e8a9f129880170650287c703500fbf0beb5c2f973d0c54df1790b29d5c1010"
+    },
+    {
+      "path": "components/variants/01-opening-wall-default.json",
+      "sha256": "979a5deeac9b2a2d1080107869c2711defd070b1a25887da3508f0da8cdc9c69"
+    },
+    {
+      "path": "components/variants/01-opening-wall-long.json",
+      "sha256": "b1dbb38da8a1fe92c6d34633d5671fa3f87a9bcab7b771a3382c73b645b67c1e"
+    },
+    {
+      "path": "components/variants/02-contrast-default.json",
+      "sha256": "133f71db47ef01a1664923b5fcc97d72eb39b676e921e9b805483957b596bd92"
+    },
+    {
+      "path": "components/variants/02-contrast-long.json",
+      "sha256": "c0ca3f8accbf0dcba75e537267236f9360b457fe4cd866c0eafa5a4d50f4178a"
+    },
+    {
+      "path": "components/variants/03-workflow-default.json",
+      "sha256": "385a42c052bfe3691a27d796b0db6ef5ed4631100bc370676e5d7ed87202f68f"
+    },
+    {
+      "path": "components/variants/03-workflow-long.json",
+      "sha256": "c0f7da24e9ad67b082f3914de515fea7c4debbb394cc051c717cb4d071b15753"
+    },
+    {
+      "path": "components/variants/04-chapter-flip-default.json",
+      "sha256": "4736b991ce2c94a43a96bc961437783035789cf279d871838953b18bb340cbe6"
+    },
+    {
+      "path": "components/variants/04-chapter-flip-long.json",
+      "sha256": "1a2c8df4b4f960206515688b04aa14981ebe06610f76e5a4b9b39f83a3208fae"
+    },
+    {
+      "path": "components/variants/05-prompt-input-default.json",
+      "sha256": "7d95d3dd47c846395c5a9e12084bb3f0439863755fc77d55a4f44ee12f12875b"
+    },
+    {
+      "path": "components/variants/05-prompt-input-long.json",
+      "sha256": "508e230a366c2147a7d11d4f3c534518f6e46b5c403e956d9ac381e2ef3a2f75"
+    },
+    {
+      "path": "components/variants/06-script-summary-default.json",
+      "sha256": "602ba3e47608c5401b5cdf390c8c866a932070d3a5945d3016b296f66c921100"
+    },
+    {
+      "path": "components/variants/06-script-summary-long.json",
+      "sha256": "42c6491e53488ebdac6703a147283de86f4d710edfcb8d820a1b412f9bccb4ee"
+    },
+    {
+      "path": "components/variants/07-chapter-reveal-default.json",
+      "sha256": "4d9e44174d96ca384e74f04f542094503c201b5647beef77744b6c0f6d9d9fe9"
+    },
+    {
+      "path": "components/variants/07-chapter-reveal-long.json",
+      "sha256": "9c1009fae331620a56856fb8d900f0777db95422d2f11a69b6c142ea7de5817c"
+    },
+    {
+      "path": "components/variants/08-preparation-default.json",
+      "sha256": "24e6aa076309940812ff06b993142e343a7bd748dcb01e4b320404b3fc43e437"
+    },
+    {
+      "path": "components/variants/08-preparation-long.json",
+      "sha256": "31caa3817090b349bb5608ec325cfbe2ba240615b54dcf5043f547fb8c1e117e"
+    },
+    {
+      "path": "components/variants/09-media-wave-default.json",
+      "sha256": "a98ea070929c6ae729d2453734b2f30ad69844d09257386ef0f6bbe8bd140471"
+    },
+    {
+      "path": "components/variants/09-media-wave-long.json",
+      "sha256": "ee775644ee0a29f4d08f172e37f6c144245b9b5e0f180770d0b94c963bf3d07c"
+    },
+    {
+      "path": "components/variants/10-chapter-fade-default.json",
+      "sha256": "b7cd2beb28c71461e7711596bfda225021103b41be10b14fc77cbe9557f2dd8f"
+    },
+    {
+      "path": "components/variants/10-chapter-fade-long.json",
+      "sha256": "3889a814ba2f59b0fb8160f07300120718ed9bcc2a6e5a499aa88f1e98c00cd3"
+    },
+    {
+      "path": "components/variants/11-cloud-budget-default.json",
+      "sha256": "ea511b613c2bdad7e26b8205ae15dacb3fb9741b96185628eeba2b596120653f"
+    },
+    {
+      "path": "components/variants/11-cloud-budget-long.json",
+      "sha256": "b87c16d3412e38867e58194970e60bb03dfdd947745c22376ea6f12ab1979c1e"
+    },
+    {
+      "path": "components/variants/12-render-queue-default.json",
+      "sha256": "ce34837c8944e605e5c1da4225cd557439b0dd9b9fa2b49450de3079fd463b27"
+    },
+    {
+      "path": "components/variants/12-render-queue-long.json",
+      "sha256": "43fa64c7b81e79d5bf087672ac6eca7203aa624f475bbc6ec3823268deb8b1d1"
+    },
+    {
+      "path": "components/variants/13-background-work-default.json",
+      "sha256": "f5c8ac0e193e8f751368e10c65487fa1bbeb7e955f9013e75448157190f1e205"
+    },
+    {
+      "path": "components/variants/13-background-work-long.json",
+      "sha256": "31d6d80e567cb00a5ea175ae7d8a9f35046116d200c28d32ada75678a1945948"
+    },
+    {
+      "path": "components/variants/14-chapter-zoom-default.json",
+      "sha256": "d7df659dc236e78b9d5e22feaeffedec3a82b522307132c4852d80d2c4607468"
+    },
+    {
+      "path": "components/variants/14-chapter-zoom-long.json",
+      "sha256": "947725199f0426c8f356d111073a18657f8fdb76c4e4f583724ee14296bc923f"
+    },
+    {
+      "path": "components/variants/15-review-default.json",
+      "sha256": "a01e0819ab66ceddd0e1ef7f93764d526d4582da9e30ee2fc9937513e4145fc4"
+    },
+    {
+      "path": "components/variants/15-review-long.json",
+      "sha256": "40d945c1d0e04b975e8004cfc0686b3c17027c4fcda75bf788e47a00f36bd195"
+    },
+    {
+      "path": "components/variants/16-revision-default.json",
+      "sha256": "b94044589913dd9940232a4d51f5bf93b212cb8d95555b43dc43154a04aea62d"
+    },
+    {
+      "path": "components/variants/16-revision-long.json",
+      "sha256": "47086ea0a86ad559cc802aee5aced2aade921fc434687e02b5328aba7842bde9"
+    },
+    {
+      "path": "components/variants/17-chapter-slide-default.json",
+      "sha256": "711363d65ba00dc60c9bc3114581d145a128296e3c9986b673866936f748baf0"
+    },
+    {
+      "path": "components/variants/17-chapter-slide-long.json",
+      "sha256": "4e05cdbd7175044ee1953ca6ac6bb7d2a017fd0c911d6a96939aaeb9a88872a2"
+    },
+    {
+      "path": "components/variants/18-publishing-default.json",
+      "sha256": "5a7157b67f60f58fed840ef440b710b76249bfa6c8474159ad37ff20af1df00e"
+    },
+    {
+      "path": "components/variants/18-publishing-long.json",
+      "sha256": "84286f6a596a9d61ec578577418d605201527fde5d4d5830606ed5416b64df5e"
+    },
+    {
+      "path": "components/variants/19-budget-ledger-default.json",
+      "sha256": "3d6b8afbf9ec421cd742221e1418fee0e5ae3f2bb71ca7322b7106a62e5a8f6d"
+    },
+    {
+      "path": "components/variants/19-budget-ledger-long.json",
+      "sha256": "364dfa7a0ab7cf67f5312fe05de8218b0f0c39f0017276fa17fe23f8806b8f54"
+    },
+    {
+      "path": "components/variants/20-parallel-progress-default.json",
+      "sha256": "0260236d6db84ddb58719f7b413422b16a77ea1c23f9a994742d52879ec26995"
+    },
+    {
+      "path": "components/variants/20-parallel-progress-long.json",
+      "sha256": "87e114f27e0f13fba7b72ad2e263ca5770288fb28cdb5adf897b6fe5287a073d"
+    },
+    {
+      "path": "components/variants/21-duration-comparison-default.json",
+      "sha256": "4a5e15c5f0a548df97f419e151e43a7757abfa533f8924ff4446ef7b66a20a58"
+    },
+    {
+      "path": "components/variants/21-duration-comparison-long.json",
+      "sha256": "f62ea0d57fd7d2c30e4e7f13011c0ac2c6bdc092fcc677651d450bd60c969ad6"
+    },
+    {
+      "path": "components/variants/22-value-summary-default.json",
+      "sha256": "c9a311075701e272acbe2a3c75f2d67527c6981af3ab45d0215d7573b2afabc6"
+    },
+    {
+      "path": "components/variants/22-value-summary-long.json",
+      "sha256": "e0e676a1ed2615ed774947212642d8c45e6fc70c28a9d745c44c3ca013ced4aa"
+    },
+    {
+      "path": "components/variants/23-ending-type-default.json",
+      "sha256": "ffcfa6e44952a3cc5453fb8410569abc79af44109235c0f9da3da444e1387946"
+    },
+    {
+      "path": "components/variants/23-ending-type-long.json",
+      "sha256": "5074ab614ab5dae4eb689f31f602441e5c7d6700cc25e14cbfa5670bf257bb3d"
     },
     {
       "path": "docs/editor-preview.png",
-      "sha256": "51ab2b4b04b40d1e3e255e8eed42f8e6f4dab86d6ef9c9631fd4c2b4c067f023",
-      "bytes": 212248
+      "sha256": "51ab2b4b04b40d1e3e255e8eed42f8e6f4dab86d6ef9c9631fd4c2b4c067f023"
     },
     {
       "path": "docs/opening.png",
-      "sha256": "026b3e96a434cf30783a5aaf905b4f21e30f46c0f2e54ac5ad33b17955f90247",
-      "bytes": 523583
+      "sha256": "026b3e96a434cf30783a5aaf905b4f21e30f46c0f2e54ac5ad33b17955f90247"
     },
     {
       "path": "docs/parallel.png",
-      "sha256": "6c84dceb5a15716fcd62a78745a2bd45158914bfebdb12d94410fc5bfde3873b",
-      "bytes": 369217
+      "sha256": "6c84dceb5a15716fcd62a78745a2bd45158914bfebdb12d94410fc5bfde3873b"
     },
     {
       "path": "docs/rendering.png",
-      "sha256": "fc5c7d5b8a0e1496ab3012cae66c9b1c10fd0bba99c00d99da5248a9bc6c4620",
-      "bytes": 192252
+      "sha256": "fc5c7d5b8a0e1496ab3012cae66c9b1c10fd0bba99c00d99da5248a9bc6c4620"
     },
     {
       "path": "docs/验证说明.md",
-      "sha256": "f4c70f866da9b75c70483af71d054c072882df186ceb8363e1f818674d05edee",
-      "bytes": 1097
+      "sha256": "60c48c0aeb7705198ceeedea2c6b4721f1a58f09fdb872bae2664115b12303b9"
     },
     {
       "path": "skills/fred-mg-1/SKILL.md",
-      "sha256": "1afa444f8afdf69f5dfa04847f7ad862815a6d27825277b9a7937025fc9fb787",
-      "bytes": 2907
+      "sha256": "8a37a515760f683c30b6e953074c36ceb778291101f15696e5ae1743290d6b87"
     },
     {
       "path": "skills/fred-mg-1/agents/openai.yaml",
-      "sha256": "ff391ec53b3166dbe56790a8bfcf724e26d3895c0bf49b0c5fe2a8d61586e498",
-      "bytes": 328
+      "sha256": "ff391ec53b3166dbe56790a8bfcf724e26d3895c0bf49b0c5fe2a8d61586e498"
     },
     {
       "path": "skills/fred-mg-1/references/style-spec.md",
-      "sha256": "26f4401c471f4f4d05de2d2aec0fec367516e548800d6a01e1bf45f793adac88",
-      "bytes": 3877
+      "sha256": "26f4401c471f4f4d05de2d2aec0fec367516e548800d6a01e1bf45f793adac88"
     },
     {
       "path": "skills/fred-mg-1/scripts/style.py",
-      "sha256": "7df2dfec29e3b02515c4ada0b3e61af4aaf9a969c1e9c838fa4610167b9f6e0b",
-      "bytes": 6067
+      "sha256": "7df2dfec29e3b02515c4ada0b3e61af4aaf9a969c1e9c838fa4610167b9f6e0b"
     },
     {
       "path": "skills/fred-mg-1/scripts/test_style.py",
-      "sha256": "a86e189edc97c36a9011708819404a9fa17d1e5c46e29a5c931d28f013d13f46",
-      "bytes": 3597
+      "sha256": "3f5a025ec138d611539019db814b792cdbaf85a7ed65391882fcaae1eb00500b"
+    },
+    {
+      "path": "template/LICENSE",
+      "sha256": "6dfaa55cd0a77f8c2a948f0a8ad88f03d7b629286c7fdeb4ad3a50bc711ee854"
+    },
+    {
+      "path": "template/LICENSE-MG-styles-15.txt",
+      "sha256": "7f03fee9299a401615e13e2c636ead0394f47395da4f816ae60b35ed2d91a932"
+    },
+    {
+      "path": "template/assets/ambient/clip-1.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/ambient/clip-2.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/ambient/clip-3.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/ambient/clip-4.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/fonts/Noto-OFL.txt",
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "template/assets/fonts/NotoSansCJKsc-Black.otf",
+      "sha256": "2267c4a0312d267dff8c0d1609948f7d949a3da8be3e126f5e2690cb9cc883b4"
+    },
+    {
+      "path": "template/assets/fonts/SmileySans-OFL.txt",
+      "sha256": "9401f4050f1b66c26b6ccdc8b0e14a3c1cc37aac122eda84386f25854a9bec72"
+    },
+    {
+      "path": "template/assets/fonts/SmileySans-Oblique.otf",
+      "sha256": "139b5dcbe70d6d52de85a62d148784c6af4bd161e38fdb62ba0c1e7e5065fca6"
+    },
+    {
+      "path": "template/assets/fonts/Teko-OFL.txt",
+      "sha256": "4a193c54e911c1e8194d4db657423f2527f54a1239f24cb67ecb09128dc9f065"
+    },
+    {
+      "path": "template/assets/fonts/Teko.ttf",
+      "sha256": "d1321889f262bbbff632e7976349853399cd097b6f382d4b19790c915c13c1ae"
+    },
+    {
+      "path": "template/assets/fonts/中文常规.otf",
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+    },
+    {
+      "path": "template/assets/fonts/中文粗体.otf",
+      "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+    },
+    {
+      "path": "template/assets/placeholders/cover-tall.svg",
+      "sha256": "7fa60bec66dfbaa55c99127e18a382de40f5d767f88b455612de9353d5a4c122"
+    },
+    {
+      "path": "template/assets/placeholders/cover-wide.svg",
+      "sha256": "05744e6127a8f4fe0c27131027f4d765dc9c4ba1ac9370317d78ba3eb877cbad"
+    },
+    {
+      "path": "template/assets/placeholders/demo.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/image.svg",
+      "sha256": "e868f72dca40dfef6ab44bcde27700878285b0a2fdc5b443345d5990121b2f1e"
+    },
+    {
+      "path": "template/assets/placeholders/poster.png",
+      "sha256": "f4a66dd077e281f7b2439d8bf7815fb288e8c78afe2cb9bfe49480f7a8e46892"
+    },
+    {
+      "path": "template/assets/placeholders/video-001.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-002.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-003.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-004.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-005.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-006.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-007.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-008.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-009.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-010.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-011.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-012.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-013.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-014.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-015.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-016.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-017.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-018.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-019.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-020.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-021.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-022.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-023.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-024.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-025.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-026.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-027.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-028.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-029.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-030.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-031.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-032.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-033.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-034.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-035.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-036.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-037.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/placeholders/video-038.mp4",
+      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28"
+    },
+    {
+      "path": "template/assets/vendor/gsap.min.js",
+      "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+    },
+    {
+      "path": "template/editor/index.html",
+      "sha256": "e4de7a09c848dadcacf16b25f5efc43b4bb5eb622c8528803e7e360bf3c69e78"
+    },
+    {
+      "path": "template/editor/应用.js",
+      "sha256": "0bd28675d5e1b3c7706f3edef00c402ef9c59a4d9ae5b5e2cfb1e83face31a6a"
+    },
+    {
+      "path": "template/editor/样式.css",
+      "sha256": "bdbf8b69b7bf3dae54ef20e6f5fbdc3d00dcabba5b4b3b1aa8b5ca3fdc29c4b3"
+    },
+    {
+      "path": "template/editor/预览.js",
+      "sha256": "b0affaf0b162a06b3b6c76496a047cda5834b974e800e7cbbe5b6e8b86ef33a2"
+    },
+    {
+      "path": "template/index.html",
+      "sha256": "bc8904c1c25a3f07e9afcad3be026f0149bd7cbb7efae6587059f89143703dd2"
+    },
+    {
+      "path": "template/requirements.txt",
+      "sha256": "8ea52aa64e76c5e431833b80cb25b8fcd11e6bac3eda9ad36d31e737ca8fd799"
+    },
+    {
+      "path": "template/runtime/motions.js",
+      "sha256": "d235a65d8fb9a022908eafccb95cac67c273f4c5a19ed9f8649768ae16186f74"
+    },
+    {
+      "path": "template/scripts/测试动作时序.js",
+      "sha256": "820d2ca8816db1bfe67b0ae9dd90ea4dd768f9eebf28c337d8b4a318def8a4ff"
+    },
+    {
+      "path": "template/scripts/测试模板.py",
+      "sha256": "e55d33ddfcb9b078bc9cd607939b3d6bfb427193e7995d4650bfbdb4948dadb6"
+    },
+    {
+      "path": "template/scripts/测试编辑器.py",
+      "sha256": "21099d23399a7ed31ef5103ac27d0a7c13a37c72445e4f446ea6084cd12029f9"
+    },
+    {
+      "path": "template/scripts/测试编辑接口.py",
+      "sha256": "8c444f293b1b61eea69f79fb770b646061cefeafef853931a4efa7829b4eb0ea"
+    },
+    {
+      "path": "template/templates/云端预算.tpl",
+      "sha256": "77bbcff4d59fe684f6604e3ba7f9814ba237b03a231557c392e4ef4fbe9d7349"
+    },
+    {
+      "path": "template/templates/价值.tpl",
+      "sha256": "7f5ebcf13fb7f3b982de9627b4f0a9684e9cbcee01246d2cb2547146ffec2c4e"
+    },
+    {
+      "path": "template/templates/写稿.tpl",
+      "sha256": "31e22924f747706ad7343ab83a1400d98885e5e36c714276f96d3dd0177e4360"
+    },
+    {
+      "path": "template/templates/准备零分钟.tpl",
+      "sha256": "33a3a088c1a2751dda1e2fc95a435b24e30dc1db49debb81513f4b261d59e573"
+    },
+    {
+      "path": "template/templates/反差.tpl",
+      "sha256": "0e9487da2ff9f7f6e46e59b5689cc0a3774e500e1345cd09a762b22e3d7f8792"
+    },
+    {
+      "path": "template/templates/发布.tpl",
+      "sha256": "ae6f88f3187a03612afb94ac05137cf1c64acb805f2c49770f5240eaa31ade9d"
+    },
+    {
+      "path": "template/templates/后台工作.tpl",
+      "sha256": "661e49d76e8191e31291b64ff1fa508613681e47bb549f8fc9f1975ca296ed17"
+    },
+    {
+      "path": "template/templates/审片.tpl",
+      "sha256": "7d2e227fe1142af4f50f187e1ad2d4f162dd747d708dd51cb36ae8684f67bf37"
+    },
+    {
+      "path": "template/templates/对比.tpl",
+      "sha256": "d29be1830cc60008c71edfc3c4a5ed1df98d208b4ad80b155379dcf6848c5228"
+    },
+    {
+      "path": "template/templates/并行.tpl",
+      "sha256": "d18ee7b5cec49650885128d16e07d5da3b99c4e34002ff3d7bf5b6607a3ce7f4"
+    },
+    {
+      "path": "template/templates/开场.tpl",
+      "sha256": "f81254e285fe775973e897b69e8917079fae093c52bc07868d30685561e34b79"
+    },
+    {
+      "path": "template/templates/末卡.tpl",
+      "sha256": "2dcc1436236361594a312c06345816809273c18f5fe9e2c89d96a24842966628"
+    },
+    {
+      "path": "template/templates/流程.tpl",
+      "sha256": "8e4348af179876ee67b70019a25195aeb16eb396fd15e2bbb310f46c54862c3f"
+    },
+    {
+      "path": "template/templates/渲染.tpl",
+      "sha256": "2d6bffadd49a1fe5d63dd70256c039ff348f5f2229d299ba09e9de3864bc3055"
+    },
+    {
+      "path": "template/templates/章节01.tpl",
+      "sha256": "ae829d593acd053b807b83f65e9f2fff88744f1cf6730166422a3c5a2a72bbd4"
+    },
+    {
+      "path": "template/templates/章节02.tpl",
+      "sha256": "2b39e7b08399052e8e69f1b891c80fe5f8ff64e63a8f99c5b566f75e9ab6fdee"
+    },
+    {
+      "path": "template/templates/章节03.tpl",
+      "sha256": "f0fc5aa594acc3afd6793d7891a6f038169a540653b7b6def76b15919434e828"
+    },
+    {
+      "path": "template/templates/章节04.tpl",
+      "sha256": "d9b1c12ef2a6af7acba7b44d31af2e2f28f97f034c1b700b49d5577eab8fa119"
+    },
+    {
+      "path": "template/templates/章节05.tpl",
+      "sha256": "dcc9a7dc4d8bd42166c6f5841bb22c84e69eadbcf27677e9f34151914a996d08"
+    },
+    {
+      "path": "template/templates/素材.tpl",
+      "sha256": "684ac2ced792af42039905a24dc1b378501c0d50d550496f48ed4532eb583964"
+    },
+    {
+      "path": "template/templates/账本.tpl",
+      "sha256": "9a979eea5b0359818b0397fa2e3f20839c41391395040841efc3e75f215a4780"
+    },
+    {
+      "path": "template/templates/输入.tpl",
+      "sha256": "f40f3aac943c8694efea5605b50465e3dbbab92330e0e92763593a28d0e844c9"
+    },
+    {
+      "path": "template/templates/返修.tpl",
+      "sha256": "207ca0de38386249f16ee2fba6357e30cb74166fd0a879e4c99db25e287c90cb"
+    },
+    {
+      "path": "template/使用说明.md",
+      "sha256": "3a6bbbe6f2b0358b3351cea77015a862d361b77bb4ced568ee047306696a1fd6"
+    },
+    {
+      "path": "template/依赖与来源.md",
+      "sha256": "21d00de3cb8de95be09ddf65eeb28a373b64a6c05165b11cabe42619b3c3b239"
+    },
+    {
+      "path": "template/启动编辑器.command",
+      "sha256": "43840607dcf4de75d2adb5431d560ff68ebd29fd31c250a94008ef2009dc114f"
+    },
+    {
+      "path": "template/命令.py",
+      "sha256": "3c9650ff2d1954fe769fcdd7722e899ebbe4dd6786727f39495a7668d7f701e2"
+    },
+    {
+      "path": "template/基础CSS.css",
+      "sha256": "19d57c0d0ec59a479d280d20f92ee75e9b25d17f151343edc79e54b67b97e111"
+    },
+    {
+      "path": "template/构建.py",
+      "sha256": "5a54075bdeb87ed51ee9be728a9b11193fbe2b37f95d2dac36b9e2fabffe4893"
+    },
+    {
+      "path": "template/模块索引.json",
+      "sha256": "30d9d4f85df5ad8cb20825d60aeda7a473f5a47551e805c64e814d19f41354ed"
+    },
+    {
+      "path": "template/精修CSS.css",
+      "sha256": "e3c3b182d570a30b113755d72969c5eff05866ca08707ee0d9850059f91d8c35"
+    },
+    {
+      "path": "template/编辑器.py",
+      "sha256": "b597f9ee4b20cd1353dd03b71958a63dbcff71f279e496dc4c6c581b9b0e2f75"
+    },
+    {
+      "path": "template/逐段动效对照.json",
+      "sha256": "091be9f651bd644f9990eb618cf6362a51d69380f20746c7a21d84df5c633b63"
+    },
+    {
+      "path": "template/配置.json",
+      "sha256": "77a0baea7233b88374ca9619c9b3a56a7c5a5462aedb000c0d7b053a78778fc1"
+    },
+    {
+      "path": "template/配置.schema.json",
+      "sha256": "9b65132b32c96a6e5f5d78b3bef84117afa0a826d474393805da639aa5256a35"
+    },
+    {
+      "path": "template/验收说明.md",
+      "sha256": "9c823e9e66587fa7ab2793adacacca40cd7d485dddaf426f6e209042cb2c699b"
     },
     {
       "path": "tools/test-preview-ready.js",
-      "sha256": "32b095d019f594cad8ca3f12b3ffb05d58582fd51ca7d45b0796e5914a19acdd",
-      "bytes": 1605
+      "sha256": "c26e7459d226c8dc70186b82d495ea0390573afeec7a039aa8e6ecadb9625883"
     },
     {
       "path": "使用方式.md",
-      "sha256": "26c4cdfd605041c2a5dc16d7edd8ef55b8adc125c47e9e78de71675e5012d9b8",
-      "bytes": 689
-    },
-    {
-      "path": "模板工程/LICENSE",
-      "sha256": "6dfaa55cd0a77f8c2a948f0a8ad88f03d7b629286c7fdeb4ad3a50bc711ee854",
-      "bytes": 1203
-    },
-    {
-      "path": "模板工程/LICENSE-MG-styles-15.txt",
-      "sha256": "7f03fee9299a401615e13e2c636ead0394f47395da4f816ae60b35ed2d91a932",
-      "bytes": 1071
-    },
-    {
-      "path": "模板工程/assets/ambient/clip-1.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/ambient/clip-2.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/ambient/clip-3.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/ambient/clip-4.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/fonts/Noto-OFL.txt",
-      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
-      "bytes": 4301
-    },
-    {
-      "path": "模板工程/assets/fonts/NotoSansCJKsc-Black.otf",
-      "sha256": "2267c4a0312d267dff8c0d1609948f7d949a3da8be3e126f5e2690cb9cc883b4",
-      "bytes": 17797908
-    },
-    {
-      "path": "模板工程/assets/fonts/SmileySans-OFL.txt",
-      "sha256": "9401f4050f1b66c26b6ccdc8b0e14a3c1cc37aac122eda84386f25854a9bec72",
-      "bytes": 4422
-    },
-    {
-      "path": "模板工程/assets/fonts/SmileySans-Oblique.otf",
-      "sha256": "139b5dcbe70d6d52de85a62d148784c6af4bd161e38fdb62ba0c1e7e5065fca6",
-      "bytes": 2003884
-    },
-    {
-      "path": "模板工程/assets/fonts/Teko-OFL.txt",
-      "sha256": "4a193c54e911c1e8194d4db657423f2527f54a1239f24cb67ecb09128dc9f065",
-      "bytes": 4385
-    },
-    {
-      "path": "模板工程/assets/fonts/Teko.ttf",
-      "sha256": "d1321889f262bbbff632e7976349853399cd097b6f382d4b19790c915c13c1ae",
-      "bytes": 292108
-    },
-    {
-      "path": "模板工程/assets/fonts/中文常规.otf",
-      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
-      "bytes": 16437364
-    },
-    {
-      "path": "模板工程/assets/fonts/中文粗体.otf",
-      "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a",
-      "bytes": 17002248
-    },
-    {
-      "path": "模板工程/assets/placeholders/cover-tall.svg",
-      "sha256": "7fa60bec66dfbaa55c99127e18a382de40f5d767f88b455612de9353d5a4c122",
-      "bytes": 510
-    },
-    {
-      "path": "模板工程/assets/placeholders/cover-wide.svg",
-      "sha256": "05744e6127a8f4fe0c27131027f4d765dc9c4ba1ac9370317d78ba3eb877cbad",
-      "bytes": 510
-    },
-    {
-      "path": "模板工程/assets/placeholders/demo.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/image.svg",
-      "sha256": "e868f72dca40dfef6ab44bcde27700878285b0a2fdc5b443345d5990121b2f1e",
-      "bytes": 506
-    },
-    {
-      "path": "模板工程/assets/placeholders/poster.png",
-      "sha256": "f4a66dd077e281f7b2439d8bf7815fb288e8c78afe2cb9bfe49480f7a8e46892",
-      "bytes": 74319
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-001.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-002.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-003.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-004.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-005.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-006.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-007.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-008.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-009.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-010.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-011.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-012.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-013.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-014.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-015.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-016.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-017.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-018.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-019.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-020.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-021.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-022.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-023.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-024.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-025.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-026.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-027.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-028.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-029.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-030.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-031.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-032.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-033.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-034.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-035.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-036.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-037.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/placeholders/video-038.mp4",
-      "sha256": "c973483bd18b5194703994efa5b18873476c8f20abbc0030f9c12a1d474f5d28",
-      "bytes": 335118
-    },
-    {
-      "path": "模板工程/assets/vendor/gsap.min.js",
-      "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
-      "bytes": 72927
-    },
-    {
-      "path": "模板工程/index.html",
-      "sha256": "3b68a2e128859e421c97e98157dd2b10c25b3ccc4f45083a03a74e599767de10",
-      "bytes": 154280
-    },
-    {
-      "path": "模板工程/requirements.txt",
-      "sha256": "8ea52aa64e76c5e431833b80cb25b8fcd11e6bac3eda9ad36d31e737ca8fd799",
-      "bytes": 23
-    },
-    {
-      "path": "模板工程/使用说明.md",
-      "sha256": "b62291eaa2ca3077bdca6552d39ef727fb9df279bcd69bfd815f02d7f3cc9bb5",
-      "bytes": 1269
-    },
-    {
-      "path": "模板工程/依赖与来源.md",
-      "sha256": "21d00de3cb8de95be09ddf65eeb28a373b64a6c05165b11cabe42619b3c3b239",
-      "bytes": 1228
-    },
-    {
-      "path": "模板工程/启动编辑器.command",
-      "sha256": "43840607dcf4de75d2adb5431d560ff68ebd29fd31c250a94008ef2009dc114f",
-      "bytes": 604
-    },
-    {
-      "path": "模板工程/命令.py",
-      "sha256": "bcdc51530d2872e93584657f03bc162be1f9b8ade0dd2dbdae2b314f238188d1",
-      "bytes": 3543
-    },
-    {
-      "path": "模板工程/基础CSS.css",
-      "sha256": "19d57c0d0ec59a479d280d20f92ee75e9b25d17f151343edc79e54b67b97e111",
-      "bytes": 4776
-    },
-    {
-      "path": "模板工程/工具/测试动作时序.js",
-      "sha256": "72d5de010e14b2dc176705e07c8306ed305382057d9cb233045626db2d69c9f3",
-      "bytes": 1489
-    },
-    {
-      "path": "模板工程/工具/测试模板.py",
-      "sha256": "e55d33ddfcb9b078bc9cd607939b3d6bfb427193e7995d4650bfbdb4948dadb6",
-      "bytes": 3350
-    },
-    {
-      "path": "模板工程/工具/测试编辑器.py",
-      "sha256": "3a5e91896e7909e8fc5eec62d9b1be9e47c4ef3559c724ae42260470759291a8",
-      "bytes": 2450
-    },
-    {
-      "path": "模板工程/工具/测试编辑接口.py",
-      "sha256": "383c474dd86c4eb5bcfa796591f7331184d8fd412f2420cc17f42b3601e79ea0",
-      "bytes": 2840
-    },
-    {
-      "path": "模板工程/构建.py",
-      "sha256": "ab6b04cf0fd719ae503099aaf08aea6c88e729ce61923b36349e3cc60d869091",
-      "bytes": 14611
-    },
-    {
-      "path": "模板工程/模块索引.json",
-      "sha256": "00171234354f0bde30945f6415a2bf831cf271e2b5a52701bb8239b0ff569148",
-      "bytes": 41530
-    },
-    {
-      "path": "模板工程/模板/云端预算.tpl",
-      "sha256": "77bbcff4d59fe684f6604e3ba7f9814ba237b03a231557c392e4ef4fbe9d7349",
-      "bytes": 1962
-    },
-    {
-      "path": "模板工程/模板/价值.tpl",
-      "sha256": "7f5ebcf13fb7f3b982de9627b4f0a9684e9cbcee01246d2cb2547146ffec2c4e",
-      "bytes": 1039
-    },
-    {
-      "path": "模板工程/模板/写稿.tpl",
-      "sha256": "31e22924f747706ad7343ab83a1400d98885e5e36c714276f96d3dd0177e4360",
-      "bytes": 1773
-    },
-    {
-      "path": "模板工程/模板/准备零分钟.tpl",
-      "sha256": "33a3a088c1a2751dda1e2fc95a435b24e30dc1db49debb81513f4b261d59e573",
-      "bytes": 983
-    },
-    {
-      "path": "模板工程/模板/反差.tpl",
-      "sha256": "0e9487da2ff9f7f6e46e59b5689cc0a3774e500e1345cd09a762b22e3d7f8792",
-      "bytes": 1297
-    },
-    {
-      "path": "模板工程/模板/发布.tpl",
-      "sha256": "ae6f88f3187a03612afb94ac05137cf1c64acb805f2c49770f5240eaa31ade9d",
-      "bytes": 1820
-    },
-    {
-      "path": "模板工程/模板/后台工作.tpl",
-      "sha256": "661e49d76e8191e31291b64ff1fa508613681e47bb549f8fc9f1975ca296ed17",
-      "bytes": 2332
-    },
-    {
-      "path": "模板工程/模板/审片.tpl",
-      "sha256": "7d2e227fe1142af4f50f187e1ad2d4f162dd747d708dd51cb36ae8684f67bf37",
-      "bytes": 1588
-    },
-    {
-      "path": "模板工程/模板/对比.tpl",
-      "sha256": "d29be1830cc60008c71edfc3c4a5ed1df98d208b4ad80b155379dcf6848c5228",
-      "bytes": 1579
-    },
-    {
-      "path": "模板工程/模板/并行.tpl",
-      "sha256": "d18ee7b5cec49650885128d16e07d5da3b99c4e34002ff3d7bf5b6607a3ce7f4",
-      "bytes": 4523
-    },
-    {
-      "path": "模板工程/模板/开场.tpl",
-      "sha256": "f81254e285fe775973e897b69e8917079fae093c52bc07868d30685561e34b79",
-      "bytes": 15510
-    },
-    {
-      "path": "模板工程/模板/末卡.tpl",
-      "sha256": "2dcc1436236361594a312c06345816809273c18f5fe9e2c89d96a24842966628",
-      "bytes": 1593
-    },
-    {
-      "path": "模板工程/模板/流程.tpl",
-      "sha256": "8e4348af179876ee67b70019a25195aeb16eb396fd15e2bbb310f46c54862c3f",
-      "bytes": 1600
-    },
-    {
-      "path": "模板工程/模板/渲染.tpl",
-      "sha256": "2d6bffadd49a1fe5d63dd70256c039ff348f5f2229d299ba09e9de3864bc3055",
-      "bytes": 5746
-    },
-    {
-      "path": "模板工程/模板/章节01.tpl",
-      "sha256": "ae829d593acd053b807b83f65e9f2fff88744f1cf6730166422a3c5a2a72bbd4",
-      "bytes": 1072
-    },
-    {
-      "path": "模板工程/模板/章节02.tpl",
-      "sha256": "2b39e7b08399052e8e69f1b891c80fe5f8ff64e63a8f99c5b566f75e9ab6fdee",
-      "bytes": 233
-    },
-    {
-      "path": "模板工程/模板/章节03.tpl",
-      "sha256": "f0fc5aa594acc3afd6793d7891a6f038169a540653b7b6def76b15919434e828",
-      "bytes": 180
-    },
-    {
-      "path": "模板工程/模板/章节04.tpl",
-      "sha256": "d9b1c12ef2a6af7acba7b44d31af2e2f28f97f034c1b700b49d5577eab8fa119",
-      "bytes": 337
-    },
-    {
-      "path": "模板工程/模板/章节05.tpl",
-      "sha256": "dcc9a7dc4d8bd42166c6f5841bb22c84e69eadbcf27677e9f34151914a996d08",
-      "bytes": 325
-    },
-    {
-      "path": "模板工程/模板/素材.tpl",
-      "sha256": "684ac2ced792af42039905a24dc1b378501c0d50d550496f48ed4532eb583964",
-      "bytes": 3289
-    },
-    {
-      "path": "模板工程/模板/账本.tpl",
-      "sha256": "9a979eea5b0359818b0397fa2e3f20839c41391395040841efc3e75f215a4780",
-      "bytes": 3022
-    },
-    {
-      "path": "模板工程/模板/输入.tpl",
-      "sha256": "f40f3aac943c8694efea5605b50465e3dbbab92330e0e92763593a28d0e844c9",
-      "bytes": 1367
-    },
-    {
-      "path": "模板工程/模板/返修.tpl",
-      "sha256": "207ca0de38386249f16ee2fba6357e30cb74166fd0a879e4c99db25e287c90cb",
-      "bytes": 1284
-    },
-    {
-      "path": "模板工程/精修CSS.css",
-      "sha256": "e3c3b182d570a30b113755d72969c5eff05866ca08707ee0d9850059f91d8c35",
-      "bytes": 15872
-    },
-    {
-      "path": "模板工程/编辑器/index.html",
-      "sha256": "a43d97f21b875a5756170980bf67e08f742fd585b5d9202fc4c38c8280186d25",
-      "bytes": 2583
-    },
-    {
-      "path": "模板工程/编辑器/应用.js",
-      "sha256": "0bd28675d5e1b3c7706f3edef00c402ef9c59a4d9ae5b5e2cfb1e83face31a6a",
-      "bytes": 16161
-    },
-    {
-      "path": "模板工程/编辑器/样式.css",
-      "sha256": "bdbf8b69b7bf3dae54ef20e6f5fbdc3d00dcabba5b4b3b1aa8b5ca3fdc29c4b3",
-      "bytes": 7514
-    },
-    {
-      "path": "模板工程/编辑器/预览.js",
-      "sha256": "b0affaf0b162a06b3b6c76496a047cda5834b974e800e7cbbe5b6e8b86ef33a2",
-      "bytes": 2484
-    },
-    {
-      "path": "模板工程/编辑器.py",
-      "sha256": "e86a6515e2c4af358c308458d5832738388852e561f781c19ac7e43fce0a2777",
-      "bytes": 11614
-    },
-    {
-      "path": "模板工程/运行库/motions.js",
-      "sha256": "d235a65d8fb9a022908eafccb95cac67c273f4c5a19ed9f8649768ae16186f74",
-      "bytes": 6321
-    },
-    {
-      "path": "模板工程/逐段动效对照.json",
-      "sha256": "f2fc842f43a1f6330cff5e32c6fbea711fb26a804ed9d56949b474ffc381eabe",
-      "bytes": 54122
-    },
-    {
-      "path": "模板工程/配置.json",
-      "sha256": "220bdc93af89ade10815b15128c32526eb678a897dd39f57d8191664f67f8655",
-      "bytes": 71819
-    },
-    {
-      "path": "模板工程/配置.schema.json",
-      "sha256": "9b65132b32c96a6e5f5d78b3bef84117afa0a826d474393805da639aa5256a35",
-      "bytes": 3301
-    },
-    {
-      "path": "模板工程/验收说明.md",
-      "sha256": "9c823e9e66587fa7ab2793adacacca40cd7d485dddaf426f6e209042cb2c699b",
-      "bytes": 1100
+      "sha256": "9ab348b6971d9323b8bd76ce4c2ce9166966a6540f5b8b2bda50fb073b1d7cee"
     },
     {
       "path": "风格.json",
-      "sha256": "f8f29115c365844063a0d6dd1d2ce860c8313c4f4ea00e8113285d788ce9c8ca",
-      "bytes": 382
+      "sha256": "73b6e2d47f8dafd835fdb9e8220e55333fdb3b66b1045ae3b08feca2494a9618"
     }
-  ]
+  ],
+  "version": "1.1.0"
 }

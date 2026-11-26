@@ -1,0 +1,166 @@
+{
+  "schema": "reference-mg-template@1",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 7.0
+  },
+  "theme": {
+    "ink": "#17171d",
+    "paper": "#ffffff",
+    "purple": "#c6a4fa",
+    "purpleOnPaper": "#8050b4"
+  },
+  "data": {
+    "budget": {
+      "human": [
+        3,
+        0,
+        0,
+        10,
+        2
+      ],
+      "ai_labels": [
+        "5—8分钟",
+        "5—10分钟",
+        "25—30分钟",
+        "20—25分钟",
+        "约15分钟"
+      ],
+      "human_bar_px_per_minute": 12.5
+    }
+  },
+  "assetOverrides": {},
+  "copy": {
+    "准备零分钟": {
+      "txt_000": "人工准备预算",
+      "txt_001": "0",
+      "txt_002": "分钟",
+      "txt_003": "不用进棚录音",
+      "txt_004": "不用手剪口误",
+      "txt_005": "不用手动搜素材",
+      "txt_006": "按已具备授权声源、可用素材与自动化流程来排"
+    }
+  },
+  "scenes": [
+    {
+      "id": "准备零分钟",
+      "start": 0,
+      "end": 7.0,
+      "title": "02 准备工作交给流程",
+      "dark": true,
+      "header": true,
+      "entry_duration": 0,
+      "transition": null,
+      "events": [
+        {
+          "type": "state",
+          "target": "[id^=\"zero-\"]",
+          "at": 0,
+          "duration": 0,
+          "values": {
+            "opacity": 0.22
+          },
+          "id": "准备零分钟-01"
+        },
+        {
+          "type": "style",
+          "target": "#zero-0",
+          "at": 2.2,
+          "duration": 0.2,
+          "to": {
+            "opacity": 1,
+            "backgroundColor": "#17171d",
+            "color": "white"
+          },
+          "id": "准备零分钟-02"
+        },
+        {
+          "type": "bar",
+          "target": "#zero-0 i",
+          "at": 2.2,
+          "duration": 0.35,
+          "from": 0,
+          "to": 1,
+          "ease": "linear",
+          "id": "准备零分钟-03"
+        },
+        {
+          "type": "style",
+          "target": "#zero-1",
+          "at": 3.4,
+          "duration": 0.2,
+          "to": {
+            "opacity": 1,
+            "backgroundColor": "#17171d",
+            "color": "white"
+          },
+          "id": "准备零分钟-04"
+        },
+        {
+          "type": "bar",
+          "target": "#zero-1 i",
+          "at": 3.4,
+          "duration": 0.35,
+          "from": 0,
+          "to": 1,
+          "ease": "linear",
+          "id": "准备零分钟-05"
+        },
+        {
+          "type": "style",
+          "target": "#zero-2",
+          "at": 5.2,
+          "duration": 0.2,
+          "to": {
+            "opacity": 1,
+            "backgroundColor": "#17171d",
+            "color": "white"
+          },
+          "id": "准备零分钟-06"
+        },
+        {
+          "type": "bar",
+          "target": "#zero-2 i",
+          "at": 5.2,
+          "duration": 0.35,
+          "from": 0,
+          "to": 1,
+          "ease": "linear",
+          "id": "准备零分钟-07"
+        }
+      ],
+      "fadeIn": 0.4,
+      "template": "modules/08-preparation.tpl",
+      "domId": "scene-7",
+      "media": [
+        {
+          "target": "#mixer-background",
+          "src": "assets/placeholders/video-035.mp4",
+          "duration": 6.2,
+          "at": 0.4,
+          "leadPoster": "assets/placeholders/poster.png",
+          "leadFrom": 0
+        }
+      ],
+      "visibleEnd": 7.0,
+      "fadeOut": 0.3999999999999986
+    }
+  ],
+  "captions": [],
+  "audio": null,
+  "scope": "独立组件；通用素材参数验证",
+  "backgrounds": [
+    {
+      "id": "mixer-continued",
+      "src": "assets/placeholders/video-034.mp4",
+      "start": 6.600000000000001,
+      "duration": 0.4,
+      "style": "position:absolute;inset:0;width:100%;height:100%;object-fit:fill;opacity:.5;z-index:5",
+      "source_offset": 0.0
+    }
+  ],
+  "ambient_walls": [],
+  "layout": {}
+}

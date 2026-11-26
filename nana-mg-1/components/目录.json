@@ -1,0 +1,340 @@
+{
+  "format": "nana-components@1",
+  "version": "1.1.0",
+  "components": [
+    {
+      "id": "01-title",
+      "name": "居中标题",
+      "module": "m01_title",
+      "function": "title_intro",
+      "duration_range": [
+        3,
+        12
+      ],
+      "preset": "presets/01-title.json",
+      "source_window": "0.10–0.50",
+      "source_method": "title_intro",
+      "content_fields": [
+        "title",
+        "subtitle"
+      ],
+      "media_slots": [
+        "background"
+      ],
+      "source_commit": "39eba1b45f8f197e890682612b8e10c230368bf6"
+    },
+    {
+      "id": "02-media-flip",
+      "name": "媒体窗斜向翻出",
+      "module": "m02_media_flip",
+      "function": "media_flip",
+      "duration_range": [
+        3,
+        12
+      ],
+      "preset": "presets/02-media-flip.json",
+      "source_window": "1.77–3.90；15.80–16.10；21.40–21.70；28.70–28.90",
+      "source_method": "media_flip",
+      "content_fields": [],
+      "media_slots": [
+        "background",
+        "screen"
+      ],
+      "source_commit": "39eba1b45f8f197e890682612b8e10c230368bf6"
+    },
+    {
+      "id": "03-grid",
+      "name": "六宫格总览",
+      "module": "m03_grid",
+      "function": "grid_six",
+      "duration_range": [
+        3,
+        12
+      ],
+      "preset": "presets/03-grid.json",
+      "source_window": "3.90–5.67；49.93–55.40",
+      "source_method": "grid_six",
+      "content_fields": [
+        "title",
+        "subtitle",
+        "items",
+        "item_bodies"
+      ],
+      "media_slots": [],
+      "source_commit": "39eba1b45f8f197e890682612b8e10c230368bf6"
+    },
+    {
+      "id": "04-browser",
+      "name": "文档与预览叠窗",
+      "module": "m04_browser",
+      "function": "browser_stack",
+      "duration_range": [
+        3,
+        12
+      ],
+      "preset": "presets/04-browser.json",
+      "source_window": "5.67–8.30；23.20–28.90",
+      "source_method": "browser_stack",
+      "content_fields": [],
+      "media_slots": [
+        "background",
+        "document",
+        "preview"
+      ],
+      "source_commit": "39eba1b45f8f197e890682612b8e10c230368bf6"
+    },
+    {
+      "id": "05-chapter",
+      "name": "编号章节卡",
+      "module": "m05_chapter",
+      "function": "chapter",
+      "duration_range": [
+        1,
+        12
+      ],
+      "preset": "presets/05-chapter.json",
+      "source_window": "8.47–10.20；16.17–17.33；21.93–23.20；29.10–31.13；34.87–36.03；40.93–42.73",
+      "source_method": "chapter",
+      "content_fields": [
+        "title",
+        "subtitle",
+        "body",
+        "eyebrow",
+        "usage_label",
+        "input_label",
+        "output_label"
+      ],
+      "media_slots": [
+        "background",
+        "preview"
+      ],
+      "source_commit": "39eba1b45f8f197e890682612b8e10c230368bf6"
+    },
+    {
+      "id": "06-fan",
+      "name": "五卡展开",
+      "module": "m06_fan",
+      "function": "fan_five",
+      "duration_range": [
+        1,
+        12
+      ],
+      "preset": "presets/06-fan.json",
+      "source_window": "10.30–12.73",
+      "source_method": "fan_five",
+      "content_fields": [
+        "items",
+        "card_bodies"
+      ],
+      "media_slots": [
+        "background",
+        "card-0",
+        "card-1",
+        "card-2",
+        "card-3",
+        "card-4"
+      ],
+      "source_commit": "39eba1b45f8f197e890682612b8e10c230368bf6"
+    },
+    {
+      "id": "07-takeaway",
+      "name": "摘要与双层翻页",
+      "module": "m07_takeaway",
+      "function": "takeaway",
+      "duration_range": [
+        1,
+        12
+      ],
+      "preset": "presets/07-takeaway.json",
+      "source_window": "12.73–16.17；18.67–21.93；38.87–40.63",
+      "source_method": "takeaway",
+      "content_fields": [
+        "title",
+        "body"
+      ],
+      "media_slots": [
+        "background",
+        "screen",
+        "underlay"
+      ],
+      "source_commit": "39eba1b45f8f197e890682612b8e10c230368bf6"
+    },
+    {
+      "id": "08-nodes",
+      "name": "输入输出节点",
+      "module": "m08_nodes",
+      "function": "node_flow",
+      "duration_range": [
+        3,
+        12
+      ],
+      "preset": "presets/08-nodes.json",
+      "source_window": "17.50–18.67；36.37–38.87",
+      "source_method": "node_flow",
+      "content_fields": [
+        "title",
+        "subtitle",
+        "items",
+        "node_titles"
+      ],
+      "media_slots": [
+        "background"
+      ],
+      "source_commit": "39eba1b45f8f197e890682612b8e10c230368bf6"
+    },
+    {
+      "id": "09-media-board",
+      "name": "媒体分区",
+      "module": "m09_media_board",
+      "function": "media_board",
+      "duration_range": [
+        3,
+        12
+      ],
+      "preset": "presets/09-media-board.json",
+      "source_window": "31.13–34.60",
+      "source_method": "media_board",
+      "content_fields": [
+        "title",
+        "subtitle",
+        "list_items"
+      ],
+      "media_slots": [
+        "document",
+        "image",
+        "video",
+        "audio",
+        "poster",
+        "wide",
+        "portrait"
+      ],
+      "source_commit": "39eba1b45f8f197e890682612b8e10c230368bf6"
+    },
+    {
+      "id": "10-media-overlay",
+      "name": "三媒体悬浮",
+      "module": "m10_media_overlay",
+      "function": "media_overlay",
+      "duration_range": [
+        3,
+        12
+      ],
+      "preset": "presets/10-media-overlay.json",
+      "source_window": "34.60–34.87",
+      "source_method": "media_overlay",
+      "content_fields": [],
+      "media_slots": [
+        "background",
+        "poster",
+        "wide",
+        "portrait"
+      ],
+      "source_commit": "39eba1b45f8f197e890682612b8e10c230368bf6"
+    },
+    {
+      "id": "11-storyboard",
+      "name": "三步故事板",
+      "module": "m11_storyboard",
+      "function": "storyboard",
+      "duration_range": [
+        3,
+        12
+      ],
+      "preset": "presets/11-storyboard.json",
+      "source_window": "42.73–47.47",
+      "source_method": "storyboard",
+      "content_fields": [
+        "title",
+        "labels"
+      ],
+      "media_slots": [
+        "idea",
+        "frames",
+        "result"
+      ],
+      "source_commit": "39eba1b45f8f197e890682612b8e10c230368bf6"
+    },
+    {
+      "id": "12-smash",
+      "name": "大字强调",
+      "module": "m12_smash",
+      "function": "smash_title",
+      "duration_range": [
+        3,
+        12
+      ],
+      "preset": "presets/12-smash.json",
+      "source_window": "47.73–49.93",
+      "source_method": "smash_title",
+      "content_fields": [
+        "title"
+      ],
+      "media_slots": [
+        "background"
+      ],
+      "source_commit": "39eba1b45f8f197e890682612b8e10c230368bf6"
+    },
+    {
+      "id": "13-badge",
+      "name": "双次描勾",
+      "module": "m13_badge",
+      "function": "workflow_badge",
+      "duration_range": [
+        2.2,
+        12
+      ],
+      "preset": "presets/13-badge.json",
+      "source_window": "52.70–55.67",
+      "source_method": "workflow_badge",
+      "content_fields": [
+        "title",
+        "subtitle",
+        "badge_text"
+      ],
+      "media_slots": [
+        "background"
+      ],
+      "source_commit": "39eba1b45f8f197e890682612b8e10c230368bf6"
+    },
+    {
+      "id": "14-pipeline",
+      "name": "五步生产链",
+      "module": "m14_pipeline",
+      "function": "pipeline_five",
+      "duration_range": [
+        3,
+        12
+      ],
+      "preset": "presets/14-pipeline.json",
+      "source_window": "55.73–61.17",
+      "source_method": "pipeline_five",
+      "content_fields": [
+        "title",
+        "subtitle",
+        "items"
+      ],
+      "media_slots": [],
+      "source_commit": "39eba1b45f8f197e890682612b8e10c230368bf6"
+    },
+    {
+      "id": "15-nav",
+      "name": "章节导航",
+      "module": "m15_nav",
+      "function": "chapter_nav",
+      "duration_range": [
+        3,
+        12
+      ],
+      "preset": "presets/15-nav.json",
+      "source_window": "0.00–61.27",
+      "source_method": "chapter_nav",
+      "content_fields": [
+        "title",
+        "subtitle",
+        "sections"
+      ],
+      "media_slots": [],
+      "source_commit": "39eba1b45f8f197e890682612b8e10c230368bf6"
+    }
+  ]
+}

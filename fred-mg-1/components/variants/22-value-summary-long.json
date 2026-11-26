@@ -1,0 +1,12 @@
+{
+  "format": "fred-component@1",
+  "component": "22-value-summary",
+  "duration": 12.1,
+  "content": {
+    "txt_000": "重复、耗时的执行工作示例"
+  },
+  "data": {},
+  "media": {},
+  "theme": {},
+  "motions": {}
+}

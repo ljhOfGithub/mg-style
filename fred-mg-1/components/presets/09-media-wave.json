@@ -1,0 +1,146 @@
+{
+  "schema": "reference-mg-template@1",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 10.166666666666666
+  },
+  "theme": {
+    "ink": "#17171d",
+    "paper": "#ffffff",
+    "purple": "#c6a4fa",
+    "purpleOnPaper": "#8050b4"
+  },
+  "data": {
+    "budget": {
+      "human": [
+        3,
+        0,
+        0,
+        10,
+        2
+      ],
+      "ai_labels": [
+        "5—8分钟",
+        "5—10分钟",
+        "25—30分钟",
+        "20—25分钟",
+        "约15分钟"
+      ],
+      "human_bar_px_per_minute": 12.5
+    }
+  },
+  "assetOverrides": {},
+  "copy": {
+    "素材": {
+      "txt_000": "声音复刻配音",
+      "txt_001": "授权声线，完成配音",
+      "txt_002": "语音转字幕并对齐",
+      "txt_003": "按语音内容，逐句对齐",
+      "txt_004": "抓取动态视频素材",
+      "txt_005": "连续动态素材，自动准备",
+      "txt_006": "人工预算 ",
+      "txt_007": "0分钟",
+      "txt_008": "AI准备 ",
+      "txt_009": "5—10分钟"
+    }
+  },
+  "scenes": [
+    {
+      "id": "素材",
+      "start": 0,
+      "end": 10.166666666666666,
+      "title": "02 配音、字幕和动态素材",
+      "dark": true,
+      "header": true,
+      "entry_duration": 0.4,
+      "transition": null,
+      "events": [
+        {
+          "type": "fade",
+          "target": "#prep-0",
+          "at": 0,
+          "duration": 0.4,
+          "from": 0,
+          "to": 1,
+          "id": "素材-01"
+        },
+        {
+          "type": "fade",
+          "target": "#prep-1",
+          "at": 2.4,
+          "duration": 0.4,
+          "from": 0,
+          "to": 1,
+          "id": "素材-02"
+        },
+        {
+          "type": "fade",
+          "target": "#prep-2",
+          "at": 5,
+          "duration": 0.25,
+          "from": 0,
+          "to": 1,
+          "id": "素材-03"
+        },
+        {
+          "type": "fade",
+          "target": "#prep-summary",
+          "at": 7.6,
+          "duration": 0.4,
+          "from": 0,
+          "to": 1,
+          "id": "素材-04"
+        },
+        {
+          "type": "wavefill",
+          "target": "#waveform",
+          "at": 0.4,
+          "duration": 5.9,
+          "bars": "#waveform i",
+          "line": "#playline",
+          "distance": 440,
+          "id": "素材-05"
+        }
+      ],
+      "fadeIn": 0.4,
+      "template": "modules/09-media-wave.tpl",
+      "domId": "scene-8",
+      "media": [
+        {
+          "target": "#v-字幕工具_延续",
+          "src": "assets/placeholders/video-008.mp4",
+          "duration": 7.466667,
+          "at": 2.7,
+          "leadPoster": "assets/placeholders/poster.png",
+          "leadFrom": 2.4
+        },
+        {
+          "target": "#v-三种素材_延续",
+          "src": "assets/placeholders/video-002.mp4",
+          "duration": 5.166667,
+          "at": 5.0
+        }
+      ],
+      "visibleEnd": 10.166666666666666,
+      "fadeOut": 0,
+      "background": "transparent"
+    }
+  ],
+  "captions": [],
+  "audio": null,
+  "scope": "独立组件；通用素材参数验证",
+  "backgrounds": [
+    {
+      "id": "mixer-continued",
+      "src": "assets/placeholders/video-034.mp4",
+      "start": 0.0,
+      "duration": 10.166666666666666,
+      "style": "position:absolute;inset:0;width:100%;height:100%;object-fit:fill;opacity:.5;z-index:5",
+      "source_offset": 0.0
+    }
+  ],
+  "ambient_walls": [],
+  "layout": {}
+}

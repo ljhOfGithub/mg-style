@@ -9,7 +9,7 @@ import tempfile
 
 sys.dont_write_bytecode = True
 ROOT = Path(__file__).resolve().parents[1]
-IGNORED = {'.git', '.build', '.hyperframes', '.venv', '__pycache__', '保存记录', '导出任务', '执行记录', '输出'}
+IGNORED = {'.git', '.build', '.hyperframes', '.venv', '__pycache__', 'saved', 'exports', 'logs', 'output'}
 
 
 def candidates():
@@ -47,6 +47,16 @@ def main():
             assert f.is_file() and hashlib.sha256(f.read_bytes()).hexdigest() == entry['sha256'], entry['path']
         count += 1
     files = list(candidates())
+    for f in files:
+        assert all(part.isascii() for part in f.relative_to(ROOT).parts[:-1]), '文件夹须使用英文ASCII名称：'+str(f)
+    for name in ['fred-mg-1','nana-mg-1']:
+        style = ROOT/name
+        meta = json.loads((style/'风格.json').read_text())
+        library = style/meta['component_library']
+        catalog_name = 'catalog.json' if name=='fred-mg-1' else '目录.json'
+        components = json.loads((library/catalog_name).read_text())['components']
+        assert len(components)==meta['component_count']
+        assert len({x['id'] for x in components})==len(components), '组件ID不可重复'
     for f in files:
         if f.suffix.lower() in ['.md', '.py', '.js', '.json', '.html', '.css', '.command', '.yaml']:
             text = f.read_text(encoding='utf-8')

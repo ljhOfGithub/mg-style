@@ -1,0 +1,2259 @@
+{
+  "format": "fred-components@1",
+  "version": "1.1.0",
+  "components": [
+    {
+      "id": "01-opening-wall",
+      "name": "开场",
+      "source_commit": "9c34106367df7cb996bbcf4f724012fc51d45175",
+      "source_window": [
+        0,
+        6.0
+      ],
+      "duration": 6.0,
+      "duration_range": [
+        6.0,
+        30
+      ],
+      "template": "modules/01-opening-wall.tpl",
+      "fields": [
+        {
+          "key": "txt_000",
+          "label": "一天排三到四期，人工要忙多久？",
+          "tag": "div",
+          "max_length": 21
+        },
+        {
+          "key": "txt_001",
+          "label": "3",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_002",
+          "label": "—",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_003",
+          "label": "4",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_004",
+          "label": "期 / 天",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_005",
+          "label": "先定排期目标，再拆人工预算",
+          "tag": "div",
+          "max_length": 19
+        },
+        {
+          "key": "txt_006",
+          "label": "每期人工预算 · 分三处参与",
+          "tag": "div",
+          "max_length": 20
+        },
+        {
+          "key": "txt_007",
+          "label": "选题输入",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_009",
+          "label": "审片把关",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_011",
+          "label": "发布确认",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_013",
+          "label": "合计",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_015",
+          "label": "分钟 · 用来规划人工占用",
+          "tag": "div",
+          "max_length": 19
+        }
+      ],
+      "media": {
+        "media-01": {
+          "source": "assets/placeholders/video-030.mp4",
+          "default": "assets/placeholders/video-030.mp4",
+          "kind": "video"
+        },
+        "media-02": {
+          "source": "assets/placeholders/video-022.mp4",
+          "default": "assets/placeholders/video-022.mp4",
+          "kind": "video"
+        },
+        "media-03": {
+          "source": "assets/placeholders/video-026.mp4",
+          "default": "assets/placeholders/video-026.mp4",
+          "kind": "video"
+        },
+        "media-04": {
+          "source": "assets/placeholders/video-031.mp4",
+          "default": "assets/placeholders/video-031.mp4",
+          "kind": "video"
+        },
+        "media-05": {
+          "source": "assets/placeholders/video-032.mp4",
+          "default": "assets/placeholders/video-032.mp4",
+          "kind": "video"
+        },
+        "media-06": {
+          "source": "assets/placeholders/video-024.mp4",
+          "default": "assets/placeholders/video-024.mp4",
+          "kind": "video"
+        },
+        "media-07": {
+          "source": "assets/placeholders/video-028.mp4",
+          "default": "assets/placeholders/video-028.mp4",
+          "kind": "video"
+        },
+        "media-08": {
+          "source": "assets/placeholders/video-029.mp4",
+          "default": "assets/placeholders/video-029.mp4",
+          "kind": "video"
+        },
+        "media-09": {
+          "source": "assets/placeholders/video-027.mp4",
+          "default": "assets/placeholders/video-027.mp4",
+          "kind": "video"
+        },
+        "media-10": {
+          "source": "assets/placeholders/video-033.mp4",
+          "default": "assets/placeholders/video-033.mp4",
+          "kind": "video"
+        },
+        "media-11": {
+          "source": "assets/placeholders/video-025.mp4",
+          "default": "assets/placeholders/video-025.mp4",
+          "kind": "video"
+        },
+        "media-12": {
+          "source": "assets/placeholders/video-023.mp4",
+          "default": "assets/placeholders/video-023.mp4",
+          "kind": "video"
+        },
+        "media-13": {
+          "source": "assets/ambient/clip-1.mp4",
+          "default": "assets/ambient/clip-1.mp4",
+          "kind": "video"
+        },
+        "media-14": {
+          "source": "assets/ambient/clip-2.mp4",
+          "default": "assets/ambient/clip-2.mp4",
+          "kind": "video"
+        },
+        "media-15": {
+          "source": "assets/ambient/clip-3.mp4",
+          "default": "assets/ambient/clip-3.mp4",
+          "kind": "video"
+        },
+        "media-16": {
+          "source": "assets/ambient/clip-4.mp4",
+          "default": "assets/ambient/clip-4.mp4",
+          "kind": "video"
+        }
+      },
+      "data_fields": {
+        "budget": {
+          "human": [
+            3,
+            0,
+            0,
+            10,
+            2
+          ]
+        }
+      },
+      "tail_events": [],
+      "action_types": [
+        "counter",
+        "draw",
+        "fade",
+        "mask",
+        "move",
+        "wordFall"
+      ]
+    },
+    {
+      "id": "02-contrast",
+      "name": "反差",
+      "source_commit": "9c34106367df7cb996bbcf4f724012fc51d45175",
+      "source_window": [
+        5.6,
+        9.6
+      ],
+      "duration": 4.0,
+      "duration_range": [
+        4.0,
+        30
+      ],
+      "template": "modules/02-contrast.tpl",
+      "fields": [
+        {
+          "key": "txt_000",
+          "label": "重复执行交给AI",
+          "tag": "div",
+          "max_length": 14
+        },
+        {
+          "key": "txt_001",
+          "label": "人来判断内容",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_002",
+          "label": "后台跑多久",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_003",
+          "label": "人就要守多久？",
+          "tag": "div",
+          "max_length": 13
+        },
+        {
+          "key": "txt_004",
+          "label": "人工参与的目标预算",
+          "tag": "div",
+          "max_length": 15
+        },
+        {
+          "key": "txt_005",
+          "label": "15",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_006",
+          "label": "分钟",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_007",
+          "label": "这份算例的人工预算",
+          "tag": "div",
+          "max_length": 15
+        }
+      ],
+      "media": {
+        "media-01": {
+          "source": "assets/placeholders/video-017.mp4",
+          "default": "assets/placeholders/video-017.mp4",
+          "kind": "video"
+        },
+        "media-02": {
+          "source": "assets/placeholders/image.svg",
+          "default": "assets/placeholders/image.svg",
+          "kind": "image"
+        },
+        "media-03": {
+          "source": "assets/ambient/clip-1.mp4",
+          "default": "assets/ambient/clip-1.mp4",
+          "kind": "video"
+        },
+        "media-04": {
+          "source": "assets/ambient/clip-2.mp4",
+          "default": "assets/ambient/clip-2.mp4",
+          "kind": "video"
+        },
+        "media-05": {
+          "source": "assets/ambient/clip-3.mp4",
+          "default": "assets/ambient/clip-3.mp4",
+          "kind": "video"
+        },
+        "media-06": {
+          "source": "assets/ambient/clip-4.mp4",
+          "default": "assets/ambient/clip-4.mp4",
+          "kind": "video"
+        }
+      },
+      "data_fields": {},
+      "tail_events": [],
+      "action_types": [
+        "bar",
+        "fade",
+        "style"
+      ]
+    },
+    {
+      "id": "03-workflow",
+      "name": "流程",
+      "source_commit": "9c34106367df7cb996bbcf4f724012fc51d45175",
+      "source_window": [
+        9.2,
+        17
+      ],
+      "duration": 7.8,
+      "duration_range": [
+        7.8,
+        30
+      ],
+      "template": "modules/03-workflow.tpl",
+      "fields": [
+        {
+          "key": "txt_000",
+          "label": "用剪辑",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_001",
+          "label": "Skill",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_002",
+          "label": "把五个环节接起来",
+          "tag": "div",
+          "max_length": 9
+        },
+        {
+          "key": "txt_003",
+          "label": "你剪一期要多久？",
+          "tag": "div",
+          "max_length": 14
+        },
+        {
+          "key": "txt_004",
+          "label": "评论区聊聊",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_005",
+          "label": "人工占用多久",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_006",
+          "label": "AI后台又跑多久",
+          "tag": "div",
+          "max_length": 14
+        }
+      ],
+      "media": {
+        "media-01": {
+          "source": "assets/placeholders/video-020.mp4",
+          "default": "assets/placeholders/video-020.mp4",
+          "kind": "video"
+        },
+        "media-02": {
+          "source": "assets/placeholders/video-037.mp4",
+          "default": "assets/placeholders/video-037.mp4",
+          "kind": "video"
+        },
+        "media-03": {
+          "source": "assets/placeholders/video-038.mp4",
+          "default": "assets/placeholders/video-038.mp4",
+          "kind": "video"
+        },
+        "media-04": {
+          "source": "assets/placeholders/video-016.mp4",
+          "default": "assets/placeholders/video-016.mp4",
+          "kind": "video"
+        },
+        "media-05": {
+          "source": "assets/placeholders/video-004.mp4",
+          "default": "assets/placeholders/video-004.mp4",
+          "kind": "video"
+        },
+        "media-06": {
+          "source": "assets/ambient/clip-1.mp4",
+          "default": "assets/ambient/clip-1.mp4",
+          "kind": "video"
+        },
+        "media-07": {
+          "source": "assets/ambient/clip-2.mp4",
+          "default": "assets/ambient/clip-2.mp4",
+          "kind": "video"
+        },
+        "media-08": {
+          "source": "assets/ambient/clip-3.mp4",
+          "default": "assets/ambient/clip-3.mp4",
+          "kind": "video"
+        },
+        "media-09": {
+          "source": "assets/ambient/clip-4.mp4",
+          "default": "assets/ambient/clip-4.mp4",
+          "kind": "video"
+        }
+      },
+      "data_fields": {},
+      "tail_events": [],
+      "action_types": [
+        "fade"
+      ]
+    },
+    {
+      "id": "04-chapter-flip",
+      "name": "章节01",
+      "source_commit": "9c34106367df7cb996bbcf4f724012fc51d45175",
+      "source_window": [
+        17,
+        18.8
+      ],
+      "duration": 1.8,
+      "duration_range": [
+        1.8,
+        30
+      ],
+      "template": "modules/04-chapter-flip.tpl",
+      "fields": [],
+      "media": {},
+      "data_fields": {
+        "chapter": {
+          "number": "01",
+          "title": "选题和写稿"
+        }
+      },
+      "tail_events": [
+        "04-chapter-flip-action-2"
+      ],
+      "action_types": [
+        "fade",
+        "flip",
+        "move",
+        "state"
+      ]
+    },
+    {
+      "id": "05-prompt-input",
+      "name": "输入",
+      "source_commit": "9c34106367df7cb996bbcf4f724012fc51d45175",
+      "source_window": [
+        18.4,
+        30.0
+      ],
+      "duration": 11.6,
+      "duration_range": [
+        11.6,
+        30
+      ],
+      "template": "modules/05-prompt-input.tpl",
+      "fields": [
+        {
+          "key": "txt_000",
+          "label": "人工预算",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_001",
+          "label": "3",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_002",
+          "label": "分钟",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_003",
+          "label": "说清选题与要求",
+          "tag": "div",
+          "max_length": 13
+        },
+        {
+          "key": "txt_004",
+          "label": "AI查资料与写稿",
+          "tag": "div",
+          "max_length": 14
+        },
+        {
+          "key": "txt_005",
+          "label": "5—8",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_006",
+          "label": "分钟",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_007",
+          "label": "查资料 · 核数据 · 出全稿",
+          "tag": "div",
+          "max_length": 21
+        },
+        {
+          "key": "txt_008",
+          "label": "发给AI的一段需求",
+          "tag": "div",
+          "max_length": 15
+        },
+        {
+          "key": "txt_009",
+          "label": "▍",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_010",
+          "label": "核心观点",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_011",
+          "label": "一次说清",
+          "tag": "div",
+          "max_length": 12
+        }
+      ],
+      "media": {
+        "media-01": {
+          "source": "assets/placeholders/video-036.mp4",
+          "default": "assets/placeholders/video-036.mp4",
+          "kind": "video"
+        },
+        "media-02": {
+          "source": "assets/placeholders/image.svg",
+          "default": "assets/placeholders/image.svg",
+          "kind": "image"
+        },
+        "media-03": {
+          "source": "assets/placeholders/poster.png",
+          "default": "assets/placeholders/poster.png",
+          "kind": "image"
+        }
+      },
+      "data_fields": {
+        "prompt": "这期讲用AI做视频的人工时间预算，分别列出选题、配音、画面、审片和发布五个环节，区分人工参与和AI后台运行。"
+      },
+      "tail_events": [],
+      "action_types": [
+        "move",
+        "state",
+        "style",
+        "typing"
+      ]
+    },
+    {
+      "id": "06-script-summary",
+      "name": "写稿",
+      "source_commit": "9c34106367df7cb996bbcf4f724012fc51d45175",
+      "source_window": [
+        29.6,
+        35.2
+      ],
+      "duration": 5.6,
+      "duration_range": [
+        5.6,
+        30
+      ],
+      "template": "modules/06-script-summary.tpl",
+      "fields": [
+        {
+          "key": "txt_000",
+          "label": "人工预算",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_001",
+          "label": "3",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_002",
+          "label": "分钟",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_003",
+          "label": "口述核心需求",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_004",
+          "label": "AI执行",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_005",
+          "label": "5—8",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_006",
+          "label": "分钟",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_007",
+          "label": "资料核对后生成逐字稿",
+          "tag": "div",
+          "max_length": 16
+        },
+        {
+          "key": "txt_009",
+          "label": "查资料，核对数据",
+          "tag": "div",
+          "max_length": 14
+        },
+        {
+          "key": "txt_010",
+          "label": "完整逐字稿与分镜",
+          "tag": "div",
+          "max_length": 14
+        },
+        {
+          "key": "txt_011",
+          "label": "查资料 ✓　核数据 ✓　完整逐字稿 ✓",
+          "tag": "div",
+          "max_length": 25
+        },
+        {
+          "key": "txt_012",
+          "label": "✓",
+          "tag": "div",
+          "max_length": 12
+        }
+      ],
+      "media": {
+        "media-01": {
+          "source": "assets/placeholders/video-001.mp4",
+          "default": "assets/placeholders/video-001.mp4",
+          "kind": "video"
+        },
+        "media-02": {
+          "source": "assets/placeholders/video-020.mp4",
+          "default": "assets/placeholders/video-020.mp4",
+          "kind": "video"
+        },
+        "media-03": {
+          "source": "assets/placeholders/poster.png",
+          "default": "assets/placeholders/poster.png",
+          "kind": "image"
+        }
+      },
+      "data_fields": {
+        "prompt_summary": "五个环节，分别核对人工参与和AI后台时间"
+      },
+      "tail_events": [],
+      "action_types": [
+        "fade",
+        "move",
+        "style"
+      ]
+    },
+    {
+      "id": "07-chapter-reveal",
+      "name": "章节02",
+      "source_commit": "9c34106367df7cb996bbcf4f724012fc51d45175",
+      "source_window": [
+        35.2,
+        37
+      ],
+      "duration": 1.8,
+      "duration_range": [
+        1.8,
+        30
+      ],
+      "template": "modules/07-chapter-reveal.tpl",
+      "fields": [],
+      "media": {},
+      "data_fields": {
+        "chapter": {
+          "number": "02",
+          "groups": [
+            "配音",
+            "、字幕和素材"
+          ]
+        }
+      },
+      "tail_events": [],
+      "action_types": [
+        "fade"
+      ]
+    },
+    {
+      "id": "08-preparation",
+      "name": "准备零分钟",
+      "source_commit": "9c34106367df7cb996bbcf4f724012fc51d45175",
+      "source_window": [
+        36.6,
+        43.6
+      ],
+      "duration": 7.0,
+      "duration_range": [
+        7.0,
+        30
+      ],
+      "template": "modules/08-preparation.tpl",
+      "fields": [
+        {
+          "key": "txt_000",
+          "label": "人工准备预算",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_001",
+          "label": "0",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_002",
+          "label": "分钟",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_003",
+          "label": "不用进棚录音",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_004",
+          "label": "不用手剪口误",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_005",
+          "label": "不用手动搜素材",
+          "tag": "div",
+          "max_length": 13
+        },
+        {
+          "key": "txt_006",
+          "label": "按已具备授权声源、可用素材与自动化流程来排",
+          "tag": "div",
+          "max_length": 27
+        }
+      ],
+      "media": {
+        "media-01": {
+          "source": "assets/placeholders/video-035.mp4",
+          "default": "assets/placeholders/video-035.mp4",
+          "kind": "video"
+        },
+        "media-02": {
+          "source": "assets/placeholders/video-034.mp4",
+          "default": "assets/placeholders/video-034.mp4",
+          "kind": "video"
+        },
+        "media-03": {
+          "source": "assets/placeholders/poster.png",
+          "default": "assets/placeholders/poster.png",
+          "kind": "image"
+        }
+      },
+      "data_fields": {},
+      "tail_events": [],
+      "action_types": [
+        "bar",
+        "state",
+        "style"
+      ]
+    },
+    {
+      "id": "09-media-wave",
+      "name": "素材",
+      "source_commit": "9c34106367df7cb996bbcf4f724012fc51d45175",
+      "source_window": [
+        43.2,
+        53.366667
+      ],
+      "duration": 10.166666666666666,
+      "duration_range": [
+        10.166666666666666,
+        30
+      ],
+      "template": "modules/09-media-wave.tpl",
+      "fields": [
+        {
+          "key": "txt_000",
+          "label": "声音复刻配音",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_001",
+          "label": "授权声线，完成配音",
+          "tag": "div",
+          "max_length": 15
+        },
+        {
+          "key": "txt_002",
+          "label": "语音转字幕并对齐",
+          "tag": "div",
+          "max_length": 14
+        },
+        {
+          "key": "txt_003",
+          "label": "按语音内容，逐句对齐",
+          "tag": "div",
+          "max_length": 16
+        },
+        {
+          "key": "txt_004",
+          "label": "抓取动态视频素材",
+          "tag": "div",
+          "max_length": 14
+        },
+        {
+          "key": "txt_005",
+          "label": "连续动态素材，自动准备",
+          "tag": "div",
+          "max_length": 17
+        },
+        {
+          "key": "txt_006",
+          "label": "人工预算",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_007",
+          "label": "0分钟",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_008",
+          "label": "AI准备",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_009",
+          "label": "5—10分钟",
+          "tag": "b",
+          "max_length": 12
+        }
+      ],
+      "media": {
+        "media-01": {
+          "source": "assets/placeholders/video-008.mp4",
+          "default": "assets/placeholders/video-008.mp4",
+          "kind": "video"
+        },
+        "media-02": {
+          "source": "assets/placeholders/video-002.mp4",
+          "default": "assets/placeholders/video-002.mp4",
+          "kind": "video"
+        },
+        "media-03": {
+          "source": "assets/placeholders/video-034.mp4",
+          "default": "assets/placeholders/video-034.mp4",
+          "kind": "video"
+        },
+        "media-04": {
+          "source": "assets/placeholders/poster.png",
+          "default": "assets/placeholders/poster.png",
+          "kind": "image"
+        }
+      },
+      "data_fields": {},
+      "tail_events": [],
+      "action_types": [
+        "fade",
+        "wavefill"
+      ]
+    },
+    {
+      "id": "10-chapter-fade",
+      "name": "章节03",
+      "source_commit": "9c34106367df7cb996bbcf4f724012fc51d45175",
+      "source_window": [
+        53.366667,
+        55
+      ],
+      "duration": 1.6333333333333333,
+      "duration_range": [
+        1.6333333333333333,
+        30
+      ],
+      "template": "modules/10-chapter-fade.tpl",
+      "fields": [],
+      "media": {
+        "media-01": {
+          "source": "assets/placeholders/video-019.mp4",
+          "default": "assets/placeholders/video-019.mp4",
+          "kind": "video"
+        }
+      },
+      "data_fields": {
+        "chapter": {
+          "number": "03",
+          "title": "画面与云端渲染"
+        }
+      },
+      "tail_events": [
+        "章节03-02"
+      ],
+      "action_types": [
+        "fade",
+        "style"
+      ]
+    },
+    {
+      "id": "11-cloud-budget",
+      "name": "云端预算",
+      "source_commit": "9c34106367df7cb996bbcf4f724012fc51d45175",
+      "source_window": [
+        54.6,
+        60.6
+      ],
+      "duration": 6.0,
+      "duration_range": [
+        6.0,
+        30
+      ],
+      "template": "modules/11-cloud-budget.tpl",
+      "fields": [
+        {
+          "key": "txt_000",
+          "label": "AI后台预算",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_001",
+          "label": "25—30",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_002",
+          "label": "分钟",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_003",
+          "label": "这一段人工预算，仍按",
+          "tag": "div",
+          "max_length": 16
+        },
+        {
+          "key": "txt_004",
+          "label": "0分钟",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_005",
+          "label": "排",
+          "tag": "div",
+          "max_length": 12
+        }
+      ],
+      "media": {
+        "media-01": {
+          "source": "assets/placeholders/video-019.mp4",
+          "default": "assets/placeholders/video-019.mp4",
+          "kind": "video"
+        }
+      },
+      "data_fields": {},
+      "tail_events": [],
+      "action_types": [
+        "fade",
+        "tiles"
+      ]
+    },
+    {
+      "id": "12-render-queue",
+      "name": "渲染",
+      "source_commit": "9c34106367df7cb996bbcf4f724012fc51d45175",
+      "source_window": [
+        60.2,
+        68.80000000000001
+      ],
+      "duration": 8.6,
+      "duration_range": [
+        8.6,
+        30
+      ],
+      "template": "modules/12-render-queue.tpl",
+      "fields": [
+        {
+          "key": "txt_000",
+          "label": "写动画代码 · 排分镜 · 查画面",
+          "tag": "div",
+          "max_length": 23
+        },
+        {
+          "key": "txt_001",
+          "label": "内容编排",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_003",
+          "label": "个片段",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_004",
+          "label": "逐段编排",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_005",
+          "label": "串成完整预览",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_006",
+          "label": "✓",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_007",
+          "label": "重复执行在后台，关键判断留给人",
+          "tag": "div",
+          "max_length": 21
+        },
+        {
+          "key": "txt_008",
+          "label": "多块显卡 · 并行渲染",
+          "tag": "div",
+          "max_length": 17
+        },
+        {
+          "key": "txt_010",
+          "label": "配乐混音 → 渲染完成 → 自动关机",
+          "tag": "div",
+          "max_length": 24
+        }
+      ],
+      "media": {
+        "media-01": {
+          "source": "assets/placeholders/video-030.mp4",
+          "default": "assets/placeholders/video-030.mp4",
+          "kind": "video"
+        },
+        "media-02": {
+          "source": "assets/placeholders/video-022.mp4",
+          "default": "assets/placeholders/video-022.mp4",
+          "kind": "video"
+        },
+        "media-03": {
+          "source": "assets/placeholders/video-026.mp4",
+          "default": "assets/placeholders/video-026.mp4",
+          "kind": "video"
+        },
+        "media-04": {
+          "source": "assets/placeholders/video-031.mp4",
+          "default": "assets/placeholders/video-031.mp4",
+          "kind": "video"
+        },
+        "media-05": {
+          "source": "assets/placeholders/video-032.mp4",
+          "default": "assets/placeholders/video-032.mp4",
+          "kind": "video"
+        },
+        "media-06": {
+          "source": "assets/placeholders/video-028.mp4",
+          "default": "assets/placeholders/video-028.mp4",
+          "kind": "video"
+        },
+        "media-07": {
+          "source": "assets/placeholders/video-006.mp4",
+          "default": "assets/placeholders/video-006.mp4",
+          "kind": "video"
+        },
+        "media-08": {
+          "source": "assets/placeholders/video-037.mp4",
+          "default": "assets/placeholders/video-037.mp4",
+          "kind": "video"
+        },
+        "media-09": {
+          "source": "assets/placeholders/video-038.mp4",
+          "default": "assets/placeholders/video-038.mp4",
+          "kind": "video"
+        },
+        "media-10": {
+          "source": "assets/placeholders/video-027.mp4",
+          "default": "assets/placeholders/video-027.mp4",
+          "kind": "video"
+        },
+        "media-11": {
+          "source": "assets/placeholders/video-033.mp4",
+          "default": "assets/placeholders/video-033.mp4",
+          "kind": "video"
+        },
+        "media-12": {
+          "source": "assets/placeholders/video-025.mp4",
+          "default": "assets/placeholders/video-025.mp4",
+          "kind": "video"
+        },
+        "media-13": {
+          "source": "assets/placeholders/video-005.mp4",
+          "default": "assets/placeholders/video-005.mp4",
+          "kind": "video"
+        },
+        "media-14": {
+          "source": "assets/placeholders/video-019.mp4",
+          "default": "assets/placeholders/video-019.mp4",
+          "kind": "video"
+        }
+      },
+      "data_fields": {
+        "state:渲染-02": "渲完自动关机"
+      },
+      "tail_events": [],
+      "action_types": [
+        "bar",
+        "counter",
+        "fade",
+        "state",
+        "style"
+      ]
+    },
+    {
+      "id": "13-background-work",
+      "name": "后台工作",
+      "source_commit": "9c34106367df7cb996bbcf4f724012fc51d45175",
+      "source_window": [
+        68.4,
+        72.4
+      ],
+      "duration": 4.0,
+      "duration_range": [
+        4.0,
+        30
+      ],
+      "template": "modules/13-background-work.tpl",
+      "fields": [
+        {
+          "key": "txt_000",
+          "label": "让任务在后台跑，人去做别的事",
+          "tag": "div",
+          "max_length": 20
+        },
+        {
+          "key": "txt_001",
+          "label": "人工预算 15分钟",
+          "tag": "div",
+          "max_length": 15
+        },
+        {
+          "key": "txt_002",
+          "label": "24小时",
+          "tag": "text",
+          "max_length": 12
+        },
+        {
+          "key": "txt_003",
+          "label": "后台多久，人就守多久？",
+          "tag": "div",
+          "max_length": 17
+        },
+        {
+          "key": "txt_004",
+          "label": "做完一期，就排下一期",
+          "tag": "div",
+          "max_length": 16
+        },
+        {
+          "key": "txt_005",
+          "label": "同时安排3—4条制作线",
+          "tag": "div",
+          "max_length": 17
+        }
+      ],
+      "media": {
+        "media-01": {
+          "source": "assets/placeholders/video-009.mp4",
+          "default": "assets/placeholders/video-009.mp4",
+          "kind": "video"
+        },
+        "media-02": {
+          "source": "assets/placeholders/video-028.mp4",
+          "default": "assets/placeholders/video-028.mp4",
+          "kind": "video"
+        },
+        "media-03": {
+          "source": "assets/placeholders/video-025.mp4",
+          "default": "assets/placeholders/video-025.mp4",
+          "kind": "video"
+        },
+        "media-04": {
+          "source": "assets/placeholders/video-019.mp4",
+          "default": "assets/placeholders/video-019.mp4",
+          "kind": "video"
+        }
+      },
+      "data_fields": {},
+      "tail_events": [],
+      "action_types": [
+        "bar",
+        "fade"
+      ]
+    },
+    {
+      "id": "14-chapter-zoom",
+      "name": "章节04",
+      "source_commit": "9c34106367df7cb996bbcf4f724012fc51d45175",
+      "source_window": [
+        72.4,
+        74.2
+      ],
+      "duration": 1.8,
+      "duration_range": [
+        1.8,
+        30
+      ],
+      "template": "modules/14-chapter-zoom.tpl",
+      "fields": [],
+      "media": {},
+      "data_fields": {
+        "chapter": {
+          "number": "04",
+          "title": "看片把关和返修"
+        }
+      },
+      "tail_events": [
+        "章节04-04"
+      ],
+      "action_types": [
+        "fade",
+        "giant",
+        "move",
+        "state"
+      ]
+    },
+    {
+      "id": "15-review",
+      "name": "审片",
+      "source_commit": "9c34106367df7cb996bbcf4f724012fc51d45175",
+      "source_window": [
+        73.8,
+        86.2
+      ],
+      "duration": 12.4,
+      "duration_range": [
+        12.4,
+        30
+      ],
+      "template": "modules/15-review.tpl",
+      "fields": [
+        {
+          "key": "txt_000",
+          "label": "完整预览 · 从头看一遍",
+          "tag": "div",
+          "max_length": 18
+        },
+        {
+          "key": "txt_004",
+          "label": "开场",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_005",
+          "label": "主体一",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_006",
+          "label": "这段太拖",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_007",
+          "label": "主体二",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_008",
+          "label": "收尾",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_009",
+          "label": "关键判断，留给人",
+          "tag": "div",
+          "max_length": 14
+        },
+        {
+          "key": "txt_010",
+          "label": "人工审片预算",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_011",
+          "label": "10",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_012",
+          "label": "分钟",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_013",
+          "label": "控节奏",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_014",
+          "label": "挑画面",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_015",
+          "label": "核口径",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_016",
+          "label": "口述修改意见",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_017",
+          "label": "这段节奏太拖，",
+          "tag": "div",
+          "max_length": 13
+        },
+        {
+          "key": "txt_018",
+          "label": "帮我收紧一点。",
+          "tag": "div",
+          "max_length": 13
+        }
+      ],
+      "media": {
+        "media-01": {
+          "source": "assets/placeholders/video-021.mp4",
+          "default": "assets/placeholders/video-021.mp4",
+          "kind": "video"
+        }
+      },
+      "data_fields": {},
+      "tail_events": [],
+      "action_types": [
+        "fade",
+        "state",
+        "style"
+      ]
+    },
+    {
+      "id": "16-revision",
+      "name": "返修",
+      "source_commit": "9c34106367df7cb996bbcf4f724012fc51d45175",
+      "source_window": [
+        85.8,
+        93.7
+      ],
+      "duration": 7.9,
+      "duration_range": [
+        7.9,
+        30
+      ],
+      "template": "modules/16-revision.tpl",
+      "fields": [
+        {
+          "key": "txt_000",
+          "label": "只返修指出的段落",
+          "tag": "div",
+          "max_length": 14
+        },
+        {
+          "key": "txt_001",
+          "label": "AI后台返修",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_002",
+          "label": "20—25",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_003",
+          "label": "分钟",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_004",
+          "label": "其他段落继续保留",
+          "tag": "div",
+          "max_length": 14
+        },
+        {
+          "key": "txt_005",
+          "label": "开场",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_006",
+          "label": "主体一",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_008",
+          "label": "主体二",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_009",
+          "label": "收尾",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_010",
+          "label": "一并生成横版与竖版封面",
+          "tag": "div",
+          "max_length": 17
+        },
+        {
+          "key": "txt_011",
+          "label": "✓",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_012",
+          "label": "横版与竖版，一并备齐",
+          "tag": "div",
+          "max_length": 16
+        }
+      ],
+      "media": {
+        "media-01": {
+          "source": "assets/placeholders/cover-wide.svg",
+          "default": "assets/placeholders/cover-wide.svg",
+          "kind": "image"
+        },
+        "media-02": {
+          "source": "assets/placeholders/cover-tall.svg",
+          "default": "assets/placeholders/cover-tall.svg",
+          "kind": "image"
+        }
+      },
+      "data_fields": {
+        "state:返修-02": "局部返修中",
+        "state:返修-03": "已收紧 ✓"
+      },
+      "tail_events": [],
+      "action_types": [
+        "fade",
+        "state"
+      ]
+    },
+    {
+      "id": "17-chapter-slide",
+      "name": "章节05",
+      "source_commit": "9c34106367df7cb996bbcf4f724012fc51d45175",
+      "source_window": [
+        93.7,
+        95.6
+      ],
+      "duration": 1.9,
+      "duration_range": [
+        1.9,
+        30
+      ],
+      "template": "modules/17-chapter-slide.tpl",
+      "fields": [],
+      "media": {},
+      "data_fields": {
+        "chapter": {
+          "number": "05",
+          "title": "多平台发布与收尾"
+        }
+      },
+      "tail_events": [
+        "章节05-03"
+      ],
+      "action_types": [
+        "move"
+      ]
+    },
+    {
+      "id": "18-publishing",
+      "name": "发布",
+      "source_commit": "9c34106367df7cb996bbcf4f724012fc51d45175",
+      "source_window": [
+        95.0,
+        109.30000000000001
+      ],
+      "duration": 14.3,
+      "duration_range": [
+        14.3,
+        30
+      ],
+      "template": "modules/18-publishing.tpl",
+      "fields": [
+        {
+          "key": "txt_000",
+          "label": "多平台定时发布与归档",
+          "tag": "div",
+          "max_length": 16
+        },
+        {
+          "key": "txt_001",
+          "label": "自动填文案标签 ✓　定时发布 ✓　素材入库归档 ✓",
+          "tag": "div",
+          "max_length": 31
+        },
+        {
+          "key": "txt_002",
+          "label": "AI后台",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_003",
+          "label": "约15分钟",
+          "tag": "b",
+          "max_length": 12
+        },
+        {
+          "key": "txt_004",
+          "label": "人工预算",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_005",
+          "label": "2",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_006",
+          "label": "分钟",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_007",
+          "label": "最后检查发布页",
+          "tag": "div",
+          "max_length": 13
+        },
+        {
+          "key": "txt_008",
+          "label": "发布完成后",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_009",
+          "label": "检查实际发布页",
+          "tag": "div",
+          "max_length": 13
+        },
+        {
+          "key": "txt_010",
+          "label": "✓",
+          "tag": "div",
+          "max_length": 12
+        }
+      ],
+      "media": {
+        "media-01": {
+          "source": "assets/placeholders/video-007.mp4",
+          "default": "assets/placeholders/video-007.mp4",
+          "kind": "video"
+        },
+        "media-02": {
+          "source": "assets/placeholders/video-018.mp4",
+          "default": "assets/placeholders/video-018.mp4",
+          "kind": "video"
+        },
+        "media-03": {
+          "source": "assets/ambient/clip-1.mp4",
+          "default": "assets/ambient/clip-1.mp4",
+          "kind": "video"
+        },
+        "media-04": {
+          "source": "assets/ambient/clip-2.mp4",
+          "default": "assets/ambient/clip-2.mp4",
+          "kind": "video"
+        },
+        "media-05": {
+          "source": "assets/ambient/clip-3.mp4",
+          "default": "assets/ambient/clip-3.mp4",
+          "kind": "video"
+        },
+        "media-06": {
+          "source": "assets/ambient/clip-4.mp4",
+          "default": "assets/ambient/clip-4.mp4",
+          "kind": "video"
+        }
+      },
+      "data_fields": {},
+      "tail_events": [],
+      "action_types": [
+        "fade",
+        "state",
+        "style"
+      ]
+    },
+    {
+      "id": "19-budget-ledger",
+      "name": "账本",
+      "source_commit": "9c34106367df7cb996bbcf4f724012fc51d45175",
+      "source_window": [
+        108.9,
+        119.2
+      ],
+      "duration": 10.3,
+      "duration_range": [
+        10.3,
+        30
+      ],
+      "template": "modules/19-budget-ledger.tpl",
+      "fields": [
+        {
+          "key": "txt_000",
+          "label": "制作时间预算账本",
+          "tag": "div",
+          "max_length": 14
+        },
+        {
+          "key": "txt_001",
+          "label": "01 选题与写稿",
+          "tag": "span",
+          "max_length": 14
+        },
+        {
+          "key": "txt_004",
+          "label": "02 配音字幕与素材",
+          "tag": "span",
+          "max_length": 16
+        },
+        {
+          "key": "txt_007",
+          "label": "03 画面与云端渲染",
+          "tag": "span",
+          "max_length": 16
+        },
+        {
+          "key": "txt_010",
+          "label": "04 看片把关与返修",
+          "tag": "span",
+          "max_length": 16
+        },
+        {
+          "key": "txt_013",
+          "label": "05 发布与归档",
+          "tag": "span",
+          "max_length": 14
+        },
+        {
+          "key": "txt_018",
+          "label": "人工预算总计",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_020",
+          "label": "分钟",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_021",
+          "label": "AI后台预算合计",
+          "tag": "div",
+          "max_length": 14
+        },
+        {
+          "key": "txt_022",
+          "label": "70—88",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_023",
+          "label": "分钟",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_024",
+          "label": "约1到1.5小时",
+          "tag": "div",
+          "max_length": 14
+        }
+      ],
+      "media": {
+        "media-01": {
+          "source": "assets/ambient/clip-1.mp4",
+          "default": "assets/ambient/clip-1.mp4",
+          "kind": "video"
+        },
+        "media-02": {
+          "source": "assets/ambient/clip-2.mp4",
+          "default": "assets/ambient/clip-2.mp4",
+          "kind": "video"
+        },
+        "media-03": {
+          "source": "assets/ambient/clip-3.mp4",
+          "default": "assets/ambient/clip-3.mp4",
+          "kind": "video"
+        },
+        "media-04": {
+          "source": "assets/ambient/clip-4.mp4",
+          "default": "assets/ambient/clip-4.mp4",
+          "kind": "video"
+        }
+      },
+      "data_fields": {
+        "budget": {
+          "human": [
+            3,
+            0,
+            0,
+            10,
+            2
+          ],
+          "ai_labels": [
+            "5—8分钟",
+            "5—10分钟",
+            "25—30分钟",
+            "20—25分钟",
+            "约15分钟"
+          ],
+          "human_bar_px_per_minute": 12.5
+        }
+      },
+      "tail_events": [],
+      "action_types": [
+        "bar",
+        "counter",
+        "fade",
+        "state",
+        "style"
+      ]
+    },
+    {
+      "id": "20-parallel-progress",
+      "name": "并行",
+      "source_commit": "9c34106367df7cb996bbcf4f724012fc51d45175",
+      "source_window": [
+        118.7,
+        128.0
+      ],
+      "duration": 9.3,
+      "duration_range": [
+        9.3,
+        30
+      ],
+      "template": "modules/20-parallel-progress.tpl",
+      "fields": [
+        {
+          "key": "txt_000",
+          "label": "同时开",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_001",
+          "label": "3—4条",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_002",
+          "label": "制作流水线",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_003",
+          "label": "人工参与",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_004",
+          "label": "3 + 10 + 2",
+          "tag": "b",
+          "max_length": 16
+        },
+        {
+          "key": "txt_005",
+          "label": "15分钟预算",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_006",
+          "label": "成本拆解",
+          "tag": "p",
+          "max_length": 12
+        },
+        {
+          "key": "txt_007",
+          "label": "稿件、配音与画面",
+          "tag": "div",
+          "max_length": 14
+        },
+        {
+          "key": "txt_008",
+          "label": "资料核对",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_009",
+          "label": "图表与数据",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_010",
+          "label": "财经解读",
+          "tag": "p",
+          "max_length": 12
+        },
+        {
+          "key": "txt_011",
+          "label": "资料核对与图表",
+          "tag": "div",
+          "max_length": 13
+        },
+        {
+          "key": "txt_012",
+          "label": "二次元科普",
+          "tag": "p",
+          "max_length": 12
+        },
+        {
+          "key": "txt_013",
+          "label": "分镜、动效与素材",
+          "tag": "div",
+          "max_length": 14
+        },
+        {
+          "key": "txt_014",
+          "label": "配音 → 字幕",
+          "tag": "div",
+          "max_length": 13
+        },
+        {
+          "key": "txt_015",
+          "label": "素材 → 成片",
+          "tag": "div",
+          "max_length": 13
+        },
+        {
+          "key": "txt_016",
+          "label": "像素闯关",
+          "tag": "p",
+          "max_length": 12
+        },
+        {
+          "key": "txt_017",
+          "label": "画面与结果检查",
+          "tag": "div",
+          "max_length": 13
+        },
+        {
+          "key": "txt_018",
+          "label": "排期目标：每天安排",
+          "tag": "div",
+          "max_length": 15
+        },
+        {
+          "key": "txt_019",
+          "label": "3到4期",
+          "tag": "span",
+          "max_length": 12
+        }
+      ],
+      "media": {
+        "media-01": {
+          "source": "assets/placeholders/video-014.mp4",
+          "default": "assets/placeholders/video-014.mp4",
+          "kind": "video"
+        },
+        "media-02": {
+          "source": "assets/placeholders/video-013.mp4",
+          "default": "assets/placeholders/video-013.mp4",
+          "kind": "video"
+        },
+        "media-03": {
+          "source": "assets/placeholders/video-016.mp4",
+          "default": "assets/placeholders/video-016.mp4",
+          "kind": "video"
+        },
+        "media-04": {
+          "source": "assets/placeholders/video-015.mp4",
+          "default": "assets/placeholders/video-015.mp4",
+          "kind": "video"
+        },
+        "media-05": {
+          "source": "assets/placeholders/video-011.mp4",
+          "default": "assets/placeholders/video-011.mp4",
+          "kind": "video"
+        },
+        "media-06": {
+          "source": "assets/placeholders/video-010.mp4",
+          "default": "assets/placeholders/video-010.mp4",
+          "kind": "video"
+        },
+        "media-07": {
+          "source": "assets/placeholders/video-012.mp4",
+          "default": "assets/placeholders/video-012.mp4",
+          "kind": "video"
+        },
+        "media-08": {
+          "source": "assets/ambient/clip-1.mp4",
+          "default": "assets/ambient/clip-1.mp4",
+          "kind": "video"
+        },
+        "media-09": {
+          "source": "assets/ambient/clip-2.mp4",
+          "default": "assets/ambient/clip-2.mp4",
+          "kind": "video"
+        },
+        "media-10": {
+          "source": "assets/ambient/clip-3.mp4",
+          "default": "assets/ambient/clip-3.mp4",
+          "kind": "video"
+        },
+        "media-11": {
+          "source": "assets/ambient/clip-4.mp4",
+          "default": "assets/ambient/clip-4.mp4",
+          "kind": "video"
+        }
+      },
+      "data_fields": {},
+      "tail_events": [],
+      "action_types": [
+        "bar",
+        "fade",
+        "move",
+        "state"
+      ]
+    },
+    {
+      "id": "21-duration-comparison",
+      "name": "对比",
+      "source_commit": "9c34106367df7cb996bbcf4f724012fc51d45175",
+      "source_window": [
+        127.6,
+        139.2
+      ],
+      "duration": 11.6,
+      "duration_range": [
+        11.6,
+        30
+      ],
+      "template": "modules/21-duration-comparison.tpl",
+      "fields": [
+        {
+          "key": "txt_000",
+          "label": "如果传统流程",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_001",
+          "label": "1—2天",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_002",
+          "label": "写稿 → 录音 → 找素材 → 剪辑 → 发布",
+          "tag": "div",
+          "max_length": 29
+        },
+        {
+          "key": "txt_003",
+          "label": "本例的人工预算",
+          "tag": "div",
+          "max_length": 13
+        },
+        {
+          "key": "txt_004",
+          "label": "15分钟",
+          "tag": "span",
+          "max_length": 12
+        }
+      ],
+      "media": {
+        "media-01": {
+          "source": "assets/placeholders/video-004.mp4",
+          "default": "assets/placeholders/video-004.mp4",
+          "kind": "video"
+        },
+        "media-02": {
+          "source": "assets/placeholders/video-003.mp4",
+          "default": "assets/placeholders/video-003.mp4",
+          "kind": "video"
+        },
+        "media-03": {
+          "source": "assets/ambient/clip-1.mp4",
+          "default": "assets/ambient/clip-1.mp4",
+          "kind": "video"
+        },
+        "media-04": {
+          "source": "assets/ambient/clip-2.mp4",
+          "default": "assets/ambient/clip-2.mp4",
+          "kind": "video"
+        },
+        "media-05": {
+          "source": "assets/ambient/clip-3.mp4",
+          "default": "assets/ambient/clip-3.mp4",
+          "kind": "video"
+        },
+        "media-06": {
+          "source": "assets/ambient/clip-4.mp4",
+          "default": "assets/ambient/clip-4.mp4",
+          "kind": "video"
+        }
+      },
+      "data_fields": {},
+      "tail_events": [],
+      "action_types": [
+        "bar",
+        "fade"
+      ]
+    },
+    {
+      "id": "22-value-summary",
+      "name": "价值",
+      "source_commit": "9c34106367df7cb996bbcf4f724012fc51d45175",
+      "source_window": [
+        138.7,
+        148.8
+      ],
+      "duration": 10.1,
+      "duration_range": [
+        10.1,
+        30
+      ],
+      "template": "modules/22-value-summary.tpl",
+      "fields": [
+        {
+          "key": "txt_000",
+          "label": "重复、耗时的执行工作",
+          "tag": "div",
+          "max_length": 16
+        },
+        {
+          "key": "txt_001",
+          "label": "这份",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_002",
+          "label": "15分钟预算",
+          "tag": "span",
+          "max_length": 12
+        },
+        {
+          "key": "txt_003",
+          "label": "留给最有价值的判断",
+          "tag": "div",
+          "max_length": 15
+        },
+        {
+          "key": "txt_004",
+          "label": "定选题",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_005",
+          "label": "要讲什么",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_006",
+          "label": "核心观点是什么",
+          "tag": "div",
+          "max_length": 13
+        },
+        {
+          "key": "txt_007",
+          "label": "控节奏",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_008",
+          "label": "哪里该收紧",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_009",
+          "label": "哪里需要停留",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_010",
+          "label": "审美把关",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_011",
+          "label": "画面是否清楚",
+          "tag": "div",
+          "max_length": 12
+        },
+        {
+          "key": "txt_012",
+          "label": "表达是否到位",
+          "tag": "div",
+          "max_length": 12
+        }
+      ],
+      "media": {
+        "media-01": {
+          "source": "assets/ambient/clip-1.mp4",
+          "default": "assets/ambient/clip-1.mp4",
+          "kind": "video"
+        },
+        "media-02": {
+          "source": "assets/ambient/clip-2.mp4",
+          "default": "assets/ambient/clip-2.mp4",
+          "kind": "video"
+        },
+        "media-03": {
+          "source": "assets/ambient/clip-3.mp4",
+          "default": "assets/ambient/clip-3.mp4",
+          "kind": "video"
+        },
+        "media-04": {
+          "source": "assets/ambient/clip-4.mp4",
+          "default": "assets/ambient/clip-4.mp4",
+          "kind": "video"
+        }
+      },
+      "data_fields": {},
+      "tail_events": [],
+      "action_types": [
+        "bar",
+        "fade",
+        "style"
+      ]
+    },
+    {
+      "id": "23-ending-type",
+      "name": "末卡",
+      "source_commit": "9c34106367df7cb996bbcf4f724012fc51d45175",
+      "source_window": [
+        148.4,
+        151.266667
+      ],
+      "duration": 2.8666666666666667,
+      "duration_range": [
+        2.8666666666666667,
+        30
+      ],
+      "template": "modules/23-ending-type.tpl",
+      "fields": [],
+      "media": {
+        "media-01": {
+          "source": "assets/placeholders/image.svg",
+          "default": "assets/placeholders/image.svg",
+          "kind": "image"
+        },
+        "media-02": {
+          "source": "assets/ambient/clip-1.mp4",
+          "default": "assets/ambient/clip-1.mp4",
+          "kind": "video"
+        },
+        "media-03": {
+          "source": "assets/ambient/clip-2.mp4",
+          "default": "assets/ambient/clip-2.mp4",
+          "kind": "video"
+        },
+        "media-04": {
+          "source": "assets/ambient/clip-3.mp4",
+          "default": "assets/ambient/clip-3.mp4",
+          "kind": "video"
+        },
+        "media-05": {
+          "source": "assets/ambient/clip-4.mp4",
+          "default": "assets/ambient/clip-4.mp4",
+          "kind": "video"
+        }
+      },
+      "data_fields": {
+        "ending": [
+          [
+            "你最耗时",
+            "的是",
+            "哪一步？"
+          ],
+          [
+            "评论区",
+            "聊聊"
+          ]
+        ]
+      },
+      "tail_events": [],
+      "action_types": [
+        "wordFall"
+      ]
+    }
+  ]
+}

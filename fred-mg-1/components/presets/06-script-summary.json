@@ -1,0 +1,148 @@
+{
+  "schema": "reference-mg-template@1",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 5.6
+  },
+  "theme": {
+    "ink": "#17171d",
+    "paper": "#ffffff",
+    "purple": "#c6a4fa",
+    "purpleOnPaper": "#8050b4"
+  },
+  "data": {
+    "budget": {
+      "human": [
+        3,
+        0,
+        0,
+        10,
+        2
+      ],
+      "ai_labels": [
+        "5—8分钟",
+        "5—10分钟",
+        "25—30分钟",
+        "20—25分钟",
+        "约15分钟"
+      ],
+      "human_bar_px_per_minute": 12.5
+    },
+    "prompt_summary": "五个环节，分别核对人工参与和AI后台时间"
+  },
+  "assetOverrides": {},
+  "copy": {
+    "写稿": {
+      "txt_000": "人工预算",
+      "txt_001": "3",
+      "txt_002": "分钟",
+      "txt_003": "口述核心需求",
+      "txt_004": "AI执行",
+      "txt_005": "5—8",
+      "txt_006": "分钟",
+      "txt_007": "资料核对后生成逐字稿",
+      "txt_008": "需求发出后，AI继续执行",
+      "txt_009": "查资料，核对数据",
+      "txt_010": "完整逐字稿与分镜",
+      "txt_011": "查资料 ✓　核数据 ✓　完整逐字稿 ✓",
+      "txt_012": "✓"
+    }
+  },
+  "scenes": [
+    {
+      "id": "写稿",
+      "start": 0,
+      "end": 5.6,
+      "title": "01 AI继续完成写稿",
+      "dark": false,
+      "header": true,
+      "entry_duration": 0.4,
+      "transition": null,
+      "events": [
+        {
+          "type": "style",
+          "target": "#human",
+          "at": 0,
+          "duration": 0.35,
+          "to": {
+            "opacity": 0.3
+          },
+          "id": "写稿-01"
+        },
+        {
+          "type": "style",
+          "target": "#ai",
+          "at": 0,
+          "duration": 0.35,
+          "to": {
+            "opacity": 1
+          },
+          "id": "写稿-02"
+        },
+        {
+          "type": "move",
+          "target": "#summary",
+          "at": 0,
+          "duration": 0.4,
+          "from": {
+            "y": 60
+          },
+          "to": {
+            "y": 0
+          },
+          "ease": "outC",
+          "id": "写稿-03"
+        },
+        {
+          "type": "fade",
+          "target": "#script-out",
+          "at": 0.2,
+          "duration": 0.3,
+          "from": 0,
+          "to": 1,
+          "id": "写稿-04"
+        },
+        {
+          "type": "fade",
+          "target": "#done",
+          "at": 3.2,
+          "duration": 0.2,
+          "from": 0,
+          "to": 1,
+          "id": "写稿-05"
+        }
+      ],
+      "fadeIn": 0.4,
+      "template": "modules/06-script-summary.tpl",
+      "domId": "scene-5",
+      "media": [
+        {
+          "target": "#v-AI写稿",
+          "src": "assets/placeholders/video-001.mp4",
+          "duration": 5.2,
+          "at": 0.4,
+          "leadPoster": "assets/placeholders/poster.png",
+          "leadFrom": 0
+        },
+        {
+          "target": "#writing-preview",
+          "src": "assets/placeholders/video-020.mp4",
+          "at": 0.4,
+          "duration": 5.2,
+          "leadPoster": "assets/placeholders/poster.png",
+          "leadFrom": 0
+        }
+      ],
+      "visibleEnd": 5.6,
+      "fadeOut": 0
+    }
+  ],
+  "captions": [],
+  "audio": null,
+  "scope": "独立组件；通用素材参数验证",
+  "backgrounds": [],
+  "ambient_walls": [],
+  "layout": {}
+}
