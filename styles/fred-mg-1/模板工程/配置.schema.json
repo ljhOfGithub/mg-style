@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "全套MG模板配置",
+  "type": "object",
+  "required": [
+    "canvas",
+    "theme",
+    "data",
+    "copy",
+    "scenes"
+  ],
+  "properties": {
+    "canvas": {
+      "type": "object"
+    },
+    "theme": {
+      "type": "object"
+    },
+    "data": {
+      "type": "object"
+    },
+    "copy": {
+      "type": "object"
+    },
+    "assetOverrides": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "scenes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "start",
+          "end",
+          "visibleEnd",
+          "template",
+          "events"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "start": {
+            "type": "number",
+            "minimum": 0
+          },
+          "end": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "events": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "type",
+                "target",
+                "at"
+              ],
+              "properties": {
+                "type": {
+                  "enum": [
+                    "bar",
+                    "counter",
+                    "draw",
+                    "fade",
+                    "flip",
+                    "giant",
+                    "mask",
+                    "move",
+                    "state",
+                    "style",
+                    "tiles",
+                    "typing",
+                    "wavefill",
+                    "wordFall"
+                  ]
+                },
+                "target": {
+                  "type": "string"
+                },
+                "at": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "duration": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "knots": {
+                  "type": "array",
+                  "minItems": 2,
+                  "description": "[局部秒,值]节点；0起始、严格递增。"
+                },
+                "fromYs": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "description": "逐字起始高度，可循环复用这组高度。"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "layout": {
+      "type": "object",
+      "description": "按场景分别覆盖明确对象的画面尺寸和样式",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "target",
+            "style"
+          ],
+          "properties": {
+            "target": {
+              "type": "string"
+            },
+            "style": {
+              "type": "object"
+            }
+          }
+        }
+      }
+    },
+    "ambient_walls": {
+      "type": "array",
+      "description": "共享动态背景：起止、可见度、四行速度；不新增原片没有的循环。"
+    }
+  }
+}
