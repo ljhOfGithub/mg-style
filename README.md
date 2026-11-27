@@ -10,6 +10,7 @@
 | nana mg1 | 深蓝青紫讲解风格，15个独立参数组件、30段原示例、单组件预览与构建 | [打开风格文件夹](nana-mg-1/) · [使用说明](nana-mg-1/README.md) |
 | deverel mg1 | 38个绘图组件，双卡、四卡和轻呼吸环独立示例 | [打开风格文件夹](<deverel mg1/>) · [使用说明](<deverel mg1/README.md>) |
 | houzi mg 1 | 20个暖纸格与章节卡组件，4个换内容预览 | [打开风格文件夹](<houzi mg 1/>) · [使用说明](<houzi mg 1/README.md>) |
+| houzi mg2 | 11个纸格、闭环、流水线与卡片组件族，4个独立预览 | [打开风格文件夹](<houzi mg2/>) · [使用说明](<houzi mg2/README.md>) |
 
 ## 添加新风格
 

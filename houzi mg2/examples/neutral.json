@@ -1,0 +1,1179 @@
+{
+  "id": "houzi-mg2-neutral",
+  "title": "研究资料工作流示例",
+  "width": 1440,
+  "height": 1080,
+  "fps": 30,
+  "frames": 2569,
+  "duration": 85.63333333333334,
+  "palette": {
+    "paper": "#f8f6ed",
+    "ink": "#111111",
+    "pink": "#ff9fca",
+    "lime": "#c7f125",
+    "blue": "#7acff5",
+    "yellow": "#ffe35e",
+    "purple": "#ad96ff"
+  },
+  "scenes": [
+    {
+      "index": 1,
+      "frames": [
+        0,
+        349
+      ],
+      "header": {
+        "eyebrow": "RESEARCH WORKFLOW",
+        "badge": "资料处理",
+        "head": "把研究资料",
+        "emphasis": "接成清晰流程",
+        "subline": "示例内容用于验证参数替换，不冒充真实软件或实验结果。",
+        "footer": "COLLECT · REVIEW · WRITE · ARCHIVE",
+        "stacked": false,
+        "accent": "#ff9fca"
+      },
+      "components": [
+        {
+          "id": "scene-1-object-1",
+          "scene": 1,
+          "anchors": {
+            "absent": 25,
+            "first": 26,
+            "middle": 35,
+            "clear": 45
+          },
+          "rect": [
+            515,
+            686,
+            2367,
+            1655
+          ],
+          "kind": "world",
+          "text": [
+            "",
+            "",
+            ""
+          ],
+          "color": "#ff9fca",
+          "shadow": "#7acff5",
+          "renderer": "task-world",
+          "actorSrc": null
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "frames": [
+        349,
+        581
+      ],
+      "header": {
+        "eyebrow": "RESEARCH WORKFLOW",
+        "badge": "资料处理",
+        "head": "把研究资料",
+        "emphasis": "接成清晰流程",
+        "subline": "示例内容用于验证参数替换，不冒充真实软件或实验结果。",
+        "footer": "COLLECT · REVIEW · WRITE · ARCHIVE",
+        "stacked": false,
+        "accent": "#c7f125"
+      },
+      "components": [
+        {
+          "id": "scene-2-object-1",
+          "scene": 2,
+          "anchors": {
+            "absent": 373,
+            "first": 374,
+            "middle": 382,
+            "clear": 391
+          },
+          "rect": [
+            120,
+            920,
+            910,
+            1250
+          ],
+          "kind": "card",
+          "text": [
+            "工作步骤",
+            "收集资料",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#ff9fca",
+          "shadow": "#7acff5",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-2-object-2",
+          "scene": 2,
+          "anchors": {
+            "absent": 381,
+            "first": 382,
+            "middle": 390,
+            "clear": 399
+          },
+          "rect": [
+            920,
+            920,
+            1720,
+            1250
+          ],
+          "kind": "card",
+          "text": [
+            "工作步骤",
+            "整理证据",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#7acff5",
+          "shadow": "#ffe35e",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-2-object-3",
+          "scene": 2,
+          "anchors": {
+            "absent": 389,
+            "first": 390,
+            "middle": 398,
+            "clear": 407
+          },
+          "rect": [
+            120,
+            1250,
+            915,
+            1600
+          ],
+          "kind": "card",
+          "text": [
+            "工作步骤",
+            "核对结论",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#ffe35e",
+          "shadow": "#c7f125",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-2-object-4",
+          "scene": 2,
+          "anchors": {
+            "absent": 397,
+            "first": 398,
+            "middle": 406,
+            "clear": 415
+          },
+          "rect": [
+            920,
+            1250,
+            1720,
+            1600
+          ],
+          "kind": "card",
+          "text": [
+            "工作步骤",
+            "归档文稿",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#c7f125",
+          "shadow": "#ad96ff",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-2-object-5",
+          "scene": 2,
+          "anchors": {
+            "absent": 365,
+            "first": 366,
+            "middle": 374,
+            "clear": 383
+          },
+          "rect": [
+            1715,
+            420,
+            2880,
+            1435
+          ],
+          "kind": "world",
+          "text": [
+            "",
+            "",
+            ""
+          ],
+          "color": "#ad96ff",
+          "shadow": "#ff9fca",
+          "renderer": "robot-loop",
+          "brand": "资料流",
+          "diagramLabels": [
+            "收集",
+            "整理",
+            "核对",
+            "交付"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "frames": [
+        581,
+        757
+      ],
+      "header": {
+        "eyebrow": "RESEARCH WORKFLOW",
+        "badge": "资料处理",
+        "head": "把研究资料",
+        "emphasis": "接成清晰流程",
+        "subline": "示例内容用于验证参数替换，不冒充真实软件或实验结果。",
+        "footer": "COLLECT · REVIEW · WRITE · ARCHIVE",
+        "stacked": false,
+        "accent": "#ff9fca"
+      },
+      "components": [
+        {
+          "id": "scene-3-object-1",
+          "scene": 3,
+          "anchors": {
+            "absent": 605,
+            "first": 606,
+            "middle": 614,
+            "clear": 623
+          },
+          "rect": [
+            120,
+            700,
+            720,
+            1380
+          ],
+          "kind": "card",
+          "text": [
+            "01",
+            "收集资料",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#ff9fca",
+          "shadow": "#7acff5",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-3-object-2",
+          "scene": 3,
+          "anchors": {
+            "absent": 617,
+            "first": 618,
+            "middle": 626,
+            "clear": 635
+          },
+          "rect": [
+            720,
+            850,
+            1320,
+            1530
+          ],
+          "kind": "card",
+          "text": [
+            "02",
+            "整理证据",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#7acff5",
+          "shadow": "#ffe35e",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-3-object-3",
+          "scene": 3,
+          "anchors": {
+            "absent": 629,
+            "first": 630,
+            "middle": 638,
+            "clear": 647
+          },
+          "rect": [
+            1310,
+            1005,
+            1920,
+            1680
+          ],
+          "kind": "card",
+          "text": [
+            "03",
+            "核对结论",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#ffe35e",
+          "shadow": "#c7f125",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-3-object-4",
+          "scene": 3,
+          "anchors": {
+            "absent": 597,
+            "first": 598,
+            "middle": 606,
+            "clear": 615
+          },
+          "rect": [
+            1920,
+            700,
+            2880,
+            1870
+          ],
+          "kind": "phone",
+          "text": [
+            "",
+            "",
+            ""
+          ],
+          "color": "#c7f125",
+          "shadow": "#ad96ff",
+          "renderer": "case-frame"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "frames": [
+        757,
+        1046
+      ],
+      "header": {
+        "eyebrow": "RESEARCH WORKFLOW",
+        "badge": "资料处理",
+        "head": "把研究资料",
+        "emphasis": "接成清晰流程",
+        "subline": "示例内容用于验证参数替换，不冒充真实软件或实验结果。",
+        "footer": "COLLECT · REVIEW · WRITE · ARCHIVE",
+        "stacked": false,
+        "accent": "#7acff5"
+      },
+      "components": [
+        {
+          "id": "scene-4-object-1",
+          "scene": 4,
+          "anchors": {
+            "absent": 777,
+            "first": 778,
+            "middle": 786,
+            "clear": 795
+          },
+          "rect": [
+            120,
+            700,
+            1000,
+            1730
+          ],
+          "kind": "phone",
+          "text": [
+            "",
+            "",
+            ""
+          ],
+          "color": "#ff9fca",
+          "shadow": "#7acff5",
+          "renderer": "case-frame"
+        },
+        {
+          "id": "scene-4-object-2",
+          "scene": 4,
+          "anchors": {
+            "absent": 791,
+            "first": 792,
+            "middle": 800,
+            "clear": 809
+          },
+          "rect": [
+            1000,
+            710,
+            2785,
+            1000
+          ],
+          "kind": "card",
+          "text": [
+            "工作步骤",
+            "整理证据",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#7acff5",
+          "shadow": "#ffe35e",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-4-object-3",
+          "scene": 4,
+          "anchors": {
+            "absent": 813,
+            "first": 814,
+            "middle": 822,
+            "clear": 831
+          },
+          "rect": [
+            1000,
+            1060,
+            2785,
+            1350
+          ],
+          "kind": "card",
+          "text": [
+            "工作步骤",
+            "核对结论",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#ffe35e",
+          "shadow": "#c7f125",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-4-object-4",
+          "scene": 4,
+          "anchors": {
+            "absent": 837,
+            "first": 838,
+            "middle": 846,
+            "clear": 855
+          },
+          "rect": [
+            1000,
+            1410,
+            2785,
+            1620
+          ],
+          "kind": "card",
+          "text": [
+            "",
+            "归档文稿",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#c7f125",
+          "shadow": "#ad96ff",
+          "renderer": "card"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "frames": [
+        1046,
+        1313
+      ],
+      "header": {
+        "eyebrow": "RESEARCH WORKFLOW",
+        "badge": "资料处理",
+        "head": "把研究资料",
+        "emphasis": "接成清晰流程",
+        "subline": "示例内容用于验证参数替换，不冒充真实软件或实验结果。",
+        "footer": "COLLECT · REVIEW · WRITE · ARCHIVE",
+        "stacked": false,
+        "accent": "#ad96ff"
+      },
+      "components": [
+        {
+          "id": "scene-5-object-1",
+          "scene": 5,
+          "anchors": {
+            "absent": 1064,
+            "first": 1065,
+            "middle": 1073,
+            "clear": 1082
+          },
+          "rect": [
+            120,
+            700,
+            1000,
+            1690
+          ],
+          "kind": "phone",
+          "text": [
+            "",
+            "",
+            ""
+          ],
+          "color": "#ff9fca",
+          "shadow": "#7acff5",
+          "renderer": "case-frame"
+        },
+        {
+          "id": "scene-5-object-2",
+          "scene": 5,
+          "anchors": {
+            "absent": 1076,
+            "first": 1077,
+            "middle": 1085,
+            "clear": 1094
+          },
+          "rect": [
+            945,
+            720,
+            1560,
+            1460
+          ],
+          "kind": "card",
+          "text": [
+            "01",
+            "整理证据",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#7acff5",
+          "shadow": "#ffe35e",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-5-object-3",
+          "scene": 5,
+          "anchors": {
+            "absent": 1100,
+            "first": 1101,
+            "middle": 1109,
+            "clear": 1118
+          },
+          "rect": [
+            1555,
+            780,
+            2170,
+            1525
+          ],
+          "kind": "card",
+          "text": [
+            "02",
+            "核对结论",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#ffe35e",
+          "shadow": "#c7f125",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-5-object-4",
+          "scene": 5,
+          "anchors": {
+            "absent": 1124,
+            "first": 1125,
+            "middle": 1133,
+            "clear": 1142
+          },
+          "rect": [
+            2160,
+            840,
+            2780,
+            1595
+          ],
+          "kind": "card",
+          "text": [
+            "03",
+            "归档文稿",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#c7f125",
+          "shadow": "#ad96ff",
+          "renderer": "card"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "frames": [
+        1313,
+        1576
+      ],
+      "header": {
+        "eyebrow": "RESEARCH WORKFLOW",
+        "badge": "资料处理",
+        "head": "把研究资料",
+        "emphasis": "接成清晰流程",
+        "subline": "示例内容用于验证参数替换，不冒充真实软件或实验结果。",
+        "footer": "COLLECT · REVIEW · WRITE · ARCHIVE",
+        "stacked": false,
+        "accent": "#ffe35e"
+      },
+      "components": [
+        {
+          "id": "scene-6-object-1",
+          "scene": 6,
+          "anchors": {
+            "absent": 1337,
+            "first": 1338,
+            "middle": 1346,
+            "clear": 1355
+          },
+          "rect": [
+            120,
+            725,
+            2780,
+            950
+          ],
+          "kind": "card",
+          "text": [
+            "",
+            "收集资料",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#ff9fca",
+          "shadow": "#7acff5",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-6-object-2",
+          "scene": 6,
+          "anchors": {
+            "absent": 1355,
+            "first": 1356,
+            "middle": 1364,
+            "clear": 1373
+          },
+          "rect": [
+            120,
+            970,
+            1000,
+            1415
+          ],
+          "kind": "card",
+          "text": [
+            "CPS",
+            "整理证据",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#7acff5",
+          "shadow": "#ffe35e",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-6-object-3",
+          "scene": 6,
+          "anchors": {
+            "absent": 1369,
+            "first": 1370,
+            "middle": 1378,
+            "clear": 1387
+          },
+          "rect": [
+            1010,
+            970,
+            1885,
+            1415
+          ],
+          "kind": "card",
+          "text": [
+            "CPE",
+            "核对结论",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#ffe35e",
+          "shadow": "#c7f125",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-6-object-4",
+          "scene": 6,
+          "anchors": {
+            "absent": 1383,
+            "first": 1384,
+            "middle": 1392,
+            "clear": 1401
+          },
+          "rect": [
+            1890,
+            970,
+            2780,
+            1415
+          ],
+          "kind": "card",
+          "text": [
+            "CPM",
+            "归档文稿",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#c7f125",
+          "shadow": "#ad96ff",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-6-object-5",
+          "scene": 6,
+          "anchors": {
+            "absent": 1401,
+            "first": 1402,
+            "middle": 1410,
+            "clear": 1419
+          },
+          "rect": [
+            500,
+            1425,
+            2390,
+            1615
+          ],
+          "kind": "card",
+          "text": [
+            "",
+            "收集资料",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#ad96ff",
+          "shadow": "#ff9fca",
+          "renderer": "card"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "frames": [
+        1576,
+        1958
+      ],
+      "header": {
+        "eyebrow": "RESEARCH WORKFLOW",
+        "badge": "资料处理",
+        "head": "把研究资料",
+        "emphasis": "接成清晰流程",
+        "subline": "示例内容用于验证参数替换，不冒充真实软件或实验结果。",
+        "footer": "COLLECT · REVIEW · WRITE · ARCHIVE",
+        "stacked": false,
+        "accent": "#7acff5"
+      },
+      "components": [
+        {
+          "id": "scene-7-object-1",
+          "scene": 7,
+          "anchors": {
+            "absent": 1594,
+            "first": 1595,
+            "middle": 1603,
+            "clear": 1612
+          },
+          "rect": [
+            1840,
+            300,
+            2800,
+            790
+          ],
+          "kind": "card",
+          "text": [
+            "",
+            "收集资料",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#ff9fca",
+          "shadow": "#7acff5",
+          "renderer": "people"
+        },
+        {
+          "id": "scene-7-object-2",
+          "scene": 7,
+          "anchors": {
+            "absent": 1610,
+            "first": 1611,
+            "middle": 1619,
+            "clear": 1628
+          },
+          "rect": [
+            120,
+            875,
+            1005,
+            1200
+          ],
+          "kind": "card",
+          "text": [
+            "01",
+            "整理证据",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#7acff5",
+          "shadow": "#ffe35e",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-7-object-3",
+          "scene": 7,
+          "anchors": {
+            "absent": 1618,
+            "first": 1619,
+            "middle": 1627,
+            "clear": 1636
+          },
+          "rect": [
+            1005,
+            875,
+            1890,
+            1200
+          ],
+          "kind": "card",
+          "text": [
+            "02",
+            "核对结论",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#ffe35e",
+          "shadow": "#c7f125",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-7-object-4",
+          "scene": 7,
+          "anchors": {
+            "absent": 1626,
+            "first": 1627,
+            "middle": 1635,
+            "clear": 1644
+          },
+          "rect": [
+            1890,
+            875,
+            2780,
+            1200
+          ],
+          "kind": "card",
+          "text": [
+            "03",
+            "归档文稿",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#c7f125",
+          "shadow": "#ad96ff",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-7-object-5",
+          "scene": 7,
+          "anchors": {
+            "absent": 1634,
+            "first": 1635,
+            "middle": 1643,
+            "clear": 1652
+          },
+          "rect": [
+            560,
+            1195,
+            1445,
+            1510
+          ],
+          "kind": "card",
+          "text": [
+            "04",
+            "收集资料",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#ad96ff",
+          "shadow": "#ff9fca",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-7-object-6",
+          "scene": 7,
+          "anchors": {
+            "absent": 1642,
+            "first": 1643,
+            "middle": 1651,
+            "clear": 1660
+          },
+          "rect": [
+            1445,
+            1195,
+            2340,
+            1510
+          ],
+          "kind": "card",
+          "text": [
+            "05",
+            "整理证据",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#ff9fca",
+          "shadow": "#7acff5",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-7-object-7",
+          "scene": 7,
+          "anchors": {
+            "absent": 1654,
+            "first": 1655,
+            "middle": 1663,
+            "clear": 1672
+          },
+          "rect": [
+            820,
+            1490,
+            2060,
+            1680
+          ],
+          "kind": "card",
+          "text": [
+            "",
+            "核对结论",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#7acff5",
+          "shadow": "#ffe35e",
+          "renderer": "card"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "frames": [
+        1958,
+        2137
+      ],
+      "header": {
+        "eyebrow": "RESEARCH WORKFLOW",
+        "badge": "资料处理",
+        "head": "把研究资料",
+        "emphasis": "接成清晰流程",
+        "subline": "示例内容用于验证参数替换，不冒充真实软件或实验结果。",
+        "footer": "COLLECT · REVIEW · WRITE · ARCHIVE",
+        "stacked": false,
+        "accent": "#ad96ff"
+      },
+      "components": [
+        {
+          "id": "scene-8-object-1",
+          "scene": 8,
+          "anchors": {
+            "absent": 1986,
+            "first": 1987,
+            "middle": 1995,
+            "clear": 2004
+          },
+          "rect": [
+            120,
+            750,
+            990,
+            1270
+          ],
+          "kind": "card",
+          "text": [
+            "01",
+            "收集资料",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#ff9fca",
+          "shadow": "#7acff5",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-8-object-2",
+          "scene": 8,
+          "anchors": {
+            "absent": 1997,
+            "first": 1998,
+            "middle": 2006,
+            "clear": 2015
+          },
+          "rect": [
+            1010,
+            750,
+            1885,
+            1270
+          ],
+          "kind": "card",
+          "text": [
+            "02",
+            "整理证据",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#7acff5",
+          "shadow": "#ffe35e",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-8-object-3",
+          "scene": 8,
+          "anchors": {
+            "absent": 2008,
+            "first": 2009,
+            "middle": 2017,
+            "clear": 2026
+          },
+          "rect": [
+            1900,
+            750,
+            2780,
+            1270
+          ],
+          "kind": "card",
+          "text": [
+            "03",
+            "核对结论",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#ffe35e",
+          "shadow": "#c7f125",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-8-object-4",
+          "scene": 8,
+          "anchors": {
+            "absent": 2024,
+            "first": 2025,
+            "middle": 2033,
+            "clear": 2042
+          },
+          "rect": [
+            125,
+            1295,
+            2780,
+            1505
+          ],
+          "kind": "card",
+          "text": [
+            "",
+            "归档文稿",
+            "用自己的材料\n替换这一项说明"
+          ],
+          "color": "#c7f125",
+          "shadow": "#ad96ff",
+          "renderer": "card"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "frames": [
+        2137,
+        2569
+      ],
+      "header": {
+        "eyebrow": "RESEARCH WORKFLOW",
+        "badge": "资料处理",
+        "head": "把研究资料",
+        "emphasis": "接成清晰流程",
+        "subline": "示例内容用于验证参数替换，不冒充真实软件或实验结果。",
+        "footer": "COLLECT · REVIEW · WRITE · ARCHIVE",
+        "stacked": false,
+        "accent": "#c7f125"
+      },
+      "components": [
+        {
+          "id": "scene-9-object-1",
+          "scene": 9,
+          "anchors": {
+            "absent": 2167,
+            "first": 2168,
+            "middle": 2176,
+            "clear": 2185
+          },
+          "rect": [
+            130,
+            745,
+            1750,
+            1609
+          ],
+          "kind": "world",
+          "text": [
+            "",
+            "",
+            ""
+          ],
+          "color": "#ff9fca",
+          "shadow": "#7acff5",
+          "renderer": "outro-line",
+          "actorSrc": null
+        },
+        {
+          "id": "scene-9-object-2",
+          "scene": 9,
+          "anchors": {
+            "absent": 2189,
+            "first": 2190,
+            "middle": 2198,
+            "clear": 2207
+          },
+          "rect": [
+            1798,
+            772,
+            2750,
+            1069
+          ],
+          "kind": "card",
+          "text": [
+            "工作步骤",
+            "整理证据",
+            "用自己的材料替换说明"
+          ],
+          "color": "#7acff5",
+          "shadow": "#ffe35e",
+          "cardStyle": "compact",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-9-object-3",
+          "scene": 9,
+          "anchors": {
+            "absent": 2205,
+            "first": 2206,
+            "middle": 2214,
+            "clear": 2223
+          },
+          "rect": [
+            1798,
+            1099,
+            2750,
+            1240
+          ],
+          "kind": "card",
+          "text": [
+            "",
+            "核对结论",
+            ""
+          ],
+          "color": "#ffe35e",
+          "shadow": "#c7f125",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-9-object-4",
+          "scene": 9,
+          "anchors": {
+            "absent": 2214,
+            "first": 2215,
+            "middle": 2223,
+            "clear": 2232
+          },
+          "rect": [
+            1798,
+            1270,
+            2750,
+            1410
+          ],
+          "kind": "card",
+          "text": [
+            "",
+            "归档文稿",
+            ""
+          ],
+          "color": "#c7f125",
+          "shadow": "#ad96ff",
+          "renderer": "card"
+        },
+        {
+          "id": "scene-9-object-5",
+          "scene": 9,
+          "anchors": {
+            "absent": 2223,
+            "first": 2224,
+            "middle": 2232,
+            "clear": 2241
+          },
+          "rect": [
+            1798,
+            1441,
+            2750,
+            1581
+          ],
+          "kind": "card",
+          "text": [
+            "",
+            "收集资料",
+            ""
+          ],
+          "color": "#ad96ff",
+          "shadow": "#ff9fca",
+          "renderer": "card"
+        }
+      ]
+    }
+  ],
+  "captions": [],
+  "media": {},
+  "mode": "remix"
+}

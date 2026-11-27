@@ -43,6 +43,17 @@
       "scene_count": 4,
       "example_count": 4,
       "path": "houzi mg 1"
+    },
+    {
+      "id": "houzi mg2",
+      "name": "houzi mg2",
+      "version": "1.0.0",
+      "engine": "frame-functions",
+      "distribution": "public-components",
+      "component_count": 11,
+      "scene_count": 9,
+      "example_count": 4,
+      "path": "houzi mg2"
     }
   ]
 }
