@@ -2,7 +2,7 @@
   "format": "personal-mg-style@1",
   "id": "fred-mg-2",
   "name": "fred mg2",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "engine": "hyperframes",
   "recreation_compositor": "hypit",
   "distribution": "public-components",
@@ -12,7 +12,7 @@
   "component_count": 43,
   "scene_count": 43,
   "default_config": "examples/source-timeline.json",
-  "review_status": "静帧草案；待用户构图认可，尚未动态检查或正式发布",
+  "review_status": "已实际运行专用Python审片并按确认问题修订；原时序模板保留长停留。许可字体为近似，结尾预览保留已知内容/运动密度差异；不声称逐像素复原或自动候选全部通过",
   "reference_source": {
     "platform": "douyin",
     "url": "https://www.douyin.com/video/7712675882543975689",
@@ -23,5 +23,26 @@
     "verification": "实际系统Chrome作品页、完整本地原片、原生帧与半秒OCR交叉核对",
     "recorded_on": "2026-11-27",
     "rights": "链接仅说明可见风格分析来源，不授予原片、原音、人物或第三方案例的再分发许可。"
+  },
+  "source_frames": 7872,
+  "source_fps": 30,
+  "user_approval_required": false,
+  "fonts": {
+    "body": "Noto Sans CJK SC Bold",
+    "display": "Orbitron 900 oblique，源字体身份未认证",
+    "display_file": "assets/fonts/Orbitron-variable.ttf",
+    "display_license": "assets/fonts/Orbitron-OFL.txt"
+  },
+  "automatic_review": {
+    "program": "自动审片.py / mgdiff@0.1.0",
+    "reference_frames": 7872,
+    "recreation_frames": 7872,
+    "baseline_motion_candidates": 18,
+    "r1_motion_candidates": 2,
+    "r3_motion_candidates": 1,
+    "r3_primary_candidates": 28,
+    "half_second_and_last_ocr_frames": 526,
+    "execution_exit": 0,
+    "candidate_status": "候选不是确诊或审美通过；保留当前结尾预览运动密度差异"
   }
 }
