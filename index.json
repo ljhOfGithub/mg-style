@@ -21,6 +21,17 @@
       "template_count": 15,
       "distribution": "public-placeholder",
       "component_count": 15
+    },
+    {
+      "id": "deverel mg1",
+      "name": "deverel mg1",
+      "version": "1.0.0",
+      "engine": "hyperframes",
+      "distribution": "public-components",
+      "component_count": 38,
+      "scene_count": 1,
+      "example_count": 3,
+      "path": "deverel mg1"
     }
   ]
 }

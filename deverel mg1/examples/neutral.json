@@ -1,0 +1,215 @@
+{
+  "id": "benefit-catalog-demo",
+  "mode": "neutral",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 24,
+  "sourceFps": 30,
+  "background": {
+    "dark": "#100b20",
+    "light": "#eeebe4",
+    "ink": "#151719",
+    "muted": "#a7a39a",
+    "blue": "#677bea",
+    "gold": "#65c5b3",
+    "green": "#36a170"
+  },
+  "content": {
+    "overviewTitle": "项\n团队资源",
+    "overviewNumber": "7",
+    "price": "示例方案",
+    "list": [
+      "项目空间",
+      "资料引用",
+      "内容制作",
+      "代码助手",
+      "文档整理",
+      "任务验证",
+      "团队存储"
+    ],
+    "models": [
+      "资料",
+      "规划",
+      "执行",
+      "验证"
+    ],
+    "bucket": "TEAM",
+    "bundleTitle": "一套方案\n统一协作",
+    "computeTitle": "任务额度与资源消耗",
+    "quota": 120,
+    "quotaLabel": "个任务\n配额",
+    "gpuCards": [
+      {
+        "title": "L4 · 24G 显存",
+        "value": "1.9",
+        "note": "每小时算力消耗"
+      },
+      {
+        "title": "A100 · 大显存",
+        "value": "6~10",
+        "note": "每小时算力消耗"
+      }
+    ],
+    "formula": "200 ÷ 1.9 ≈ 105",
+    "checks": [
+      "可用模型资源",
+      "自选推理模型",
+      "更大显存与任务"
+    ],
+    "terminal": [
+      "# runtime environment",
+      "python -m pip install -U toolkit",
+      "python run_task.py --model selected",
+      "✓ Ready in 2m 41s"
+    ],
+    "timeValue": "02:41",
+    "browserTitle": "围绕资料，分步核对",
+    "steps": [
+      "选择资料",
+      "引用当前内容",
+      "核对后采用"
+    ],
+    "flowTitle": "内容工作台",
+    "flowSubtitle": "AI 视频创作工作台",
+    "flowMetrics": [
+      {
+        "value": 50,
+        "label": "积分"
+      },
+      {
+        "value": 1000,
+        "label": "积分"
+      }
+    ],
+    "flowSteps": [
+      "图片 · 文本",
+      "统一编辑",
+      "视频生成"
+    ],
+    "modelsTitle": "模型与能力",
+    "ringLabel": "5 小时",
+    "modelList": [
+      "规划模型",
+      "资料模型",
+      "写作模型",
+      "执行模型",
+      "审查模型",
+      "验证模型"
+    ],
+    "modelNotes": [
+      "Neon / Argon / Hydrogen",
+      "日常主力",
+      "Opus 5.5 / Sonnet 5.5"
+    ],
+    "notebookTitle": "学术和资料工具，额度四格",
+    "notebookMetrics": [
+      {
+        "value": 4,
+        "label": "倍额度"
+      },
+      {
+        "value": 500,
+        "label": "个笔记本"
+      },
+      {
+        "value": 300,
+        "label": "份资料"
+      },
+      {
+        "value": 50,
+        "label": "万字"
+      }
+    ],
+    "julesTitle": "云端任务与验证",
+    "taskRows": [
+      "Objective: 更新仓库中的功能",
+      "Repo: selected/project",
+      "Task: 修改指定文件",
+      "Test: 运行验证",
+      "Pull Request: review branch"
+    ],
+    "receiptLines": [
+      [
+        "团队协作方案",
+        "示例额度"
+      ],
+      [
+        "任务资源",
+        "按需核对"
+      ]
+    ],
+    "receiptTotal": "$9.99",
+    "stamp": "历史示例",
+    "storageTitle": "团队存储空间",
+    "storageValue": "2TB",
+    "familyLabel": "家庭共享",
+    "outroTitle": "把动作带到新内容",
+    "outroSubtitle": "文字、数据、素材都可替换",
+    "modelsHeading": "信息先汇合，再形成能力"
+  },
+  "timings": {
+    "scenes": [
+      [
+        "intro",
+        0,
+        90
+      ],
+      [
+        "models",
+        90,
+        240
+      ],
+      [
+        "compute",
+        240,
+        420
+      ],
+      [
+        "browser",
+        420,
+        540
+      ],
+      [
+        "storage",
+        540,
+        630
+      ],
+      [
+        "outro",
+        630,
+        720
+      ]
+    ],
+    "checks": [
+      510,
+      524,
+      537
+    ],
+    "taskRows": [
+      3173,
+      3190,
+      3206,
+      3223,
+      3239
+    ],
+    "browserActive": [
+      1002,
+      1234,
+      1300
+    ],
+    "modelActive": [
+      2220,
+      2320,
+      2390
+    ],
+    "bucketAt": 124,
+    "notebookGroupUp": [
+      2826,
+      2868
+    ],
+    "terminalAt": 814
+  },
+  "media": [],
+  "referenceAssetsUsage": "本片内部对照；案例区域裁切、无原作者外包装/头像。素材权利不因源码转移。"
+}

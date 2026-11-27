@@ -6,6 +6,7 @@ import json
 import re
 import sys
 import tempfile
+import subprocess
 
 sys.dont_write_bytecode = True
 ROOT = Path(__file__).resolve().parents[1]
@@ -27,6 +28,13 @@ def main():
         assert library.name == style['id'], '风格目录应与登记ID一致'
         assert (library / 'README.md').is_file(), '缺少风格使用入口'
         meta = json.loads((library / '风格.json').read_text())
+        if meta.get('project_type') == 'frame-function-components':
+            assert meta['component_count'] == style['component_count']
+            assert meta['distribution'] == 'public-components'
+            assert not any(f.suffix.lower() in ['.wav', '.mp3', '.flac', '.m4a'] for f in library.rglob('*'))
+            subprocess.run(['node', 'tools/verify.mjs'], cwd=library, check=True)
+            count += 1
+            continue
         project = library / meta['project']
         config = json.loads((project / '配置.json').read_text())
         assert len(config['scenes']) == style['scene_count']

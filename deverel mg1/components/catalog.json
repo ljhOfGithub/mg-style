@@ -1,0 +1,324 @@
+{
+  "format": "deverel-mg-components@1",
+  "components": [
+    {
+      "id": "overviewList",
+      "module": "../src/components.mjs",
+      "family": "基础兼容",
+      "kind": "svg",
+      "function": "overviewList",
+      "preview_configs": []
+    },
+    {
+      "id": "priceCard",
+      "module": "../src/components.mjs",
+      "family": "基础兼容",
+      "kind": "svg",
+      "function": "priceCard",
+      "preview_configs": []
+    },
+    {
+      "id": "modelTimeline",
+      "module": "../src/components.mjs",
+      "family": "基础兼容",
+      "kind": "svg",
+      "function": "modelTimeline",
+      "preview_configs": []
+    },
+    {
+      "id": "bundleBucket",
+      "module": "../src/components.mjs",
+      "family": "基础兼容",
+      "kind": "svg",
+      "function": "bundleBucket",
+      "preview_configs": []
+    },
+    {
+      "id": "quotaGrid",
+      "module": "../src/components.mjs",
+      "family": "基础兼容",
+      "kind": "svg",
+      "function": "quotaGrid",
+      "preview_configs": []
+    },
+    {
+      "id": "gpuCard",
+      "module": "../src/components.mjs",
+      "family": "基础兼容",
+      "kind": "svg",
+      "function": "gpuCard",
+      "preview_configs": []
+    },
+    {
+      "id": "formulaCard",
+      "module": "../src/components.mjs",
+      "family": "基础兼容",
+      "kind": "svg",
+      "function": "formulaCard",
+      "preview_configs": []
+    },
+    {
+      "id": "verificationRows",
+      "module": "../src/components.mjs",
+      "family": "基础兼容",
+      "kind": "svg",
+      "function": "verificationRows",
+      "preview_configs": []
+    },
+    {
+      "id": "terminalPanel",
+      "module": "../src/components.mjs",
+      "family": "基础兼容",
+      "kind": "svg",
+      "function": "terminalPanel",
+      "preview_configs": []
+    },
+    {
+      "id": "stepList",
+      "module": "../src/components.mjs",
+      "family": "基础兼容",
+      "kind": "svg",
+      "function": "stepList",
+      "preview_configs": []
+    },
+    {
+      "id": "metricPair",
+      "module": "../src/components.mjs",
+      "family": "基础兼容",
+      "kind": "svg",
+      "function": "metricPair",
+      "preview_configs": []
+    },
+    {
+      "id": "inputChain",
+      "module": "../src/components.mjs",
+      "family": "基础兼容",
+      "kind": "svg",
+      "function": "inputChain",
+      "preview_configs": []
+    },
+    {
+      "id": "ring",
+      "module": "../src/components.mjs",
+      "family": "基础兼容",
+      "kind": "svg",
+      "function": "ring",
+      "preview_configs": []
+    },
+    {
+      "id": "modelList",
+      "module": "../src/components.mjs",
+      "family": "基础兼容",
+      "kind": "svg",
+      "function": "modelList",
+      "preview_configs": []
+    },
+    {
+      "id": "fourMetrics",
+      "module": "../src/components.mjs",
+      "family": "基础兼容",
+      "kind": "svg",
+      "function": "fourMetrics",
+      "preview_configs": []
+    },
+    {
+      "id": "waveform",
+      "module": "../src/components.mjs",
+      "family": "基础兼容",
+      "kind": "svg",
+      "function": "waveform",
+      "preview_configs": []
+    },
+    {
+      "id": "taskPanel",
+      "module": "../src/components.mjs",
+      "family": "基础兼容",
+      "kind": "svg",
+      "function": "taskPanel",
+      "preview_configs": []
+    },
+    {
+      "id": "receiptCard",
+      "module": "../src/components.mjs",
+      "family": "基础兼容",
+      "kind": "svg",
+      "function": "receiptCard",
+      "preview_configs": []
+    },
+    {
+      "id": "storagePanel",
+      "module": "../src/components.mjs",
+      "family": "基础兼容",
+      "kind": "svg",
+      "function": "storagePanel",
+      "preview_configs": []
+    },
+    {
+      "id": "closingCard",
+      "module": "../src/components.mjs",
+      "family": "基础兼容",
+      "kind": "svg",
+      "function": "closingCard",
+      "preview_configs": []
+    },
+    {
+      "id": "contrastGroup",
+      "module": "../src/components.mjs",
+      "family": "基础兼容",
+      "kind": "svg",
+      "function": "contrastGroup",
+      "preview_configs": []
+    },
+    {
+      "id": "twoStageNotes",
+      "module": "../src/components.mjs",
+      "family": "基础兼容",
+      "kind": "svg",
+      "function": "twoStageNotes",
+      "preview_configs": []
+    },
+    {
+      "id": "backdropWord",
+      "module": "../src/components.mjs",
+      "family": "基础兼容",
+      "kind": "svg",
+      "function": "backdropWord",
+      "preview_configs": []
+    },
+    {
+      "id": "pulsingRing",
+      "module": "../src/refined-components.mjs",
+      "family": "分层组件",
+      "kind": "svg",
+      "function": "pulsingRing",
+      "preview_configs": [
+        "../examples/pulsing-ring-reuse.json"
+      ]
+    },
+    {
+      "id": "windowShell",
+      "module": "../src/refined-components.mjs",
+      "family": "分层组件",
+      "kind": "svg",
+      "function": "windowShell",
+      "preview_configs": []
+    },
+    {
+      "id": "growingGpu",
+      "module": "../src/refined-components.mjs",
+      "family": "分层组件",
+      "kind": "svg",
+      "function": "growingGpu",
+      "preview_configs": []
+    },
+    {
+      "id": "growingBar",
+      "module": "../src/refined-components.mjs",
+      "family": "分层组件",
+      "kind": "svg",
+      "function": "growingBar",
+      "preview_configs": []
+    },
+    {
+      "id": "stagedSteps",
+      "module": "../src/refined-components.mjs",
+      "family": "分层组件",
+      "kind": "svg",
+      "function": "stagedSteps",
+      "preview_configs": []
+    },
+    {
+      "id": "independentMetrics",
+      "module": "../src/refined-components.mjs",
+      "family": "分层组件",
+      "kind": "svg",
+      "function": "independentMetrics",
+      "preview_configs": [
+        "../examples/flow-reuse.json",
+        "../examples/notebook-reuse.json"
+      ]
+    },
+    {
+      "id": "inputWorkbench",
+      "module": "../src/refined-components.mjs",
+      "family": "分层组件",
+      "kind": "svg",
+      "function": "inputWorkbench",
+      "preview_configs": []
+    },
+    {
+      "id": "flowPreview",
+      "module": "../src/refined-components.mjs",
+      "family": "分层组件",
+      "kind": "svg",
+      "function": "flowPreview",
+      "preview_configs": []
+    },
+    {
+      "id": "modelEmphasis",
+      "module": "../src/refined-components.mjs",
+      "family": "分层组件",
+      "kind": "svg",
+      "function": "modelEmphasis",
+      "preview_configs": []
+    },
+    {
+      "id": "audioOverview",
+      "module": "../src/refined-components.mjs",
+      "family": "分层组件",
+      "kind": "svg",
+      "function": "audioOverview",
+      "preview_configs": []
+    },
+    {
+      "id": "taskTerminal",
+      "module": "../src/refined-components.mjs",
+      "family": "分层组件",
+      "kind": "svg",
+      "function": "taskTerminal",
+      "preview_configs": []
+    },
+    {
+      "id": "taskFeedback",
+      "module": "../src/refined-components.mjs",
+      "family": "分层组件",
+      "kind": "svg",
+      "function": "taskFeedback",
+      "preview_configs": []
+    },
+    {
+      "id": "continuousReceipt",
+      "module": "../src/refined-components.mjs",
+      "family": "分层组件",
+      "kind": "svg",
+      "function": "continuousReceipt",
+      "preview_configs": []
+    },
+    {
+      "id": "phasedStorage",
+      "module": "../src/refined-components.mjs",
+      "family": "分层组件",
+      "kind": "svg",
+      "function": "phasedStorage",
+      "preview_configs": []
+    },
+    {
+      "id": "videoBenefit",
+      "module": "../src/refined-components.mjs",
+      "family": "分层组件",
+      "kind": "svg",
+      "function": "videoBenefit",
+      "preview_configs": []
+    }
+  ],
+  "media_adapter": {
+    "function": "mediaWindow",
+    "module": "../src/components.mjs"
+  },
+  "state_helpers": [
+    "countState",
+    "stagedState",
+    "activeState",
+    "pulseRingState"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "format": "existing-render-verification@1",
+  "source_revision": "google-ai-pro-1/v3-r1",
+  "source_render_and_review_preserved": true,
+  "source_file_hashes": {
+    "src/components.mjs": "3aee1004c7de3794a7ae3397e5f06a04df596df4b2a3d938f275a518655e8d30",
+    "src/refined-components.mjs": "a8493797e9c1ed252ab7eb8a754f8fabdcc85b8d505311801f8cf7330dc08d9a",
+    "src/browser.mjs": "e3e33f4b63b3fa4a864313c3fa940b0052bad6b9eed4806c120669b61f160102",
+    "src/scene.mjs": "69cbc975512472999611522b2f6d5fa80c1cd15a4a67b3bb49f15e579045e638",
+    "src/refined-scenes.mjs": "f3941eddca94e80d6568d5275200efb0fb7ab88a1bdfd8e05fc280ba4d50af03",
+    "src/measured-curves.json": "dafe61c66bfd18793a636484ff94b3118082957f21e4b1ad15accf07f096cf42",
+    "src/gap-ring.mjs": "ae698ad14b0b3953de92702dcddeb7a8d81bcefb4451c044e33559e2f0cbe61e"
+  },
+  "previews": [
+    {
+      "id": "flow-reuse",
+      "config": "examples/flow-reuse.json",
+      "video": "previews/flow-reuse.mp4",
+      "frames": 135,
+      "fps": 30,
+      "sha256": "b654313329939ba25476f8d368a65af1986b2665c415f579d66433efeaaec3fb",
+      "half_second_and_last_ocr_samples": 10,
+      "ocr": "verification/flow-reuse-ocr.json",
+      "decode_exit_code": 0,
+      "new_render_in_this_publish": false
+    },
+    {
+      "id": "notebook-reuse",
+      "config": "examples/notebook-reuse.json",
+      "video": "previews/notebook-reuse.mp4",
+      "frames": 150,
+      "fps": 30,
+      "sha256": "39622d89b582bf4369e64c9a43875bd24c21cf94bc8f3002aa53b207ae02c259",
+      "half_second_and_last_ocr_samples": 11,
+      "ocr": "verification/notebook-reuse-ocr.json",
+      "decode_exit_code": 0,
+      "new_render_in_this_publish": false
+    },
+    {
+      "id": "pulsing-ring-reuse",
+      "config": "examples/pulsing-ring-reuse.json",
+      "video": "previews/pulsing-ring-reuse.mp4",
+      "frames": 120,
+      "fps": 30,
+      "sha256": "7b796cd70619d82135c7a8ddf25de6b2071322d0542f650811e8e7c1c3d7db8b",
+      "half_second_and_last_ocr_samples": 9,
+      "ocr": "verification/pulsing-ring-reuse-ocr.json",
+      "decode_exit_code": 0,
+      "new_render_in_this_publish": false
+    }
+  ]
+}

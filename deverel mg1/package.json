@@ -1,0 +1,14 @@
+{
+  "name": "deverel-mg1",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "build": "node tools/build.mjs",
+    "build:flow": "node tools/build.mjs --config examples/flow-reuse.json --out .build/flow-reuse",
+    "build:notebook": "node tools/build.mjs --config examples/notebook-reuse.json --out .build/notebook-reuse",
+    "build:ring": "node tools/build.mjs --config examples/pulsing-ring-reuse.json --out .build/pulsing-ring-reuse",
+    "verify": "node tools/verify.mjs"
+  }
+}
