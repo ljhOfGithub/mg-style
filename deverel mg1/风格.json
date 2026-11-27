@@ -20,5 +20,15 @@
     "tools/verify.mjs"
   ],
   "preview": "previews/flow-reuse.mp4",
-  "scope": "可组合SVG/DOM动效函数；包含数字独立增长、错峰入场、媒体窗口包装、分组强调和整组轻呼吸；不分发原片或原音。"
+  "scope": "可组合SVG/DOM动效函数；包含数字独立增长、错峰入场、媒体窗口包装、分组强调和整组轻呼吸；不分发原片或原音。",
+  "reference_source": {
+    "platform": "douyin",
+    "url": "https://www.douyin.com/video/7709865794791918848",
+    "video_id": "7709865794791918848",
+    "title": "谷歌AI Pro七项隐藏福利",
+    "verification": "原制作工程浏览器与下载记录、实际用户请求交叉核对",
+    "recorded_on": "2026-11-27",
+    "rights": "公开参考作品链接仅用于说明可见动作分析来源；不代表取得原作者工程、原片、原声、人物或案例的再分发授权。",
+    "share_url": "https://v.douyin.com/INMsVY3tqUs/"
+  }
 }

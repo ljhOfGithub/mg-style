@@ -7,11 +7,11 @@
     },
     {
       "path": "NOTICE.md",
-      "sha256": "058f2a30ba3a479f84293f0971a319f1f3a8f1b27183ac5a3aa118bcec47a5db"
+      "sha256": "1ec2a62a5a4c59eaa720364f5dbdb232a54e8be86f51afbdff44e2a6c265a261"
     },
     {
       "path": "README.md",
-      "sha256": "803484bf134ecf95dc07c106784feeeb9a18467ce302855ab04c695a4c85e9ef"
+      "sha256": "9c77f564ab5e6e26e961b837b8b9644cdfccaa75372ddea64b647a6369edf3c8"
     },
     {
       "path": "assets/FONT-LICENSE.txt",
@@ -139,7 +139,7 @@
     },
     {
       "path": "风格.json",
-      "sha256": "1eeb6871c736854f8a75cade046bcc0c72443b49490c02c88a6d0f5c9f09fad3"
+      "sha256": "22b9c4d1ba243c0753530284716b278c44e48666f3cc53c17c4a5f0a5d00ac42"
     }
   ]
 }

@@ -7,7 +7,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "973a0070d14c23bff0f48e69f959df993c6f127c07c56f9dbead254ceefb3820"
+      "sha256": "316085d7b112e6ed2a6aa8623e545c9b4a5714d80d0046edc16a77351dbef321"
     },
     {
       "path": "components/README.md",
@@ -1103,7 +1103,7 @@
     },
     {
       "path": "风格.json",
-      "sha256": "0b99b0f546fcccc03f585a4d28f66c468c38b972333f90677b22f295e48a60db"
+      "sha256": "12a26b1c17bf2744736a42ed11855083a105e74e56048dcbe86c3cc4bff2e6d8"
     },
     {
       "path": "验证结果.json",

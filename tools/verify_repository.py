@@ -7,6 +7,7 @@ import re
 import sys
 import tempfile
 import subprocess
+from verify_sources import verify_sources
 
 sys.dont_write_bytecode = True
 ROOT = Path(__file__).resolve().parents[1]
@@ -20,6 +21,7 @@ def candidates():
 
 
 def main():
+    verify_sources(ROOT)
     catalog = json.loads((ROOT / 'index.json').read_text())
     count = 0
     for style in catalog['styles']:

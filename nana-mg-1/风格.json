@@ -12,5 +12,14 @@
   "editor": "编辑器.html",
   "scope": "15类可组合MG模块、30段完整示例；双层斜向卷页、摘要与媒体双阶段退场；素材全部为通用图形。",
   "component_library": "components",
-  "component_count": 15
+  "component_count": 15,
+  "reference_source": {
+    "platform": "douyin",
+    "url": "https://www.douyin.com/video/7667501595546180473",
+    "video_id": "7667501595546180473",
+    "title": "既有nana模板参考片",
+    "verification": "既有来源与许可记录；未重新确认作者账号",
+    "recorded_on": "2026-11-27",
+    "rights": "公开参考作品链接仅用于说明可见动作分析来源；不代表取得原作者工程、原片、原声、人物或案例的再分发授权。"
+  }
 }
