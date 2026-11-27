@@ -1,0 +1,47 @@
+{
+  "previews": [
+    {
+      "id": "card",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "frames": 120,
+      "fps": 30,
+      "audio_streams": 0,
+      "full_decode_exit": 0,
+      "sha256": "70ba762620806990b1eb3f4a288f69094bc347f467fad72574f57a8ef4c4e50f"
+    },
+    {
+      "id": "loop",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "frames": 120,
+      "fps": 30,
+      "audio_streams": 0,
+      "full_decode_exit": 0,
+      "sha256": "dbb1fad3e990ed22d2b0af83f06ae59a3dadedc54310f890be31a37c44175a7e"
+    },
+    {
+      "id": "sticker",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "frames": 120,
+      "fps": 30,
+      "audio_streams": 0,
+      "full_decode_exit": 0,
+      "sha256": "5f43db815890d4f6c956e32a5aa93ce2b86fac1a7e8355b6ee03b9b72bfcb8b9"
+    },
+    {
+      "id": "outro",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "frames": 120,
+      "fps": 30,
+      "audio_streams": 0,
+      "full_decode_exit": 0,
+      "sha256": "86c709115731fa439220bde76c092c962d1443d63ba5118957ed17a963a03127"
+    }
+  ],
+  "existing_example_dom_equivalent": true,
+  "existing_example_state_equivalent_frames": 360,
+  "scope": "文件技术与状态检查；不是正常速度完整人工观看"
+}

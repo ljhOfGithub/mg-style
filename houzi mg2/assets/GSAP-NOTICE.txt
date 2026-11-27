@@ -1,0 +1,4 @@
+GSAP 3.14.2 retains its original GreenSock copyright and Standard License.
+Original copyright notice is embedded in gsap.min.js.
+Terms: https://gsap.com/standard-license/
+Not covered by any separate project license.

@@ -1,0 +1,15 @@
+{
+  "name": "houzi-mg2",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "build": "node tools/build.mjs",
+    "build:card": "node tools/build.mjs --config examples/card.json --out .build/card",
+    "build:loop": "node tools/build.mjs --config examples/loop.json --out .build/loop",
+    "build:sticker": "node tools/build.mjs --config examples/sticker.json --out .build/sticker",
+    "build:outro": "node tools/build.mjs --config examples/outro.json --out .build/outro",
+    "verify": "node tools/verify.mjs"
+  }
+}

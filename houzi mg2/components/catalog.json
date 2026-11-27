@@ -1,0 +1,72 @@
+{
+  "id": "houzi mg2",
+  "counting": "11个组件族，绘制函数、状态函数与实例数不累加",
+  "components": [
+    {
+      "id": "header-band",
+      "name": "页头、徽标与标题底色",
+      "function": "headerHtml / headerState / highlightState",
+      "behavior": "标题与底色独立；重点底色只短促从左到右展开，不扩张正文扫色"
+    },
+    {
+      "id": "settle-card",
+      "name": "整卡短入场",
+      "function": "cardHtml / settleState",
+      "behavior": "低透明、向上回位、小幅尺度回位和软边消退；组内文字不擅自另行错峰"
+    },
+    {
+      "id": "staggered-card-group",
+      "name": "错峰卡组",
+      "function": "scene.components / settleState",
+      "behavior": "每卡自有原生帧锚点；四模块分别374/382/390/398，非旧配音重排时窗"
+    },
+    {
+      "id": "workflow-strip",
+      "name": "整条流程带",
+      "function": "cardHtml(strip)",
+      "behavior": "箭头和三个标签作为一组建立，不虚构点击或单步延迟"
+    },
+    {
+      "id": "media-slot",
+      "name": "真实案例插槽",
+      "function": "caseFrameHtml / mediaHtml",
+      "behavior": "手机/窗口固定尺度，外框由源码绘制；局部视频保留1×原速并可替换"
+    },
+    {
+      "id": "robot-loop",
+      "name": "闭环总览",
+      "function": "robotWorldHtml → robotLoopSvg",
+      "behavior": "四块平台+中央机器人四臂+静态顺时针闭环箭头，整体落位软转清，无四块独立转动"
+    },
+    {
+      "id": "task-world",
+      "name": "完整多任务现场",
+      "function": "taskWorldHtml → openingHtml",
+      "behavior": "桌面、故事板、日历、评论、分发、变现和中央角色层；整组同时建立、无独立假手势"
+    },
+    {
+      "id": "audience-group",
+      "name": "五类使用者人物组",
+      "function": "peopleHtml",
+      "behavior": "代码重建的人物组，整组入场；承认与原插画外观不同"
+    },
+    {
+      "id": "caption-window",
+      "name": "单字幕窗",
+      "function": "captionAt / filmHtml",
+      "behavior": "一处文字槽；原内容模式采用现有ASR句段辅助时码，未冒称原屏幕逐字一致"
+    },
+    {
+      "id": "neutral-sticker",
+      "name": "中性收藏贴纸",
+      "function": "stickerHtml / settleState(sticker)",
+      "behavior": "末段短建立、轻过冲回位、固定12度；不带原作者头像"
+    },
+    {
+      "id": "outro-line",
+      "name": "独立内容到成交流水线",
+      "function": "outroLineHtml → outroLineSvg / settleState(world)",
+      "behavior": "拍摄剪辑→角色/笔记本/机器人→日历/平台/增长币→受众/握手成交，整体入场，不复用开场构图"
+    }
+  ]
+}

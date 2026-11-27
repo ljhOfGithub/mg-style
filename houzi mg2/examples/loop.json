@@ -1,0 +1,74 @@
+{
+  "id": "houzi-mg2-loop",
+  "title": "独立loop组件复用",
+  "width": 1440,
+  "height": 1080,
+  "fps": 30,
+  "frames": 120,
+  "duration": 4,
+  "palette": {
+    "paper": "#f8f6ed",
+    "ink": "#111111",
+    "pink": "#ff9fca",
+    "lime": "#c7f125",
+    "blue": "#7acff5",
+    "yellow": "#ffe35e",
+    "purple": "#ad96ff"
+  },
+  "mode": "component",
+  "captions": [],
+  "scenes": [
+    {
+      "index": 1,
+      "frames": [
+        0,
+        120
+      ],
+      "header": {
+        "eyebrow": "ONE-PERSON CONTENT TEAM",
+        "badge": "一人内容团队",
+        "head": "一个人，",
+        "emphasis": "扛起整支内容团队",
+        "subline": "编导、运营、客服、分发、变现同时压上来，真正拖慢效率的是无休止的重复操作。",
+        "footer": "THE PAIN · TOO MANY REPEATED TASKS",
+        "stacked": false,
+        "accent": "#ff9fca"
+      },
+      "components": [
+        {
+          "id": "research-router",
+          "scene": 2,
+          "anchors": {
+            "absent": 14,
+            "first": 15,
+            "middle": 23,
+            "clear": 32
+          },
+          "rect": [
+            1715,
+            420,
+            2880,
+            1435
+          ],
+          "kind": "world",
+          "text": [
+            "",
+            "",
+            ""
+          ],
+          "color": "#ad96ff",
+          "shadow": "#ff9fca",
+          "renderer": "robot-loop",
+          "brand": "资料流"
+        }
+      ],
+      "headerEvent": {
+        "highlight": [
+          0,
+          11
+        ]
+      }
+    }
+  ],
+  "media": {}
+}

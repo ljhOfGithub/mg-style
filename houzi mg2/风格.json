@@ -1,0 +1,22 @@
+{
+  "format": "personal-mg-style@1",
+  "id": "houzi mg2",
+  "name": "houzi mg2",
+  "version": "1.0.0",
+  "engine": "frame-functions",
+  "distribution": "public-components",
+  "project_type": "frame-function-components",
+  "project": ".",
+  "component_library": "components",
+  "component_catalog": "components/catalog.json",
+  "component_count": 11,
+  "scene_count": 9,
+  "example_count": 4,
+  "default_config": "examples/neutral.json",
+  "preview": "previews/loop.mp4",
+  "verify_command": [
+    "node",
+    "tools/verify.mjs"
+  ],
+  "scope": "纸格底、标题强调、短回位卡片、四平台闭环、人物组、媒体插槽与独立流水线；通用公开组件"
+}

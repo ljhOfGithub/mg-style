@@ -1,0 +1,89 @@
+{
+  "previews": [
+    {
+      "id": "card",
+      "video": "previews/card.mp4",
+      "sha256": "70ba762620806990b1eb3f4a288f69094bc347f467fad72574f57a8ef4c4e50f",
+      "frames": 120,
+      "fps": 30,
+      "duration": 4,
+      "build_command": [
+        "tools/build.mjs",
+        "--config",
+        "examples/card.json",
+        "--out",
+        ".build/card"
+      ],
+      "ocr": "verification/card-ocr.json",
+      "ocr_sha256": "b24a90e0f3bd74288b1bcf8b32c24746397ecb9eea56c45a4fb3580934fde249",
+      "half_second_and_last_ocr_samples": 9,
+      "engine": "hyperframes",
+      "cli_version": "0.9.99",
+      "validation": "真实渲染预览；公开配置可见DOM和120帧状态与预览输入等价；OCR仅规范化file为文件名"
+    },
+    {
+      "id": "loop",
+      "video": "previews/loop.mp4",
+      "sha256": "dbb1fad3e990ed22d2b0af83f06ae59a3dadedc54310f890be31a37c44175a7e",
+      "frames": 120,
+      "fps": 30,
+      "duration": 4,
+      "build_command": [
+        "tools/build.mjs",
+        "--config",
+        "examples/loop.json",
+        "--out",
+        ".build/loop"
+      ],
+      "ocr": "verification/loop-ocr.json",
+      "ocr_sha256": "f298191089e8525e14081dde16fca4ce0a19c9e6af3f5fc4cdcf7d636debf1ab",
+      "half_second_and_last_ocr_samples": 9,
+      "engine": "hyperframes",
+      "cli_version": "0.9.99",
+      "validation": "真实渲染预览；公开配置可见DOM和120帧状态与预览输入等价；OCR仅规范化file为文件名"
+    },
+    {
+      "id": "sticker",
+      "video": "previews/sticker.mp4",
+      "sha256": "5f43db815890d4f6c956e32a5aa93ce2b86fac1a7e8355b6ee03b9b72bfcb8b9",
+      "frames": 120,
+      "fps": 30,
+      "duration": 4,
+      "build_command": [
+        "tools/build.mjs",
+        "--config",
+        "examples/sticker.json",
+        "--out",
+        ".build/sticker"
+      ],
+      "ocr": "verification/sticker-ocr.json",
+      "ocr_sha256": "593646ca25e2c91302f296dd05515d2387d081656612a04e6b750488452c11cb",
+      "half_second_and_last_ocr_samples": 9,
+      "engine": "hyperframes",
+      "cli_version": "0.9.99",
+      "validation": "真实渲染预览；公开配置可见DOM和120帧状态与预览输入等价；OCR仅规范化file为文件名"
+    },
+    {
+      "id": "outro",
+      "video": "previews/outro.mp4",
+      "sha256": "86c709115731fa439220bde76c092c962d1443d63ba5118957ed17a963a03127",
+      "frames": 120,
+      "fps": 30,
+      "duration": 4,
+      "build_command": [
+        "tools/build.mjs",
+        "--config",
+        "examples/outro.json",
+        "--out",
+        ".build/outro"
+      ],
+      "ocr": "verification/outro-ocr.json",
+      "ocr_sha256": "86ded8bc5bdab57b60c7c84418c82ef44ff6502cb7c642767270f85331e8ae6f",
+      "half_second_and_last_ocr_samples": 9,
+      "engine": "hyperframes",
+      "cli_version": "0.9.99",
+      "validation": "当前公开参数实际渲染，lint/inspect/check/render/decode/OCR均退出0；未宣称精确复刻或完整动态审美认可"
+    }
+  ],
+  "scope": "4个无声实际渲染独立例；半秒/末帧OCR每条9张。3例保持可见DOM与360帧等价，流水线例以公开配置另行渲染。"
+}
