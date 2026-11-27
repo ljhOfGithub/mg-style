@@ -1,0 +1,4 @@
+import {renderScene,mediaState} from './scene.mjs';
+const config=window.MG_CONFIG,curves=window.MG_CURVES,svg=document.getElementById('art'),root=document.getElementById('stage'),offset=config.outputOffset??0;
+export function renderTime(time){const s=renderScene(config,time+offset,curves);root.style.background=s.background;svg.innerHTML=s.markup;for(const m of config.media){const el=document.getElementById(m.id),a=mediaState(config,m,s.frame);if(el){el.style.visibility=a.visible?'visible':'hidden';el.style.opacity=a.alpha;el.style.transform=`translateY(${a.y}px)`;}}return s;}
+const clock={time:0};const tl=gsap.timeline({paused:true});tl.to(clock,{time:config.duration,duration:config.duration,ease:'none',onUpdate:()=>renderTime(clock.time)},0);renderTime(0);window.__timelines={main:tl};window.mgRenderTime=renderTime;

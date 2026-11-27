@@ -1,0 +1,124 @@
+{
+  "id": "flow-reuse-v2",
+  "revision": "v2",
+  "mode": "component",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "sourceFps": 30,
+  "duration": 4.5,
+  "background": {
+    "dark": "#100b20",
+    "light": "#eeebe4",
+    "ink": "#151719",
+    "muted": "#a7a39a",
+    "blue": "#4898e6",
+    "gold": "#e5b534",
+    "green": "#36a170"
+  },
+  "content": {},
+  "timings": {
+    "scenes": [
+      [
+        "component",
+        0,
+        135
+      ]
+    ]
+  },
+  "media": [],
+  "component": {
+    "type": "independentMetrics",
+    "background": "#100b20",
+    "props": {
+      "dark": true,
+      "ats": [
+        12,
+        27
+      ],
+      "duration": 10,
+      "counts": [
+        [
+          [
+            12,
+            0
+          ],
+          [
+            17,
+            9
+          ],
+          [
+            23,
+            29
+          ],
+          [
+            29,
+            41
+          ],
+          [
+            35,
+            47
+          ],
+          [
+            51,
+            50
+          ]
+        ],
+        [
+          [
+            27,
+            0
+          ],
+          [
+            29,
+            54
+          ],
+          [
+            35,
+            432
+          ],
+          [
+            51,
+            927
+          ],
+          [
+            63,
+            999
+          ],
+          [
+            69,
+            1000
+          ]
+        ]
+      ],
+      "rects": [
+        [
+          125,
+          250,
+          380,
+          210
+        ],
+        [
+          545,
+          250,
+          590,
+          210
+        ]
+      ],
+      "items": [
+        {
+          "value": 120,
+          "label": "每日 · 体验额度",
+          "unit": "点",
+          "note": "适合日常草稿预览"
+        },
+        {
+          "value": 2400,
+          "label": "每月 · 创作额度",
+          "unit": "点",
+          "note": "适合批量制作项目"
+        }
+      ]
+    }
+  }
+}

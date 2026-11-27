@@ -1,0 +1,24 @@
+{
+  "format": "personal-mg-style@1",
+  "id": "deverel mg1",
+  "name": "deverel mg1",
+  "version": "1.0.0",
+  "engine": "hyperframes",
+  "distribution": "public-components",
+  "project_type": "frame-function-components",
+  "project": ".",
+  "component_library": "components",
+  "component_catalog": "components/catalog.json",
+  "component_count": 38,
+  "refined_component_count": 15,
+  "base_component_count": 23,
+  "scene_count": 1,
+  "example_count": 3,
+  "default_config": "examples/flow-reuse.json",
+  "verify_command": [
+    "node",
+    "tools/verify.mjs"
+  ],
+  "preview": "previews/flow-reuse.mp4",
+  "scope": "可组合SVG/DOM动效函数；包含数字独立增长、错峰入场、媒体窗口包装、分组强调和整组轻呼吸；不分发原片或原音。"
+}

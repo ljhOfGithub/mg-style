@@ -1,0 +1,59 @@
+{
+  "id": "pulsing-ring-reuse-v3",
+  "revision": "v3",
+  "mode": "component",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "sourceFps": 30,
+  "duration": 4,
+  "background": {
+    "dark": "#100b20",
+    "light": "#eeebe4",
+    "ink": "#151719",
+    "muted": "#a7a39a",
+    "blue": "#4898e6",
+    "gold": "#e5b534",
+    "green": "#36a170"
+  },
+  "content": {},
+  "timings": {
+    "scenes": [
+      [
+        "component",
+        0,
+        120
+      ]
+    ]
+  },
+  "media": [],
+  "component": {
+    "type": "pulsingRing",
+    "background": "#eeebe4",
+    "props": {
+      "x": 640,
+      "y": 330,
+      "r": 140,
+      "strokeWidth": 15,
+      "label": "24 小时",
+      "labelSize": 48,
+      "labelY": 12,
+      "subLabel": "轮班周期",
+      "subLabelSize": 22,
+      "subLabelY": 52,
+      "caption": "自动交接提醒",
+      "captionSize": 18,
+      "captionY": 84,
+      "fraction": 0.75,
+      "at": -30,
+      "duration": 30,
+      "breathing": {
+        "startFrame": 12,
+        "endFrame": 120,
+        "periodFrames": 55.3725,
+        "amplitude": 0.029949509597765923
+      }
+    }
+  },
+  "provenance": "Google原片83秒附近启动并持续到切章的约3%整组轻呼吸；灰底/绿弧/文字同组缩放，朝向固定。这里只替换文字与数值。"
+}

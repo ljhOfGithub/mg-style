@@ -1,0 +1,145 @@
+{
+  "format": "source-baseline@1",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "6dfaa55cd0a77f8c2a948f0a8ad88f03d7b629286c7fdeb4ad3a50bc711ee854"
+    },
+    {
+      "path": "NOTICE.md",
+      "sha256": "058f2a30ba3a479f84293f0971a319f1f3a8f1b27183ac5a3aa118bcec47a5db"
+    },
+    {
+      "path": "README.md",
+      "sha256": "803484bf134ecf95dc07c106784feeeb9a18467ce302855ab04c695a4c85e9ef"
+    },
+    {
+      "path": "assets/FONT-LICENSE.txt",
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "assets/font.otf",
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+    },
+    {
+      "path": "assets/gsap.min.js",
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    {
+      "path": "components/catalog.json",
+      "sha256": "8a02a80e5acb69d4100ee0262459deb270238497d207e22474eae30510a92cb9"
+    },
+    {
+      "path": "examples/component-quota.json",
+      "sha256": "bffaca8e41608c2407d401703429dd3981da848cf7e6820014c9c212a237467c"
+    },
+    {
+      "path": "examples/component-tasks.json",
+      "sha256": "d1b98cd89d6e405a5489ddca12ba233c4e6ead8f11c2112480ba987399d5cbdc"
+    },
+    {
+      "path": "examples/flow-reuse.json",
+      "sha256": "f8d5752772d686fe9b92c3cf7ff403e7bdc8713f4c5d9f0e01813a6f73344efb"
+    },
+    {
+      "path": "examples/neutral.json",
+      "sha256": "c00598182a2117fc662487983e295b38f3845dc2bcd588306363a518a4445f68"
+    },
+    {
+      "path": "examples/notebook-reuse.json",
+      "sha256": "1173b8961827602c04c76df431ebfa8d0c0dc4987c3da4692f02226c83113531"
+    },
+    {
+      "path": "examples/pulsing-ring-reuse.json",
+      "sha256": "f3c4b068aa8a8521b7f821bc5079305114f0fc978d617a143ecea1da93118f3b"
+    },
+    {
+      "path": "package.json",
+      "sha256": "080f1daba1bbe838e1ba351eb83a7226632b156d8ec3d1bdc1af8ba5a6aece8c"
+    },
+    {
+      "path": "previews/flow-reuse.mp4",
+      "sha256": "b654313329939ba25476f8d368a65af1986b2665c415f579d66433efeaaec3fb"
+    },
+    {
+      "path": "previews/notebook-reuse.mp4",
+      "sha256": "39622d89b582bf4369e64c9a43875bd24c21cf94bc8f3002aa53b207ae02c259"
+    },
+    {
+      "path": "previews/pulsing-ring-reuse.mp4",
+      "sha256": "7b796cd70619d82135c7a8ddf25de6b2071322d0542f650811e8e7c1c3d7db8b"
+    },
+    {
+      "path": "src/browser.mjs",
+      "sha256": "e3e33f4b63b3fa4a864313c3fa940b0052bad6b9eed4806c120669b61f160102"
+    },
+    {
+      "path": "src/components.mjs",
+      "sha256": "3aee1004c7de3794a7ae3397e5f06a04df596df4b2a3d938f275a518655e8d30"
+    },
+    {
+      "path": "src/gap-ring.mjs",
+      "sha256": "ae698ad14b0b3953de92702dcddeb7a8d81bcefb4451c044e33559e2f0cbe61e"
+    },
+    {
+      "path": "src/measured-curves.json",
+      "sha256": "dafe61c66bfd18793a636484ff94b3118082957f21e4b1ad15accf07f096cf42"
+    },
+    {
+      "path": "src/refined-components.mjs",
+      "sha256": "a8493797e9c1ed252ab7eb8a754f8fabdcc85b8d505311801f8cf7330dc08d9a"
+    },
+    {
+      "path": "src/refined-scenes.mjs",
+      "sha256": "f3941eddca94e80d6568d5275200efb0fb7ab88a1bdfd8e05fc280ba4d50af03"
+    },
+    {
+      "path": "src/scene.mjs",
+      "sha256": "69cbc975512472999611522b2f6d5fa80c1cd15a4a67b3bb49f15e579045e638"
+    },
+    {
+      "path": "tests/components.test.mjs",
+      "sha256": "1b91060daa5c0ca7b3bdddd4151a0567c5b78e5be59559b5500a963e3741b4fb"
+    },
+    {
+      "path": "tools/build.mjs",
+      "sha256": "c671f2764c29a29a448d05cc2ccf7166318ceac98f816602576f8b02d22851d9"
+    },
+    {
+      "path": "tools/component.mjs",
+      "sha256": "d6035a654d8d7bd1a0e16c7ed1e477bc64a7df5542f65dda605e9f3b56bdf7f7"
+    },
+    {
+      "path": "tools/verify.mjs",
+      "sha256": "152109e584bacc6978f0e5926a0e96bbd7991c955901d29d66e5934d1bd3ecd6"
+    },
+    {
+      "path": "verification/flow-reuse-ocr.json",
+      "sha256": "72bbc0e8f6180383f0b2be51429918b02cfc1f8ec8c47aacaddf3e0af07e0aae"
+    },
+    {
+      "path": "verification/notebook-reuse-ocr.json",
+      "sha256": "47350180efa08c42e6aecdb684a52b2b99adbed2bda4283c36bb176170edc3da"
+    },
+    {
+      "path": "verification/previews.json",
+      "sha256": "ae777d9d81c1eb5673b2714d87217fd1410066e52ab4b3a0debe34a2ccc89f27"
+    },
+    {
+      "path": "verification/pulsing-ring-reuse-ocr.json",
+      "sha256": "4731b0e1f1de6c4a4f342d8465d3b18359da212d53c16dc86d9189cfbe7e4f4c"
+    },
+    {
+      "path": "基础组件接口.md",
+      "sha256": "7dd5ea89713887b995958b08ebb6f8625667b846632fca370b663c7214ebf861"
+    },
+    {
+      "path": "组件接口.md",
+      "sha256": "9960070489ed296b4e87e2574433be05271641852512848a216376ea581a70d2"
+    },
+    {
+      "path": "风格.json",
+      "sha256": "1eeb6871c736854f8a75cade046bcc0c72443b49490c02c88a6d0f5c9f09fad3"
+    }
+  ]
+}
