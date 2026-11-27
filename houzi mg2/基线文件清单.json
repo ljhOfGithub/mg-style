@@ -6,11 +6,11 @@
     },
     {
       "path": "NOTICE.md",
-      "sha256": "270386203961305d4abc8bef9616e989992223721ecfa501886505a0cbeba6bf"
+      "sha256": "52e1dac5782f350c1a1d48d8666880e8ab76780ee358db8b62b37c8d2055a59c"
     },
     {
       "path": "README.md",
-      "sha256": "e57959741b73e2f80bd33334f822ace40248342a066135efe7e79e6d36f89c78"
+      "sha256": "f87a50b716b304248eb5fb3d5e8005128b23d78edc443861ea50e3af79750ad2"
     },
     {
       "path": "assets/GSAP-NOTICE.txt",
@@ -150,7 +150,7 @@
     },
     {
       "path": "风格.json",
-      "sha256": "237f0b8e5c2961d6d4b794bcdf1803a4af72c6a5700dff0c3acdab49f968754d"
+      "sha256": "a07b6b59065b10fcd90710f635ce32bf2db977eb29af1b6cf2f1742d1f424c4a"
     }
   ]
 }

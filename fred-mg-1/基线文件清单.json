@@ -8,7 +8,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "22b273d02ea57b45e0dff4b046b2d5775436efec9caaf787ae689660e41c484e"
+      "sha256": "b46b4afdc9308762e560f63e35da2ef19c01681c2aeb8dc34165353ee2ce81d9"
     },
     {
       "path": "components/README.md",
@@ -1412,7 +1412,7 @@
     },
     {
       "path": "风格.json",
-      "sha256": "73b6e2d47f8dafd835fdb9e8220e55333fdb3b66b1045ae3b08feca2494a9618"
+      "sha256": "ce9ca3c34b6e9efd496a0f24b68bc374ab02150826a415dd0d8387df482c195a"
     }
   ],
   "version": "1.1.0"

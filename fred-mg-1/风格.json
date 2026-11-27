@@ -11,5 +11,15 @@
   "comparison": null,
   "scope": "完整动作模板与通用占位媒体；不包含个人或第三方案例媒体。",
   "component_count": 23,
-  "component_library": "components"
+  "component_library": "components",
+  "reference_source": {
+    "platform": "douyin",
+    "url": "https://www.douyin.com/video/7711624059825491263",
+    "video_id": "7711624059825491263",
+    "title": "FredTalk公开参考片",
+    "verification": "既有NOTICE来源短链；本次核实短链302作品号",
+    "recorded_on": "2026-11-27",
+    "rights": "公开参考作品链接仅用于说明可见动作分析来源；不代表取得原作者工程、原片、原声、人物或案例的再分发授权。",
+    "share_url": "https://v.douyin.com/8n3w0GrNF9k/"
+  }
 }

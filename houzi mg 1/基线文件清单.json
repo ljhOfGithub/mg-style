@@ -6,7 +6,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "983adeef1d63a88ae5c6b03ec57de7b3cb2dd72095bb05babd94edd3120eb2f4"
+      "sha256": "1b58f95848362f0e0be59bc7326a8abd07dc66755aa5f69eb54785eb3dd0a248"
     },
     {
       "path": ".gitignore",
@@ -18,7 +18,7 @@
     },
     {
       "path": "风格.json",
-      "sha256": "ecf20140e5bf0ed3c7bd1842d22be90e261281044d55f087aeb1130004a8cb20"
+      "sha256": "aa701445036c7333fc67ba98f7fbce8f4c486168b0e0bce058bbec1ff1bbebaf"
     },
     {
       "path": "组件接口.md",
@@ -26,7 +26,7 @@
     },
     {
       "path": "NOTICE.md",
-      "sha256": "8d52855e4cda371817da733875d32aa06079a8fc1414f780fe3f187a7ab719cb"
+      "sha256": "14d0b96dd9670a0a5218d625b7dc5f075315b6903f1eca437fb6d9746a32364d"
     },
     {
       "path": "tools/inline-media.mjs",

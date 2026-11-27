@@ -18,5 +18,15 @@
     "node",
     "tools/verify.mjs"
   ],
-  "scope": "暖纸格、章节卡、独立入场、短叠化聚焦、背景虚化与总结链；源码按帧求状态，可接Hypit或Hyperframes；不含参考媒体"
+  "scope": "暖纸格、章节卡、独立入场、短叠化聚焦、背景虚化与总结链；源码按帧求状态，可接Hypit或Hyperframes；不含参考媒体",
+  "reference_source": {
+    "platform": "douyin",
+    "url": "https://www.douyin.com/video/7707492692657327400",
+    "video_id": "7707492692657327400",
+    "title": "一句话调动AI团队，Magic把结果直接交付",
+    "verification": "原制作工程作品身份与实际用户请求交叉核对",
+    "recorded_on": "2026-11-27",
+    "rights": "公开参考作品链接仅用于说明可见动作分析来源；不代表取得原作者工程、原片、原声、人物或案例的再分发授权。",
+    "share_url": "https://v.douyin.com/1KxL2hR1J3I/"
+  }
 }

@@ -9,7 +9,8 @@
       "engine": "hyperframes",
       "scene_count": 23,
       "distribution": "public-placeholder",
-      "component_count": 23
+      "component_count": 23,
+      "reference_url": "https://www.douyin.com/video/7711624059825491263"
     },
     {
       "id": "nana-mg-1",
@@ -20,7 +21,8 @@
       "scene_count": 30,
       "template_count": 15,
       "distribution": "public-placeholder",
-      "component_count": 15
+      "component_count": 15,
+      "reference_url": "https://www.douyin.com/video/7667501595546180473"
     },
     {
       "id": "deverel mg1",
@@ -31,7 +33,8 @@
       "component_count": 38,
       "scene_count": 1,
       "example_count": 3,
-      "path": "deverel mg1"
+      "path": "deverel mg1",
+      "reference_url": "https://www.douyin.com/video/7709865794791918848"
     },
     {
       "id": "houzi mg 1",
@@ -42,7 +45,8 @@
       "component_count": 20,
       "scene_count": 4,
       "example_count": 4,
-      "path": "houzi mg 1"
+      "path": "houzi mg 1",
+      "reference_url": "https://www.douyin.com/video/7707492692657327400"
     },
     {
       "id": "houzi mg2",
@@ -53,7 +57,8 @@
       "component_count": 11,
       "scene_count": 9,
       "example_count": 4,
-      "path": "houzi mg2"
+      "path": "houzi mg2",
+      "reference_url": "https://www.douyin.com/video/7677862342813617444"
     }
   ]
 }
