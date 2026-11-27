@@ -32,6 +32,17 @@
       "scene_count": 1,
       "example_count": 3,
       "path": "deverel mg1"
+    },
+    {
+      "id": "houzi mg 1",
+      "name": "houzi mg 1",
+      "version": "1.0.0",
+      "engine": "frame-functions",
+      "distribution": "public-components",
+      "component_count": 20,
+      "scene_count": 4,
+      "example_count": 4,
+      "path": "houzi mg 1"
     }
   ]
 }

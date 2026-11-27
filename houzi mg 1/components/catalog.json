@@ -1,0 +1,530 @@
+{
+  "style": "houzi mg 1",
+  "version": "1.0.0",
+  "designCoordinates": [
+    960,
+    720
+  ],
+  "output": [
+    1440,
+    1080
+  ],
+  "fps": 30,
+  "registrySource": "../src/components.mjs",
+  "registryCount": 20,
+  "registry": [
+    {
+      "function": "paperBackground",
+      "signature": "paperBackground({accent,theme})",
+      "parameters": {
+        "内容": [],
+        "几何": [],
+        "样式": [
+          "accent",
+          "theme.paper",
+          "theme.grid"
+        ],
+        "时间或状态": []
+      },
+      "phaseMethod": "静态背景，无时间输入；不漂移",
+      "needsMediaForRealContent": false,
+      "mediaKeys": [],
+      "note": ""
+    },
+    {
+      "function": "chapterHeader",
+      "signature": "chapterHeader(s,frame,theme)",
+      "parameters": {
+        "内容": [
+          "s.kicker",
+          "s.tag",
+          "s.title",
+          "s.subtitle",
+          "s.index",
+          "s.total"
+        ],
+        "几何": [
+          "s.highlight"
+        ],
+        "样式": [
+          "s.accent",
+          "theme.ink"
+        ],
+        "时间或状态": [
+          "frame",
+          "s.startFrame"
+        ]
+      },
+      "phaseMethod": "章节局部帧：标题组alpha(f,0,12)，说明alpha(f,5,12)",
+      "needsMediaForRealContent": false,
+      "mediaKeys": [],
+      "note": ""
+    },
+    {
+      "function": "cardBox",
+      "signature": "cardBox({x,y,w,h,accent,fill,r,stroke,shadow,body,a})",
+      "parameters": {
+        "内容": [
+          "body"
+        ],
+        "几何": [
+          "x",
+          "y",
+          "w",
+          "h",
+          "r",
+          "shadow"
+        ],
+        "样式": [
+          "accent",
+          "fill",
+          "stroke"
+        ],
+        "时间或状态": [
+          "a"
+        ]
+      },
+      "phaseMethod": "调用者传入a；边框、偏移影板与正文同组；不自带计时",
+      "needsMediaForRealContent": false,
+      "mediaKeys": [],
+      "note": ""
+    },
+    {
+      "function": "pill",
+      "signature": "pill({text,x,y,w,fill,size,h,baseline})",
+      "parameters": {
+        "内容": [
+          "text"
+        ],
+        "几何": [
+          "x",
+          "y",
+          "w",
+          "h=29",
+          "baseline=20"
+        ],
+        "样式": [
+          "fill",
+          "size=14"
+        ],
+        "时间或状态": []
+      },
+      "phaseMethod": "静态标签；h和baseline是可选值，默认不变",
+      "needsMediaForRealContent": false,
+      "mediaKeys": [],
+      "note": ""
+    },
+    {
+      "function": "mediaCard",
+      "signature": "mediaCard({x,y,w,h,media,accent,a,label,labelWidth})",
+      "parameters": {
+        "内容": [
+          "label",
+          "media"
+        ],
+        "几何": [
+          "x",
+          "y",
+          "w",
+          "h",
+          "labelWidth=null"
+        ],
+        "样式": [
+          "accent"
+        ],
+        "时间或状态": [
+          "a=1"
+        ]
+      },
+      "phaseMethod": "外部a控制整组；媒体保持比例，标签由源码绘制",
+      "needsMediaForRealContent": true,
+      "mediaKeys": [],
+      "note": "media直接传入单组媒体；labelWidth省略时按文字估宽，最后限制不超过w-24"
+    },
+    {
+      "function": "introSummary",
+      "signature": "introSummary(c,frame,at,accent)",
+      "parameters": {
+        "内容": [
+          "c.name",
+          "c.headline",
+          "c.capabilities"
+        ],
+        "几何": [],
+        "样式": [
+          "accent"
+        ],
+        "时间或状态": [
+          "frame",
+          "at"
+        ]
+      },
+      "phaseMethod": "alpha(frame,at,10)整卡建立",
+      "needsMediaForRealContent": false,
+      "mediaKeys": [],
+      "note": ""
+    },
+    {
+      "function": "introProcess",
+      "signature": "introProcess(c,frame,at,accent)",
+      "parameters": {
+        "内容": [
+          "c.miniTitle",
+          "c.miniItems"
+        ],
+        "几何": [],
+        "样式": [
+          "accent"
+        ],
+        "时间或状态": [
+          "frame",
+          "at"
+        ]
+      },
+      "phaseMethod": "alpha(frame,at,10)整卡建立，内部不逐项假点击",
+      "needsMediaForRealContent": false,
+      "mediaKeys": [],
+      "note": ""
+    },
+    {
+      "function": "problemCards",
+      "signature": "problemCards(items,frame,start,ats,accent,curves=null)",
+      "parameters": {
+        "内容": [
+          "items[].icon",
+          "items[].title",
+          "items[].note",
+          "items[].bad",
+          "items[].solution"
+        ],
+        "几何": [],
+        "样式": [
+          "accent"
+        ],
+        "时间或状态": [
+          "frame",
+          "start",
+          "ats[]",
+          "curves[][]"
+        ]
+      },
+      "phaseMethod": "第i卡alpha(frame,start+ats[i],10,curves?.[i])；曲线横轴相对该卡起点",
+      "needsMediaForRealContent": false,
+      "mediaKeys": [],
+      "note": ""
+    },
+    {
+      "function": "painSummary",
+      "signature": "painSummary({items,frame,at,accent,curve=null})",
+      "parameters": {
+        "内容": [
+          "items[]"
+        ],
+        "几何": [],
+        "样式": [
+          "accent"
+        ],
+        "时间或状态": [
+          "frame",
+          "at",
+          "curve"
+        ]
+      },
+      "phaseMethod": "alpha(frame,at,20,curve)驱动透明度、14px上移及0.98到1短缩放；建立后静止",
+      "needsMediaForRealContent": false,
+      "mediaKeys": [],
+      "note": ""
+    },
+    {
+      "function": "stepCards",
+      "signature": "stepCards(items,frame,start,ats,accent,{x,y,w,h,gap,numberBox,curves}={})",
+      "parameters": {
+        "内容": [
+          "items[].title",
+          "items[].note"
+        ],
+        "几何": [
+          "x=586",
+          "y=298",
+          "w=315",
+          "h=70",
+          "gap=46",
+          "numberBox=false"
+        ],
+        "样式": [
+          "accent"
+        ],
+        "时间或状态": [
+          "frame",
+          "start",
+          "ats[]",
+          "curves[][]"
+        ]
+      },
+      "phaseMethod": "各卡alpha(frame,start+ats[i],10,curves?.[i])；静态箭头随所属卡建立，不流动",
+      "needsMediaForRealContent": false,
+      "mediaKeys": [],
+      "note": ""
+    },
+    {
+      "function": "overviewGallery",
+      "signature": "overviewGallery(labels,media,frame,start,ats,accent)",
+      "parameters": {
+        "内容": [
+          "labels[]",
+          "media"
+        ],
+        "几何": [],
+        "样式": [
+          "accent"
+        ],
+        "时间或状态": [
+          "frame",
+          "start",
+          "ats[]"
+        ]
+      },
+      "phaseMethod": "2×2各卡alpha(frame,start+ats[i],10)",
+      "needsMediaForRealContent": true,
+      "mediaKeys": [
+        "report",
+        "slides",
+        "dashboard",
+        "canvas"
+      ],
+      "note": ""
+    },
+    {
+      "function": "focusFrame",
+      "signature": "focusFrame({labels,media,state,accent})",
+      "parameters": {
+        "内容": [
+          "labels[]",
+          "media"
+        ],
+        "几何": [],
+        "样式": [
+          "accent"
+        ],
+        "时间或状态": [
+          "state.active",
+          "state.previous",
+          "state.blend",
+          "state.focus"
+        ]
+      },
+      "phaseMethod": "galleryState提供相位；上一页不透明，下一页按blend叠化；单一外框按focus显示",
+      "needsMediaForRealContent": true,
+      "mediaKeys": [
+        "report",
+        "slides",
+        "dashboard",
+        "canvas"
+      ],
+      "note": ""
+    },
+    {
+      "function": "controlCards",
+      "signature": "controlCards(items,plane,frame,start,ats,accent,curves=null)",
+      "parameters": {
+        "内容": [
+          "items[].icon",
+          "items[].title",
+          "items[].note",
+          "items[].tags",
+          "plane.tag",
+          "plane.title",
+          "plane.note",
+          "plane.rows"
+        ],
+        "几何": [],
+        "样式": [
+          "accent"
+        ],
+        "时间或状态": [
+          "frame",
+          "start",
+          "ats（5项）",
+          "curves（5条）"
+        ]
+      },
+      "phaseMethod": "四浅卡和一深板分别alpha(frame,start+ats[i],10,curves?.[i])；第5曲线对应深板",
+      "needsMediaForRealContent": false,
+      "mediaKeys": [],
+      "note": ""
+    },
+    {
+      "function": "knowledgeChain",
+      "signature": "knowledgeChain(items,frame,at,accent,curve=null)",
+      "parameters": {
+        "内容": [
+          "items[]"
+        ],
+        "几何": [],
+        "样式": [
+          "accent"
+        ],
+        "时间或状态": [
+          "frame",
+          "at",
+          "curve"
+        ]
+      },
+      "phaseMethod": "alpha(frame,at,10,curve)整组建立；scene中与collaborationMedia共用透明度曲线，at独立",
+      "needsMediaForRealContent": false,
+      "mediaKeys": [],
+      "note": ""
+    },
+    {
+      "function": "signalCards",
+      "signature": "signalCards(items,frame,start,ats,accent,curves=null)",
+      "parameters": {
+        "内容": [
+          "items[].label",
+          "items[].value"
+        ],
+        "几何": [],
+        "样式": [
+          "accent"
+        ],
+        "时间或状态": [
+          "frame",
+          "start",
+          "ats[]",
+          "curves[][]"
+        ]
+      },
+      "phaseMethod": "各读数卡alpha(frame,start+ats[i],10,curves?.[i])；值为固定文案，不额外计数增长",
+      "needsMediaForRealContent": false,
+      "mediaKeys": [],
+      "note": ""
+    },
+    {
+      "function": "codeStrip",
+      "signature": "codeStrip({command,result,frame,at,accent})",
+      "parameters": {
+        "内容": [
+          "command",
+          "result"
+        ],
+        "几何": [],
+        "样式": [
+          "accent"
+        ],
+        "时间或状态": [
+          "frame",
+          "at"
+        ]
+      },
+      "phaseMethod": "alpha(frame,at,10)整组建立；显示命令文案，不执行命令",
+      "needsMediaForRealContent": false,
+      "mediaKeys": [],
+      "note": ""
+    },
+    {
+      "function": "audienceCards",
+      "signature": "audienceCards(items,frame,start,ats,accent,curves=null)",
+      "parameters": {
+        "内容": [
+          "items[].tag",
+          "items[].title",
+          "items[].note",
+          "items[].items",
+          "items[].result"
+        ],
+        "几何": [],
+        "样式": [
+          "accent"
+        ],
+        "时间或状态": [
+          "frame",
+          "start",
+          "ats（3项）",
+          "curves（3条）"
+        ]
+      },
+      "phaseMethod": "三纵卡分别alpha(frame,start+ats[i],10,curves?.[i])，内部固定",
+      "needsMediaForRealContent": false,
+      "mediaKeys": [],
+      "note": ""
+    },
+    {
+      "function": "conclusionPanel",
+      "signature": "conclusionPanel(c,media,frame,start,ats,accent)",
+      "parameters": {
+        "内容": [
+          "c.title",
+          "c.skills",
+          "c.darkTitle",
+          "c.notes",
+          "media"
+        ],
+        "几何": [],
+        "样式": [
+          "accent"
+        ],
+        "时间或状态": [
+          "frame",
+          "start",
+          "ats（3项）"
+        ]
+      },
+      "phaseMethod": "产品窗、右浅板、右深板分别alpha(frame,start+ats[i],10)",
+      "needsMediaForRealContent": true,
+      "mediaKeys": [
+        "product"
+      ],
+      "note": ""
+    },
+    {
+      "function": "captionBox",
+      "signature": "captionBox(text)",
+      "parameters": {
+        "内容": [
+          "text"
+        ],
+        "几何": [],
+        "样式": [],
+        "时间或状态": []
+      },
+      "phaseMethod": "外部按配音时窗选择单句，函数自身无计时；空句返回空",
+      "needsMediaForRealContent": false,
+      "mediaKeys": [],
+      "note": ""
+    },
+    {
+      "function": "ctaSticker",
+      "signature": "ctaSticker(c,frame,at,curve,accent)",
+      "parameters": {
+        "内容": [
+          "c.symbol",
+          "c.title",
+          "c.subtitle"
+        ],
+        "几何": [],
+        "样式": [
+          "accent"
+        ],
+        "时间或状态": [
+          "frame",
+          "at",
+          "curve"
+        ]
+      },
+      "phaseMethod": "frame<at隐藏；alpha(frame,at,5)建立，keys(frame,curve)控制纵向位置，固定13度倾斜；curve横轴是全片绝对帧",
+      "needsMediaForRealContent": false,
+      "mediaKeys": [],
+      "note": ""
+    }
+  ],
+  "cliDemoSource": "../src/demo.mjs",
+  "cliDemoCount": 5,
+  "cliDemos": [
+    "stepCards",
+    "focusCrossfade",
+    "ctaSticker",
+    "cardBox",
+    "painSummary"
+  ],
+  "countingRule": "20个绘图/组合入口；5种CLI演示不另加计数；相位/媒体辅助函数另列"
+}

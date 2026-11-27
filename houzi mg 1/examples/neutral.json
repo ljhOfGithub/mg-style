@@ -1,0 +1,356 @@
+{
+  "id": "project-workflow-demo",
+  "mode": "neutral",
+  "width": 1440,
+  "height": 1080,
+  "baseWidth": 960,
+  "baseHeight": 720,
+  "fps": 30,
+  "duration": 24,
+  "theme": {
+    "paper": "#f7f4eb",
+    "ink": "#0b1019",
+    "grid": "#deddd3",
+    "strokeWidth": 3,
+    "shadowOffset": 9,
+    "radius": 16
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "startFrame": 0,
+      "endFrame": 150,
+      "accent": "#18ced5",
+      "kicker": "OPEN-SOURCE SPOTLIGHT",
+      "tag": "开源推荐",
+      "title": [
+        "把团队经验装进一套流程"
+      ],
+      "subtitle": "资料、任务、审核与交付，使用同一组组件组织。",
+      "highlight": [
+        145,
+        154,
+        181,
+        27
+      ]
+    },
+    {
+      "id": "team",
+      "startFrame": 150,
+      "endFrame": 330,
+      "accent": "#ffdc54",
+      "kicker": "PERSONAL + EXPERT AGENTS",
+      "tag": "组织方式",
+      "title": [
+        "一个目标，",
+        "逐步交付成果"
+      ],
+      "subtitle": "先理解任务，再安排执行，最后核对成果。",
+      "highlight": [
+        303,
+        208,
+        178,
+        26
+      ]
+    },
+    {
+      "id": "deliverables",
+      "startFrame": 330,
+      "endFrame": 540,
+      "accent": "#a17cff",
+      "kicker": "RESULTS AS DELIVERABLES",
+      "tag": "核心价值",
+      "title": [
+        "过程看得见，结果能复用"
+      ],
+      "subtitle": "报告、方案、看板与素材，按当前任务分别交付。",
+      "highlight": [
+        343,
+        154,
+        331,
+        28
+      ]
+    },
+    {
+      "id": "conclusion",
+      "startFrame": 540,
+      "endFrame": 720,
+      "accent": "#ef5baf",
+      "kicker": "BUILD YOUR AI WORKFORCE",
+      "tag": "推荐结论",
+      "title": [
+        "已有经验，",
+        "可以从这里复用"
+      ],
+      "subtitle": "替换文字、色彩、数据与自有素材，保持动作结构。",
+      "highlight": [
+        186,
+        208,
+        274,
+        27
+      ]
+    }
+  ],
+  "media": {},
+  "footer": "TEAM WORKFLOW · REUSABLE MOTION SYSTEM",
+  "content": {
+    "intro": {
+      "name": "TEAMKIT",
+      "headline": "4 IN 1",
+      "capabilities": [
+        "资料 + 任务",
+        "审核 + 交付"
+      ],
+      "miniTitle": "从对话到交付",
+      "miniItems": [
+        "理解",
+        "规划",
+        "执行",
+        "协作"
+      ]
+    },
+    "teamSteps": [
+      {
+        "title": "01 私人助手",
+        "note": "理解员工意图，连接日历、邮件和企业系统"
+      },
+      {
+        "title": "02 专家智能体",
+        "note": "调用财务、法务、销售、运营等专业能力"
+      },
+      {
+        "title": "03 结果交付",
+        "note": "把分析直接变成可使用的业务成果"
+      }
+    ],
+    "deliverables": [
+      "深度研究报告",
+      "方案演示文稿",
+      "经营数据看板",
+      "视觉创作画布"
+    ],
+    "conclusion": {
+      "title": "现有能力，直接接入",
+      "skills": [
+        "Anthropic Skills",
+        "OpenClaw Skills",
+        "MCP",
+        "企业系统"
+      ],
+      "darkTitle": "两条上线路径",
+      "notes": [
+        "私有部署守住数据边界",
+        "云服务开箱即用快速验证"
+      ]
+    },
+    "cta": {
+      "title": "用自己的内容试一段",
+      "subtitle": "把组件带到新内容",
+      "symbol": "☆"
+    }
+  },
+  "captions": [],
+  "timings": {
+    "titleAlpha": [
+      0,
+      12
+    ],
+    "subtitleAlpha": [
+      5,
+      17
+    ],
+    "introCards": [
+      20,
+      25,
+      14
+    ],
+    "painCards": [
+      12,
+      18,
+      24,
+      30
+    ],
+    "teamMedia": 14,
+    "teamSteps": [
+      24,
+      35,
+      47
+    ],
+    "deliverableCards": [
+      14,
+      20,
+      26,
+      32
+    ],
+    "focusTransitions": [
+      [
+        390,
+        395,
+        0
+      ],
+      [
+        425,
+        429,
+        1
+      ],
+      [
+        460,
+        464,
+        2
+      ],
+      [
+        495,
+        500,
+        3
+      ],
+      [
+        530,
+        534,
+        -1
+      ]
+    ],
+    "controls": [
+      14,
+      20,
+      26,
+      32,
+      38
+    ],
+    "collaboration": [
+      14,
+      23,
+      32,
+      41
+    ],
+    "openSource": [
+      14,
+      23,
+      32,
+      41,
+      50
+    ],
+    "audiences": [
+      14,
+      23,
+      32
+    ],
+    "conclusion": [
+      14,
+      24,
+      34
+    ],
+    "ctaAt": 680,
+    "ctaY": [
+      [
+        680,
+        22
+      ],
+      [
+        686,
+        -12
+      ],
+      [
+        698,
+        2
+      ],
+      [
+        716,
+        -8
+      ],
+      [
+        720,
+        0
+      ]
+    ],
+    "painSummary": 45,
+    "alphaCurves": {
+      "painSummary": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0.12534
+        ],
+        [
+          2,
+          0.24313
+        ],
+        [
+          3,
+          0.34059
+        ],
+        [
+          4,
+          0.43117
+        ],
+        [
+          5,
+          0.52836
+        ],
+        [
+          6,
+          0.61934
+        ],
+        [
+          7,
+          0.6829
+        ],
+        [
+          8,
+          0.74213
+        ],
+        [
+          9,
+          0.79471
+        ],
+        [
+          10,
+          0.83565
+        ],
+        [
+          11,
+          0.87548
+        ],
+        [
+          12,
+          0.90995
+        ],
+        [
+          13,
+          0.95813
+        ],
+        [
+          14,
+          0.97055
+        ],
+        [
+          15,
+          0.98301
+        ],
+        [
+          16,
+          0.99097
+        ],
+        [
+          17,
+          0.99855
+        ],
+        [
+          18,
+          0.99878
+        ],
+        [
+          19,
+          0.9985
+        ],
+        [
+          20,
+          1
+        ]
+      ]
+    }
+  },
+  "captionEvidence": "原片ASR粗时码，未冒称逐字校对；替换旁白时使用自己的字幕配置。"
+}

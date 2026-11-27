@@ -1,0 +1,105 @@
+{
+  "scope": "既有通用示例的同版预览、实际解码及半秒OCR；不是精确复刻或用户审美结论",
+  "previews": [
+    {
+      "id": "neutral",
+      "config": "examples/neutral.json",
+      "video": "previews/neutral.mp4",
+      "sha256": "fcbd900daf527295711614962fa88f5bf92b42c953fa4b3eb742dfa9e8b2a490",
+      "duration": 24,
+      "fps": 30,
+      "frames": 720,
+      "half_second_and_last_ocr_samples": 49,
+      "ocr": "verification/neutral-ocr.json",
+      "ocr_sha256": "c31c077e9eab7bdfdb96f1484050db4eab01b24cf3e2e368f7ee6ba0cea1ad93",
+      "decode_exit": 0,
+      "render_engine": "hyperframes",
+      "render_cli_version": "0.9.99",
+      "build_command": [
+        "tools/build.mjs",
+        "--config",
+        "examples/neutral.json",
+        "--out",
+        ".build/neutral"
+      ]
+    },
+    {
+      "id": "steps",
+      "config": "examples/component-steps.json",
+      "video": "previews/steps.mp4",
+      "sha256": "91af2b7f8dd0c9a26909d87c82084165ab4ed63801af2dfdc574d0bb4ade889d",
+      "duration": 5,
+      "fps": 30,
+      "frames": 150,
+      "half_second_and_last_ocr_samples": 11,
+      "ocr": "verification/steps-ocr.json",
+      "ocr_sha256": "c78c5bc33057cd34419b477ac481f0fd0815d4c76e7954cc8398b4cb226f8266",
+      "decode_exit": 0,
+      "render_engine": "hyperframes",
+      "render_cli_version": "0.9.99",
+      "build_command": [
+        "tools/component.mjs",
+        "--name",
+        "stepCards",
+        "--props",
+        "examples/component-steps.json",
+        "--duration",
+        "5",
+        "--out",
+        ".build/steps"
+      ]
+    },
+    {
+      "id": "focus",
+      "config": "examples/component-focus.json",
+      "video": "previews/focus.mp4",
+      "sha256": "8edccc258a1ede8d32ac05167e6d24e66ab0832a47f493c8e1f20cfa4d3aa189",
+      "duration": 8,
+      "fps": 30,
+      "frames": 240,
+      "half_second_and_last_ocr_samples": 17,
+      "ocr": "verification/focus-ocr.json",
+      "ocr_sha256": "08aa2b30b7457e5351f761d875551cdb31db99bbfbe3280c0b819e0d40548340",
+      "decode_exit": 0,
+      "render_engine": "hyperframes",
+      "render_cli_version": "0.9.99",
+      "build_command": [
+        "tools/component.mjs",
+        "--name",
+        "focusCrossfade",
+        "--props",
+        "examples/component-focus.json",
+        "--duration",
+        "8",
+        "--out",
+        ".build/focus"
+      ]
+    },
+    {
+      "id": "summary",
+      "config": "examples/component-summary-v2.json",
+      "video": "previews/summary.mp4",
+      "sha256": "62216f09b7ead80a691ce222f3b59db6fceab4dc0605444e6eb87c2688e02724",
+      "duration": 4,
+      "fps": 30,
+      "frames": 120,
+      "half_second_and_last_ocr_samples": 9,
+      "ocr": "verification/summary-ocr.json",
+      "ocr_sha256": "53bc01421df7543a805f5217fabaa989b0663540bcadb17816f8e1e004312661",
+      "decode_exit": 0,
+      "render_engine": "hyperframes",
+      "render_cli_version": "0.9.99",
+      "build_command": [
+        "tools/component.mjs",
+        "--name",
+        "painSummary",
+        "--props",
+        "examples/component-summary-v2.json",
+        "--duration",
+        "4",
+        "--out",
+        ".build/summary"
+      ]
+    }
+  ]
+}
