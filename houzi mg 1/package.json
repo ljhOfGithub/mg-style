@@ -1,0 +1,14 @@
+{
+  "name": "houzi-mg-1",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "build": "node tools/build.mjs",
+    "build:steps": "node tools/component.mjs --name stepCards --props examples/component-steps.json --duration 5 --out .build/steps",
+    "build:focus": "node tools/component.mjs --name focusCrossfade --props examples/component-focus.json --duration 8 --out .build/focus",
+    "build:summary": "node tools/component.mjs --name painSummary --props examples/component-summary-v2.json --duration 4 --out .build/summary",
+    "verify": "node tools/verify.mjs"
+  }
+}

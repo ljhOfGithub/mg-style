@@ -1,0 +1,22 @@
+{
+  "format": "personal-mg-style@1",
+  "id": "houzi mg 1",
+  "name": "houzi mg 1",
+  "version": "1.0.0",
+  "engine": "frame-functions",
+  "distribution": "public-components",
+  "project_type": "frame-function-components",
+  "project": ".",
+  "component_library": "components",
+  "component_catalog": "components/catalog.json",
+  "component_count": 20,
+  "scene_count": 4,
+  "example_count": 4,
+  "default_config": "examples/neutral.json",
+  "preview": "previews/neutral.mp4",
+  "verify_command": [
+    "node",
+    "tools/verify.mjs"
+  ],
+  "scope": "暖纸格、章节卡、独立入场、短叠化聚焦、背景虚化与总结链；源码按帧求状态，可接Hypit或Hyperframes；不含参考媒体"
+}
