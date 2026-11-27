@@ -1,0 +1,2034 @@
+{
+  "format": "fred-mg2-source-events@1",
+  "url": "https://www.douyin.com/video/7712675882543975689",
+  "share_url": "https://v.douyin.com/Uh1odKiCyaE/",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 7872,
+  "source_sha256": "4036f40e9db589150c88f818468b33d19173662ded11d435e0de6a65c14e7eeb",
+  "notes": "前后半Handy交接窗有明确重叠，不把96条登记数说成96次独立切镜。关键帧编号是来源定位，原帧/人物/媒体不随公开包分发。精确曲线和字体未恢复。",
+  "events": [
+    {
+      "id": "I01",
+      "from": 0,
+      "to": 67,
+      "objects": [
+        "项目缩略页面",
+        "No.12至No.1标题",
+        "底部短金线"
+      ],
+      "change": "极短倒序页面轮转；矩形竖向切片/错位条带揭示下一项，非统一淡入",
+      "direction": "竖向条带错位与整页替换；短线向右延长",
+      "evidence_native_frames": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30,
+        33,
+        36,
+        39,
+        42,
+        45,
+        48,
+        51,
+        54,
+        57,
+        60,
+        63,
+        66
+      ],
+      "precision": "原生补查锚点，约5帧一项；曲线近似",
+      "notes": "完整倒序12项：12 Anthropic、11 Obsidian、10 Multica、9 Vercel、8 billion-context、7 Handy、6 App、5 Agency、4 XERJ、3 Claude SEO、2 Strata、1 magpie；约每5帧切换。原生每3帧补查用于顺序校验，配置切点仍是近似，不宣称恢复原工程逐帧曲线。"
+    },
+    {
+      "id": "I02",
+      "from": 67,
+      "to": 90,
+      "objects": [
+        "12张网页缩略卡",
+        "总览标题"
+      ],
+      "change": "大卡和散落倾斜卡缩小、平移并旋转归位为3列4行；卡片到位有先后",
+      "direction": "各自从画外/散点向网格目标；旋转归正",
+      "evidence_native_frames": [
+        67,
+        72,
+        78,
+        84,
+        89,
+        90
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "并非整组等速淡入；卡片固定终点见grid_cells。"
+    },
+    {
+      "id": "I03",
+      "from": 89,
+      "to": 184,
+      "objects": [
+        "#9 Vercel",
+        "#11 Obsidian",
+        "#12 Anthropic",
+        "其余九卡"
+      ],
+      "change": "三个官方项提亮并出现金边，其余卡压暗，保持阅读",
+      "direction": "亮度/边框状态切换，无位置运动",
+      "evidence_native_frames": [
+        89,
+        94,
+        99,
+        105,
+        179
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "I04",
+      "from": 184,
+      "to": 294,
+      "objects": [
+        "#1 magpie",
+        "其他十一卡"
+      ],
+      "change": "magpie提亮并出现金边，先前官方三项转暗，焦点停在左上",
+      "direction": "高亮转移到左上卡",
+      "evidence_native_frames": [
+        184,
+        188,
+        195,
+        289
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "I05",
+      "from": 294,
+      "to": 325,
+      "objects": [
+        "十二卡"
+      ],
+      "change": "所有卡恢复正常明度，集合页保持到硬切",
+      "direction": "状态恢复，无额外移动",
+      "evidence_native_frames": [
+        294,
+        300,
+        315,
+        324
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "N01-L",
+      "from": 325,
+      "to": 430,
+      "objects": [
+        "向上滚动的实际网站/README",
+        "No.1与中文序号",
+        "magpie逐字标题",
+        "月增计数",
+        "静态总Stars",
+        "仓库文字",
+        "金左线黑说明条"
+      ],
+      "change": "先网页，后序号，再标题左至右揭示与计数、短线延展，说明条出现后保持；页面一直向上滚",
+      "direction": "网页向上；标题左→右；数字递增；短金线左→右",
+      "evidence_native_frames": [
+        325,
+        337,
+        345,
+        357,
+        375,
+        390,
+        413,
+        425,
+        429
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "337序号弱态；345仅m；357全名与11,519；375 20,073；390稳定20,130。稳定末值见chapters，不能用中间计数值替代。实际页面被下半作者渐变与标题盖住，整个引导画面不可当作纯案例复用。"
+    },
+    {
+      "id": "M01",
+      "from": 430,
+      "to": 450,
+      "objects": [
+        "四套餐胶囊，2×2"
+      ],
+      "change": "先Claude，再ChatGPT/Kimi弱态，至GLM/API Key完整；每项含已接入小字",
+      "direction": "各项短距离上移/显现，按行错开",
+      "evidence_native_frames": [
+        430,
+        435,
+        440,
+        445,
+        450
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "未观察连接线或箭头，禁止添连线绘制。"
+    },
+    {
+      "id": "M02",
+      "from": 615,
+      "to": 630,
+      "objects": [
+        "金边本地统一网关",
+        "http://127.0.0.1:3425",
+        "自动切换额度说明"
+      ],
+      "change": "四套餐保留；下方网关独立出现由弱到清晰",
+      "direction": "下层短上移/显现",
+      "evidence_native_frames": [
+        610,
+        615,
+        620,
+        625,
+        630
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "M03",
+      "from": 630,
+      "to": 655,
+      "objects": [
+        "Claude Code",
+        "Codex",
+        "Cursor",
+        "任意Agent"
+      ],
+      "change": "四个使用端胶囊在网关下方依次补齐，任意Agent绿色",
+      "direction": "从左至右错开显现",
+      "evidence_native_frames": [
+        630,
+        645,
+        660
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "M04",
+      "from": 687,
+      "to": 703,
+      "objects": [
+        "magpie routing=smart",
+        "Claude Max",
+        "ChatGPT Pro",
+        "Kimi Code"
+      ],
+      "change": "新页；三列套餐出现，Claude先绿色运行中后变红额度用完，其余灰等待",
+      "direction": "静态布局建立，首列绿→红",
+      "evidence_native_frames": [
+        687,
+        692,
+        697,
+        702
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "M05",
+      "from": 730,
+      "to": 745,
+      "objects": [
+        "ChatGPT Pro状态",
+        "上方智能调度徽标"
+      ],
+      "change": "第二列由等待变绿色已接管✓；顶部智能调度金态变绿色无感续接；第一列红额度用完保留",
+      "direction": "强调从第一列转移第二列",
+      "evidence_native_frames": [
+        730,
+        738,
+        744
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "M06",
+      "from": 749,
+      "to": 760,
+      "objects": [
+        "左侧90+卡",
+        "右侧隐私卡"
+      ],
+      "change": "下方两卡由弱到清晰；90+直接完整出现",
+      "direction": "下方双卡短上移/显现",
+      "evidence_native_frames": [
+        750,
+        759
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "90+不是已观察的数字计数动画。"
+    },
+    {
+      "id": "M07",
+      "from": 810,
+      "to": 841,
+      "objects": [
+        "API_KEY字段",
+        "隐私卡"
+      ],
+      "change": "密钥文字替换成API_KEY=[MASKED_LOCAL_#1]；隐私卡绿色描边/文字强化",
+      "direction": "文本替换和状态色变化",
+      "evidence_native_frames": [
+        810,
+        825,
+        840
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "N02-L",
+      "from": 869,
+      "to": 984,
+      "objects": [
+        "向上滚动的实际网站/README",
+        "No.2与中文序号",
+        "Strata逐字标题",
+        "月增计数",
+        "静态总Stars",
+        "仓库文字",
+        "金左线黑说明条"
+      ],
+      "change": "先网页，后序号，再标题左至右揭示与计数、短线延展，说明条出现后保持；页面一直向上滚",
+      "direction": "网页向上；标题左→右；数字递增；短金线左→右",
+      "evidence_native_frames": [
+        869,
+        885,
+        900,
+        920,
+        945,
+        970,
+        983
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "885序号；900全名与7,234；920 15,151；945稳定15,177。稳定末值见chapters，不能用中间计数值替代。实际页面被下半作者渐变与标题盖住，整个引导画面不可当作纯案例复用。"
+    },
+    {
+      "id": "S01",
+      "from": 984,
+      "to": 1016,
+      "objects": [
+        "金Qwen3.8-Flash-Next卡",
+        "蓝腾讯Hy4-Flash卡",
+        "真实终端截图"
+      ],
+      "change": "先金模型、后蓝模型，终端再出现，三组保持相对布局",
+      "direction": "上下顺序短上移/显现",
+      "evidence_native_frames": [
+        984,
+        988,
+        992,
+        996,
+        1000,
+        1005,
+        1015
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "终端内容为实际截图像素，未观察到可证明的实时任务进度。"
+    },
+    {
+      "id": "S02",
+      "from": 1210,
+      "to": 1225,
+      "objects": [
+        "完全免费开源",
+        "不用注册账号",
+        "一键本地运行"
+      ],
+      "change": "在模型与终端间新增一排三个绿色胶囊",
+      "direction": "横排分项显现",
+      "evidence_native_frames": [
+        1215,
+        1218,
+        1224,
+        1230
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "S03",
+      "from": 1272,
+      "to": 1293,
+      "objects": [
+        "macOS .dmg安装包",
+        "Windows setup.exe",
+        "Linux .AppImage"
+      ],
+      "change": "三平台卡由左至右依次建立，保留图标＋名称＋安装包文字",
+      "direction": "左→右错峰短上移/显现",
+      "evidence_native_frames": [
+        1272,
+        1276,
+        1280,
+        1284,
+        1288,
+        1292
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "S04",
+      "from": 1337,
+      "to": 1351,
+      "objects": [
+        "真实聊天与体素花园截图",
+        "四个功能胶囊"
+      ],
+      "change": "截图弱态到清晰；下方本地聊天/AI写代码/看图理解/实时预览一组出现；实时预览金色",
+      "direction": "截图整体短显现，不是重画内部界面",
+      "evidence_native_frames": [
+        1340,
+        1341,
+        1345,
+        1350
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "未见四功能循环切换；不能追加切换。"
+    },
+    {
+      "id": "N03-L",
+      "from": 1450,
+      "to": 1582,
+      "objects": [
+        "向上滚动的实际网站/README",
+        "No.3与中文序号",
+        "Claude SEO逐字标题",
+        "月增计数",
+        "静态总Stars",
+        "仓库文字",
+        "金左线黑说明条"
+      ],
+      "change": "先网页，后序号，再标题左至右揭示与计数、短线延展，说明条出现后保持；页面一直向上滚",
+      "direction": "网页向上；标题左→右；数字递增；短金线左→右",
+      "evidence_native_frames": [
+        1450,
+        1462,
+        1470,
+        1485,
+        1500,
+        1520,
+        1560,
+        1581
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "1462序号；1470 Cl；1485全名与8,493；1500 10,927；1520稳定10,958。稳定末值见chapters，不能用中间计数值替代。实际页面被下半作者渐变与标题盖住，整个引导画面不可当作纯案例复用。"
+    },
+    {
+      "id": "C01",
+      "from": 1582,
+      "to": 1616,
+      "objects": [
+        "29大指标",
+        "六个技术标签",
+        "真实仓库文件表截图"
+      ],
+      "change": "29静态最终值先出现；技术体检、速度诊断、Schema结构化、AI引用GEO、站点地图、外链与权重按2行3项追加；截图随后清晰",
+      "direction": "标签按行错开显现；截图整体进入",
+      "evidence_native_frames": [
+        1582,
+        1588,
+        1594,
+        1600,
+        1615,
+        1620
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "29未观察到计数；六标签不能合为一块同刻淡入。"
+    },
+    {
+      "id": "C02",
+      "from": 1690,
+      "to": 1711,
+      "objects": [
+        "20专家子Agent绿色卡"
+      ],
+      "change": "在29旁新增20专家子Agent，不替换29",
+      "direction": "右侧卡短上移/显现",
+      "evidence_native_frames": [
+        1690,
+        1700,
+        1710
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "20为完整静态数值。"
+    },
+    {
+      "id": "C03",
+      "from": 1749,
+      "to": 1781,
+      "objects": [
+        "金色终端命令条",
+        "四行审计弱态卡"
+      ],
+      "change": "新页四行弱态卡已在；命令从$/s逐步打出$/seo audit https://yoursite.com",
+      "direction": "命令左→右逐字",
+      "evidence_native_frames": [
+        1749,
+        1755,
+        1762,
+        1770,
+        1780
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "C04",
+      "from": 1781,
+      "to": 1806,
+      "objects": [
+        "第1行 全面技术体检"
+      ],
+      "change": "弱态文字/边框转强，勾选符号出现；前面已完成行保持；末行绿色",
+      "direction": "上→下逐行累计反馈",
+      "evidence_native_frames": [
+        1780,
+        1795,
+        1805
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "C05",
+      "from": 1815,
+      "to": 1826,
+      "objects": [
+        "第2行 网页速度诊断"
+      ],
+      "change": "弱态文字/边框转强，勾选符号出现；前面已完成行保持；末行绿色",
+      "direction": "上→下逐行累计反馈",
+      "evidence_native_frames": [
+        1815,
+        1825
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "C06",
+      "from": 1850,
+      "to": 1861,
+      "objects": [
+        "第3行 冲刺传统搜索排名"
+      ],
+      "change": "弱态文字/边框转强，勾选符号出现；前面已完成行保持；末行绿色",
+      "direction": "上→下逐行累计反馈",
+      "evidence_native_frames": [
+        1850,
+        1860
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "C07",
+      "from": 1910,
+      "to": 1921,
+      "objects": [
+        "第4行 AI搜索引擎引用优化(GEO)"
+      ],
+      "change": "弱态文字/边框转强，勾选符号出现；前面已完成行保持；末行绿色",
+      "direction": "上→下逐行累计反馈",
+      "evidence_native_frames": [
+        1895,
+        1910,
+        1920
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "N04-L",
+      "from": 1978,
+      "to": 2080,
+      "objects": [
+        "向上滚动的实际网站/README",
+        "No.4与中文序号",
+        "XERJ逐字标题",
+        "月增计数",
+        "静态总Stars",
+        "仓库文字",
+        "金左线黑说明条"
+      ],
+      "change": "先网页，后序号，再标题左至右揭示与计数、短线延展，说明条出现后保持；页面一直向上滚",
+      "direction": "网页向上；标题左→右；数字递增；短金线左→右",
+      "evidence_native_frames": [
+        1978,
+        1990,
+        2010,
+        2030,
+        2050,
+        2079
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "1990序号；2010全名与4,534；2030 7,921；2050稳定7,929；2079源演示已交叉淡化到控制台。稳定末值见chapters，不能用中间计数值替代。实际页面被下半作者渐变与标题盖住，整个引导画面不可当作纯案例复用。"
+    },
+    {
+      "id": "X01",
+      "from": 2080,
+      "to": 2096,
+      "objects": [
+        "XERJ官方演示窗口",
+        "底部四项功能标签"
+      ],
+      "change": "新页媒体窗口建立；四标签先弱态",
+      "direction": "窗口短显现，四项横排",
+      "evidence_native_frames": [
+        2080,
+        2085,
+        2090,
+        2100
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "视频顶部官方演示来源标签属于作者包装，裁切时另排。"
+    },
+    {
+      "id": "X02",
+      "from": 2160,
+      "to": 2181,
+      "objects": [
+        "MCP服务",
+        "前后功能标签"
+      ],
+      "change": "当前项金底与白勾，先前完成项退为白勾描边，未来项灰态",
+      "direction": "金色激活态左→右接力，非四项同时金底",
+      "evidence_native_frames": [
+        2160,
+        2180
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "X03",
+      "from": 2195,
+      "to": 2214,
+      "objects": [
+        "单Rust文件",
+        "前后功能标签"
+      ],
+      "change": "当前项金底与白勾，先前完成项退为白勾描边，未来项灰态",
+      "direction": "金色激活态左→右接力，非四项同时金底",
+      "evidence_native_frames": [
+        2195,
+        2205,
+        2213
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "X06",
+      "from": 2205,
+      "to": 2245,
+      "objects": [
+        "官方视频内英雄页",
+        "控制台页面"
+      ],
+      "change": "源媒体内部交叉淡化，从英雄页变控制台",
+      "direction": "交叉透明度转换，属于源视频内部",
+      "evidence_native_frames": [
+        2205,
+        2213,
+        2220,
+        2228,
+        2244
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "应保留连续原速像素，不以自己的控制台重绘替代。"
+    },
+    {
+      "id": "X04",
+      "from": 2228,
+      "to": 2251,
+      "objects": [
+        "代码·文档",
+        "前后功能标签"
+      ],
+      "change": "当前项金底与白勾，先前完成项退为白勾描边，未来项灰态",
+      "direction": "金色激活态左→右接力，非四项同时金底",
+      "evidence_native_frames": [
+        2228,
+        2244,
+        2250
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "X05",
+      "from": 2270,
+      "to": 2281,
+      "objects": [
+        "日志全索引",
+        "前后功能标签"
+      ],
+      "change": "当前项金底与白勾，先前完成项退为白勾描边，未来项灰态",
+      "direction": "金色激活态左→右接力，非四项同时金底",
+      "evidence_native_frames": [
+        2270,
+        2274,
+        2280
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "X07",
+      "from": 2274,
+      "to": 2301,
+      "objects": [
+        "官方视频内控制台"
+      ],
+      "change": "源视频内控制台缩小，露出更大UI范围；外层媒体边界保持",
+      "direction": "媒体内容向内缩小",
+      "evidence_native_frames": [
+        2274,
+        2280,
+        2300
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "X08",
+      "from": 2320,
+      "to": 2331,
+      "objects": [
+        "延迟对比卡",
+        "220毫秒",
+        "传统RAG 2–3秒"
+      ],
+      "change": "新页上卡先出现，值直接完整显示",
+      "direction": "上卡短上移/显现",
+      "evidence_native_frames": [
+        2320,
+        2325,
+        2330
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "未观察220的数值递增。"
+    },
+    {
+      "id": "X09",
+      "from": 2405,
+      "to": 2441,
+      "objects": [
+        "绿色成本卡",
+        "$13,400",
+        "$42",
+        "绿色成本条"
+      ],
+      "change": "成本卡从弱到清；绿色长条出现后快速收缩至约5%并保持；不是0向100%增长",
+      "direction": "条右端向左收短",
+      "evidence_native_frames": [
+        2400,
+        2405,
+        2415,
+        2425,
+        2440
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "N05-L",
+      "from": 2523,
+      "to": 2645,
+      "objects": [
+        "向上滚动的实际网站/README",
+        "No.5与中文序号",
+        "The Agency逐字标题",
+        "月增计数",
+        "静态总Stars",
+        "仓库文字",
+        "金左线黑说明条"
+      ],
+      "change": "先网页，后序号，再标题左至右揭示与计数、短线延展，说明条出现后保持；页面一直向上滚",
+      "direction": "网页向上；标题左→右；数字递增；短金线左→右",
+      "evidence_native_frames": [
+        2523,
+        2540,
+        2550,
+        2560,
+        2580,
+        2630,
+        2644
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "2540序号；2550标题；2560 5,713；2580稳定6,665。稳定末值见chapters，不能用中间计数值替代。实际页面被下半作者渐变与标题盖住，整个引导画面不可当作纯案例复用。"
+    },
+    {
+      "id": "A01",
+      "from": 2645,
+      "to": 2661,
+      "objects": [
+        "230+大指标"
+      ],
+      "change": "新页建立230+专家角色库指标，直接最终值",
+      "direction": "整体短上移/显现",
+      "evidence_native_frames": [
+        2645,
+        2650,
+        2660
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "A02",
+      "from": 2720,
+      "to": 2751,
+      "objects": [
+        "六张2列3行专家卡"
+      ],
+      "change": "工程开发23+、视觉设计14+先出现；再产品策划12+、质量测试11+；再内容增长28+、行业专家140+。各卡独立错开，保持六卡",
+      "direction": "按行由左向右、由上向下短上移并变清晰",
+      "evidence_native_frames": [
+        2715,
+        2725,
+        2730,
+        2735,
+        2740,
+        2750
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "卡片说明：前端/后端/架构/DevOps；UI/UX/品牌/动效；需求/路线图/调研；自动化QA/压力测试；文案/运营/数据分析；法律/财务/科研等全覆盖。"
+    },
+    {
+      "id": "A03",
+      "from": 2900,
+      "to": 2913,
+      "objects": [
+        "实际桌面网页窗口",
+        "四平台/安装标签"
+      ],
+      "change": "新页窗口从弱到清，底部四标签建立",
+      "direction": "整窗短显现；边界固定",
+      "evidence_native_frames": [
+        2905,
+        2906,
+        2912
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "硬切/页面差分首帧为2906；2905已见微弱媒体，准确首个非零透明度未夹定，不伪造精确。"
+    },
+    {
+      "id": "A04",
+      "from": 2912,
+      "to": 2961,
+      "objects": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "一键装进Agent"
+      ],
+      "change": "当前标签金底，完成后留白勾描边，下一个接金底，四项顺序接力",
+      "direction": "左→右激活",
+      "evidence_native_frames": [
+        2912,
+        2925,
+        2930,
+        2945,
+        2960
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "A05",
+      "from": 2978,
+      "to": 3035,
+      "objects": [
+        "实际网页内容"
+      ],
+      "change": "窗口内部网页缓慢向上滚动，顶部Logo逐渐出框；外框不跟随",
+      "direction": "内容向上，外框固定",
+      "evidence_native_frames": [
+        2978,
+        2990,
+        3000,
+        3020
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "未见真实点击，禁止补点击。"
+    },
+    {
+      "id": "N06-L",
+      "from": 3035,
+      "to": 3203,
+      "objects": [
+        "向上滚动的实际网站/README",
+        "No.6与中文序号",
+        "App Store Compliance逐字标题",
+        "月增计数",
+        "静态总Stars",
+        "仓库文字",
+        "金左线黑说明条"
+      ],
+      "change": "先网页，后序号，再标题左至右揭示与计数、短线延展，说明条出现后保持；页面一直向上滚",
+      "direction": "网页向上；标题左→右；数字递增；短金线左→右",
+      "evidence_native_frames": [
+        3035,
+        3050,
+        3060,
+        3070,
+        3085,
+        3100,
+        3190,
+        3202
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "3050序号；3060部分标题；3070全名与5,153；3085 6,630；3100稳定6,649。稳定末值见chapters，不能用中间计数值替代。实际页面被下半作者渐变与标题盖住，整个引导画面不可当作纯案例复用。"
+    },
+    {
+      "id": "P01",
+      "from": 3203,
+      "to": 3251,
+      "objects": [
+        "作者绘制终端卡",
+        "git clone njmizra/app-store-compliance"
+      ],
+      "change": "终端外框先建立，第一命令由左向右逐字补齐",
+      "direction": "文字打字",
+      "evidence_native_frames": [
+        3203,
+        3210,
+        3230,
+        3250
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "该终端是作者演示图式，不能宣称已证明实际命令执行；可主体重建。"
+    },
+    {
+      "id": "P02",
+      "from": 3340,
+      "to": 3361,
+      "objects": [
+        "bash scripts/guard.sh ./my-app",
+        "Scanning iOS & Android targets"
+      ],
+      "change": "第二命令逐字显示后追加扫描行，第一行保留",
+      "direction": "逐字与向下追加",
+      "evidence_native_frames": [
+        3330,
+        3340,
+        3350,
+        3360
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "P03",
+      "from": 3361,
+      "to": 3432,
+      "objects": [
+        "BLOCKED",
+        "CRITICAL",
+        "修复提示",
+        "CLEARED"
+      ],
+      "change": "先红BLOCKED 2 critical rejection risks；再红Missing PrivacyInfo.xcprivacy；再黄整改与绿CLEARED Ready for App Store & Play；3431见新增401及修复文字",
+      "direction": "终端逐行向下追加/滚动；红→黄→绿反馈",
+      "evidence_native_frames": [
+        3375,
+        3390,
+        3410,
+        3431
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "不声称真实程序输出。准确逐字内容可用OCR核对；另一个critical条出现后不代表自动重复全段。"
+    },
+    {
+      "id": "P04",
+      "from": 3432,
+      "to": 3441,
+      "objects": [
+        "红边拒审雷区卡",
+        "Apple Guideline 5.1.1",
+        "Google Play Data Safety"
+      ],
+      "change": "风险卡从弱到清；两条规则完整显示",
+      "direction": "上卡短显现",
+      "evidence_native_frames": [
+        3432,
+        3435,
+        3440
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "P05",
+      "from": 3500,
+      "to": 3516,
+      "objects": [
+        "绿色直接给出整改办法✓卡"
+      ],
+      "change": "第二卡独立出现，红风险卡保留",
+      "direction": "下方卡短上移/显现",
+      "evidence_native_frames": [
+        3500,
+        3508,
+        3515
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "P06",
+      "from": 3540,
+      "to": 3551,
+      "objects": [
+        "Claude Code",
+        "Codex",
+        "Cursor",
+        "一键Hook接入"
+      ],
+      "change": "整改卡下四胶囊建立，Hook金色，其余描边",
+      "direction": "横排短错峰显现",
+      "evidence_native_frames": [
+        3535,
+        3540,
+        3545,
+        3550
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": ""
+    },
+    {
+      "id": "N07-L",
+      "from": 3610,
+      "to": 3713,
+      "objects": [
+        "向上滚动的实际网站/README",
+        "No.7与中文序号",
+        "Handy逐字标题",
+        "月增计数",
+        "静态总Stars",
+        "仓库文字",
+        "金左线黑说明条"
+      ],
+      "change": "先网页，后序号，再标题左至右揭示与计数、短线延展，说明条出现后保持；页面一直向上滚",
+      "direction": "网页向上；标题左→右；数字递增；短金线左→右",
+      "evidence_native_frames": [
+        3610,
+        3624,
+        3630,
+        3640,
+        3660,
+        3690,
+        3712
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "3624序号；3630 H；3640全名与2,094；3660 5,698；3690稳定5,714。稳定末值见chapters，不能用中间计数值替代。实际页面被下半作者渐变与标题盖住，整个引导画面不可当作纯案例复用。"
+    },
+    {
+      "id": "H01",
+      "from": 3713,
+      "to": 3741,
+      "objects": [
+        "金边按住快捷键录音条",
+        "离线识别中",
+        "实际网页截图"
+      ],
+      "change": "录音条先出现，媒体由黑占位到真实网页清晰；截图带内嵌视频及真人圆窗",
+      "direction": "顶部录音条与下方截图分组进入",
+      "evidence_native_frames": [
+        3713,
+        3720,
+        3730,
+        3740
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "源内嵌视频始终0:00/1:02、文档空白，不能宣称真正演示了转写输入。"
+    },
+    {
+      "id": "H02",
+      "from": 3715,
+      "to": 3934,
+      "objects": [
+        "录音条竖线波形"
+      ],
+      "change": "18条弱态波形自3715出现、3721稳定；3825起变金色并逐帧改变柱高，中心y423，不是22条或新造循环",
+      "direction": "每柱纵向高度变化",
+      "evidence_native_frames": [
+        3820,
+        3830,
+        3840,
+        3861,
+        3870,
+        3880,
+        3920,
+        3928
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "源限定ROI逐帧实测18条；不做声音分析或听感推断。"
+    },
+    {
+      "id": "H03",
+      "from": 3856,
+      "to": 3871,
+      "objects": [
+        "绿色松开即上屏卡",
+        "会议纪要三点待办示例句",
+        "末尾光标"
+      ],
+      "change": "结果卡出现时已基本含完整句子，未观察到可信的逐字上屏过程；与上方录音条并存",
+      "direction": "下方结果整体短显现",
+      "evidence_native_frames": [
+        3855,
+        3861,
+        3870
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "不要为满足推进擅自添加打字。"
+    },
+    {
+      "id": "H04",
+      "from": 3934,
+      "to": 3960,
+      "objects": [
+        "Whisper",
+        "Parakeet V3",
+        "语音不出本机",
+        "全平台可用"
+      ],
+      "change": "新页2×2四弱态卡；Whisper先转金色激活，其余保持弱态；本报告在第二项激活前截断",
+      "direction": "左上先激活，后续由后半分析续接",
+      "evidence_native_frames": [
+        3933,
+        3934,
+        3938,
+        3942,
+        3946,
+        3950,
+        3954,
+        3958,
+        3960,
+        3964
+      ],
+      "precision": "观察锚点；非逐帧精确",
+      "notes": "3964为越界交接观察：Parakeet开始，不计入本报告0–132秒覆盖。"
+    },
+    {
+      "id": "R07-TAIL",
+      "from": 3900,
+      "to": 3934,
+      "objects": [
+        "快捷键金框+波形",
+        "绿色输入框",
+        "Handy真实网页演示窗"
+      ],
+      "change": "既有绿色结果整组已显示；波形继续变化。原网站演示播放器停在0:00、文档区域没有实际逐字输入，右下真人不保留；复刻仅使用安全上部真实区域。",
+      "direction": "130秒承接既有画面；输入框文本已打完并保留黄色竖光标，波形柱仍有高低变化；下方真实Google Docs演示窗停在输入区域，右下有真人摄像头。",
+      "evidence_native_frames": [
+        3900,
+        3915,
+        3930
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "R07-CARDS",
+      "from": 3934,
+      "to": 4020,
+      "objects": [
+        "Whisper",
+        "Parakeet V3",
+        "语音不出本机",
+        "全平台可用"
+      ],
+      "change": "四卡先都占位弱态；按左上→右上→左下依次让边框、标题、说明从弱态变亮，之前已亮卡保持亮；不是一张卡轮流替换同一位置。",
+      "direction": "四卡先都占位弱态；按左上→右上→左下依次让边框、标题、说明从弱态变亮，之前已亮卡保持亮；不是一张卡轮流替换同一位置。",
+      "evidence_native_frames": [
+        3934,
+        3945,
+        3975,
+        4005,
+        4020
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": "第二项起点约3962附近；第三项起点只界定4005..4020，未逐像素恢复。"
+    },
+    {
+      "id": "R07-LOCAL",
+      "from": 4020,
+      "to": 4095,
+      "objects": [
+        "左下本地卡",
+        "下方100%电脑本地离线横条"
+      ],
+      "change": "左下卡提亮后，下方绿色细框横条从透明/弱态建立，右端NO CLOUD一并出现。其余卡保持，不重进场。",
+      "direction": "左下卡提亮后，下方绿色细框横条从透明/弱态建立，右端NO CLOUD一并出现。其余卡保持，不重进场。",
+      "evidence_native_frames": [
+        4020,
+        4035,
+        4050,
+        4080
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": "绿色条首像素在4020..4035内，不能将取证末帧冒称起点。"
+    },
+    {
+      "id": "R07-PLATFORM",
+      "from": 4095,
+      "to": 4126,
+      "objects": [
+        "右下全平台卡",
+        "其余三卡与本地横条"
+      ],
+      "change": "右下Mac/Windows/Linux卡变亮，四卡与底条组成终态；无额外扫光、纸张或自造点击。",
+      "direction": "右下Mac/Windows/Linux卡变亮，四卡与底条组成终态；无额外扫光、纸张或自造点击。",
+      "evidence_native_frames": [
+        4095,
+        4110,
+        4125
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "R08-GUIDE",
+      "from": 4126,
+      "to": 4326,
+      "objects": [
+        "billion-context真实GitHub页",
+        "No8标签",
+        "英文倾斜大标题与短金横线",
+        "新增星数与总星数",
+        "仓库路径和一句用途"
+      ],
+      "change": "真实GitHub页持续向上滚动；作者深色上下渐层上叠No8、标题、金横线，新增星数快速累加至5657（未断言未观察到的初值），总星8530为较小文字；用途说明在计数建立后追加。作者说明层与网页滚动分开。",
+      "direction": "真实GitHub页持续向上滚动；作者深色上下渐层上叠No8、标题、金横线，新增星数快速累加至5657（未断言未观察到的初值），总星8530为较小文字；用途说明在计数建立后追加。作者说明层与网页滚动分开。",
+      "evidence_native_frames": [
+        4126,
+        4140,
+        4155,
+        4170,
+        4200,
+        4305
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "R08-COMPRESS",
+      "from": 4326,
+      "to": 4539,
+      "objects": [
+        "No8紧凑章头",
+        "100K/跨月对话标题",
+        "金色压缩条",
+        "省5倍字组"
+      ],
+      "change": "4326–4332整组建立，条起初满宽；4498–4522左锚固定从694收至139，灰轨保持完整。未见从短到长增长。",
+      "direction": "整组透明度/清晰度建立，未观察到条宽增长或空间平移。",
+      "evidence_native_frames": [
+        4326,
+        4332,
+        4497,
+        4498,
+        4507,
+        4510,
+        4515,
+        4522,
+        4538
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": "纠正初稿仅看短入场而漏掉后段收缩；原模板保留此前真实长停留，复刻另按口播重排。"
+    },
+    {
+      "id": "R08-TWO-DETAILS",
+      "from": 4507,
+      "to": 4539,
+      "objects": [
+        "100K窗口够用小卡",
+        "按需无损展开小卡",
+        "上方压缩横卡"
+      ],
+      "change": "下方左右两卡分别建立，一金一绿；上方横卡固定，不用三者同时重新淡入。",
+      "direction": "下方左右两卡分别建立，一金一绿；上方横卡固定，不用三者同时重新淡入。",
+      "evidence_native_frames": [
+        4500,
+        4515,
+        4530,
+        4539
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": "首像素界定4500..4515；from4507为中间编排定位值，需配置标近似。"
+    },
+    {
+      "id": "R08-PAPER-1",
+      "from": 4539,
+      "to": 4627,
+      "objects": [
+        "白纸README卡",
+        "compress英文原文",
+        "中文解释",
+        "detailed summary黄色底标"
+      ],
+      "change": "白纸卡短时建立；先显示compress段及解释，关键词底色标记随后可见。不是网页录屏，是作者重排的原文摘录卡。",
+      "direction": "白纸卡短时建立；先显示compress段及解释，关键词底色标记随后可见。不是网页录屏，是作者重排的原文摘录卡。",
+      "evidence_native_frames": [
+        4539,
+        4542,
+        4548,
+        4560,
+        4590
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": "4539..4548为过渡窗口；关键词涂黄首帧未精确定位。"
+    },
+    {
+      "id": "R08-PAPER-2",
+      "from": 4627,
+      "to": 4660,
+      "objects": [
+        "原纸卡",
+        "decompress段与中文解释"
+      ],
+      "change": "4627纸卡高度由311直接跳为581并追加第二段；第一段不动。不是10帧连续长高，避免黑字先落到纸外。",
+      "direction": "纸卡下边向下扩展，追加第二段及解释；第一段保持原位置，不整卡重进场。",
+      "evidence_native_frames": [
+        4627,
+        4635,
+        4650
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "R08-PAPER-3",
+      "from": 4660,
+      "to": 4681,
+      "objects": [
+        "原纸卡",
+        "search_context段与中文解释"
+      ],
+      "change": "4660纸卡高度由581跳为792并追加search_context；keyword search底标4666–4670建立，前段保留。",
+      "direction": "向下追加第三段search_context，keyword search处黄色底标可见；前两段均保留。",
+      "evidence_native_frames": [
+        4660,
+        4665,
+        4680
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "R09-GUIDE",
+      "from": 4681,
+      "to": 4847,
+      "objects": [
+        "Skills.sh真实市场页面",
+        "No9 Vercel Skills排名大标题",
+        "星数+4487、总4.1万",
+        "官方用途条"
+      ],
+      "change": "黑色真实市场长页向上滚动；上覆作者排名包层，星数快速计至4487，标题短金线，随后追加用途。",
+      "direction": "黑色真实市场长页向上滚动；上覆作者排名包层，星数快速计至4487，标题短金线，随后追加用途。",
+      "evidence_native_frames": [
+        4681,
+        4695,
+        4710,
+        4740,
+        4770,
+        4830
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "R09-MARKET",
+      "from": 4847,
+      "to": 4990,
+      "objects": [
+        "上方真实Skills.sh网页窗",
+        "下方深色终端壳"
+      ],
+      "change": "上方网页窗短入场并存在轻微横移/推近，真实网页内部有命令和工具图标；下方终端先建立标题栏、空输出区，两个对象不是一个扁平图。",
+      "direction": "上方网页窗短入场并存在轻微横移/推近，真实网页内部有命令和工具图标；下方终端先建立标题栏、空输出区，两个对象不是一个扁平图。",
+      "evidence_native_frames": [
+        4847,
+        4851,
+        4860,
+        4890,
+        4965
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": "终端开始输入首帧在4980..5010附近，from4990为近似配置锚点。"
+    },
+    {
+      "id": "R09-TERMINAL",
+      "from": 4990,
+      "to": 5123,
+      "objects": [
+        "终端逐字命令",
+        "金色搜索结果",
+        "安装成功绿字",
+        "update命令"
+      ],
+      "change": "终端依次逐字输入npx skills find design、追加240+ skills结果、输入add vercel-labs/agent-skills、追加Installed to Claude Code/Codex/Cursor绿字、再打update；之前行保留，终端框向下扩展。真实市场窗自身内容不应被重画成终端。",
+      "direction": "终端依次逐字输入npx skills find design、追加240+ skills结果、输入add vercel-labs/agent-skills、追加Installed to Claude Code/Codex/Cursor绿字、再打update；之前行保留，终端框向下扩展。真实市场窗自身内容不应被重画成终端。",
+      "evidence_native_frames": [
+        4995,
+        5010,
+        5025,
+        5040,
+        5055,
+        5070,
+        5100,
+        5115
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": "逐字速度和每行首字符需按原生细帧复核；JSON不虚构原作者字符时间表。"
+    },
+    {
+      "id": "R09-LOGOS",
+      "from": 5123,
+      "to": 5260,
+      "objects": [
+        "Claude Code",
+        "Codex",
+        "Cursor",
+        "Copilot",
+        "80+支持工具"
+      ],
+      "change": "5个圆形工具位先弱态出现，按从左到右逐个金色描边/光晕提亮，名字同步亮，已亮项继续保持。不是一个高亮圆环来回循环。",
+      "direction": "5个圆形工具位先弱态出现，按从左到右逐个金色描边/光晕提亮，名字同步亮，已亮项继续保持。不是一个高亮圆环来回循环。",
+      "evidence_native_frames": [
+        5123,
+        5130,
+        5145,
+        5175,
+        5190,
+        5220,
+        5235,
+        5250
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": "精确各项起点未逐像素恢复；半秒图清楚证明顺序与累积亮态。"
+    },
+    {
+      "id": "R09-LOGO-SUMMARY",
+      "from": 5260,
+      "to": 5312,
+      "objects": [
+        "已全亮Logo列",
+        "一键同步结论"
+      ],
+      "change": "行下出现“告别手动复制文件夹·一键同步”说明，末尾一键同步为金色；上排保持，短阅读停留。",
+      "direction": "行下出现“告别手动复制文件夹·一键同步”说明，末尾一键同步为金色；上排保持，短阅读停留。",
+      "evidence_native_frames": [
+        5260,
+        5265,
+        5280,
+        5295,
+        5310
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "R10-GUIDE",
+      "from": 5312,
+      "to": 5426,
+      "objects": [
+        "真实Multica官网",
+        "No10 Multica排名标题",
+        "增长4429、总5.8万",
+        "用途短条"
+      ],
+      "change": "真实官网向上滚动，顶端官网自身的Agent工具名会变化；作者排名组在其上建立、计数至4429并追加用途。保留真实网页连续动态，不用静态重画官网。",
+      "direction": "真实官网向上滚动，顶端官网自身的Agent工具名会变化；作者排名组在其上建立、计数至4429并追加用途。保留真实网页连续动态，不用静态重画官网。",
+      "evidence_native_frames": [
+        5312,
+        5325,
+        5340,
+        5355,
+        5385,
+        5415
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "R10-BOARD-ENTER",
+      "from": 5426,
+      "to": 5490,
+      "objects": [
+        "真实Multica看板截图",
+        "作者窗口标题栏"
+      ],
+      "change": "看板以四边形透视倾斜、低亮度入场，从左低右高的斜置逐渐回正、变亮并扩大至大阅读窗；是透视/平面姿态变化，不是普通透明度曲线。",
+      "direction": "看板以四边形透视倾斜、低亮度入场，从左低右高的斜置逐渐回正、变亮并扩大至大阅读窗；是透视/平面姿态变化，不是普通透明度曲线。",
+      "evidence_native_frames": [
+        5426,
+        5430,
+        5445,
+        5460,
+        5475,
+        5490
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": "逐帧四角/透视矩阵尚未数值拟合；不能声称原始3D相机参数。"
+    },
+    {
+      "id": "R10-BOARD-TASK",
+      "from": 5490,
+      "to": 5638,
+      "objects": [
+        "真实看板各列任务",
+        "任务指派金色强调块",
+        "窗口下方附加说明字幕"
+      ],
+      "change": "看板保持主要几何，任务块在正文落点被金色矩形强调；看板下另外出现一行说明“像给人类同事分活一样，把需求单直接指派给Agent”。该说明与更下方主字幕形成两层，复刻须隔离。",
+      "direction": "看板保持主要几何，任务块在正文落点被金色矩形强调；看板下另外出现一行说明“像给人类同事分活一样，把需求单直接指派给Agent”。该说明与更下方主字幕形成两层，复刻须隔离。",
+      "evidence_native_frames": [
+        5490,
+        5520,
+        5550,
+        5565,
+        5595,
+        5625
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": "金色任务强调首帧约5565..5580；窗口自身微小姿态变化与真实产品UI更新应分层保存。"
+    },
+    {
+      "id": "R10-THREE-STATUS",
+      "from": 5638,
+      "to": 5725,
+      "objects": [
+        "自己领任务金卡",
+        "实时报进度蓝卡",
+        "卡壳会举手绿卡"
+      ],
+      "change": "三个并排状态卡短时分组建立，标题/说明各有本色；未见把三卡合成单张长条后轮换。",
+      "direction": "三个并排状态卡短时分组建立，标题/说明各有本色；未见把三卡合成单张长条后轮换。",
+      "evidence_native_frames": [
+        5638,
+        5655,
+        5670,
+        5700,
+        5715
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "R10-CLI31",
+      "from": 5725,
+      "to": 5839,
+      "objects": [
+        "上排三卡",
+        "下排左31种CLI卡"
+      ],
+      "change": "左下大数卡追加并显示31种，范围内不是1..31长计数；上排保持。建立后有约3秒多的主体阅读停留。",
+      "direction": "左下大数卡追加并显示31种，范围内不是1..31长计数；上排保持。建立后有约3秒多的主体阅读停留。",
+      "evidence_native_frames": [
+        5725,
+        5730,
+        5760,
+        5790,
+        5820
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "R10-LOG",
+      "from": 5839,
+      "to": 5882,
+      "objects": [
+        "右下定时巡检/日志回放绿卡",
+        "其余四卡"
+      ],
+      "change": "右下宽卡从弱到清晰建立，标题与说明一起入场，最终两排五卡。",
+      "direction": "右下宽卡从弱到清晰建立，标题与说明一起入场，最终两排五卡。",
+      "evidence_native_frames": [
+        5839,
+        5845,
+        5850,
+        5865,
+        5880
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "R11-GUIDE",
+      "from": 5882,
+      "to": 6067,
+      "objects": [
+        "Obsidian Skills真实GitHub页",
+        "No11大标题",
+        "增长4022与总5.4万",
+        "用途短条"
+      ],
+      "change": "GitHub长页持续向上滚动；作者标签/倾斜粗标题/金短线/星数在下方渐层上建立，计数4022后追加用途。",
+      "direction": "GitHub长页持续向上滚动；作者标签/倾斜粗标题/金短线/星数在下方渐层上建立，计数4022后追加用途。",
+      "evidence_native_frames": [
+        5882,
+        5895,
+        5910,
+        5925,
+        5955,
+        6030,
+        6060
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "R11-FOUR-ENTER",
+      "from": 6067,
+      "to": 6162,
+      "objects": [
+        "左上知识库读写截图",
+        "右上Markdown截图",
+        "左下Bases截图",
+        "右下Canvas截图",
+        "四个大标题和小副标"
+      ],
+      "change": "四张真实GitHub/README区域先作为弱态排成2×2；左上知识库读写先提亮并稍放大加金边，其他三图和标题弱态。不是四窗同时满亮，也不是重新设计四个软件页面。",
+      "direction": "四张真实GitHub/README区域先作为弱态排成2×2；左上知识库读写先提亮并稍放大加金边，其他三图和标题弱态。不是四窗同时满亮，也不是重新设计四个软件页面。",
+      "evidence_native_frames": [
+        6067,
+        6078,
+        6090,
+        6120,
+        6150
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "R11-FOCUS-MARKDOWN",
+      "from": 6162,
+      "to": 6196,
+      "objects": [
+        "右上Markdown图及标签",
+        "其余三窗"
+      ],
+      "change": "左上回到弱态/普通尺度，右上Markdown图及标题变亮、局部稍大；其余保持弱态。本片该段是单焦点轮换，不与其他项目的“已讲保持亮”规则混同。",
+      "direction": "左上回到弱态/普通尺度，右上Markdown图及标题变亮、局部稍大；其余保持弱态。本片该段是单焦点轮换，不与其他项目的“已讲保持亮”规则混同。",
+      "evidence_native_frames": [
+        6162,
+        6165,
+        6180
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "R11-FOCUS-BASES",
+      "from": 6196,
+      "to": 6233,
+      "objects": [
+        "左下Bases图及标签",
+        "其余三窗"
+      ],
+      "change": "右上回弱，左下Bases图及标签变亮并稍大，其他三图保持可见弱态。",
+      "direction": "右上回弱，左下Bases图及标签变亮并稍大，其他三图保持可见弱态。",
+      "evidence_native_frames": [
+        6196,
+        6210,
+        6225
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "R11-FOCUS-CANVAS",
+      "from": 6233,
+      "to": 6286,
+      "objects": [
+        "右下Canvas图及标签",
+        "其余三窗"
+      ],
+      "change": "左下回弱，右下Canvas图及JSON画布标签亮起；四窗几何关系与单焦点条件不变。",
+      "direction": "左下回弱，右下Canvas图及JSON画布标签亮起；四窗几何关系与单焦点条件不变。",
+      "evidence_native_frames": [
+        6233,
+        6240,
+        6255,
+        6270,
+        6285
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "R11-MARKETS",
+      "from": 6286,
+      "to": 6479,
+      "objects": [
+        "Claude官方市场",
+        "Codex/ChatGPT",
+        "Cursor插件市场",
+        "Antigravity/Kiro"
+      ],
+      "change": "两行四个窄状态按钮按阅读顺序短时建立，右侧已上架勾选标识随按钮出现；全部建立后有明显阅读静止，不补假下载点击。",
+      "direction": "两行四个窄状态按钮按阅读顺序短时建立，右侧已上架勾选标识随按钮出现；全部建立后有明显阅读静止，不补假下载点击。",
+      "evidence_native_frames": [
+        6286,
+        6300,
+        6315,
+        6345,
+        6420,
+        6465
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": "四按钮精确首帧分别未逐像素定位；从半秒样本可确定先上排再补右下。"
+    },
+    {
+      "id": "R11-SUMMARY",
+      "from": 6479,
+      "to": 6508,
+      "objects": [
+        "四个市场状态按钮",
+        "下方给笔记接AI大脑总结条"
+      ],
+      "change": "底部宽金框结论与小字追加，上方四按钮保持。",
+      "direction": "底部宽金框结论与小字追加，上方四按钮保持。",
+      "evidence_native_frames": [
+        6479,
+        6480,
+        6495
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "R12-GUIDE",
+      "from": 6508,
+      "to": 6687,
+      "objects": [
+        "Anthropic知识工作插件真实GitHub页",
+        "No12排名大标题",
+        "增长3988与总3.7万",
+        "用途短条"
+      ],
+      "change": "GitHub页持续向上滚动；作者编号、长英文大标题、金短线和数值计数建立，增长停3988后追加说明。",
+      "direction": "GitHub页持续向上滚动；作者编号、长英文大标题、金短线和数值计数建立，增长停3988后追加说明。",
+      "evidence_native_frames": [
+        6508,
+        6525,
+        6540,
+        6555,
+        6570,
+        6615,
+        6675
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "R12-COUNT",
+      "from": 6687,
+      "to": 6813,
+      "objects": [
+        "Anthropic官方开源宽卡",
+        "11套大数字",
+        "Claude Cowork用途说明"
+      ],
+      "change": "宽横卡和标题建立，右侧数字由较小值/中间数增长至11套，说明在左；之后保持约2秒多。",
+      "direction": "宽横卡和标题建立，右侧数字由较小值/中间数增长至11套，说明在左；之后保持约2秒多。",
+      "evidence_native_frames": [
+        6687,
+        6690,
+        6705,
+        6735,
+        6765,
+        6780
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": "数字从何精确初值起未逐帧读回，不编造每一帧计数函数。"
+    },
+    {
+      "id": "R12-JOBS",
+      "from": 6813,
+      "to": 6986,
+      "objects": [
+        "11岗位小格",
+        "上方11套宽卡"
+      ],
+      "change": "岗位格从上到下、从左到右分批出现，依次包含效率管理、销售跟进、客户支持、产品策划、市场营销、法务审合同、财务对账、数据分析、企业搜索、生物科研、自建插件；出现后都保持。约228秒全部可见，随后长阅读停留。",
+      "direction": "岗位格从上到下、从左到右分批出现，依次包含效率管理、销售跟进、客户支持、产品策划、市场营销、法务审合同、财务对账、数据分析、企业搜索、生物科研、自建插件；出现后都保持。约228秒全部可见，随后长阅读停留。",
+      "evidence_native_frames": [
+        6813,
+        6825,
+        6840,
+        6855,
+        6900,
+        6960
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": "每格精确首像素只可界定在6810..6840的半秒/原生变化区间，不能假称11个精确原始关键帧。"
+    },
+    {
+      "id": "R12-CHAT-TYPE",
+      "from": 6986,
+      "to": 7022,
+      "objects": [
+        "作者模拟Claude Cowork窗口",
+        "底部输入框",
+        "逐字sales:call-prep命令"
+      ],
+      "change": "深色聊天壳先建立，命令在底部输入框逐字打出，光标随末字符；这是作者示例，不是实际账号操作录屏。",
+      "direction": "深色聊天壳先建立，命令在底部输入框逐字打出，光标随末字符；这是作者示例，不是实际账号操作录屏。",
+      "evidence_native_frames": [
+        6986,
+        6990,
+        7005,
+        7020
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "R12-CHAT-SEND",
+      "from": 7022,
+      "to": 7045,
+      "objects": [
+        "金色用户气泡",
+        "输入框",
+        "第一条CRM结果"
+      ],
+      "change": "上方右对齐金色气泡建立，底部输入框清空为占位；首条结果逐步显露并由弱点切换金色勾选，之前气泡保持。",
+      "direction": "上方右对齐金色气泡建立，底部输入框清空为占位；首条结果逐步显露并由弱点切换金色勾选，之前气泡保持。",
+      "evidence_native_frames": [
+        7022,
+        7026,
+        7035,
+        7045
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "R12-CHAT-RESULTS",
+      "from": 7045,
+      "to": 7136,
+      "objects": [
+        "读取CRM与历史会议",
+        "匹配团队话术/产品卡",
+        "支持二次改造流程"
+      ],
+      "change": "三条结果按上到下逐项出现/打勾；既有结果保持，最后一句支持改为公司流程。窗口下的主口播字幕独立。",
+      "direction": "三条结果按上到下逐项出现/打勾；既有结果保持，最后一句支持改为公司流程。窗口下的主口播字幕独立。",
+      "evidence_native_frames": [
+        7045,
+        7050,
+        7065,
+        7080,
+        7095,
+        7125
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": "第2/3勾精确首帧尚未逐像素定位，半秒样本明确先后。"
+    },
+    {
+      "id": "SUMMARY-GRID",
+      "from": 7136,
+      "to": 7190,
+      "objects": [
+        "11月GitHub标题",
+        "12个真实页面缩略图",
+        "每格编号项目名"
+      ],
+      "change": "原聊天板与章头退出，12格3×4总览整组建立，截图各在独立格内，标题上方保留。",
+      "direction": "原聊天板与章头退出，12格3×4总览整组建立，截图各在独立格内，标题上方保留。",
+      "evidence_native_frames": [
+        7136,
+        7137,
+        7140,
+        7155,
+        7185
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "SUMMARY-OFFICIAL",
+      "from": 7190,
+      "to": 7308,
+      "objects": [
+        "第9Vercel格",
+        "第11Obsidian格",
+        "第12Anthropic格",
+        "其余9格"
+      ],
+      "change": "非官方格整体压暗，三家官方格保留/加金框；品牌大字在对应格中央按提及顺序出现，不能给12格全都加同等高亮。",
+      "direction": "非官方格整体压暗，三家官方格保留/加金框；品牌大字在对应格中央按提及顺序出现，不能给12格全都加同等高亮。",
+      "evidence_native_frames": [
+        7190,
+        7200,
+        7215,
+        7230,
+        7245,
+        7290
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "SUMMARY-USES",
+      "from": 7308,
+      "to": 7545,
+      "objects": [
+        "第1..8和第10格",
+        "原截图与用途文字"
+      ],
+      "change": "按口播依次在对应格上显现模型聚合、本地大模型、SEO优化、极速搜索、AI团队、防拒审、离线语音、超长记忆、AI看板；强调在该格上发生，其他格不同时换字。12格截图仍是底层真实媒体。",
+      "direction": "按口播依次在对应格上显现模型聚合、本地大模型、SEO优化、极速搜索、AI团队、防拒审、离线语音、超长记忆、AI看板；强调在该格上发生，其他格不同时换字。12格截图仍是底层真实媒体。",
+      "evidence_native_frames": [
+        7308,
+        7320,
+        7335,
+        7365,
+        7395,
+        7425,
+        7455,
+        7485,
+        7500,
+        7530
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "QUESTION-LIST",
+      "from": 7545,
+      "to": 7636,
+      "objects": [
+        "你最想先试哪一个标题",
+        "12个两列项目列表项",
+        "项目小图标",
+        "评论区告诉我金字"
+      ],
+      "change": "总览淡退/替换为两列六行列表；列表项目和小图标分批建立，部分项目边框高亮依次出现，底部金色邀请随后出现。",
+      "direction": "总览淡退/替换为两列六行列表；列表项目和小图标分批建立，部分项目边框高亮依次出现，底部金色邀请随后出现。",
+      "evidence_native_frames": [
+        7545,
+        7550,
+        7560,
+        7575,
+        7590,
+        7620
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "PROMO-CHECKLIST",
+      "from": 7636,
+      "to": 7700,
+      "objects": [
+        "FredTalk Skill身份标题",
+        "六步制作清单",
+        "右侧竖片预览窗口",
+        "全自动剪辑输出副标题"
+      ],
+      "change": "作者品牌标题短入场；左列按11月月榜、合规筛选、写口播稿、豆包配音、做画面、云端出片逐项提亮并打金勾；右侧竖片里真实项目页面连续向上轮播。",
+      "direction": "作者品牌标题短入场；左列按11月月榜、合规筛选、写口播稿、豆包配音、做画面、云端出片逐项提亮并打金勾；右侧竖片里真实项目页面连续向上轮播。",
+      "evidence_native_frames": [
+        7636,
+        7640,
+        7650,
+        7665,
+        7680,
+        7695
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": "这不是用户本人制作流程事实，复刻必须重写为真实可交付流程，不能保留作者品牌或虚假全自动承诺。"
+    },
+    {
+      "id": "PROMO-STAMP",
+      "from": 7700,
+      "to": 7732,
+      "objects": [
+        "原制作清单",
+        "右侧竖片预览",
+        "红黑手动剪辑×0戳章"
+      ],
+      "change": "倾斜红黑戳章以短缩放/位移落在清单和预览前，原内容保持；右片继续切换页面/案例标题。",
+      "direction": "倾斜红黑戳章以短缩放/位移落在清单和预览前，原内容保持；右片继续切换页面/案例标题。",
+      "evidence_native_frames": [
+        7700,
+        7701,
+        7710,
+        7725
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "COMMENT-TYPE",
+      "from": 7732,
+      "to": 7785,
+      "objects": [
+        "FredTalk品牌头",
+        "评论区框",
+        "输入行",
+        "评论区扣Fred大字"
+      ],
+      "change": "评论框建立，Fred逐字符键入F→Fr→Fre→Fred，末尾黄色光标；下方评论区扣Fred标题同期建立。",
+      "direction": "评论框建立，Fred逐字符键入F→Fr→Fre→Fred，末尾黄色光标；下方评论区扣Fred标题同期建立。",
+      "evidence_native_frames": [
+        7732,
+        7740,
+        7755,
+        7770,
+        7780
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    },
+    {
+      "id": "COMMENT-SENT-HOLD",
+      "from": 7785,
+      "to": 7872,
+      "objects": [
+        "评论区已发送Fred气泡",
+        "已清空输入框",
+        "品牌及CTA"
+      ],
+      "change": "输入文字发送成上方带头像/刚刚的评论气泡，输入框变空；完成后保持至原片结束，最后约2.5秒没有新的正文信息。",
+      "direction": "输入文字发送成上方带头像/刚刚的评论气泡，输入框变空；完成后保持至原片结束，最后约2.5秒没有新的正文信息。",
+      "evidence_native_frames": [
+        7785,
+        7790,
+        7800,
+        7830,
+        7860,
+        7871
+      ],
+      "precision": "observed native cut / half-second bounded inner action",
+      "notes": null
+    }
+  ],
+  "current_corrections": "依据实际原生像素与r1–r3动态复核修订；96条是交叠事件登记，不是96次切镜。"
+}

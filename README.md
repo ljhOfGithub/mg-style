@@ -11,6 +11,7 @@
 | deverel mg1 | 38个绘图组件，双卡、四卡和轻呼吸环独立示例 | [打开风格文件夹](<deverel mg1/>) · [使用说明](<deverel mg1/README.md>) | [原视频](https://www.douyin.com/video/7709865794791918848) |
 | houzi mg 1 | 20个暖纸格与章节卡组件，4个换内容预览 | [打开风格文件夹](<houzi mg 1/>) · [使用说明](<houzi mg 1/README.md>) | [原视频](https://www.douyin.com/video/7707492692657327400) |
 | houzi mg2 | 11个纸格、闭环、流水线与卡片组件族，4个独立预览 | [打开风格文件夹](<houzi mg2/>) · [使用说明](<houzi mg2/README.md>) | [原视频](https://www.douyin.com/video/7677862342813617444) |
+| fred mg2 | 暖金黑底榜单风格，43场原时序组件、96项来源事件，已按专用Python审片修订 | [打开风格文件夹](fred-mg-2/) · [使用说明](fred-mg-2/README.md) | [原视频](https://www.douyin.com/video/7712675882543975689) |
 
 ## 添加新风格
 

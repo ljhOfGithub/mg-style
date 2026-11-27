@@ -59,6 +59,18 @@
       "example_count": 4,
       "path": "houzi mg2",
       "reference_url": "https://www.douyin.com/video/7677862342813617444"
+    },
+    {
+      "id": "fred-mg-2",
+      "name": "fred mg2",
+      "version": "1.0.0",
+      "path": "fred-mg-2",
+      "engine": "hyperframes",
+      "recreation_compositor": "hypit",
+      "scene_count": 43,
+      "component_count": 43,
+      "distribution": "public-components",
+      "reference_url": "https://www.douyin.com/video/7712675882543975689"
     }
   ]
 }
