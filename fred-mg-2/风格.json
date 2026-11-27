@@ -1,0 +1,27 @@
+{
+  "format": "personal-mg-style@1",
+  "id": "fred-mg-2",
+  "name": "fred mg2",
+  "version": "0.1.0",
+  "engine": "hyperframes",
+  "recreation_compositor": "hypit",
+  "distribution": "public-components",
+  "project_type": "frame-function-components",
+  "project": ".",
+  "component_library": "examples",
+  "component_count": 43,
+  "scene_count": 43,
+  "default_config": "examples/source-timeline.json",
+  "review_status": "静帧草案；待用户构图认可，尚未动态检查或正式发布",
+  "reference_source": {
+    "platform": "douyin",
+    "url": "https://www.douyin.com/video/7712675882543975689",
+    "share_url": "https://v.douyin.com/Uh1odKiCyaE/",
+    "video_id": "7712675882543975689",
+    "title": "11月GitHub十二大神级项目，三家大厂齐下场",
+    "author": "FredTalk",
+    "verification": "实际系统Chrome作品页、完整本地原片、原生帧与半秒OCR交叉核对",
+    "recorded_on": "2026-11-27",
+    "rights": "链接仅说明可见风格分析来源，不授予原片、原音、人物或第三方案例的再分发许可。"
+  }
+}

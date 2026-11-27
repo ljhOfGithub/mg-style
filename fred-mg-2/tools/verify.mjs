@@ -1,0 +1,10 @@
+import fs from'node:fs';import path from'node:path';import{fileURLToPath}from'node:url';import{execFileSync}from'node:child_process';import{validate}from'../src/motion.mjs';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),read=p=>JSON.parse(fs.readFileSync(path.join(root,p))),meta=read('风格.json'),c=read(meta.default_config),source=read('docs/source-events.json');
+validate(c);
+if(c.scenes.length!==43||meta.component_count!==43)throw Error('场景登记不完整');
+if(c.frames!==7872||c.width!==1080||c.height!==1920)throw Error('原时序示例不符');
+if(Object.keys(c.media??{}).length||c.captions.length)throw Error('公开示例不得分发原片媒体或口播');
+if(meta.reference_source.url!=='https://www.douyin.com/video/7712675882543975689')throw Error('参考来源错误');
+if(source.events.length!==96)throw Error('原片事件记录不完整');
+execFileSync(process.execPath,['--test','tests/motion.test.mjs'],{cwd:root,stdio:'inherit'});
+console.log(JSON.stringify({status:'SOURCE_CHECKED',scenes:c.scenes.length,events:source.events.length,visual_status:meta.review_status},null,2));
